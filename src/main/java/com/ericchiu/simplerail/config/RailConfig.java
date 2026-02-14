@@ -15,14 +15,18 @@ public class RailConfig {
 
   public static class Server {
     public final ModConfigSpec.DoubleValue highSpeedRailMaxSpeed;
+    public final ModConfigSpec.DoubleValue highSpeedRailAcceleration;
 
     public Server(ModConfigSpec.Builder builder) {
-      builder.push("general");
+      builder.push("Rail Settings");
 
       highSpeedRailMaxSpeed = builder
-        .comment("The maximum speed for the High Speed Rail.",
-                 "Vanilla powered rail is 0.4. Be careful setting this too high (> 1.0) as carts may derail on corners.")
+        .comment("The maximum speed of the high-speed rail. Vanilla powered rail is 0.4.")
         .defineInRange("highSpeedRailMaxSpeed", 0.8, 0.1, 5.0);
+
+      highSpeedRailAcceleration = builder
+        .comment("The acceleration factor applied when passing over the rail.")
+        .defineInRange("highSpeedRailAcceleration", 0.1, 0.01, 1.0);
 
       builder.pop();
     }
