@@ -1,3 +1,5 @@
-// 1.21.1	2026-02-14T02:20:17.0715885	Recipes
+// 1.21.1	2026-02-16T16:54:12.9304174	Recipes
 ae11872f72de1fff744b4d38873566c26d6957e4 data/simplerail/advancement/recipes/transportation/high_speed_rail.json
+4743692fd936fcce5ca12f0d9e87a7b9f12fff8f data/simplerail/advancement/recipes/transportation/locomotive.json
 b0b550224f6bba5a71fde601fb16d8d164796922 data/simplerail/recipe/high_speed_rail.json
+0e2a4468f8938bcbfda1e37c85fe878b1f391695 data/simplerail/recipe/locomotive.json

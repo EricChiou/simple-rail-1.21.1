@@ -1,4 +1,11 @@
 {
   "block.simplerail.high_speed_rail": "High Speed Rail",
-  "creativetab.simplerail.tab": "Simple Rail"
+  "creativetab.simplerail.tab": "Simple Rail",
+  "entity.simplerail.locomotive": "Locomotive",
+  "item.simplerail.locomotive": "Locomotive",
+  "message.simplerail.distance_too_far": "Too far away, please push it closer (Current: %s, needs to be < 2.0).",
+  "message.simplerail.link_failed": "Link failed",
+  "message.simplerail.link_success": "Linked successfully",
+  "message.simplerail.train_not_found": "Locomotive not found. It may be destroyed or in an unloaded chunk.",
+  "message.simplerail.train_selected": "Train selected! Keep holding Shift and right-click minecarts to link them."
 }

@@ -25,6 +25,8 @@ public class ModCreativeModeTabs {
       .displayItems((parameters, output) -> {
         // 將高速軌道方塊加入頁籤
         output.accept(ModBlocks.HIGH_SPEED_RAIL.get());
+        // 將火車頭物品加入頁籤
+        output.accept(ModEntityTypes.LOCOMOTIVE_ITEM.get());
         
         // 如果未來有更多物品，都在這裡加入 output.accept(...)
       }).build());

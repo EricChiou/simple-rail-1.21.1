@@ -1,6 +1,8 @@
 package com.ericchiu.simplerail.datagen;
 
 import com.ericchiu.simplerail.SimpleRail;
+import com.ericchiu.simplerail.registry.ModEntityTypes;
+
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -16,5 +18,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     // 並將 layer0 (最底層材質) 指向我們已有的 block/high_speed_rail 圖片
     withExistingParent("high_speed_rail", mcLoc("item/generated"))
         .texture("layer0", modLoc("block/high_speed_rail"));
+
+    // 生成火車頭的物品模型
+    basicItem(ModEntityTypes.LOCOMOTIVE_ITEM.get());
   }
 }

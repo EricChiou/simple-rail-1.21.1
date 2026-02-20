@@ -1,4 +1,11 @@
 {
   "block.simplerail.high_speed_rail": "高速軌道",
-  "creativetab.simplerail.tab": "Simple Rail"
+  "creativetab.simplerail.tab": "Simple Rail",
+  "entity.simplerail.locomotive": "火車頭",
+  "item.simplerail.locomotive": "火車頭",
+  "message.simplerail.distance_too_far": "距離太遠，請推近一點 (目前: %s，需小於 2.0)",
+  "message.simplerail.link_failed": "連結失敗",
+  "message.simplerail.link_success": "連結成功",
+  "message.simplerail.train_not_found": "找不到火車頭，可能已被摧毀或距離過遠 (區塊未載入)",
+  "message.simplerail.train_selected": "已選擇火車！請保持 Shift 並連續右鍵點擊要連結的礦車"
 }

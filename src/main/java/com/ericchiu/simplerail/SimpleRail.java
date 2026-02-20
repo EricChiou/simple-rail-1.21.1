@@ -2,16 +2,21 @@ package com.ericchiu.simplerail;
 
 import org.slf4j.Logger;
 
+import com.ericchiu.simplerail.client.ClientModEvents;
 import com.ericchiu.simplerail.config.RailConfig;
 import com.ericchiu.simplerail.datagen.DataGenerators;
 import com.ericchiu.simplerail.registry.ModBlocks;
 import com.ericchiu.simplerail.registry.ModCreativeModeTabs;
+import com.ericchiu.simplerail.registry.ModEntityDataSerializers;
+import com.ericchiu.simplerail.registry.ModEntityTypes;
 import com.mojang.logging.LogUtils;
 
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
+import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -42,8 +47,21 @@ public class SimpleRail {
     // 註冊 Blocks
     ModBlocks.register(modEventBus);
 
+    // 註冊 EntityTypes
+    ModEntityTypes.register(modEventBus);
+
     // 註冊創造模式頁籤
     ModCreativeModeTabs.register(modEventBus);
+
+    // 【最佳實踐】判斷當前物理環境是否為客戶端 (Client)
+    if (FMLEnvironment.dist == Dist.CLIENT) {
+      // 使用 addListener 明確註冊客戶端事件 (Method Reference)
+      modEventBus.addListener(ClientModEvents::registerRenderers);
+      modEventBus.addListener(ClientModEvents::registerLayerDefinitions);
+    }
+
+    // 在 SimpleRail 的建構子 (Constructor) 裡面加上這行：
+    ModEntityDataSerializers.SERIALIZERS.register(modEventBus);
   }
 
   // 可以使用 SubscribeEvent 並讓 Event Bus 發現要呼叫的方法
