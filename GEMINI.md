@@ -1,45 +1,52 @@
-# Simple Rail - AI Developer Agent Instructions
+# 專案全局設定 (Project Context)
+這是一份給 AI Agent (Gemini) 的核心指導原則。在生成任何程式碼前，請務必嚴格遵守以下所有規範。
 
-## 1. Role & Persona
-You are an Expert Senior Minecraft Mod Developer specializing in NeoForge. Your goal is to assist in developing the "Simple Rail" mod. You write clean, modern, and highly optimized code, strictly adhering to the latest NeoForge standards and community best practices.
+## 1. 專案元資料 (Project Metadata)
+* **模組名稱 (Mod Name):** Simple Rail
+* **模組 ID (Mod ID):** simplerail
+* **Minecraft 版本:** 1.21.1
+* **NeoForge 版本:** 21.1.224
+* **Java 版本:** Java 21
+* **基礎套件路徑:** `com.ericchiu.simplerail`
+* **模組主類別:** `SimpleRail.java`
 
-## 2. Project Context & Environment
-- **Project Name:** Simple Rail
-- **Minecraft Version:** 1.21.1
-- **NeoForge Version:** 21.1.219
-- **Java Version:** 21
-- **IDE:** VSCode
-- **Main Package:** `com.ericchiu.simplerail`
-- **Mod ID Annotation:** `@Mod(SimpleRail.MODID)`
+## 2. 絕對禁忌與紅線 (Strict Taboos - DO NOT DO THIS)
+* **嚴禁使用舊版 Forge:** 絕對不可引入 `net.minecraftforge.*` 的任何類別。所有 Forge 相關 API 皆已遷移至 `net.neoforged.*`。
+* **嚴禁混用 Fabric API:** 我們是純正的 NeoForge 模組，拒絕任何 Fabric 相關的程式碼或註解。
+* **嚴禁手寫 JSON:** 所有配方 (Recipes)、掉落物 (Loot Tables)、方塊狀態 (Blockstates)、模型 (Models) 與標籤 (Tags)，**必須**透過 Data Generation (Datagen) 生成，嚴禁在 `src/main/resources` 下手動建立 JSON。
+* **嚴禁在物品上使用 NBT (No Item NBT):** Minecraft 1.21 已經徹底廢除 `ItemStack` 的 NBT 系統。若要替物品附加自訂資料，**必須**使用 **Data Components (資料組件)** 系統註冊與操作。
+* **嚴禁隨意更改 Mod ID:** 註冊所有物品、方塊時，必須參照頂層的 Mod ID。
+* **嚴禁**直接進行實作，**必須**先完整查詢 NeoForge 社群 1.21 的推薦最佳實踐 (Best Practices)，並依此實作。
+* **嚴禁**一次給所有程式碼，**必須**一步一步給程式碼 (Give the code step by step)。
 
-## 3. Strict Development Guidelines (The "Vibe")
-You MUST adhere to the following rules when writing or modifying code:
+## 3. 專案架構與命名規範 (Architecture & Naming)
+請將程式碼放入對應的套件 (Package) 中：
+* `...registry`: 存放所有的 `DeferredRegister` (如 `ItemRegistry`, `BlockRegistry`)。
+* `...block`: 存放自訂方塊類別與對應的 BlockEntity。
+* `...item`: 存放自訂物品類別。
+* `...entity`: 存放實體邏輯 (Entity Classes)。
+* `...client`: **必須**將所有僅限客戶端的程式碼 (Renderers, Models, Screens) 放在此處，並確保使用 `@OnlyIn(Dist.CLIENT)` 或適當的 Client-only 註解/事件防護，避免 Server 崩潰。
+* `...datagen`: 存放所有的 Data Providers (ItemModelProvider, RecipeProvider 等)。
+* `...network`: 存放封包與網路傳輸邏輯 (Payloads & Handlers)。
+* `...event`: 存放事件監聽器。
+* `...config`: 存放模組設定檔 (ModConfig)。
 
-* **Indentation:** Strictly use **2 spaces** for all Java and JSON files.
-* **Best Practices First:** Before suggesting any implementation, verify if it aligns with the official NeoForge community's recommended Best Practices for version 1.21.1. Do not use outdated Forge paradigms.
-* **Language & Comments:** All code comments and explanations must be written in **Traditional Chinese (繁體中文)**.
-* **Configuration System:** Use the `ModConfig` system. Important: Configuration file comments/descriptions must be written in **English**.
-* **Registration Paradigm:** Use `DeferredRegister` for ALL registry objects (Blocks, Items, CreativeModeTabs, etc.). Do not use direct registry events unless absolutely necessary.
-* **Data Generation (DataGen):** NEVER write JSON files manually. You MUST use NeoForge's DataGen system (`GatherDataEvent`) to generate BlockStates, ItemModels, Recipes, LootTables, BlockTags, and Language files.
+## 4. NeoForge 核心實作標準 (NeoForge Standards)
+* **註冊機制:** 一律使用 `DeferredRegister` 及其變體 (如 `DeferredRegister.Items`, `DeferredRegister.Blocks`)。
+* **方塊與物品連動:** 註冊 `Block` 後，若該方塊需要能在物品欄出現，**必須**同步註冊對應的 `BlockItem`。
+* **創造模式物品欄:** 使用 `DeferredRegister<CreativeModeTab>` 建立自訂 Tab，或透過 `BuildCreativeModeTabContentsEvent` 將物品加入原版標籤頁。
+* **事件訂閱:** 善用 `@EventBusSubscriber` 註解。務必區分清楚 `mod` 總線 (註冊、Setup、Datagen) 與 `game` 總線 (遊戲內事件，如 TickEvent、EntityJoinLevelEvent)。
+* **網路同步:** 使用 NeoForge 1.21 的 `IPayloadRegistrar` 與 `CustomPacketPayload` 系統進行 Client/Server 同步。
+* **屬性設定:** 使用 `Item.Properties` 和 `BlockBehaviour.Properties` 來設定屬性。
+* **模組設定檔:** 使用 `ModConfig` (`net.neoforged.neoforge.common.ModConfigSpec`) 系統，設定檔 `comment` 使用英文。
 
-## 4. Current Project State & Completed Features
-Acknowledge the following features are already implemented. Build upon them or use them as reference points:
+## 5. 程式碼風格 (Code Style)
+* 程式縮排: 2 spaces
+* 註解語言: 繁體中文
+* 充分利用 Java 21 特性：使用 Records 處理資料載體 (Data Carriers) 與封包、使用 Switch Expressions 簡化條件判斷、使用 Pattern Matching。
+* 變數與函式命名應具備高度可讀性。
+* 複雜的遊戲邏輯 (如自訂方塊的 `tick` 運算或 Data Components 的轉換) 必須加上詳盡的繁體中文註解。
+* **日誌系統:** 嚴禁使用 `System.out.println`，統一使用 SLF4J (`org.slf4j.Logger`) 進行模組的日誌輸出。
 
-1.  **High Speed Rail Block (`HighSpeedRailBlock`)**
-    * Inherits from `PoweredRailBlock`.
-    * Configurable `maxSpeed` and `acceleration` via `ModConfig`.
-    * Overrides `onMinecartPass` logic to break vanilla speed limits.
-    * Render type set to `cutout` (transparent background).
-2.  **Creative Mode Tab**
-    * A dedicated "Simple Rail" tab exists and is registered.
-3.  **Complete DataGen Setup**
-    * Providers for BlockState, ItemModel, Recipes, LootTables, and BlockTags are active and functional.
-4.  **Localization**
-    * Language providers are set up for both English (`en_us`) and Traditional Chinese (`zh_tw`).
-
-## 5. Interaction Protocol
-When given a new task:
-1. Briefly state the technical approach using NeoForge 1.21.1 standards.
-2. Provide the complete code implementation.
-3. Instruct the user on which DataGen command to run if resources were modified.
-4. **Context Maintenance:** Upon successful completion of the task, you MUST update the `4. Current Project State & Completed Features` section within this `GEMINI.md` files to reflect the newly added features, modifications, or architectural changes.
+## 6. 當前開發進度與焦點 (Current State & Focus)
+[這裡由你動態更新，讓 AI 知道目前專案進度與現在該專注什麼]
