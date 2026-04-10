@@ -11,12 +11,14 @@
 * **模組主類別:** `SimpleRail.java`
 
 ## 2. 絕對禁忌與紅線 (Strict Taboos - DO NOT DO THIS)
+* **嚴禁使用 `new ResourceLocation(...)`:** Minecraft 1.21 已移除此建構子。宣告資源路徑時，**必須**使用 `ResourceLocation.fromNamespaceAndPath(MODID, "name")` 或 `ResourceLocation.parse(...)`。
 * **嚴禁使用舊版 Forge:** 絕對不可引入 `net.minecraftforge.*` 的任何類別。所有 Forge 相關 API 皆已遷移至 `net.neoforged.*`。
 * **嚴禁混用 Fabric API:** 我們是純正的 NeoForge 模組，拒絕任何 Fabric 相關的程式碼或註解。
 * **嚴禁使用 FMLJavaModLoadingContext:** NeoForge 1.21 已徹底移除此類別。取得 Mod Event Bus 必須透過模組主類別的建構子參數 (`public SimpleRail(IEventBus modEventBus)`) 注入，絕不可使用舊版的靜態獲取方法。
-* **嚴禁手寫 JSON:** 所有配方 (Recipes)、掉落物 (Loot Tables)、方塊狀態 (Blockstates)、模型 (Models) 與標籤 (Tags)，**必須**透過 Data Generation (Datagen) 生成，嚴禁在 `src/main/resources` 下手動建立 JSON。
+* **嚴禁手寫 JSON:** 所有配方、掉落物、方塊狀態、模型、標籤與**多國語言檔 (Lang)**，**必須**透過 Data Generation (Datagen) 生成，嚴禁在 `src/main/resources` 下手動建立 JSON。
 * **嚴禁在物品上使用 NBT (No Item NBT):** Minecraft 1.21 已經徹底廢除 `ItemStack` 的 NBT 系統。若要替物品附加自訂資料，**必須**註冊並使用 **Data Component Types (資料組件)** 系統。
 * **嚴禁使用 @OnlyIn 註解:** `@OnlyIn` 是遊戲底層專用的標記。模組開發中，**絕對禁止**使用 `@OnlyIn` 來區分 Client/Server。必須使用實體類別隔離與 `Dist.CLIENT` 事件總線來處理客戶端邏輯。
+* **嚴禁擅自使用 Mixin:** 本專案尚未配置 Mixin 環境。除非使用者明確要求修改原版底層機制，否則絕對不可生成任何 `@Mixin` 相關程式碼。
 * **嚴禁隨意更改 Mod ID:** 註冊所有物品、方塊時，必須參照頂層的 Mod ID。
 * **嚴禁**直接進行實作，**必須**先完整查詢 NeoForge 社群 1.21 的推薦最佳實踐 (Best Practices)，並依此實作。
 * **嚴禁**一次給所有程式碼，**必須**一步一步給程式碼 (Give the code step by step)。
