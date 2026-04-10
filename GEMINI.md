@@ -13,6 +13,7 @@
 ## 2. 絕對禁忌與紅線 (Strict Taboos - DO NOT DO THIS)
 * **嚴禁使用舊版 Forge:** 絕對不可引入 `net.minecraftforge.*` 的任何類別。所有 Forge 相關 API 皆已遷移至 `net.neoforged.*`。
 * **嚴禁混用 Fabric API:** 我們是純正的 NeoForge 模組，拒絕任何 Fabric 相關的程式碼或註解。
+* **嚴禁使用 FMLJavaModLoadingContext:** NeoForge 1.21 已徹底移除此類別。取得 Mod Event Bus 必須透過模組主類別的建構子參數 (`public SimpleRail(IEventBus modEventBus)`) 注入，絕不可使用舊版的靜態獲取方法。
 * **嚴禁手寫 JSON:** 所有配方 (Recipes)、掉落物 (Loot Tables)、方塊狀態 (Blockstates)、模型 (Models) 與標籤 (Tags)，**必須**透過 Data Generation (Datagen) 生成，嚴禁在 `src/main/resources` 下手動建立 JSON。
 * **嚴禁在物品上使用 NBT (No Item NBT):** Minecraft 1.21 已經徹底廢除 `ItemStack` 的 NBT 系統。若要替物品附加自訂資料，**必須**註冊並使用 **Data Component Types (資料組件)** 系統。
 * **嚴禁使用 @OnlyIn 註解:** `@OnlyIn` 是遊戲底層專用的標記。模組開發中，**絕對禁止**使用 `@OnlyIn` 來區分 Client/Server。必須使用實體類別隔離與 `Dist.CLIENT` 事件總線來處理客戶端邏輯。
@@ -33,7 +34,7 @@
 * `...config`: 存放模組設定檔 (ModConfig)。
 
 ## 4. NeoForge 核心實作標準 (NeoForge Standards)
-* **註冊機制:** 一律使用 `DeferredRegister` 及其變體 (如 `DeferredRegister.Items`, `DeferredRegister.Blocks`)，並使用對應的 `DeferredItem<T>` 或 `DeferredBlock<T>` 接收回傳值。
+* **註冊機制:** 一律使用 `DeferredRegister` 及其變體 (如 `DeferredRegister.Items`, `DeferredRegister.Blocks`)，並使用對應的 `DeferredItem<T>` 或 `DeferredBlock<T>` 接收回傳值。禁止直接操作 `ForgeRegistries` 或 `BuiltInRegistries` 進行註冊。
 * **方塊與物品連動:** 註冊 `Block` 後，若該方塊需要能在物品欄出現，**必須**同步註冊對應的 `BlockItem`。
 * **創造模式物品欄:** 使用 `DeferredRegister<CreativeModeTab>` 建立自訂 Tab，或透過 `BuildCreativeModeTabContentsEvent` 將物品加入原版標籤頁。
 * **全新 Capability 系統:** 嚴禁使用舊版 `LazyOptional`。在處理物品欄 (Inventory)、能量或流體時，必須使用 NeoForge 1.21 全新的 Capability 查詢系統 (例如：`level.getCapability(Capabilities.ItemHandler.BLOCK, pos, state, blockEntity, side)`)。
