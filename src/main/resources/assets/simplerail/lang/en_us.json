@@ -1,0 +1,13 @@
+{
+  "itemGroup.simplerail": "Example Mod Tab",
+  "block.simplerail.example_block": "Example Block",
+  "item.simplerail.example_item": "Example Item",
+
+  "simplerail.configuration.title": "Simple Rail Configs",
+  "simplerail.configuration.section.simplerail.common.toml": "Simple Rail Configs",
+  "simplerail.configuration.section.simplerail.common.toml.title": "Simple Rail Configs",
+  "simplerail.configuration.items": "Item List",
+  "simplerail.configuration.logDirtBlock": "Log Dirt Block",
+  "simplerail.configuration.magicNumberIntroduction": "Magic Number Text",
+  "simplerail.configuration.magicNumber": "Magic Number"
+}
