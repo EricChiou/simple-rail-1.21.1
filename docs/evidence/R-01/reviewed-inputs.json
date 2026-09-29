@@ -1,0 +1,634 @@
+[
+    {
+        "path":  "docs/evidence/T-005/artifact.json",
+        "sha256":  "3ABBC06B64C5AAC3C9608AB3F8679BDB8A1E04DEE7D9E8ECF53C638B0FA00476"
+    },
+    {
+        "path":  "docs/evidence/T-005/build-attempt-01.json",
+        "sha256":  "8D5B80207D539AAC0ECEB8FBE6379C01572BD5134CB8BD11FDABBBBA02096535"
+    },
+    {
+        "path":  "docs/evidence/T-005/build-attempt-02.json",
+        "sha256":  "6CD325C51F74D384C898C4489D8674945FEBD5B3D18535CD2C3A745EE21CB9C9"
+    },
+    {
+        "path":  "docs/evidence/T-005/commands.json",
+        "sha256":  "A0220B73605EA977E07EAA8A2551ECBEBDBC9A0648F25962EE03CF31F50355B7"
+    },
+    {
+        "path":  "docs/evidence/T-005/final-check.json",
+        "sha256":  "E7C8FD50AB4D78851FC98C96284EA5D8D7433B3C0AAC8FF55FE7EC3FA9E5E8DB"
+    },
+    {
+        "path":  "docs/evidence/T-005/README.md",
+        "sha256":  "ED9A16626603635D6B1BCD0358B046D80E8DB40B1B6DDAEAB0E51390C0F1F09A"
+    },
+    {
+        "path":  "docs/evidence/T-005/source-manifest.json",
+        "sha256":  "384AA178217B5986501B3D0105BD8748D90EB9234B2BBD1D3997BC891B5BDD56"
+    },
+    {
+        "path":  "docs/evidence/T-006/create-world.json",
+        "sha256":  "48B40CE18C39E0CDE2E750E0821FAF62E8E097D7A2CEF222984B4BDB965A5E0F"
+    },
+    {
+        "path":  "docs/evidence/T-006/exit-menu.json",
+        "sha256":  "F723D7788BE0CAD7D05010A046BE4942B656B7C8400965FA7D4211927D92AF88"
+    },
+    {
+        "path":  "docs/evidence/T-006/launch.json",
+        "sha256":  "0C9618706072B9E21592A972107AE6B3CFEE37E750EEEBE9727C0563B3570BCE"
+    },
+    {
+        "path":  "docs/evidence/T-006/main-menu.json",
+        "sha256":  "24986CAA325FC05DEDFCFBEEFA771259AB6919708290E99957D63DB0B89AA901"
+    },
+    {
+        "path":  "docs/evidence/T-006/mod-list.json",
+        "sha256":  "9AFC9A16B984F05953EF4BD8FCDCCCA12466CA0CF03A5423D8584463D666371B"
+    },
+    {
+        "path":  "docs/evidence/T-006/pause-menu.json",
+        "sha256":  "5BB200C2865685D112F989A91978FFC470A15233450F951750DDCC020763D945"
+    },
+    {
+        "path":  "docs/evidence/T-006/README.md",
+        "sha256":  "8CAB51E0ED662991F2B419B555CEFA3FFD1CFEE5A752CC6AA52AC870E5D2987D"
+    },
+    {
+        "path":  "docs/evidence/T-006/source-check.json",
+        "sha256":  "D331540D09B4C31C3DD8AFAA8B10783073D02565F5F2E464C934E9F6DE2CDDE8"
+    },
+    {
+        "path":  "docs/evidence/T-006/title-screen.json",
+        "sha256":  "B32EBB90DC300EC58E824280DD3B87509DBC76B72288F6E398E109E5F26D051C"
+    },
+    {
+        "path":  "docs/evidence/T-006/verification.json",
+        "sha256":  "AA82F74609078A707ADE763B58B0BF2AE140AF566125ECC519D9F0D0672AEA66"
+    },
+    {
+        "path":  "docs/evidence/T-006/world-debug.json",
+        "sha256":  "FA8638D29911C191D36822971AC594B8ADB07DE790B6AD020C18B84B394DC22D"
+    },
+    {
+        "path":  "docs/evidence/T-006/world-entry.json",
+        "sha256":  "E13F437F6C789830E0D54490FD392DB43376BD107D559DB11BAC1EC287E20C92"
+    },
+    {
+        "path":  "docs/evidence/T-006/world-manifest.json",
+        "sha256":  "4AC08F0F608A4A150F446673D975839EFC4C07C3AF4155DDB1BC26EAD24CF3F0"
+    },
+    {
+        "path":  "docs/evidence/T-006/world-options.json",
+        "sha256":  "3E2F34F4D68FBD527AD02929AC1F30C91FDA3B82F53BA2856C0851B4E2A09DF6"
+    },
+    {
+        "path":  "docs/evidence/T-006/world-settings.json",
+        "sha256":  "2D9CAADDD1BCFD001566B1FB538106CE3743BE6BC20DA3E52903598D1E39BB07"
+    },
+    {
+        "path":  "docs/evidence/T-007/launch.json",
+        "sha256":  "E8E31CA8B3FF834489EA66FA1AC7F9C2F8098C6C89281A38B7EFFB41134DD0D5"
+    },
+    {
+        "path":  "docs/evidence/T-007/README.md",
+        "sha256":  "DF8ACB86EAB613B73CFAB5A34BE112F81C9EC4A52179425CE7461F10F672CB69"
+    },
+    {
+        "path":  "docs/evidence/T-007/source-check.json",
+        "sha256":  "D331540D09B4C31C3DD8AFAA8B10783073D02565F5F2E464C934E9F6DE2CDDE8"
+    },
+    {
+        "path":  "docs/evidence/T-007/verification.json",
+        "sha256":  "8E54C36841EF4A37368EC0B17C5C66DC5F33C525361433A5765D2D8658F6D8A3"
+    },
+    {
+        "path":  "docs/evidence/T-007/world-manifest.json",
+        "sha256":  "E4FA6C9FD6B40847B7D8091AD1336913A9C1DB23A63E914040332B4ADF9BA90E"
+    },
+    {
+        "path":  "docs/evidence/T-008/classpath-manifest.json",
+        "sha256":  "ED6B0A5EC609C84D674DFB946F70D0AF5E6A20399E15C932A04F8E1245372CA5"
+    },
+    {
+        "path":  "docs/evidence/T-008/compile-01.json",
+        "sha256":  "F48E1E534A308BBB5E497E2D4F79A948B54E6206FDE4FC8867FA974C4AE976E3"
+    },
+    {
+        "path":  "docs/evidence/T-008/compile-02.json",
+        "sha256":  "DD2F16C2FA7A8CB46370AD3B3D191159C03287621904E64039FB94561F46DA8A"
+    },
+    {
+        "path":  "docs/evidence/T-008/compiled-classes.json",
+        "sha256":  "61BD5EEA787013FEBD40DECFCB95A8F8C0F9E5A0C7859FBC767635B16B2CB73F"
+    },
+    {
+        "path":  "docs/evidence/T-008/final-check.json",
+        "sha256":  "F8A17B73081B99053C511A91209F4A150FDD14511848185D38CC50AA8D78417B"
+    },
+    {
+        "path":  "docs/evidence/T-008/javac-version.json",
+        "sha256":  "A5FF74390A7392AFBB81EA701419BC44D5E806AFDBBE7927676C9182C419C643"
+    },
+    {
+        "path":  "docs/evidence/T-008/product-source-check.json",
+        "sha256":  "0E52E0102E8E082EBC5F2EB33F5061128271A830E50EDC9964537E79F75C281A"
+    },
+    {
+        "path":  "docs/evidence/T-008/README.md",
+        "sha256":  "8B31174155F50D93BB223DCB5DBC009E5065D24002D72EF510A4F9E2B2D2C7B4"
+    },
+    {
+        "path":  "docs/evidence/T-008/source-manifest.json",
+        "sha256":  "12C973F589361B607E60064C6A807532C28567EA932AAFF1F040498610E0D572"
+    },
+    {
+        "path":  "docs/evidence/T-008/verification.json",
+        "sha256":  "170B7C693FACA092DB1BAC0C8713009AE6B5FCB544D6B84953789264A92EA3E0"
+    },
+    {
+        "path":  "docs/evidence/T-008/probe/T008ClientProbe.java",
+        "sha256":  "9427D31FFDAED93F38BA9753BD5CF268724CCE68959699EF412702CE371D05B1"
+    },
+    {
+        "path":  "docs/evidence/T-008/probe/T008Probe.java",
+        "sha256":  "E9090043D2DC0B8A654C55C9902C48ED3C1D6F4C65BF3EF6EF1178AC2A3EAF7A"
+    },
+    {
+        "path":  "docs/evidence/T-009/audit-commands-1.json",
+        "sha256":  "06AC56BAC151014CEAAAF4D7C5F1FC51795DA12319D22A173B59C089B47CD5F0"
+    },
+    {
+        "path":  "docs/evidence/T-009/audit-commands-2.json",
+        "sha256":  "75752DF91D9DDBAF3D664FA445BB5489B039CF9B60C2BAA5431546B16931DE14"
+    },
+    {
+        "path":  "docs/evidence/T-009/audit-commands.json",
+        "sha256":  "3E81DC178B9E3322C788A39FB48103E625456BFDC7D4BF02A3DFB0F05E095F69"
+    },
+    {
+        "path":  "docs/evidence/T-009/audit-toolchain.json",
+        "sha256":  "5F33A97E3E452E1B2B5BCEC4821B387656A8BD65002C2163B0ED8D7EF1680DE0"
+    },
+    {
+        "path":  "docs/evidence/T-009/collection.json",
+        "sha256":  "828171753F30B9A7D170B96E0F5F7D2EAB4034C2CD0C294C9FEF622BCE6DBBFE"
+    },
+    {
+        "path":  "docs/evidence/T-009/extra-source-manifest.json",
+        "sha256":  "48C7BED5EEE79DAD5DBBD97F79FDE06994FE6F999B2E59CA6A44C316B2A3292D"
+    },
+    {
+        "path":  "docs/evidence/T-009/final-check.json",
+        "sha256":  "139C69C61897558DEDA7950C90C5EF08712B71488083482E901607EA7C2E8D4E"
+    },
+    {
+        "path":  "docs/evidence/T-009/preparation-notes.json",
+        "sha256":  "D37AE03F5BE42FB760B884FDC6B5403A16C0416F60C9BD6D564E2B529FE1F9C1"
+    },
+    {
+        "path":  "docs/evidence/T-009/product-source-check.json",
+        "sha256":  "0E52E0102E8E082EBC5F2EB33F5061128271A830E50EDC9964537E79F75C281A"
+    },
+    {
+        "path":  "docs/evidence/T-009/README.md",
+        "sha256":  "06FE6680CBA3D5BB932E4CF193189AF4E42C82E2D81984BCFEE39DDF4A7606B2"
+    },
+    {
+        "path":  "docs/evidence/T-009/recipe-candidates.json",
+        "sha256":  "939F9156946E4BD123BE87D93EB5A6E11CFB4F64E898E19E20760EF3F48277BC"
+    },
+    {
+        "path":  "docs/evidence/T-009/recipes.md",
+        "sha256":  "3FDEFED91BC6DF0D8B2B1351CA45949D50C47F2CAF91AAA1BF3EECFCB850A865"
+    },
+    {
+        "path":  "docs/evidence/T-009/reference-trace.json",
+        "sha256":  "E15F87561207458E8DDDF50843D8086490E400B37C7787D42303EC0A5281775E"
+    },
+    {
+        "path":  "docs/evidence/T-009/resource-map.json",
+        "sha256":  "289C7E1BEFDC8314312E20E50CDFECA159327E34735BE759878301107DE942F4"
+    },
+    {
+        "path":  "docs/evidence/T-009/source-manifest.json",
+        "sha256":  "4123B6A31F648204D41ED499D5B14D56F49E64B3A7C3D3B4DFB78C3E140B8316"
+    },
+    {
+        "path":  "docs/evidence/T-009/static-audit-attempt-1.json",
+        "sha256":  "1426DBEE4BC820BE86CE0903CFE55C5F20B7DA252F2C45A882661628FCD80E17"
+    },
+    {
+        "path":  "docs/evidence/T-009/static-audit.json",
+        "sha256":  "A1C7469190559B96CCDE8F8E9B3E4ECEF83045EB24561A8D6C69D5062195071F"
+    },
+    {
+        "path":  "docs/evidence/T-009/audit/ResourceAudit.java",
+        "sha256":  "1B7DF2BE66F606D2FB4C228EC6DB6A70BD1868F4DF2FCFA4BC2FA56C75E110A7"
+    },
+    {
+        "path":  "docs/evidence/T-010/classpath-manifest.json",
+        "sha256":  "ED6B0A5EC609C84D674DFB946F70D0AF5E6A20399E15C932A04F8E1245372CA5"
+    },
+    {
+        "path":  "docs/evidence/T-010/collection.json",
+        "sha256":  "549E8FBA0895E00F52DC52BBCBA557F025B10EBFA7BA2B0AA8FF848176BF3984"
+    },
+    {
+        "path":  "docs/evidence/T-010/compile-01.json",
+        "sha256":  "18E02A05919B1F09E63204E3427D4230A7F7AF50693660977CFB000667FAE52C"
+    },
+    {
+        "path":  "docs/evidence/T-010/compile-02.json",
+        "sha256":  "90D7BAE2421D8D4F169BDB00E682B9D6644757CF1FA1C5624323B67991B3AD95"
+    },
+    {
+        "path":  "docs/evidence/T-010/compile-03.json",
+        "sha256":  "D749B3997A11D4068982AA8FF32F2140E7CF5DEC3363BBC818F13503966AB4BE"
+    },
+    {
+        "path":  "docs/evidence/T-010/compiled-classes.json",
+        "sha256":  "7CAED8E3E0CD25F6C6A2198635D63D35F929F0403E12300B556EA23BB1FC0DA0"
+    },
+    {
+        "path":  "docs/evidence/T-010/final-check.json",
+        "sha256":  "600B6E3D0E180ECAD0A110ED9B683F47C48750B87E08CDB755435D14D36D013C"
+    },
+    {
+        "path":  "docs/evidence/T-010/product-source-check.json",
+        "sha256":  "0E52E0102E8E082EBC5F2EB33F5061128271A830E50EDC9964537E79F75C281A"
+    },
+    {
+        "path":  "docs/evidence/T-010/README.md",
+        "sha256":  "6983DD75EC181A3BE5A6F8E3D9EE74F58A803E91FFF276F462EDE80F0F28F3A4"
+    },
+    {
+        "path":  "docs/evidence/T-010/source-manifest.json",
+        "sha256":  "F45FA3E16B90DE6FAEDBCA7E2D670F2E468430859EB5EAC1B88148072239D28A"
+    },
+    {
+        "path":  "docs/evidence/T-010/state-domains.json",
+        "sha256":  "27E55E6052A7948589E3097FAD05D67522CC9768C7FED024CF1112C9C168D243"
+    },
+    {
+        "path":  "docs/evidence/T-010/state-domains.md",
+        "sha256":  "DD52DB22E58CAD8256C29B9B52E3965EF3AA1A2B0F1CB6D42FA1783BEB4A0A34"
+    },
+    {
+        "path":  "docs/evidence/T-010/verification.json",
+        "sha256":  "3108A9D1DFB2BC1F60372BD2B02E685CB5565EBC333DB76FAE9ACE12907DC61D"
+    },
+    {
+        "path":  "docs/evidence/T-010/probe/T010Probe.java",
+        "sha256":  "D75913DD219220EE20DB378BCF750C2DB9F64604B770EE297761E2E2F5D202ED"
+    },
+    {
+        "path":  "docs/evidence/T-011/classpath-manifest.json",
+        "sha256":  "ED6B0A5EC609C84D674DFB946F70D0AF5E6A20399E15C932A04F8E1245372CA5"
+    },
+    {
+        "path":  "docs/evidence/T-011/collection.json",
+        "sha256":  "4FE840E1596A22255B1F6DE7C39B0162C29F63A33DF0269FB46D3CE375A10EC0"
+    },
+    {
+        "path":  "docs/evidence/T-011/compile-01.json",
+        "sha256":  "560C5973917C499E6C036082AF5F19EAABA7AB1F9E8791064A0FB734F4317B60"
+    },
+    {
+        "path":  "docs/evidence/T-011/compile-02.json",
+        "sha256":  "E04DFA753C1D544431CF76005BBB6AD355528D61F53CB84A1F6AE535B7388949"
+    },
+    {
+        "path":  "docs/evidence/T-011/compiled-classes.json",
+        "sha256":  "B5F3663BC5BD2584D4EC4EA2C3A57312BFFF6DF779D6DC9C841BC3DF0389B523"
+    },
+    {
+        "path":  "docs/evidence/T-011/final-check.json",
+        "sha256":  "8CEF16404B593B0AC46B2A4CB41924C012C3A866C49AEA84255F8C6AF33193F3"
+    },
+    {
+        "path":  "docs/evidence/T-011/product-source-check.json",
+        "sha256":  "0E52E0102E8E082EBC5F2EB33F5061128271A830E50EDC9964537E79F75C281A"
+    },
+    {
+        "path":  "docs/evidence/T-011/README.md",
+        "sha256":  "68250D02C5DE333B7B08B949496194986BFF44AEFA49CC8813F64DA83CD71E6B"
+    },
+    {
+        "path":  "docs/evidence/T-011/source-manifest.json",
+        "sha256":  "1E6A0580FF8832FB6D6625BB8AC8C8AC9BF21E6729CE7C5EF41BA9CDD0356147"
+    },
+    {
+        "path":  "docs/evidence/T-011/verification.json",
+        "sha256":  "3E3929A0AABF4EB3AFFB7F7E4B2F388F03539DF0857AA73DF1065947F1D98AFF"
+    },
+    {
+        "path":  "docs/evidence/T-011/probe/T011Probe.java",
+        "sha256":  "49E7304871BF5E008880955E4BAA2D9CDC7EE68148CA46D0BEE06B7D1FFD4557"
+    },
+    {
+        "path":  "docs/evidence/T-012/classpath-manifest.json",
+        "sha256":  "ED6B0A5EC609C84D674DFB946F70D0AF5E6A20399E15C932A04F8E1245372CA5"
+    },
+    {
+        "path":  "docs/evidence/T-012/collection.json",
+        "sha256":  "25AAB6D2E92FB10C002CA4A9A540772D4697DF0745AF92C9A0A42CF52D3C790E"
+    },
+    {
+        "path":  "docs/evidence/T-012/compile-01.json",
+        "sha256":  "44C5AE9B26CF366E987FAC42DBC319647C2CF2E195E1E1594A784A2A465573B2"
+    },
+    {
+        "path":  "docs/evidence/T-012/compile-02.json",
+        "sha256":  "B2CB0866D3EEDC44AB0ACE72BCED6365921B6C323B5E7440487B6CE391DA3E62"
+    },
+    {
+        "path":  "docs/evidence/T-012/compiled-classes.json",
+        "sha256":  "B59C56FEEB1C94EF8590E88519EF0F14A423AE90CD6A1CCAB3A0238E183911CD"
+    },
+    {
+        "path":  "docs/evidence/T-012/final-check.json",
+        "sha256":  "CD83F68003D4E47AAA1D7C944B73B5B3A344D68C02D39BBC9094CEBCFE1B6F0E"
+    },
+    {
+        "path":  "docs/evidence/T-012/product-source-check.json",
+        "sha256":  "0E52E0102E8E082EBC5F2EB33F5061128271A830E50EDC9964537E79F75C281A"
+    },
+    {
+        "path":  "docs/evidence/T-012/README.md",
+        "sha256":  "8174DC61E300B7677301C6F61A069E441902E3B8A7E028B48A39573745D4D541"
+    },
+    {
+        "path":  "docs/evidence/T-012/source-manifest.json",
+        "sha256":  "B59E2E759B0E2DBF155DCFC222078EE230179258E512FF970E67532B0695A1DF"
+    },
+    {
+        "path":  "docs/evidence/T-012/verification.json",
+        "sha256":  "B56C82064FDC831B5C91D63F0ED15629983E536143CE7AC354703DCBE6C09CF2"
+    },
+    {
+        "path":  "docs/evidence/T-012/probe/T012Probe.java",
+        "sha256":  "711721625FACAE25A9BDD166A945BB4C6A765C4B6D45F68D4B6BFFBFB547FFD2"
+    },
+    {
+        "path":  "docs/evidence/T-013/classpath-manifest.json",
+        "sha256":  "ED6B0A5EC609C84D674DFB946F70D0AF5E6A20399E15C932A04F8E1245372CA5"
+    },
+    {
+        "path":  "docs/evidence/T-013/collection.json",
+        "sha256":  "EBA14FD6F55F029A59456AACF94F2081BBD865A7FF6C136ABF8A13AF330B2114"
+    },
+    {
+        "path":  "docs/evidence/T-013/compile-01.json",
+        "sha256":  "B572C9CEE2D33A0E740421D4D9927C0490358FCD05F26B1C1C53687C4CB3EC3E"
+    },
+    {
+        "path":  "docs/evidence/T-013/compile-02.json",
+        "sha256":  "19BC46FE362F7AA3BC190CB172326F3926BAB5F66FA631A21FA8215CF6F5BB65"
+    },
+    {
+        "path":  "docs/evidence/T-013/compiled-classes.json",
+        "sha256":  "DD5C05EFE3035293222A88ED0CF511AB41FC56A47E533698134A2C00203DCA2F"
+    },
+    {
+        "path":  "docs/evidence/T-013/final-check.json",
+        "sha256":  "2D7B2070DE1EB1B468A6AFEE4F0296990A7CD7148D955ABFB8D799C04947A118"
+    },
+    {
+        "path":  "docs/evidence/T-013/product-source-check.json",
+        "sha256":  "0E52E0102E8E082EBC5F2EB33F5061128271A830E50EDC9964537E79F75C281A"
+    },
+    {
+        "path":  "docs/evidence/T-013/README.md",
+        "sha256":  "5ACBFE1A80AE9CDC2B9926DB94AA48D4954AFC2F852BA18784F395EDC0E50EEA"
+    },
+    {
+        "path":  "docs/evidence/T-013/source-manifest.json",
+        "sha256":  "F42087E2BDA2FDCE12F73F50BD617CB19C115AA210CC5AB343E6B5D4CC3FC2AA"
+    },
+    {
+        "path":  "docs/evidence/T-013/verification.json",
+        "sha256":  "E811125C9F4D95B2D7287EE5E3E721719A41B1E1098FED55F28E2BC520857A66"
+    },
+    {
+        "path":  "docs/evidence/T-013/probe/T013Probe.java",
+        "sha256":  "A9A659E7803935F088EAD9706DE00EBB892E40E6739CE716C286C455E52F44D2"
+    },
+    {
+        "path":  "docs/evidence/T-014/classpath-manifest.json",
+        "sha256":  "ED6B0A5EC609C84D674DFB946F70D0AF5E6A20399E15C932A04F8E1245372CA5"
+    },
+    {
+        "path":  "docs/evidence/T-014/collection.json",
+        "sha256":  "7D1F1B491F9993C3402EF54F98DE9570BAE1025BABC73F071455B6FBD942B824"
+    },
+    {
+        "path":  "docs/evidence/T-014/compile-01.json",
+        "sha256":  "F6D39F0653F24EBCD1E9CED2425C4BA6CA455261AE0459F1996E393BCFEDF3A8"
+    },
+    {
+        "path":  "docs/evidence/T-014/compile-02.json",
+        "sha256":  "CABD6DB3DDB97DDFFF522701F24A8293365F8C9636EBD23654447416070DF9F4"
+    },
+    {
+        "path":  "docs/evidence/T-014/compiled-classes.json",
+        "sha256":  "5F08F230D4E359B24A52FB4BAE8BF22ECC83B88ADCA2D19388881B2740B0E0DD"
+    },
+    {
+        "path":  "docs/evidence/T-014/final-check.json",
+        "sha256":  "8675B523E773F274D9BD762523A6445A12A53FA7FCAF5B2CE41A94CE8852F551"
+    },
+    {
+        "path":  "docs/evidence/T-014/product-source-check.json",
+        "sha256":  "0E52E0102E8E082EBC5F2EB33F5061128271A830E50EDC9964537E79F75C281A"
+    },
+    {
+        "path":  "docs/evidence/T-014/README.md",
+        "sha256":  "400DD99F60A4B4D4231C81092BFB1509FF4D5C962B4660172C4B17600ADCE817"
+    },
+    {
+        "path":  "docs/evidence/T-014/source-manifest.json",
+        "sha256":  "8F0D2E11E2B24FDBAA8C882801A58B9D6376988B3A02644FF75D2B4025E22521"
+    },
+    {
+        "path":  "docs/evidence/T-014/verification.json",
+        "sha256":  "23113256F9F4CE19A8F395757DB258E839F5EC2F2D5AF252315394FAC3577DA9"
+    },
+    {
+        "path":  "docs/evidence/T-014/probe/T014Probe.java",
+        "sha256":  "FED8EA3EF3D96A4C3676DD306777C46078B4A11C28ADF95A6506C0B5FDB992A5"
+    },
+    {
+        "path":  "docs/evidence/T-015/classpath-manifest.json",
+        "sha256":  "ED6B0A5EC609C84D674DFB946F70D0AF5E6A20399E15C932A04F8E1245372CA5"
+    },
+    {
+        "path":  "docs/evidence/T-015/collection.json",
+        "sha256":  "05896B2D19EAF6FBCB55737FFA91AEB09C364EBAB3F5BDB01D3BE26A940FA4B3"
+    },
+    {
+        "path":  "docs/evidence/T-015/compile-01.json",
+        "sha256":  "8BDE1B165AD129981319CEBBD5C7074D04D33C02F81BD06F88B1A270153691C0"
+    },
+    {
+        "path":  "docs/evidence/T-015/compile-02.json",
+        "sha256":  "34CF4AD047778080A8736AC4F11D6BD898423E0155E33597F618EBBC5B6D62EB"
+    },
+    {
+        "path":  "docs/evidence/T-015/compiled-classes.json",
+        "sha256":  "B85EF10134BD9C51D323823E5F17D2957ECCA6E072B71308125FF97A7AE4CB7B"
+    },
+    {
+        "path":  "docs/evidence/T-015/final-check.json",
+        "sha256":  "F3D56BDE3647D34185C2B331A38FFF45C3C089FB6582D923B25D0C77A806294F"
+    },
+    {
+        "path":  "docs/evidence/T-015/product-source-check.json",
+        "sha256":  "0E52E0102E8E082EBC5F2EB33F5061128271A830E50EDC9964537E79F75C281A"
+    },
+    {
+        "path":  "docs/evidence/T-015/README.md",
+        "sha256":  "51A274F1A26BF7C57AD903A0D821C87048BED44B31A96A6AD1AB724228F0E321"
+    },
+    {
+        "path":  "docs/evidence/T-015/resources.json",
+        "sha256":  "98871C9BA5315B9DCF50F62CE2A51028B0E02E60D039F79183C3A7C5A550921E"
+    },
+    {
+        "path":  "docs/evidence/T-015/source-manifest.json",
+        "sha256":  "6B24B9738465E0AA2EE85414B0B2D99550C46E5B97A71E55430B36612E1E8D6A"
+    },
+    {
+        "path":  "docs/evidence/T-015/verification.json",
+        "sha256":  "01F51D095842658D2956AD185ABC6ABA92A817E123F9FE4A6A83EF1054C05B85"
+    },
+    {
+        "path":  "docs/evidence/T-015/probe/T015Probe.java",
+        "sha256":  "2390B443B4D7D7B54B3B38E9FAAF814AD78EB0C6E5C74C0A75B11AEB17009D59"
+    },
+    {
+        "path":  "docs/evidence/T-016/classpath-manifest.json",
+        "sha256":  "ED6B0A5EC609C84D674DFB946F70D0AF5E6A20399E15C932A04F8E1245372CA5"
+    },
+    {
+        "path":  "docs/evidence/T-016/collection.json",
+        "sha256":  "39211D70CBA75336D11EF30727CBB72135B99075A715A8E44276CDCD38FCFCFC"
+    },
+    {
+        "path":  "docs/evidence/T-016/compile-01.json",
+        "sha256":  "240A815451224B95BBF041239031D029D04C918E41C343776EC186FF8F856CEB"
+    },
+    {
+        "path":  "docs/evidence/T-016/compile-02.json",
+        "sha256":  "BDCBD888FB80AED46BD5889C9996FCF036F7FCCB3B10B22A512391942CF6AA82"
+    },
+    {
+        "path":  "docs/evidence/T-016/compiled-classes.json",
+        "sha256":  "2CF8F5E9CBD31ACA1BEF03A4FC60E6A3E260A10FCDCBEF283A1AB29E5090ABCC"
+    },
+    {
+        "path":  "docs/evidence/T-016/final-check.json",
+        "sha256":  "2379B577E5D726B98D1211E5A17E9061F4A4B60098CB0B592FB57F91AC07F10D"
+    },
+    {
+        "path":  "docs/evidence/T-016/product-source-check.json",
+        "sha256":  "0E52E0102E8E082EBC5F2EB33F5061128271A830E50EDC9964537E79F75C281A"
+    },
+    {
+        "path":  "docs/evidence/T-016/README.md",
+        "sha256":  "6412579C7B8829FAEA1AFB66449F1604302A39CEDBD32EA542761DD6AA44FE96"
+    },
+    {
+        "path":  "docs/evidence/T-016/source-manifest.json",
+        "sha256":  "C4D0706E86070FB1978C9FA0B3D441D0EF1D44B642E007240F8472F231EE1E1F"
+    },
+    {
+        "path":  "docs/evidence/T-016/verification.json",
+        "sha256":  "8CAA7CADE9EC93ECD4959CFB80CFDAC98647213344404B2BDC984FAEF05D7452"
+    },
+    {
+        "path":  "docs/evidence/T-016/probe/T016Probe.java",
+        "sha256":  "07347332E8C16BE6B89FFDD1AA12731C8EEBD2F7EBFDDB256E611D14D0A59650"
+    },
+    {
+        "path":  "docs/evidence/T-017/build-01.json",
+        "sha256":  "C237BBE573D77631F5A4428734274FE3E49C01D7C34E3427D5F651D7B3DD9B78"
+    },
+    {
+        "path":  "docs/evidence/T-017/build-02.json",
+        "sha256":  "A4D0E51FCB29545E99523BB6998243EBA3951EE380417392E1F618EB86CADC95"
+    },
+    {
+        "path":  "docs/evidence/T-017/checks.json",
+        "sha256":  "CE107B70350FE1DA37672B28C69B318B6D61EB1D414B2801A73A48DC775EED4E"
+    },
+    {
+        "path":  "docs/evidence/T-017/command-checks.json",
+        "sha256":  "1F230453DA0A53E87BB83ABACF4FE791835188BCE6C7F00C99A9F25EBF55776C"
+    },
+    {
+        "path":  "docs/evidence/T-017/README.md",
+        "sha256":  "4F15E3DB3AF5A443481B602E55696755F78F7DA5F6D763B18CC26077E6362C6A"
+    },
+    {
+        "path":  "docs/evidence/T-017/source.diff",
+        "sha256":  "B7D4FE262D9F03952E3D48B3F9283386B6C96DBFBFD367546FDEA4C2A9865E52"
+    },
+    {
+        "path":  "docs/evidence/T-018/README.md",
+        "sha256":  "29CDB519D64E677BF4D2160A86E8874CAC57259EE15EABE4F4B72DFF4BF3F666"
+    },
+    {
+        "path":  "docs/evidence/T-089/README.md",
+        "sha256":  "74166CA2EA37037A85A25FBE37404578DA2A35EF8383A571949B63E2620C3E7D"
+    },
+    {
+        "path":  "docs/evidence/T-090/commands.json",
+        "sha256":  "52D02B8DAD7074EC16C55578E6AC8C29A6E890A92B3A9EEF9D873FF8E3DA2E1D"
+    },
+    {
+        "path":  "docs/evidence/T-090/final-check.json",
+        "sha256":  "E547DD35C18C2D4E294EB0E3C23DFC7F57425A25E291137EFEB7994AFCB2DD7A"
+    },
+    {
+        "path":  "docs/evidence/T-090/INSTALL.md",
+        "sha256":  "051931F543CE0DE3F4B72690A208219DEAFD6E3E523766FB72B385758C45E92B"
+    },
+    {
+        "path":  "docs/evidence/T-090/package-03.json",
+        "sha256":  "6DC844BB4B16FFE6C40F1E70D5E5FD501A360009DAD3762E26D77C5038646BC7"
+    },
+    {
+        "path":  "docs/evidence/T-090/package-commands.json",
+        "sha256":  "AF1875ADB7C2DDE94FA3F761A81C11BA84BABBF26D66305C8B66457C453FAF4E"
+    },
+    {
+        "path":  "docs/evidence/T-090/packages.json",
+        "sha256":  "DF4CD5EBAD9D5C148DE5308A0B8F77AC2073F8F9D4DDF11851178750C06E76F8"
+    },
+    {
+        "path":  "docs/evidence/T-090/README.md",
+        "sha256":  "182634D5A5877925A515FFDB0AEA5B2CB5A2DCF9E17E3365AA4B3DB9BEBBBD96"
+    },
+    {
+        "path":  "docs/evidence/T-090/source-fingerprints.json",
+        "sha256":  "21853BFD3BC5B2F0D63D4D7E0CA1DE8175E68B5E50387A4782EF8A577E8AA21E"
+    },
+    {
+        "path":  "docs/evidence/T-090/source.diff",
+        "sha256":  "B7D4FE262D9F03952E3D48B3F9283386B6C96DBFBFD367546FDEA4C2A9865E52"
+    },
+    {
+        "path":  "docs/evidence/T-091/final-check.json",
+        "sha256":  "E547DD35C18C2D4E294EB0E3C23DFC7F57425A25E291137EFEB7994AFCB2DD7A"
+    },
+    {
+        "path":  "docs/evidence/T-091/packages.json",
+        "sha256":  "DF4CD5EBAD9D5C148DE5308A0B8F77AC2073F8F9D4DDF11851178750C06E76F8"
+    },
+    {
+        "path":  "docs/evidence/T-091/README.md",
+        "sha256":  "1B9C7D3A27F9642864DAA9C348ACB7A560EC740CA6F2C429956E9AEBCEAA830D"
+    }
+]

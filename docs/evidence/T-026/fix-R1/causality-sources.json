@@ -1,0 +1,20 @@
+﻿[
+    {
+        "source":  "docs/evidence/T-025/sources/target/net/minecraft/world/level/block/RailState.java",
+        "sha256":  "480539DBA2A7EB71AFED96FC9F558141B8FD5A19EF5ABE4B186DAADDED3F7B4A",
+        "version":  "Minecraft 1.21.1 / NeoForge 21.1.251",
+        "scope":  "Existing pinned source snapshot; causality is a source hypothesis, not user reproduction"
+    },
+    {
+        "source":  "docs/evidence/T-025/sources/target/net/minecraft/world/entity/vehicle/AbstractMinecart.java",
+        "sha256":  "E68B6F27F5F573E02F0C3BA0C6A5EC798B7FFE3B28CD34CA635C67356854F095",
+        "version":  "Minecraft 1.21.1 / NeoForge 21.1.251",
+        "scope":  "Existing pinned source snapshot; causality is a source hypothesis, not user reproduction"
+    },
+    {
+        "source":  "docs/evidence/T-010/sources/target/net/minecraft/world/entity/Entity.java",
+        "sha256":  "8E4D7B36EEEA5DE997D064AE7F9863D22B702EB650FD7EB22982EBDF76907839",
+        "version":  "Minecraft 1.21.1 / NeoForge 21.1.251",
+        "scope":  "Existing pinned source snapshot; causality is a source hypothesis, not user reproduction"
+    }
+]

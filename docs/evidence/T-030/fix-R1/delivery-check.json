@@ -1,0 +1,97 @@
+﻿{
+    "startedUtc":  "2026-09-29T13:50:03.5483716Z",
+    "finishedUtc":  "2026-09-29T13:50:05.2604881Z",
+    "checks":  [
+                   {
+                       "name":  "Only OnewayRail and TOML changed among existing product files",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Only approved mixin source/config added",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "126 unique task IDs/order preserved",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Only T-029/T-030 task entries changed; dependencies preserved",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "No dependency cycles",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Manual totals 4 passed / 1 ongoing / 84 pending; T-037 untouched",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Nine phase counts unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Coverage table unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Task historic reports preserved",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Review sections 8-42 preserved",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "D1-D8 decision rows unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Built JAR JSON/TOML/class register same required both-side mixin",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Markdown tables/fences/local links valid",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Git diff whitespace check succeeds; index unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Full current source diff captures new files",
+                       "pass":  true
+                   }
+               ],
+    "failed":  [
+
+               ],
+    "changed":  [
+                    "src\\main\\templates\\META-INF\\neoforge.mods.toml",
+                    "src\\main\\java\\com\\ericchiu\\simplerail\\block\\OnewayRail.java"
+                ],
+    "added":  [
+                  "src\\main\\resources\\simplerail.mixins.json",
+                  "src\\main\\java\\com\\ericchiu\\simplerail\\mixin\\AbstractMinecartMixin.java"
+              ],
+    "missingLinks":  [
+
+                     ],
+    "taskCount":  126,
+    "phaseCounts":  [
+                        4,
+                        17,
+                        8,
+                        18,
+                        16,
+                        26,
+                        23,
+                        8,
+                        6
+                    ],
+    "status":  "document and artifact static checks only",
+    "exitCode":  0,
+    "gameExecuted":  false,
+    "reviewExecuted":  false,
+    "retryNote":  "The first scope comparisons used forward slash literals against rg Windows backslash paths; normalized path separators in the two comparisons only. All other 13 checks already passed. No implementation changes or tests rerun."
+}

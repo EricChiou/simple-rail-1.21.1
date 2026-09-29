@@ -1,0 +1,5 @@
+﻿{
+    "command":  "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/javac.exe -version",
+    "exitCode":  0,
+    "output":  "javac 21.0.12.1"
+}

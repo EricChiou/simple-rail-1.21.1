@@ -1,0 +1,534 @@
+[
+  {
+    "result": "simplerail:cross_rail",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " I ",
+        " R ",
+        "   "
+      ],
+      "key": {
+        "I": {
+          "item": "minecraft:iron_ingot"
+        },
+        "R": {
+          "item": "minecraft:rail"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:cross_rail"
+      }
+    },
+    "logicalId": "simplerail:cross_rail",
+    "path": "data/simplerail/recipe/cross_rail.json",
+    "sourcePattern": [
+      " I ",
+      " R ",
+      "   "
+    ],
+    "sourceKey": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "R": {
+        "item": "minecraft:rail"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:destory_rail",
+    "count": 3,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " P ",
+        " I ",
+        "   "
+      ],
+      "key": {
+        "P": {
+          "item": "minecraft:iron_pickaxe"
+        },
+        "I": {
+          "item": "minecraft:powered_rail"
+        }
+      },
+      "result": {
+        "count": 3,
+        "id": "simplerail:destory_rail"
+      }
+    },
+    "logicalId": "simplerail:destory_rail",
+    "path": "data/simplerail/recipe/destory_rail.json",
+    "sourcePattern": [
+      " P ",
+      " I ",
+      "   "
+    ],
+    "sourceKey": {
+      "P": {
+        "item": "minecraft:iron_pickaxe"
+      },
+      "I": {
+        "item": "minecraft:powered_rail"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:eject_rail",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "R  ",
+        " I ",
+        "   "
+      ],
+      "key": {
+        "I": {
+          "item": "minecraft:powered_rail"
+        },
+        "R": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:eject_rail"
+      }
+    },
+    "logicalId": "simplerail:eject_rail",
+    "path": "data/simplerail/recipe/eject_rail.json",
+    "sourcePattern": [
+      "R  ",
+      " I ",
+      "   "
+    ],
+    "sourceKey": {
+      "I": {
+        "item": "minecraft:powered_rail"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:high_speed_rail",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " I ",
+        " R ",
+        "   "
+      ],
+      "key": {
+        "I": {
+          "item": "minecraft:powered_rail"
+        },
+        "R": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:high_speed_rail"
+      }
+    },
+    "logicalId": "simplerail:high_speed_rail",
+    "path": "data/simplerail/recipe/high_speed_rail.json",
+    "sourcePattern": [
+      " I ",
+      " R ",
+      "   "
+    ],
+    "sourceKey": {
+      "I": {
+        "item": "minecraft:powered_rail"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:holding_rail",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " R ",
+        " I ",
+        "   "
+      ],
+      "key": {
+        "R": {
+          "item": "minecraft:redstone"
+        },
+        "I": {
+          "item": "minecraft:powered_rail"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:holding_rail"
+      }
+    },
+    "logicalId": "simplerail:holding_rail",
+    "path": "data/simplerail/recipe/holding_rail.json",
+    "sourcePattern": [
+      " R ",
+      " I ",
+      "   "
+    ],
+    "sourceKey": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "I": {
+        "item": "minecraft:powered_rail"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:locomotive_cart",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " G ",
+        " C ",
+        "   "
+      ],
+      "key": {
+        "G": {
+          "item": "minecraft:gold_ingot"
+        },
+        "C": {
+          "item": "minecraft:minecart"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:locomotive_cart"
+      }
+    },
+    "logicalId": "simplerail:locomotive_cart",
+    "path": "data/simplerail/recipe/locomotive_cart.json",
+    "sourcePattern": [
+      " G ",
+      " C ",
+      "   "
+    ],
+    "sourceKey": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "C": {
+        "item": "minecraft:minecart"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:oneway_rail",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "   ",
+        "RI ",
+        "   "
+      ],
+      "key": {
+        "R": {
+          "item": "minecraft:redstone"
+        },
+        "I": {
+          "item": "minecraft:powered_rail"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:oneway_rail"
+      }
+    },
+    "logicalId": "simplerail:oneway_rail",
+    "path": "data/simplerail/recipe/oneway_rail.json",
+    "sourcePattern": [
+      "   ",
+      "RI ",
+      "   "
+    ],
+    "sourceKey": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "I": {
+        "item": "minecraft:powered_rail"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:signal_timer",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " R ",
+        " I ",
+        "   "
+      ],
+      "key": {
+        "R": {
+          "item": "minecraft:repeater"
+        },
+        "I": {
+          "item": "minecraft:iron_block"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:signal_timer"
+      }
+    },
+    "logicalId": "simplerail:signal_timer",
+    "path": "data/simplerail/recipe/signal_timer.json",
+    "sourcePattern": [
+      " R ",
+      " I ",
+      "   "
+    ],
+    "sourceKey": {
+      "R": {
+        "item": "minecraft:repeater"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:timer_holding_rail",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " R ",
+        " I ",
+        " R "
+      ],
+      "key": {
+        "R": {
+          "item": "minecraft:redstone"
+        },
+        "I": {
+          "item": "minecraft:powered_rail"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:timer_holding_rail"
+      }
+    },
+    "logicalId": "simplerail:timer_holding_rail",
+    "path": "data/simplerail/recipe/timer_holding_rail.json",
+    "sourcePattern": [
+      " R ",
+      " I ",
+      " R "
+    ],
+    "sourceKey": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "I": {
+        "item": "minecraft:powered_rail"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:train_dispenser",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " C ",
+        " D ",
+        "   "
+      ],
+      "key": {
+        "C": {
+          "item": "minecraft:minecart"
+        },
+        "D": {
+          "item": "minecraft:dispenser"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:train_dispenser"
+      }
+    },
+    "logicalId": "simplerail:train_dispenser",
+    "path": "data/simplerail/recipe/train_dispenser.json",
+    "sourcePattern": [
+      " C ",
+      " D ",
+      "   "
+    ],
+    "sourceKey": {
+      "C": {
+        "item": "minecraft:minecart"
+      },
+      "D": {
+        "item": "minecraft:dispenser"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:wrench",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " G ",
+        " I ",
+        "   "
+      ],
+      "key": {
+        "G": {
+          "item": "minecraft:gold_nugget"
+        },
+        "I": {
+          "item": "minecraft:iron_pickaxe"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:wrench"
+      }
+    },
+    "logicalId": "simplerail:wrench",
+    "path": "data/simplerail/recipe/wrench.json",
+    "sourcePattern": [
+      " G ",
+      " I ",
+      "   "
+    ],
+    "sourceKey": {
+      "G": {
+        "item": "minecraft:gold_nugget"
+      },
+      "I": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:y_cross_rail",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " I ",
+        " R ",
+        " S "
+      ],
+      "key": {
+        "I": {
+          "item": "minecraft:iron_nugget"
+        },
+        "R": {
+          "item": "minecraft:rail"
+        },
+        "S": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:y_cross_rail"
+      }
+    },
+    "logicalId": "simplerail:y_cross_rail",
+    "path": "data/simplerail/recipe/y_cross_rail.json",
+    "sourcePattern": [
+      " I ",
+      " R ",
+      " S "
+    ],
+    "sourceKey": {
+      "I": {
+        "item": "minecraft:iron_nugget"
+      },
+      "R": {
+        "item": "minecraft:rail"
+      },
+      "S": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  },
+  {
+    "result": "simplerail:y_cross_right_rail",
+    "count": 1,
+    "candidate": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " S ",
+        " R ",
+        " I "
+      ],
+      "key": {
+        "I": {
+          "item": "minecraft:iron_nugget"
+        },
+        "R": {
+          "item": "minecraft:rail"
+        },
+        "S": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "simplerail:y_cross_right_rail"
+      }
+    },
+    "logicalId": "simplerail:y_cross_right_rail",
+    "path": "data/simplerail/recipe/y_cross_right_rail.json",
+    "sourcePattern": [
+      " S ",
+      " R ",
+      " I "
+    ],
+    "sourceKey": {
+      "I": {
+        "item": "minecraft:iron_nugget"
+      },
+      "R": {
+        "item": "minecraft:rail"
+      },
+      "S": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "validation": "JSON-only; registry codec/game not executed"
+  }
+]

@@ -1,0 +1,22 @@
+﻿[
+    {
+        "path":  "docs/evidence/T-025/sources/target/net/minecraft/world/entity/vehicle/AbstractMinecart.java",
+        "sha256":  "E68B6F27F5F573E02F0C3BA0C6A5EC798B7FFE3B28CD34CA635C67356854F095"
+    },
+    {
+        "path":  "docs/evidence/T-010/sources/target/net/minecraft/world/entity/Entity.java",
+        "sha256":  "8E4D7B36EEEA5DE997D064AE7F9863D22B702EB650FD7EB22982EBDF76907839"
+    },
+    {
+        "path":  "docs/evidence/T-010/sources/target/net/neoforged/neoforge/common/extensions/IBaseRailBlockExtension.java",
+        "sha256":  "2748D05609D8935F34B1A4257A9C5C4421E7C47CECDBCA3E2275FE70D4DF10C2"
+    },
+    {
+        "path":  "docs/evidence/T-026/fix-R2/EntityType.java",
+        "sha256":  "D8251F3C1EE31B281D609032ACC0E7F869B49DE345F1FEEAE03E137C81AA2B22"
+    },
+    {
+        "path":  "build/moddev/artifacts/neoforge-21.1.251-sources.jar",
+        "sha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E"
+    }
+]

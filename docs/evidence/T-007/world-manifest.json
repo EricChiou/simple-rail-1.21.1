@@ -1,0 +1,92 @@
+﻿[
+    {
+        "path":  "level.dat",
+        "bytes":  1657,
+        "sha256":  "DA3912C0FE7D7B932F58732AF46F2BD9567840FE06343BCB96AD45CA03D0307D"
+    },
+    {
+        "path":  "level.dat_old",
+        "bytes":  1654,
+        "sha256":  "8CF43FFD92EDEB598700ABEDB10CCF0132A70092EBE7C87A6CEAE4E42662C602"
+    },
+    {
+        "path":  "session.lock",
+        "bytes":  3,
+        "sha256":  "51643361C79ECAEF25A8DE802DE24F570BA25D9C2DF1D22D94FADE11B4F466CC"
+    },
+    {
+        "path":  "data\\neoforge_data_attachments.dat",
+        "bytes":  48,
+        "sha256":  "95486BD4CBD73D4D98F343E42A5792EF5315214015ACCA508842844D73247562"
+    },
+    {
+        "path":  "data\\raids.dat",
+        "bytes":  89,
+        "sha256":  "2750841DA74665F30D8CCEBB8157B4D10F9F827DF1C185E2BCA8F94480D00841"
+    },
+    {
+        "path":  "DIM-1\\data\\neoforge_data_attachments.dat",
+        "bytes":  48,
+        "sha256":  "95486BD4CBD73D4D98F343E42A5792EF5315214015ACCA508842844D73247562"
+    },
+    {
+        "path":  "DIM-1\\data\\raids.dat",
+        "bytes":  89,
+        "sha256":  "2750841DA74665F30D8CCEBB8157B4D10F9F827DF1C185E2BCA8F94480D00841"
+    },
+    {
+        "path":  "DIM1\\data\\neoforge_data_attachments.dat",
+        "bytes":  48,
+        "sha256":  "95486BD4CBD73D4D98F343E42A5792EF5315214015ACCA508842844D73247562"
+    },
+    {
+        "path":  "DIM1\\data\\raids_end.dat",
+        "bytes":  89,
+        "sha256":  "2750841DA74665F30D8CCEBB8157B4D10F9F827DF1C185E2BCA8F94480D00841"
+    },
+    {
+        "path":  "entities\\r.-1.-1.mca",
+        "bytes":  16384,
+        "sha256":  "DE41753D2D92711051B0B974F07855C7B00A1D1AA0A4CF1AF280CA1788B2FA0A"
+    },
+    {
+        "path":  "entities\\r.-1.0.mca",
+        "bytes":  32768,
+        "sha256":  "7A86FBCC001A6679AAEF806E636A7318DB11F12E1268426AF22BF5BD598C9087"
+    },
+    {
+        "path":  "entities\\r.0.-1.mca",
+        "bytes":  0,
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "entities\\r.0.0.mca",
+        "bytes":  36864,
+        "sha256":  "2035C85D9DE07126395CD0398BD909915856555521EC2CC99B8CF747AA0E078A"
+    },
+    {
+        "path":  "region\\r.-1.-1.mca",
+        "bytes":  741376,
+        "sha256":  "66D5F0D335AE131A31C2707553754AB4E7B902270962277F1EF7F980E6ADBF06"
+    },
+    {
+        "path":  "region\\r.-1.0.mca",
+        "bytes":  1159168,
+        "sha256":  "36FD85ED9CA3969987E44B451E409F938BCE32E4278B5C4442B488BC8CABDD03"
+    },
+    {
+        "path":  "region\\r.0.-1.mca",
+        "bytes":  802816,
+        "sha256":  "A31BEA769A86C3917A34EB98677FA574BBE293563A5C31E4E47F8BA1A574B254"
+    },
+    {
+        "path":  "region\\r.0.0.mca",
+        "bytes":  1257472,
+        "sha256":  "655681ABC86BE128C8A42AD268978D90C653D3EFC782F3B88491BF70653A0EBD"
+    },
+    {
+        "path":  "serverconfig\\readme.txt",
+        "bytes":  469,
+        "sha256":  "B1022AB932F8F0EA0CF78D9F312E95B85A4F96F59CA430E63F9A435E512D1186"
+    }
+]

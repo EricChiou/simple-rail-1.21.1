@@ -1,0 +1,10 @@
+﻿{
+    "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+    "arguments":  [
+                      "-version"
+                  ],
+    "startedUtc":  "2026-09-27T03:42:34.9697544Z",
+    "endedUtc":  "2026-09-27T03:42:35.2393568Z",
+    "exitCode":  0,
+    "log":  "javac-version.log"
+}

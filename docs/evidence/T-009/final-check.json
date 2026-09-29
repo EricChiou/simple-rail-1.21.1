@@ -1,0 +1,59 @@
+﻿{
+    "command":  "\u0026 ([scriptblock]::Create((Get-Content -Raw -Encoding UTF8 docs/evidence/T-009/final-check.ps1)))",
+    "utc":  "2026-09-27T03:51:51.5990341Z",
+    "exitCode":  0,
+    "taskCount":  126,
+    "dependencyGraph":  "valid references, acyclic, unchanged from index",
+    "stageCounts":  [
+                        4,
+                        17,
+                        8,
+                        18,
+                        16,
+                        26,
+                        23,
+                        8,
+                        6
+                    ],
+    "states":  {
+                   "historicalComplete":  6,
+                   "userWaived":  1,
+                   "developmentComplete":  2,
+                   "pending":  117
+               },
+    "localLinksChecked":  63,
+    "markdown":  "table columns/fences valid",
+    "sourceSnapshotsVerified":  241,
+    "productFilesUnchanged":  12,
+    "productDiffExit":  0,
+    "gitDiffCheckExit":  0,
+    "audit":  {
+                  "compileExit":  0,
+                  "runExit":  0,
+                  "jsonParsed":  98,
+                  "directReferences":  266
+              },
+    "documentHashes":  [
+                           {
+                               "path":  "MIGRATION.md",
+                               "sha256":  "19F908D91CCD19E84C7F9D93148D74436B474CC4868900BC76422034171AAC26"
+                           },
+                           {
+                               "path":  "TASK.md",
+                               "sha256":  "C79FD1E4DF94E9F1685E626FC2F3049115AA994DD2C58D1C1292BEB31D3C26E8"
+                           },
+                           {
+                               "path":  "REVIEW.md",
+                               "sha256":  "DA2B20508D5316E3604513D79936DFCE6CCE3BE75DE9D105053F537587AF49AE"
+                           },
+                           {
+                               "path":  "docs/evidence/T-009/README.md",
+                               "sha256":  "06FE6680CBA3D5BB932E4CF193189AF4E42C82E2D81984BCFEE39DDF4A7606B2"
+                           },
+                           {
+                               "path":  "docs/evidence/T-009/recipes.md",
+                               "sha256":  "3FDEFED91BC6DF0D8B2B1351CA45949D50C47F2CAF91AAA1BF3EECFCB850A865"
+                           }
+                       ],
+    "scope":  "Document/evidence self-check only; no independent review, Minecraft load or game tests"
+}

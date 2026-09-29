@@ -1,0 +1,33 @@
+﻿{
+    "packageId":  "T-090-v1",
+    "userConfirmation":  null,
+    "actualVersion":  null,
+    "cases":  [
+                  {
+                      "status":  "未填（本包未測）",
+                      "caseId":  "T089-01",
+                      "actualResult":  null
+                  },
+                  {
+                      "status":  "未填（本包未測）",
+                      "caseId":  "T089-02",
+                      "actualResult":  null
+                  },
+                  {
+                      "status":  "未填（本包未測）",
+                      "caseId":  "T089-03",
+                      "actualResult":  null
+                  },
+                  {
+                      "status":  "未填（本包未測）",
+                      "caseId":  "T089-04",
+                      "actualResult":  null
+                  },
+                  {
+                      "status":  "未填（本包未測）",
+                      "caseId":  "T089-05",
+                      "actualResult":  null
+                  }
+              ],
+    "note":  "選用回報模板；只需使用者確認任務完成，不要求逐例或附件。"
+}

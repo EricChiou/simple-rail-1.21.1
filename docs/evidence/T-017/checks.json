@@ -1,0 +1,20 @@
+﻿{
+    "task":  "T-017",
+    "timestampUtc":  "2026-09-27T16:59:10.4416169Z",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "jar":  "simplerail-1.0.0.jar",
+    "jarSha256":  "537780CB1E3C2B532AF7F22BEC1AA306C0966AFD6C571CC5D2936275B66C3A36",
+    "checks":  {
+                   "commonEntryKeepsModId":  true,
+                   "commonEntryUsesModEventBus":  true,
+                   "commonHasNoDirectClientReference":  true,
+                   "clientEntryRestrictedToPhysicalClient":  true,
+                   "exampleRegistrationAndConfigRemoved":  true,
+                   "exampleTranslationsRemoved":  true,
+                   "languageJsonParses":  true,
+                   "configClassAbsentFromJar":  true,
+                   "commonAndClientClassesInJar":  true,
+                   "metadataKeepsD8":  true
+               },
+    "allPassed":  true
+}

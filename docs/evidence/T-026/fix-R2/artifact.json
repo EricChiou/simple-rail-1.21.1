@@ -1,0 +1,15 @@
+﻿{
+    "jar":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R2\\artifacts\\simplerail-1.0.0.jar",
+    "sha256":  "C3507DB669B28D719B7DDC8FC0EA35F0F733D8931153DD31FD38741068131C6C",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "source":  "Uncommitted changes, source-fingerprints.json and source.diff",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod":  "1.0.0",
+    "java":  "Temurin 21.0.12.1+1",
+    "gradle":  "9.2.1",
+    "license":  "All Rights Reserved",
+    "review":  "R-03 / R-F pending",
+    "manual":  "I-026-01 user confirmed; I-026-02 R2 not tested",
+    "gameStartedByAgent":  false
+}

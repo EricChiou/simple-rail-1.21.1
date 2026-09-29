@@ -1,0 +1,23 @@
+﻿
+[269月2026 23:55:05.043] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[269月2026 23:55:05.044] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[269月2026 23:55:05.048] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[269月2026 23:55:05.049] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[269月2026 23:55:05.050] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[269月2026 23:55:05.167] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/workspace/java/simple-rail-1.21.1/build/moddev/artifacts/neoforge-21.1.251.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[269月2026 23:55:05.167] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/workspace/java/simple-rail-1.21.1/build/moddev/artifacts/neoforge-21.1.251.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[269月2026 23:55:07.222] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'simplerail:blockstates/example_block.json' missing model for variant: 'simplerail:example_block#'
+[269月2026 23:55:07.226] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'simplerail:item/example_block' referenced from: simplerail:item/example_block: java.io.FileNotFoundException: simplerail:models/item/example_block.json
+[269月2026 23:55:07.228] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'simplerail:item/example_item' referenced from: simplerail:item/example_item: java.io.FileNotFoundException: simplerail:models/item/example_item.json
+[269月2026 23:55:07.987] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[269月2026 23:55:07.987] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[269月2026 23:55:08.411] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[269月2026 23:58:12.102] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'simplerail:blockstates/example_block.json' missing model for variant: 'simplerail:example_block#'
+[269月2026 23:58:12.106] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'simplerail:item/example_block' referenced from: simplerail:item/example_block: java.io.FileNotFoundException: simplerail:models/item/example_block.json
+[269月2026 23:58:12.108] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'simplerail:item/example_item' referenced from: simplerail:item/example_item: java.io.FileNotFoundException: simplerail:models/item/example_item.json
+[269月2026 23:58:12.400] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[269月2026 23:58:12.400] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[269月2026 23:58:12.550] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+
+
+

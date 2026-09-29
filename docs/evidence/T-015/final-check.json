@@ -1,0 +1,53 @@
+﻿{
+    "command":  "\u0026 ([scriptblock]::Create((Get-Content -Raw -Encoding UTF8 docs/evidence/T-015/final-check.ps1)))",
+    "utc":  "2026-09-27T16:11:47.6002535Z",
+    "exitCode":  0,
+    "taskCount":  126,
+    "dependencyGraph":  "valid references, acyclic, unchanged from index",
+    "stageCounts":  [
+                        4,
+                        17,
+                        8,
+                        18,
+                        16,
+                        26,
+                        23,
+                        8,
+                        6
+                    ],
+    "states":  {
+                   "historicalComplete":  6,
+                   "userWaived":  1,
+                   "developmentComplete":  8,
+                   "pending":  111
+               },
+    "localLinksChecked":  142,
+    "markdown":  "table columns/fences valid",
+    "sourceSnapshotsVerified":  21,
+    "resourceRecordsVerified":  68,
+    "productFilesUnchanged":  12,
+    "productDiffExit":  0,
+    "gitDiffCheckExit":  0,
+    "classpathHashesVerified":  84,
+    "classesVerified":  3,
+    "compileExit":  0,
+    "documentHashes":  [
+                           {
+                               "path":  "MIGRATION.md",
+                               "sha256":  "CC49E6983529D0994D47707CB8FE3F51C7EDB7872C71967EA78A8D95F6ED016E"
+                           },
+                           {
+                               "path":  "TASK.md",
+                               "sha256":  "ACBDB3F9524215BAF4DDAC9F76FC0146AC881998B321D5179E0EE3201907229A"
+                           },
+                           {
+                               "path":  "REVIEW.md",
+                               "sha256":  "F2626EB87AF85D549F6CB9B4295C1A6BE5CC42E46B0165D3DFC289AF5F763CE3"
+                           },
+                           {
+                               "path":  "docs/evidence/T-015/README.md",
+                               "sha256":  "51A274F1A26BF7C57AD903A0D821C87048BED44B31A96A6AD1AB724228F0E321"
+                           }
+                       ],
+    "scope":  "Document/evidence self-check only; no independent review, probe execution or game tests"
+}

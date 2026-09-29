@@ -1,0 +1,962 @@
+﻿[
+    {
+        "shape":  "north_south",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/eject_reverse_powered_rail"
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "false",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "false",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "true",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "reverse":  "true",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    }
+]

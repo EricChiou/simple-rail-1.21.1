@@ -1,0 +1,138 @@
+﻿{
+    "tasks":  [
+                  "T-092",
+                  "T-093"
+              ],
+    "capturedUtc":  "2026-09-28T12:46:25.4041696Z",
+    "reusedBuild":  "T-022 build-01",
+    "buildExitCode":  0,
+    "newBuildExecuted":  false,
+    "jarSha256":  "3D4BFC8926509DCE28C6DE11E8198D3639EB288E1EB29FAD89D3AEC9C1C6BBD3",
+    "baselineInputsChecked":  156,
+    "productInputs":  160,
+    "diffExitCode":  0,
+    "untrackedDiffs":  [
+                           {
+                               "path":  "src/main/java/com/ericchiu/simplerail/registry/ModTags.java",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/minecraft/tags/block/rails.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/cross_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/destory_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/eject_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/high_speed_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/holding_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/locomotive_cart.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/oneway_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/signal_timer.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/timer_holding_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/train_dispenser.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/y_cross_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/loot_table/blocks/y_cross_right_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/cross_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/destory_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/eject_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/high_speed_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/holding_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/locomotive_cart.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/oneway_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/signal_timer.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/timer_holding_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/train_dispenser.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/wrench.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/y_cross_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/recipe/y_cross_right_rail.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/tags/block/machines.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/tags/block/rails.json",
+                               "exitCode":  1
+                           },
+                           {
+                               "path":  "src/main/resources/data/simplerail/tags/item/wrench.json",
+                               "exitCode":  1
+                           }
+                       ],
+    "gameStarted":  false,
+    "sourcesReadOnly":  true
+}

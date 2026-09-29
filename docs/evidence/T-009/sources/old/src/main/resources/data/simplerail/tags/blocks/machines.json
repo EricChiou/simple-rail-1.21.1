@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "simplerail:train_dispenser",
+    "simplerail:signal_timer"
+  ]
+}

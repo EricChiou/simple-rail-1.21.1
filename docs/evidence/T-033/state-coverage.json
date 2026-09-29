@@ -1,0 +1,434 @@
+﻿[
+    {
+        "shape":  "north_south",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_rail"
+    },
+    {
+        "shape":  "north_south",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_rail"
+    },
+    {
+        "shape":  "north_south",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "north_south",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_rail"
+    },
+    {
+        "shape":  "east_west",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_rail"
+    },
+    {
+        "shape":  "east_west",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "east_west",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  true,
+        "selectorCount":  1,
+        "model":  "simplerail:block/destory_powered_rail"
+    },
+    {
+        "shape":  "ascending_east",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_east",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_west",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_north",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "powered":  "false",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "powered":  "false",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "powered":  "true",
+        "need_power":  "false",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "false",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    },
+    {
+        "shape":  "ascending_south",
+        "powered":  "true",
+        "need_power":  "true",
+        "waterlogged":  "true",
+        "naturalFlat":  false,
+        "selectorCount":  0,
+        "model":  null
+    }
+]

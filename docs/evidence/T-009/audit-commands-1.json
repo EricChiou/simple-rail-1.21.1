@@ -1,0 +1,46 @@
+﻿[
+    {
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "arguments":  [
+                          "-version"
+                      ],
+        "startedUtc":  "2026-09-27T03:43:00.1285115Z",
+        "endedUtc":  "2026-09-27T03:43:00.3301910Z",
+        "exitCode":  0,
+        "log":  "javac-version-1.log"
+    },
+    {
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "arguments":  [
+                          "--release",
+                          "21",
+                          "-encoding",
+                          "UTF-8",
+                          "-Xlint:all",
+                          "-Werror",
+                          "-cp",
+                          "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.10.1\\b3add478d4382b78ea20b1671390a858002feb6c\\gson-2.10.1.jar",
+                          "-d",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-009\\audit\\classes",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-009\\audit\\ResourceAudit.java"
+                      ],
+        "startedUtc":  "2026-09-27T03:43:00.3633818Z",
+        "endedUtc":  "2026-09-27T03:43:01.1147620Z",
+        "exitCode":  0,
+        "log":  "compile-1.log"
+    },
+    {
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\java.exe",
+        "arguments":  [
+                          "-cp",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-009\\audit\\classes;C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.10.1\\b3add478d4382b78ea20b1671390a858002feb6c\\gson-2.10.1.jar",
+                          "ResourceAudit",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-009",
+                          "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar"
+                      ],
+        "startedUtc":  "2026-09-27T03:43:01.1157758Z",
+        "endedUtc":  "2026-09-27T03:43:01.3965783Z",
+        "exitCode":  1,
+        "log":  "audit-1.log"
+    }
+]

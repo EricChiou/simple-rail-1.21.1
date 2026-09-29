@@ -1,0 +1,68 @@
+[269月2026 23:58:45.194] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.44, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.251, --fml.neoFormVersion, 20240808.144430, --nogui]
+[269月2026 23:58:45.199] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12.1+1-LTS
+[269月2026 23:58:45.201] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12.1 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[269月2026 23:58:45.321] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[269月2026 23:58:45.374] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Kinoko/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[269月2026 23:58:45.781] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[269月2026 23:58:45.782] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.251 (neoforge)
+		Simple Rail 1.0.0 (simplerail)
+[269月2026 23:58:46.520] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui]
+[269月2026 23:58:47.582] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[269月2026 23:58:53.054] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[269月2026 23:58:53.057] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[269月2026 23:58:53.062] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[269月2026 23:58:53.063] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[269月2026 23:58:53.065] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[269月2026 23:58:53.127] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.251, for MC 1.21.1
+[269月2026 23:58:53.352] [modloading-worker-0/INFO] [com.ericchiu.simplerail.SimpleRail/]: HELLO FROM COMMON SETUP
+[269月2026 23:58:53.352] [modloading-worker-0/INFO] [com.ericchiu.simplerail.SimpleRail/]: DIRT BLOCK >> minecraft:dirt
+[269月2026 23:58:53.352] [modloading-worker-0/INFO] [com.ericchiu.simplerail.SimpleRail/]: The magic number is... 42
+[269月2026 23:58:53.353] [modloading-worker-0/INFO] [com.ericchiu.simplerail.SimpleRail/]: ITEM >> minecraft:iron_ingot
+[269月2026 23:58:53.441] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[269月2026 23:58:53.500] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/workspace/java/simple-rail-1.21.1/build/moddev/artifacts/neoforge-21.1.251.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[269月2026 23:58:53.501] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/workspace/java/simple-rail-1.21.1/build/moddev/artifacts/neoforge-21.1.251.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[269月2026 23:58:54.071] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
+[269月2026 23:58:54.609] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[269月2026 23:58:54.798] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[269月2026 23:58:55.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[269月2026 23:58:55.213] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[269月2026 23:58:55.213] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[269月2026 23:58:55.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[269月2026 23:58:55.343] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 127.0.0.1:25575
+[269月2026 23:58:55.403] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[269月2026 23:58:55.480] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "T007-new-world"
+[269月2026 23:58:57.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[269月2026 23:58:57.798] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[269月2026 23:58:58.275] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[269月2026 23:58:58.774] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[269月2026 23:58:59.286] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[269月2026 23:58:59.768] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[269月2026 23:59:00.270] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[269月2026 23:59:00.583] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2818 ms
+[269月2026 23:59:00.583] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.127s)! For help, type "help"
+[269月2026 23:59:00.613] [Server thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [simplerail]
+[269月2026 23:59:00.618] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[269月2026 23:59:00.619] [Server thread/INFO] [com.ericchiu.simplerail.SimpleRail/]: HELLO from server starting
+[269月2026 23:59:22.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 2 players online: 
+[269月2026 23:59:22.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[269月2026 23:59:22.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (T007-new-world): All chunks are saved
+[269月2026 23:59:22.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[269月2026 23:59:22.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[269月2026 23:59:22.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[269月2026 23:59:22.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[269月2026 23:59:49.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[269月2026 23:59:49.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[269月2026 23:59:49.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[269月2026 23:59:49.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[269月2026 23:59:49.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[T007-new-world]'/minecraft:overworld
+[269月2026 23:59:50.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[T007-new-world]'/minecraft:the_end
+[269月2026 23:59:50.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[T007-new-world]'/minecraft:the_nether
+[269月2026 23:59:50.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (T007-new-world): All chunks are saved
+[269月2026 23:59:50.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[269月2026 23:59:50.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[269月2026 23:59:50.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

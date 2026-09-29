@@ -1,0 +1,22 @@
+﻿{
+    "checkedUtc":  "2026-09-26T16:06:52.5876407Z",
+    "newPath":  "D:\\workspace\\java\\simple-rail-1.21.1",
+    "newHead":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "headExitCode":  0,
+    "oldPath":  "D:\\workspace\\java\\simple-rail",
+    "oldHeadReference":  "6698b1c5f494095a15b055c10045293e91540012 (T-003 reference; OLD not run)",
+    "sourceDiff":  [
+
+                   ],
+    "diffExitCode":  0,
+    "gitStatus":  [
+                      "M  .gitignore",
+                      "A  MIGRATION.md",
+                      "A  REVIEW.md",
+                      "A  TASK.md"
+                  ],
+    "statusExitCode":  0,
+    "launchExitCode":  0,
+    "world":  "D:\\workspace\\java\\simple-rail-1.21.1\\run\\T-006\\saves\\T006-new-world",
+    "worldZipSha256":  "783433C6D0B2D03C74CA6AEF5C0D93C0049082005F281C29EC742F712296C1F9"
+}

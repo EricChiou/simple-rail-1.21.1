@@ -1,0 +1,74 @@
+﻿[
+    {
+        "path":  "build.gradle",
+        "baselineSha256":  "1E9BCED164D91196E36F7D5544C940F5951BBD1659C02E3C1D2030D6FADDDBB7",
+        "actualSha256":  "1E9BCED164D91196E36F7D5544C940F5951BBD1659C02E3C1D2030D6FADDDBB7",
+        "equal":  true
+    },
+    {
+        "path":  "gradle.properties",
+        "baselineSha256":  "112F8E6703E0F7528CCAC4EECFF1B065C203C36708EB6C3CBDD9E9B3322F16E0",
+        "actualSha256":  "112F8E6703E0F7528CCAC4EECFF1B065C203C36708EB6C3CBDD9E9B3322F16E0",
+        "equal":  true
+    },
+    {
+        "path":  "gradle/wrapper/gradle-wrapper.jar",
+        "baselineSha256":  "7D3A4AC4DE1C32B59BC6A4EB8ECB8E612CCD0CF1AE1E99F66902DA64DF296172",
+        "actualSha256":  "7D3A4AC4DE1C32B59BC6A4EB8ECB8E612CCD0CF1AE1E99F66902DA64DF296172",
+        "equal":  true
+    },
+    {
+        "path":  "gradle/wrapper/gradle-wrapper.properties",
+        "baselineSha256":  "9EFD7948359A68D9C80AA8D5DF1717AF1415C440B59D493040D3CFBD13885383",
+        "actualSha256":  "9EFD7948359A68D9C80AA8D5DF1717AF1415C440B59D493040D3CFBD13885383",
+        "equal":  true
+    },
+    {
+        "path":  "gradlew",
+        "baselineSha256":  "B187B4C52E749F5760AFDD6FADC31B2A98AD35FB249BF0DFF03B72650F320409",
+        "actualSha256":  "B187B4C52E749F5760AFDD6FADC31B2A98AD35FB249BF0DFF03B72650F320409",
+        "equal":  true
+    },
+    {
+        "path":  "gradlew.bat",
+        "baselineSha256":  "94102713EB8FB22D032397924C0F38AB2DA783BA60D07054339F1190A0C4E2CD",
+        "actualSha256":  "94102713EB8FB22D032397924C0F38AB2DA783BA60D07054339F1190A0C4E2CD",
+        "equal":  true
+    },
+    {
+        "path":  "settings.gradle",
+        "baselineSha256":  "A046C67E1F43E3DE1FCD4C2AD0E9C850A663748CC90F86F53DE240F1370B84F9",
+        "actualSha256":  "A046C67E1F43E3DE1FCD4C2AD0E9C850A663748CC90F86F53DE240F1370B84F9",
+        "equal":  true
+    },
+    {
+        "path":  "src/main/java/com/ericchiu/simplerail/Config.java",
+        "baselineSha256":  "A14E419CD2702068BC4EF061086EE51782F16FFC4652DF468D44C6217B6B01FA",
+        "actualSha256":  "A14E419CD2702068BC4EF061086EE51782F16FFC4652DF468D44C6217B6B01FA",
+        "equal":  true
+    },
+    {
+        "path":  "src/main/java/com/ericchiu/simplerail/SimpleRail.java",
+        "baselineSha256":  "BA07D8B172931A9EDE3CC78C3BDACDA5D1D9CBE90FA660472B9943F0F6B8B376",
+        "actualSha256":  "BA07D8B172931A9EDE3CC78C3BDACDA5D1D9CBE90FA660472B9943F0F6B8B376",
+        "equal":  true
+    },
+    {
+        "path":  "src/main/java/com/ericchiu/simplerail/SimpleRailClient.java",
+        "baselineSha256":  "710E015FEA4E75FF62FC650A9244A6EC49CC54F088508625D96979900C6F70BC",
+        "actualSha256":  "710E015FEA4E75FF62FC650A9244A6EC49CC54F088508625D96979900C6F70BC",
+        "equal":  true
+    },
+    {
+        "path":  "src/main/resources/assets/simplerail/lang/en_us.json",
+        "baselineSha256":  "B962D2F10D967251BFD2FEB92482BA80DEC7BFADE4E94236C6D801F812A0904E",
+        "actualSha256":  "B962D2F10D967251BFD2FEB92482BA80DEC7BFADE4E94236C6D801F812A0904E",
+        "equal":  true
+    },
+    {
+        "path":  "src/main/templates/META-INF/neoforge.mods.toml",
+        "baselineSha256":  "1D18536CCD12DE52D991B02EF43767372C3BFA3F374E60EAAFFD8A38D4929783",
+        "actualSha256":  "1D18536CCD12DE52D991B02EF43767372C3BFA3F374E60EAAFFD8A38D4929783",
+        "equal":  true
+    }
+]

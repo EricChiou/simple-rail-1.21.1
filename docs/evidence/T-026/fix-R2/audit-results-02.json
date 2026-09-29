@@ -1,0 +1,683 @@
+﻿{
+    "checks":  [
+                   {
+                       "name":  "Only existing HighSpeedRail Java changed; no resources, base classes or Gradle changes",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Only one new production file: scalar geometry helper",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "High-speed slope exception retained",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "No direction, position, velocity, passenger or ticket mutation introduced",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "No event/mixin or new state fields introduced",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Per-call configured maximum still obtained from shared base",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Next rail uses actual direction callback; all rail types accepted",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Already elevated cart excluded",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "HighSpeedRail compiled bytecode exit 0",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "RailAscentMovementLimit compiled bytecode exit 0",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Compiled speed hook invokes geometry helper",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Standalone numeric compile/test succeeded; no game",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "NEW build exit 0",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: logo.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: pack.mcmeta",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/minecraft/atlases/blocks.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/cross_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/destory_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/eject_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/high_speed_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/holding_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/oneway_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/signal_timer.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/timer_holding_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/train_dispenser.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/wrench.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/y_cross_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/blockstates/y_cross_right_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/lang/en_us.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/lang/zh_tw.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/cross_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/destory_powered_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/destory_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/eject_powered_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/eject_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/eject_reverse_powered_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/eject_reverse_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/high_speed_powered_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/high_speed_powered_rail_raised_ne.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/high_speed_powered_rail_raised_sw.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/high_speed_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/high_speed_rail_raised_ne.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/high_speed_rail_raised_sw.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/holding_powered_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/holding_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/oneway_powered_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/oneway_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/oneway_reverse_powered_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/oneway_reverse_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv0.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv1.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv2.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv3.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv4.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv5.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv6.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv7.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv8.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/signal_timer_lv9.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv0_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv1_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv2_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv3_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv4_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv5_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv6_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv7_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv8_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/timer_holding_lv9_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/train_dispenser.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/y_cross_right_straight_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/y_cross_right_turn_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/y_cross_straight_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/block/y_cross_turn_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/cross_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/destory_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/eject_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/high_speed_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/holding_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/locomotive_cart.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/oneway_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/oneway_reverse_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/signal_timer.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/timer_holding_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/train_dispenser.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/wrench.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/y_cross_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/models/item/y_cross_right_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/cross_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/destory_powered_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/destory_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/eject_powered_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/eject_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/eject_reverse_powered_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/eject_reverse_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/high_speed_powered_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/high_speed_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/holding_powered_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/holding_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/oneway_powered_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/oneway_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/oneway_reverse_powered_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/oneway_reverse_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv0.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv1.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv2.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv3.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv4.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv5.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv6.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv7.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv8.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/signal_timer_lv9.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv0_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv1_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv2_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv3_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv4_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv5_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv6_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv7_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv8_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/timer_holding_lv9_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/train_dispenser.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/train_dispenser_front.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/y_cross_right_straight_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/y_cross_right_turn_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/y_cross_straight_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/blocks/y_cross_turn_rail.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/entity/locomotive_cart.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/items/locomotive_cart.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: assets/simplerail/textures/items/wrench.png",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/minecraft/tags/block/rails.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/minecraft/tags/block/mineable/pickaxe.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/cross_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/destory_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/eject_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/high_speed_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/holding_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/locomotive_cart.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/oneway_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/signal_timer.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/timer_holding_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/train_dispenser.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/y_cross_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/loot_table/blocks/y_cross_right_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/cross_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/destory_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/eject_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/high_speed_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/holding_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/locomotive_cart.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/oneway_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/signal_timer.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/timer_holding_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/train_dispenser.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/wrench.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/y_cross_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/recipe/y_cross_right_rail.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/tags/block/machines.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/tags/block/rails.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR resource: data/simplerail/tags/item/wrench.json",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR class HighSpeedRail",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "JAR class RailAscentMovementLimit",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "git diff --check exit 0",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Index text unchanged since R2 snapshot (explicit same encoding)",
+                       "pass":  true
+                   }
+               ],
+    "count":  166,
+    "failed":  [
+
+               ],
+    "changedExistingFiles":  [
+                                 {
+                                     "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\HighSpeedRail.java",
+                                     "sha256":  "2181CC222BEBDE79A6B955508323E36CB979869C81A989652CE2723ADA6229C4"
+                                 }
+                             ],
+    "newFiles":  [
+                     "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\RailAscentMovementLimit.java"
+                 ],
+    "resources":  149,
+    "gameExecuted":  false
+}

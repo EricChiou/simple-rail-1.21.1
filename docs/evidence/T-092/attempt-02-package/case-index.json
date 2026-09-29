@@ -1,0 +1,4160 @@
+﻿[
+    {
+        "caseId":  "T023-C001-SP-cross_rail",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:cross_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-destory_rail",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:destory_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:destory_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-eject_rail",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:eject_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:eject_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-high_speed_rail",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:high_speed_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:high_speed_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-holding_rail",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:holding_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-locomotive_cart",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:locomotive_cart",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:locomotive_cart 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-oneway_rail",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:oneway_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:oneway_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-signal_timer",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:signal_timer",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:signal_timer 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-timer_holding_rail",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:timer_holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:timer_holding_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-train_dispenser",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:train_dispenser",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:train_dispenser 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-wrench",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:wrench",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:wrench 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-y_cross_rail",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:y_cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:y_cross_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-SP-y_cross_right_rail",
+        "sourceCase":  "C-001",
+        "environment":  "SP",
+        "subject":  "simplerail:y_cross_right_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:y_cross_right_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-cross_rail",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-destory_rail",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:destory_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-eject_rail",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:eject_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-high_speed_rail",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:high_speed_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-holding_rail",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-oneway_rail",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:oneway_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-signal_timer",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:signal_timer",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-timer_holding_rail",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:timer_holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-train_dispenser",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:train_dispenser",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-y_cross_rail",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:y_cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-SP-y_cross_right_rail",
+        "sourceCase":  "C-002",
+        "environment":  "SP",
+        "subject":  "simplerail:y_cross_right_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-cart.locomotive.disableLoadingChunk",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "cart.locomotive.disableLoadingChunk",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 true 域 boolean；**true＝啟用**，沿用舊碼語意，D3 基線保持啟用 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.high_speed_rail.maxSpeed",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.high_speed_rail.maxSpeed",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 0.8 域 double，0.4–2.0（含端點）；是 rail speed 上限設定，非實測速度 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.oneway_rail.needPower",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.oneway_rail.needPower",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 true 域 boolean runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.oneway_rail.usePowerChangeDirection",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.oneway_rail.usePowerChangeDirection",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 false 域 boolean；不從名字推定會自動切 reverse runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.eject_rail.transportDistance",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.eject_rail.transportDistance",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 3 域 int，1–100（含端點） runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.eject_rail.needPower",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.eject_rail.needPower",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 true 域 boolean runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.destory_rail.needPower",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.destory_rail.needPower",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 false 域 boolean runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv1",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.timer_holding_rail.lv1",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 5 域 int，0–2147483647 秒，實際時間 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv2",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.timer_holding_rail.lv2",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 10 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv3",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.timer_holding_rail.lv3",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 15 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv4",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.timer_holding_rail.lv4",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 20 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv5",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.timer_holding_rail.lv5",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 25 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv6",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.timer_holding_rail.lv6",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 30 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv7",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.timer_holding_rail.lv7",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 40 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv8",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.timer_holding_rail.lv8",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 50 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv9",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.timer_holding_rail.lv9",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 60 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.signal_timer_block.lv1",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.signal_timer_block.lv1",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 5 域 int，0–2147483647 秒，後續訊號排程換算用 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.signal_timer_block.lv2",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.signal_timer_block.lv2",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 10 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.signal_timer_block.lv3",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.signal_timer_block.lv3",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 15 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.signal_timer_block.lv4",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.signal_timer_block.lv4",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 20 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.signal_timer_block.lv5",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.signal_timer_block.lv5",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 25 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.signal_timer_block.lv6",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.signal_timer_block.lv6",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 30 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.signal_timer_block.lv7",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.signal_timer_block.lv7",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 40 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.signal_timer_block.lv8",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.signal_timer_block.lv8",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 50 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-SP-rail.signal_timer_block.lv9",
+        "sourceCase":  "C-003",
+        "environment":  "SP",
+        "subject":  "rail.signal_timer_block.lv9",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 60 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-cross_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Cross Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-destory_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:destory_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Destory Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-eject_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:eject_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Eject Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-high_speed_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:high_speed_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 High Speed Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-holding_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Holding Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-locomotive_cart",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:locomotive_cart",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Locomotive 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  null,
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-oneway_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:oneway_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Oneway Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-signal_timer",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:signal_timer",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Signal Timer 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-timer_holding_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:timer_holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Timer Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-train_dispenser",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:train_dispenser",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Train Dispenser 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-wrench",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:wrench",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Wrench 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  null,
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-y_cross_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:y_cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Y-Cross Rail(left) 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-y_cross_right_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:y_cross_right_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Y-Cross Rail(right) 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-en_us-tab",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:tab",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，查看分頁"
+                  ],
+        "expected":  [
+                         "名稱 Simple Rail，圖示 high_speed_rail，13 項順序見 TABLES"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-cross_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 交叉鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-destory_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:destory_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 銷毀鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-eject_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:eject_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 彈出鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-high_speed_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:high_speed_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 高速鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-holding_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 鎖定鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-locomotive_cart",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:locomotive_cart",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 火車頭 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  null,
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-oneway_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:oneway_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 單向鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-signal_timer",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:signal_timer",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 信號計時器 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-timer_holding_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:timer_holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 定時鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-train_dispenser",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:train_dispenser",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 火車放置器 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-wrench",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:wrench",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 板手 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  null,
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-y_cross_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:y_cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Y型交叉鐵軌(左) 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-y_cross_right_rail",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:y_cross_right_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Y型交叉鐵軌(右) 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-zh_tw-tab",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "simplerail:tab",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，查看分頁"
+                  ],
+        "expected":  [
+                         "名稱 Simple Rail，圖示 high_speed_rail，13 項順序見 TABLES"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-SP-reload",
+        "sourceCase":  "C-004",
+        "environment":  "SP",
+        "subject":  "pack／metadata／logo",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "Mods 頁核版號／logo／授權",
+                      "F3+T 與 /reload 分開，看各端 log"
+                  ],
+        "expected":  [
+                         "D8 版本／原 logo 正確",
+                         "無本模組 atlas／resource／data／JSON／registry 錯誤"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-cross_rail",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:cross_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-destory_rail",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:destory_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:destory_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-eject_rail",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:eject_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:eject_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-high_speed_rail",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:high_speed_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:high_speed_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-holding_rail",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:holding_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-locomotive_cart",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:locomotive_cart",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:locomotive_cart 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-oneway_rail",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:oneway_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:oneway_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-signal_timer",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:signal_timer",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:signal_timer 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-timer_holding_rail",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:timer_holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:timer_holding_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-train_dispenser",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:train_dispenser",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:train_dispenser 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-wrench",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:wrench",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:wrench 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-y_cross_rail",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:y_cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:y_cross_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C001-DS-y_cross_right_rail",
+        "sourceCase":  "C-001",
+        "environment":  "DS",
+        "subject":  "simplerail:y_cross_right_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "/give @s simplerail:y_cross_right_rail 1",
+                      "F3+H 比 ID；創造分頁核對該項及順序／圖示"
+                  ],
+        "expected":  [
+                         "取得同 ID 物品，分頁無範例或額外 reverse 物品",
+                         "完整分頁僅 13 項，圖示 high_speed_rail"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-cross_rail",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-destory_rail",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:destory_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-eject_rail",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:eject_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-high_speed_rail",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:high_speed_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-holding_rail",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-oneway_rail",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:oneway_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-signal_timer",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:signal_timer",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-timer_holding_rail",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:timer_holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-train_dispenser",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:train_dispenser",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-y_cross_rail",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:y_cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C002-DS-y_cross_right_rail",
+        "sourceCase":  "C-002",
+        "environment":  "DS",
+        "subject":  "simplerail:y_cross_right_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "依承接方案单獨放置；F3 讀預設",
+                      "依 STATE-DOMAINS.json 全鍵值／selector 做受控設置、讀回與外觀核對；設置／保持方式尚待承接定義"
+                  ],
+        "expected":  [
+                         "正式 default／值域與已定契約相符，不漏 slope／up/down",
+                         "無未知 property 或缺模型變體"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01",
+                            "正式預設與受控狀態觀測方法待承接定義"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-cart.locomotive.disableLoadingChunk",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "cart.locomotive.disableLoadingChunk",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 true 域 boolean；**true＝啟用**，沿用舊碼語意，D3 基線保持啟用 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.high_speed_rail.maxSpeed",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.high_speed_rail.maxSpeed",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 0.8 域 double，0.4–2.0（含端點）；是 rail speed 上限設定，非實測速度 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.oneway_rail.needPower",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.oneway_rail.needPower",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 true 域 boolean runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.oneway_rail.usePowerChangeDirection",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.oneway_rail.usePowerChangeDirection",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 false 域 boolean；不從名字推定會自動切 reverse runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.eject_rail.transportDistance",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.eject_rail.transportDistance",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 3 域 int，1–100（含端點） runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.eject_rail.needPower",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.eject_rail.needPower",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 true 域 boolean runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.destory_rail.needPower",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.destory_rail.needPower",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 false 域 boolean runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv1",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.timer_holding_rail.lv1",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 5 域 int，0–2147483647 秒，實際時間 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv2",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.timer_holding_rail.lv2",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 10 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv3",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.timer_holding_rail.lv3",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 15 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv4",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.timer_holding_rail.lv4",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 20 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv5",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.timer_holding_rail.lv5",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 25 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv6",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.timer_holding_rail.lv6",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 30 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv7",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.timer_holding_rail.lv7",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 40 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv8",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.timer_holding_rail.lv8",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 50 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv9",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.timer_holding_rail.lv9",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 60 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.signal_timer_block.lv1",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.signal_timer_block.lv1",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 5 域 int，0–2147483647 秒，後續訊號排程換算用 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.signal_timer_block.lv2",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.signal_timer_block.lv2",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 10 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.signal_timer_block.lv3",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.signal_timer_block.lv3",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 15 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.signal_timer_block.lv4",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.signal_timer_block.lv4",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 20 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.signal_timer_block.lv5",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.signal_timer_block.lv5",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 25 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.signal_timer_block.lv6",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.signal_timer_block.lv6",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 30 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.signal_timer_block.lv7",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.signal_timer_block.lv7",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 40 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.signal_timer_block.lv8",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.signal_timer_block.lv8",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 50 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C003-DS-rail.signal_timer_block.lv9",
+        "sourceCase":  "C-003",
+        "environment":  "DS",
+        "subject":  "rail.signal_timer_block.lv9",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "新目錄生成 COMMON 檔，讀該鍵預設",
+                      "停止後改合法兩端；新啟動與運行中改檔分開",
+                      "用待定只讀觀測方式確認有效 snapshot／reload；DS 與 client 異值比較 server 權威"
+                  ],
+        "expected":  [
+                         "預設 60 域 同上 runtime 有效值符合當次快照；檔案存在不等於生效"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-092-02"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-cross_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Cross Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-destory_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:destory_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Destory Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-eject_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:eject_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Eject Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-high_speed_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:high_speed_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 High Speed Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-holding_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Holding Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-locomotive_cart",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:locomotive_cart",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Locomotive 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  null,
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-oneway_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:oneway_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Oneway Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-signal_timer",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:signal_timer",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Signal Timer 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-timer_holding_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:timer_holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Timer Rail 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-train_dispenser",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:train_dispenser",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Train Dispenser 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-wrench",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:wrench",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Wrench 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  null,
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-y_cross_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:y_cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Y-Cross Rail(left) 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-y_cross_right_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:y_cross_right_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Y-Cross Rail(right) 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-en_us-tab",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:tab",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 en_us，查看分頁"
+                  ],
+        "expected":  [
+                         "名稱 Simple Rail，圖示 high_speed_rail，13 項順序見 TABLES"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-cross_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 交叉鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-destory_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:destory_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 銷毀鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-eject_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:eject_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 彈出鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-high_speed_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:high_speed_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 高速鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-holding_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 鎖定鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-locomotive_cart",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:locomotive_cart",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 火車頭 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  null,
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-oneway_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:oneway_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 單向鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-signal_timer",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:signal_timer",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 信號計時器 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-timer_holding_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:timer_holding_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 定時鐵軌 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-train_dispenser",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:train_dispenser",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 火車放置器 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-wrench",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:wrench",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 板手 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  null,
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-y_cross_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:y_cross_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Y型交叉鐵軌(左) 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-y_cross_right_rail",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:y_cross_right_rail",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，讀物品／方塊名稱",
+                      "單放適用方塊，依完整模型矩陣看透明／變體，F3+T 後再讀"
+                  ],
+        "expected":  [
+                         "名稱 Y型交叉鐵軌(右) 有效圖示／引用，無 missing texture/model／未知 property；entity renderer 不在本項"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-zh_tw-tab",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "simplerail:tab",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "切語系 zh_tw，查看分頁"
+                  ],
+        "expected":  [
+                         "名稱 Simple Rail，圖示 high_speed_rail，13 項順序見 TABLES"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    },
+    {
+        "caseId":  "T023-C004-DS-reload",
+        "sourceCase":  "C-004",
+        "environment":  "DS",
+        "subject":  "pack／metadata／logo",
+        "prerequisites":  [
+                              "R-02 審查指定包通過",
+                              "新建 NEW 世界，不匯入 OLD",
+                              "新版包解除 I-021-01／I-092-02；此草稿不安裝"
+                          ],
+        "steps":  [
+                      "Mods 頁核版號／logo／授權",
+                      "F3+T 與 /reload 分開，看各端 log"
+                  ],
+        "expected":  [
+                         "D8 版本／原 logo 正確",
+                         "無本模組 atlas／resource／data／JSON／registry 錯誤"
+                     ],
+        "expectedSource":  "MIGRATION §3/§4.1/§4.4/§6 階段2；T-004；T-019/T-020/T-021/T-022 + fixed command sources；OLD 依原始碼推定／待確認",
+        "localIssues":  [
+                            "I-021-01"
+                        ],
+        "status":  "未執行",
+        "actualResult":  null,
+        "optionalEvidence":  "client/server logs/latest.log、F2 screenshots、實際現象；人工確認即可結案",
+        "guide":  "CASES.md"
+    }
+]

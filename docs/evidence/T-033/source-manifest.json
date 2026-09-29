@@ -1,0 +1,103 @@
+﻿{
+    "archive":  "build/moddev/artifacts/neoforge-21.1.251-sources.jar",
+    "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "target":  [
+                   {
+                       "path":  "net/minecraft/client/multiplayer/ClientPacketListener.java",
+                       "sha256":  "CDAA9DF41F91164A9A150533A3CD8583859DEF2603036731D03AE0B0490C149D"
+                   },
+                   {
+                       "path":  "net/minecraft/core/particles/ParticleTypes.java",
+                       "sha256":  "DE02123975F83BFA9FBE2A2BA39AAE7D76E9EDFBD419B7B4D56E25C93CDC242C"
+                   },
+                   {
+                       "path":  "net/minecraft/server/level/ServerLevel.java",
+                       "sha256":  "AD692045B8DBCAD4A6950A909E5BF97021A595E7C49F00A8B6063ADEEA9090C9"
+                   },
+                   {
+                       "path":  "net/minecraft/sounds/SoundEvents.java",
+                       "sha256":  "9B2D2D05C594E8525A4C7CC3D538E92DE02F5055000F3EB25C83FC9DE7059E26"
+                   },
+                   {
+                       "path":  "net/minecraft/world/Containers.java",
+                       "sha256":  "1D06B413EE55327DEF224E0B44E5C5D6CBB65046D7472EEA1C6882F13C945854"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/Entity.java",
+                       "sha256":  "8E4D7B36EEEA5DE997D064AE7F9863D22B702EB650FD7EB22982EBDF76907839"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/AbstractMinecart.java",
+                       "sha256":  "E68B6F27F5F573E02F0C3BA0C6A5EC798B7FFE3B28CD34CA635C67356854F095"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/AbstractMinecartContainer.java",
+                       "sha256":  "AC9FE086DF3599AF7E8D7D05F224326ED04DA1D8ACF9A1BDEA9BBD293295BDB1"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/ContainerEntity.java",
+                       "sha256":  "83E4504BE157EDADE02741C5AC72EC3B7200196D5FFE2C3E4A8161277B0027C9"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/Minecart.java",
+                       "sha256":  "395A3EB84CBEC03140243FD70D8B6687D6FCDB921468F88EDF38AFBE78A27943"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/MinecartChest.java",
+                       "sha256":  "8EE12DF9CE7A383201141A60AE519B8474D07744E859AEB88B87BFDA0B1319E7"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/MinecartFurnace.java",
+                       "sha256":  "0CFA7A76AB4CCE394ABC045B38DD6F6BCEC8A5E5C930A07F6AE96C9F8EF5780F"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/MinecartHopper.java",
+                       "sha256":  "E91E5865A73D430A4DEA6850C00AD08166CB6B41EBB8B95F78ABBC8DAD52864F"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/MinecartTNT.java",
+                       "sha256":  "B7110A954C136BDFB724E0C5D97CFFDE671B27BDA83F348986599FD7AC5810E2"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/VehicleEntity.java",
+                       "sha256":  "33B87AA4883DBB48D0790A50568BB871F3F4C1C6F193B8DD45D2169A90FFD506"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/Level.java",
+                       "sha256":  "4BF2B125FBC6E4B8C21DF6841CA9D0123F4BFC0E781656721973A26DD5278A6F"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/BaseRailBlock.java",
+                       "sha256":  "B424C0A9E1A57F213684CA094590F85D69A93630195A07C691FEBD63805929C6"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/PoweredRailBlock.java",
+                       "sha256":  "12CB86CCA248CFD8DDB2C4417021F5D327637862D6B1EB5D20B5C90BC335D39A"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/RailState.java",
+                       "sha256":  "480539DBA2A7EB71AFED96FC9F558141B8FD5A19EF5ABE4B186DAADDED3F7B4A"
+                   }
+               ],
+    "old":  [
+                {
+                    "path":  "BasePoweredRail.java",
+                    "sha256":  "8E84FA948A81DA93D4F74EA2AB62BD59C3539B6054EB5481E040296C75E7107B"
+                },
+                {
+                    "path":  "CommonConfig.java",
+                    "sha256":  "12729B08246AC681D8FBE33DEB08749C752010BB648B7260E4ED5439D50BA8CC"
+                },
+                {
+                    "path":  "DestoryRail.java",
+                    "sha256":  "8E7E592B300111CC2645490EE15B9BDFA873D1DD90B897661EEC78B5B443B66A"
+                },
+                {
+                    "path":  "LocomotiveCartEntity.java",
+                    "sha256":  "BA3F2F9D83A31087E8A48CC9BF29ECB465CE2EFC34CD2CD86F558BB8E74F3588"
+                }
+            ],
+    "oldStatus":  "Source reference only; OLD build not executed; OLD superclass removal not inspected"
+}

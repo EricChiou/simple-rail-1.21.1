@@ -1,0 +1,1 @@
+package net.minecraft.server.level;import net.minecraft.world.level.Level;import net.minecraft.world.level.block.state.BlockState;public class ServerLevel extends Level{public ServerLevel(BlockState state){super(state);}}

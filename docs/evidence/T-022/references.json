@@ -1,0 +1,512 @@
+[
+  {
+    "file": "cross_rail.json",
+    "id": "simplerail:cross_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "cross_rail.json",
+    "id": "minecraft:iron_ingot",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "cross_rail.json",
+    "id": "minecraft:rail",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "destory_rail.json",
+    "id": "simplerail:destory_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "destory_rail.json",
+    "id": "minecraft:iron_pickaxe",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "destory_rail.json",
+    "id": "minecraft:powered_rail",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "eject_rail.json",
+    "id": "simplerail:eject_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "eject_rail.json",
+    "id": "minecraft:powered_rail",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "eject_rail.json",
+    "id": "minecraft:redstone",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "high_speed_rail.json",
+    "id": "simplerail:high_speed_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "high_speed_rail.json",
+    "id": "minecraft:powered_rail",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "high_speed_rail.json",
+    "id": "minecraft:redstone",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "holding_rail.json",
+    "id": "simplerail:holding_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "holding_rail.json",
+    "id": "minecraft:redstone",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "holding_rail.json",
+    "id": "minecraft:powered_rail",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "locomotive_cart.json",
+    "id": "simplerail:locomotive_cart",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "locomotive_cart.json",
+    "id": "minecraft:gold_ingot",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "locomotive_cart.json",
+    "id": "minecraft:minecart",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "oneway_rail.json",
+    "id": "simplerail:oneway_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "oneway_rail.json",
+    "id": "minecraft:redstone",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "oneway_rail.json",
+    "id": "minecraft:powered_rail",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "signal_timer.json",
+    "id": "simplerail:signal_timer",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "signal_timer.json",
+    "id": "minecraft:repeater",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "signal_timer.json",
+    "id": "minecraft:iron_block",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "timer_holding_rail.json",
+    "id": "simplerail:timer_holding_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "timer_holding_rail.json",
+    "id": "minecraft:redstone",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "timer_holding_rail.json",
+    "id": "minecraft:powered_rail",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "train_dispenser.json",
+    "id": "simplerail:train_dispenser",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "train_dispenser.json",
+    "id": "minecraft:minecart",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "train_dispenser.json",
+    "id": "minecraft:dispenser",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "wrench.json",
+    "id": "simplerail:wrench",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "wrench.json",
+    "id": "minecraft:gold_nugget",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "wrench.json",
+    "id": "minecraft:iron_pickaxe",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "y_cross_rail.json",
+    "id": "simplerail:y_cross_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "y_cross_rail.json",
+    "id": "minecraft:iron_nugget",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "y_cross_rail.json",
+    "id": "minecraft:rail",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "y_cross_rail.json",
+    "id": "minecraft:redstone",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "y_cross_right_rail.json",
+    "id": "simplerail:y_cross_right_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "y_cross_right_rail.json",
+    "id": "minecraft:iron_nugget",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "y_cross_right_rail.json",
+    "id": "minecraft:rail",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "y_cross_right_rail.json",
+    "id": "minecraft:redstone",
+    "registry": "vanilla item model/source proxy (not runtime registry)",
+    "resolved": true
+  },
+  {
+    "file": "blocks/cross_rail.json",
+    "id": "simplerail:cross_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/cross_rail.json",
+    "id": "simplerail:cross_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/destory_rail.json",
+    "id": "simplerail:destory_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/destory_rail.json",
+    "id": "simplerail:destory_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/eject_rail.json",
+    "id": "simplerail:eject_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/eject_rail.json",
+    "id": "simplerail:eject_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/high_speed_rail.json",
+    "id": "simplerail:high_speed_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/high_speed_rail.json",
+    "id": "simplerail:high_speed_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/holding_rail.json",
+    "id": "simplerail:holding_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/holding_rail.json",
+    "id": "simplerail:holding_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/locomotive_cart.json",
+    "id": "simplerail:locomotive_cart",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/oneway_rail.json",
+    "id": "simplerail:oneway_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/oneway_rail.json",
+    "id": "simplerail:oneway_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/signal_timer.json",
+    "id": "simplerail:signal_timer",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/signal_timer.json",
+    "id": "simplerail:signal_timer",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/timer_holding_rail.json",
+    "id": "simplerail:timer_holding_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/timer_holding_rail.json",
+    "id": "simplerail:timer_holding_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/train_dispenser.json",
+    "id": "simplerail:train_dispenser",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/train_dispenser.json",
+    "id": "simplerail:train_dispenser",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/y_cross_rail.json",
+    "id": "simplerail:y_cross_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/y_cross_rail.json",
+    "id": "simplerail:y_cross_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "blocks/y_cross_right_rail.json",
+    "id": "simplerail:y_cross_right_rail",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "blocks/y_cross_right_rail.json",
+    "id": "simplerail:y_cross_right_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/rails.json",
+    "id": "simplerail:high_speed_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/rails.json",
+    "id": "simplerail:holding_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/rails.json",
+    "id": "simplerail:oneway_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/rails.json",
+    "id": "simplerail:eject_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/rails.json",
+    "id": "simplerail:destory_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/rails.json",
+    "id": "simplerail:timer_holding_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/rails.json",
+    "id": "simplerail:cross_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/rails.json",
+    "id": "simplerail:y_cross_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/rails.json",
+    "id": "simplerail:y_cross_right_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/machines.json",
+    "id": "simplerail:train_dispenser",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/block/machines.json",
+    "id": "simplerail:signal_timer",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "simplerail/tags/item/wrench.json",
+    "id": "simplerail:wrench",
+    "registry": "item",
+    "resolved": true
+  },
+  {
+    "file": "minecraft/tags/block/rails.json",
+    "id": "simplerail:high_speed_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "minecraft/tags/block/rails.json",
+    "id": "simplerail:holding_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "minecraft/tags/block/rails.json",
+    "id": "simplerail:oneway_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "minecraft/tags/block/rails.json",
+    "id": "simplerail:eject_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "minecraft/tags/block/rails.json",
+    "id": "simplerail:destory_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "minecraft/tags/block/rails.json",
+    "id": "simplerail:timer_holding_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "minecraft/tags/block/rails.json",
+    "id": "simplerail:cross_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "minecraft/tags/block/rails.json",
+    "id": "simplerail:y_cross_rail",
+    "registry": "block",
+    "resolved": true
+  },
+  {
+    "file": "minecraft/tags/block/rails.json",
+    "id": "simplerail:y_cross_right_rail",
+    "registry": "block",
+    "resolved": true
+  }
+]

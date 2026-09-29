@@ -1,0 +1,6 @@
+﻿{
+    "attempt":  2,
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T094-T099-user-handoff/update.ps1",
+    "exitCode":  0,
+    "buildExecuted":  false
+}

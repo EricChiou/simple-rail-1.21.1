@@ -1,0 +1,13 @@
+﻿META-INF/
+META-INF/MANIFEST.MF
+com/
+com/ericchiu/
+com/ericchiu/simplerail/
+com/ericchiu/simplerail/Config.class
+com/ericchiu/simplerail/SimpleRail.class
+com/ericchiu/simplerail/SimpleRailClient.class
+META-INF/neoforge.mods.toml
+assets/
+assets/simplerail/
+assets/simplerail/lang/
+assets/simplerail/lang/en_us.json

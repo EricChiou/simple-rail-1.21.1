@@ -1,0 +1,83 @@
+[
+    {
+        "task":  "T-008",
+        "compiler":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "argumentsFile":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-008-javac.args",
+        "startedUtc":  "2026-09-28T06:30:47.8245639Z",
+        "exitCode":  0,
+        "classCount":  3,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-008-javac.log"
+    },
+    {
+        "task":  "T-010",
+        "compiler":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "argumentsFile":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-010-javac.args",
+        "startedUtc":  "2026-09-28T06:30:48.9286853Z",
+        "exitCode":  0,
+        "classCount":  5,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-010-javac.log"
+    },
+    {
+        "task":  "T-011",
+        "compiler":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "argumentsFile":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-011-javac.args",
+        "startedUtc":  "2026-09-28T06:30:50.0512617Z",
+        "exitCode":  0,
+        "classCount":  5,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-011-javac.log"
+    },
+    {
+        "task":  "T-012",
+        "compiler":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "argumentsFile":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-012-javac.args",
+        "startedUtc":  "2026-09-28T06:30:51.1244844Z",
+        "exitCode":  0,
+        "classCount":  3,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-012-javac.log"
+    },
+    {
+        "task":  "T-013",
+        "compiler":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "argumentsFile":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-013-javac.args",
+        "startedUtc":  "2026-09-28T06:30:52.2113598Z",
+        "exitCode":  0,
+        "classCount":  4,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-013-javac.log"
+    },
+    {
+        "task":  "T-014",
+        "compiler":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "argumentsFile":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-014-javac.args",
+        "startedUtc":  "2026-09-28T06:30:53.3385944Z",
+        "exitCode":  0,
+        "classCount":  3,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-014-javac.log"
+    },
+    {
+        "task":  "T-015",
+        "compiler":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "argumentsFile":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-015-javac.args",
+        "startedUtc":  "2026-09-28T06:30:54.3783859Z",
+        "exitCode":  0,
+        "classCount":  3,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-015-javac.log"
+    },
+    {
+        "task":  "T-016",
+        "compiler":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "argumentsFile":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-016-javac.args",
+        "startedUtc":  "2026-09-28T06:30:55.3558045Z",
+        "exitCode":  0,
+        "classCount":  1,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-016-javac.log"
+    },
+    {
+        "task":  "T-017",
+        "compiler":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "argumentsFile":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-017-javac.args",
+        "startedUtc":  "2026-09-28T06:30:56.3054076Z",
+        "exitCode":  0,
+        "classCount":  2,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-01\\T-017-javac.log"
+    }
+]

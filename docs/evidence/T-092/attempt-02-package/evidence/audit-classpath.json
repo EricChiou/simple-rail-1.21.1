@@ -1,0 +1,11 @@
+﻿{
+    "gson":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-022\\audit\\gson-2.10.1.jar",
+    "gsonSha256":  "4241C14A7727C34FEEA6507EC801318A3D4A90F070E4525681079FB94EE4C593",
+    "vanillaArchive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+    "vanillaSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+    "runtimeClasspath":  [
+                             "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-022\\audit\\classes",
+                             "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-022\\audit\\gson-2.10.1.jar"
+                         ],
+    "scope":  "Minecraft jar is ZipFile input only, not runtime classpath"
+}

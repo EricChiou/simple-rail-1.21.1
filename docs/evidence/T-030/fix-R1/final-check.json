@@ -1,0 +1,11 @@
+﻿{
+    "command":  "Read-only local Markdown link checks; git -c core.safecrlf=false diff --check",
+    "missingLinks":  [
+
+                     ],
+    "diffCheckExitCode":  0,
+    "jarSha256":  "3AB3E37EF4AA21342011332E9531088DB36D121A1F6C9C9823DD6B3259538594",
+    "gameExecuted":  false,
+    "reviewExecuted":  false,
+    "exitCode":  0
+}

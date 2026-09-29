@@ -1,0 +1,18 @@
+﻿[
+    {
+        "command":  "javac --release 21 -proc:none -Xlint:deprecation -Werror -cp \u003ctest-classpath.txt\u003e -d docs/evidence/T-020/test-classes docs/evidence/T-020/test/ConfigContractTest.java",
+        "startedUtc":  "2026-09-28T09:00:48.7210776Z",
+        "finishedUtc":  "2026-09-28T09:00:50.0738769Z",
+        "exitCode":  0,
+        "log":  "test-compile-02.log",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "java -ea -cp \u003ctest-classes;test-classpath.txt\u003e com.ericchiu.simplerail.config.ConfigContractTest docs/evidence/T-020",
+        "startedUtc":  "2026-09-28T09:00:50.0827049Z",
+        "finishedUtc":  "2026-09-28T09:00:50.9756990Z",
+        "exitCode":  0,
+        "log":  "test-run-02.log",
+        "logEncoding":  "UTF-16LE"
+    }
+]

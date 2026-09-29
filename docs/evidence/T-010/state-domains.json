@@ -1,0 +1,213 @@
+{
+  "scope": "T-010 source-derived candidate state domains; not actual registry dump or old runtime result",
+  "domains": {
+    "shape_straight": [
+      "north_south",
+      "east_west",
+      "ascending_east",
+      "ascending_west",
+      "ascending_north",
+      "ascending_south"
+    ],
+    "shape_all": [
+      "north_south",
+      "east_west",
+      "ascending_east",
+      "ascending_west",
+      "ascending_north",
+      "ascending_south",
+      "south_east",
+      "south_west",
+      "north_west",
+      "north_east"
+    ],
+    "boolean": [
+      false,
+      true
+    ],
+    "direction": [
+      "down",
+      "up",
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "level": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "blocks": [
+    {
+      "id": "simplerail:high_speed_rail",
+      "oldSource": "sources/old/block/HighSpeedRail.java",
+      "targetBase": "powered",
+      "properties": {
+        "shape": "shape_straight",
+        "powered": "boolean",
+        "waterlogged": "boolean"
+      },
+      "declaredCombinations": 24,
+      "notes": "OLD 只繼承基底。NEW 父類明設 shape=north_south,powered=false,waterlogged=false。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "waterlogged"
+    },
+    {
+      "id": "simplerail:holding_rail",
+      "oldSource": "sources/old/block/HoldingRail.java",
+      "targetBase": "powered",
+      "properties": {
+        "shape": "shape_straight",
+        "powered": "boolean",
+        "waterlogged": "boolean",
+        "direction": "direction"
+      },
+      "declaredCombinations": 144,
+      "notes": "OLD 明設 direction=north，但 any() 重置其餘值；OLD 父類最終預設未實測。NEW 候選保留父類 defaultBlockState 再設 north。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "waterlogged"
+    },
+    {
+      "id": "simplerail:oneway_rail",
+      "oldSource": "sources/old/block/OnewayRail.java",
+      "targetBase": "powered",
+      "properties": {
+        "shape": "shape_straight",
+        "powered": "boolean",
+        "waterlogged": "boolean",
+        "reverse": "boolean",
+        "need_power": "boolean",
+        "use_power": "boolean"
+      },
+      "declaredCombinations": 192,
+      "notes": "OLD reverse=false、need_power 讀設定（預設 true）、use_power 讀設定（預設 false）；NEW 載入前不得讀 COMMON，T-020 定策略。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "waterlogged"
+    },
+    {
+      "id": "simplerail:eject_rail",
+      "oldSource": "sources/old/block/EjectRail.java",
+      "targetBase": "powered",
+      "properties": {
+        "shape": "shape_straight",
+        "powered": "boolean",
+        "waterlogged": "boolean",
+        "reverse": "boolean",
+        "need_power": "boolean"
+      },
+      "declaredCombinations": 96,
+      "notes": "OLD reverse=false、need_power 讀設定（預設 true）；其餘 any() 影響須明列。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "waterlogged"
+    },
+    {
+      "id": "simplerail:destory_rail",
+      "oldSource": "sources/old/block/DestoryRail.java",
+      "targetBase": "powered",
+      "properties": {
+        "shape": "shape_straight",
+        "powered": "boolean",
+        "waterlogged": "boolean",
+        "need_power": "boolean"
+      },
+      "declaredCombinations": 48,
+      "notes": "OLD need_power 讀設定（預設 false）；回呼使用 config 值，不能假定和 state 永遠一致。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "waterlogged"
+    },
+    {
+      "id": "simplerail:timer_holding_rail",
+      "oldSource": "sources/old/block/TimerHoldingRail.java",
+      "targetBase": "powered",
+      "properties": {
+        "shape": "shape_straight",
+        "powered": "boolean",
+        "waterlogged": "boolean",
+        "direction": "direction",
+        "level": "level"
+      },
+      "declaredCombinations": 1440,
+      "notes": "OLD 先 any().direction=north，再 any().level=0，前次 direction 設定被替換。NEW 候選一次保留父類預設並明設 north/0；最終修正依 T-037/T-039，不冒充舊實測。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "waterlogged"
+    },
+    {
+      "id": "simplerail:cross_rail",
+      "oldSource": "sources/old/block/CrossRail.java",
+      "targetBase": "rail",
+      "properties": {
+        "shape": "shape_all",
+        "waterlogged": "boolean"
+      },
+      "declaredCombinations": 20,
+      "notes": "OLD 覆寫 isStraight=true，但宣告 shape 仍繼承 RailBlock。NEW 候選 isFlexibleRail=false 且 canMakeSlopes=false；宣告值域不因禁坡自動縮小。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "waterlogged"
+    },
+    {
+      "id": "simplerail:y_cross_rail",
+      "oldSource": "sources/old/block/YCrossRail.java",
+      "targetBase": "rail",
+      "properties": {
+        "shape": "shape_all",
+        "waterlogged": "boolean",
+        "powered": "boolean",
+        "direction": "direction"
+      },
+      "declaredCombinations": 240,
+      "notes": "OLD powered=false,direction=north，再 onPlace/updateState 取直接紅石；NEW 候選保留父類 shape/waterlogged 預設。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "waterlogged"
+    },
+    {
+      "id": "simplerail:y_cross_right_rail",
+      "oldSource": "sources/old/block/YCrossRightRail.java",
+      "targetBase": "rail",
+      "properties": {
+        "shape": "shape_all",
+        "waterlogged": "boolean",
+        "powered": "boolean",
+        "direction": "direction"
+      },
+      "declaredCombinations": 240,
+      "notes": "與另一 Y 型值域相同，分岔矩陣不同；不能互換路徑演算法。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "waterlogged"
+    },
+    {
+      "id": "simplerail:train_dispenser",
+      "oldSource": "sources/old/block/TrainDispenserBlock.java",
+      "targetBase": "machine",
+      "properties": {
+        "facing": "direction",
+        "triggered": "boolean"
+      },
+      "declaredCombinations": 12,
+      "notes": "OLD 依 DispenserBlock 繼承，onPlace 將非水平改 north；NEW DispenserBlock 預設 north/false。D4 改專用 BE 時仍保留既有鍵；不得照搬原版 9 格發射器邏輯。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "none"
+    },
+    {
+      "id": "simplerail:signal_timer",
+      "oldSource": "sources/old/block/SignalTimerBlock.java",
+      "targetBase": "machine",
+      "properties": {
+        "level": "level",
+        "powered": "boolean"
+      },
+      "declaredCombinations": 20,
+      "notes": "OLD 明設 level=0,powered=false；NEW 候選保持。",
+      "status": "指定來源的完整 NEW 候選宣告值域；未註冊/未載入/未實測",
+      "newInheritedProperty": "none"
+    }
+  ]
+}

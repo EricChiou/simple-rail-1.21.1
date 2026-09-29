@@ -1,0 +1,38 @@
+﻿[
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/neoforged/neoforge/resource/ResourcePackLoader.java",
+        "sha256":  "822F1050DB0A1E807DD6AEE55D5B1458D971B3224D93B7D522C07C8E71468549"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/client/renderer/texture/atlas/SpriteSourceList.java",
+        "sha256":  "E084AE2028D7F09CE2C28BCC260D207274FF88BAFAF342897BE3AE0731DD7C5B"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/neoforged/neoforge/client/textures/NamespacedDirectoryLister.java",
+        "sha256":  "FE83DB9266C7E837D8376B731BBFA4A11795CCF9BE5CA2C16CDC880172D8AE7B"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/client/resources/model/BlockStateModelLoader.java",
+        "sha256":  "B6AECC7D0D33B8B7F9807661E65207889CE5D47F5BCB12536842116AEC45334E"
+    },
+    {
+        "path":  "docs/evidence/T-015/sources/target/net/minecraft/client/renderer/ItemBlockRenderTypes.java",
+        "sha256":  "E3CBDA78268475B261D79D139746E75D6DA57FFA65A5721E1FED364830FA5817"
+    },
+    {
+        "path":  "docs/evidence/T-010/state-domains.json",
+        "sha256":  "27E55E6052A7948589E3097FAD05D67522CC9768C7FED024CF1112C9C168D243"
+    },
+    {
+        "path":  "docs/evidence/T-009/source-manifest.json",
+        "sha256":  "4123B6A31F648204D41ED499D5B14D56F49E64B3A7C3D3B4DFB78C3E140B8316"
+    },
+    {
+        "path":  "docs/evidence/T-009/resource-map.json",
+        "sha256":  "289C7E1BEFDC8314312E20E50CDFECA159327E34735BE759878301107DE942F4"
+    },
+    {
+        "path":  "docs/evidence/T-015/resources.json",
+        "sha256":  "98871C9BA5315B9DCF50F62CE2A51028B0E02E60D039F79183C3A7C5A550921E"
+    }
+]

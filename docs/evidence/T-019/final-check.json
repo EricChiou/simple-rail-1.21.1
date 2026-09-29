@@ -1,0 +1,139 @@
+﻿{
+    "task":  "T-019",
+    "timestampUtc":  "2026-09-28T08:48:57.2154498Z",
+    "checks":  {
+                   "taskIds126UniqueAndContinuous":  true,
+                   "taskHeadersAndDependenciesUnchanged":  true,
+                   "allDependenciesExistAndNoCycles":  true,
+                   "nineStagesAndOverviewCountsMatch":  true,
+                   "coverageTableUnchanged":  true,
+                   "localLinksResolve":  true,
+                   "historicalReviewSectionsUnchanged":  true,
+                   "previousEvidenceFilesUnchanged":  true,
+                   "preexistingIndexUnchanged":  true,
+                   "noGradleResourceOrIgnoreDelta":  true,
+                   "trackedAndNewJavaWhitespaceChecksPass":  true,
+                   "T019DevCompleteAndT020StillPending":  true
+               },
+    "statuses":  {
+                     "已完成（需求／案例設計，2026-09-26）":  1,
+                     "待執行":  104,
+                     "人工測試通過（使用者確認完成，已結案，2026-09-28）":  2,
+                     "使用者決定免執行":  1,
+                     "開發完成（指定格式來源、ID／引用追蹤與非遊戲檢查，2026-09-27）":  1,
+                     "已完成（來源參考整理，2026-09-26）":  1,
+                     "已完成（NEW 既有框架建置基線，2026-09-26）":  1,
+                     "開發完成；R-01 程式審查通過（2026-09-28，見 [獨立報告](docs/evidence/R-01/README.md)）；人工遊戲未執行":  5,
+                     "已完成（環境盤點，2026-09-26）":  1,
+                     "已完成（既有框架 client 啟動；2026-09-27）":  1,
+                     "開發完成（指定版來源、資料邊界與最小編譯；2026-09-27），R-01 程式審查通過；人工遊戲未執行":  1,
+                     "開發完成；R-02 程式審查待審":  1,
+                     "開發完成（固定版本包與靜態校驗，2026-09-28）":  2,
+                     "開發完成（正式空功能框架與 NEW build，2026-09-28）":  1,
+                     "已完成（既有框架 server 啟停；2026-09-26）":  1,
+                     "開發完成（指定版本 API 來源與最小編譯，2026-09-27）":  1,
+                     "開發完成（指定來源、完整狀態值域與最小編譯，2026-09-27）":  1
+                 },
+    "stageCounts":  [
+                        {
+                            "stage":  0,
+                            "count":  4,
+                            "overviewCount":  4,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  1,
+                            "count":  17,
+                            "overviewCount":  17,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  2,
+                            "count":  8,
+                            "overviewCount":  8,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  3,
+                            "count":  18,
+                            "overviewCount":  18,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  4,
+                            "count":  16,
+                            "overviewCount":  16,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  5,
+                            "count":  26,
+                            "overviewCount":  26,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  6,
+                            "count":  23,
+                            "overviewCount":  23,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  7,
+                            "count":  8,
+                            "overviewCount":  8,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  8,
+                            "count":  6,
+                            "overviewCount":  6,
+                            "matches":  true
+                        }
+                    ],
+    "missingLinks":  [
+
+                     ],
+    "missingDependencies":  [
+
+                            ],
+    "unresolvedTasks":  [
+
+                        ],
+    "changedHistoryFiles":  [
+
+                            ],
+    "reviewedEvidenceFilesCount":  158,
+    "protectedDelta":  [
+
+                       ],
+    "diffCheckExitCode":  0,
+    "newJavaWhitespaceExitCodes":  [
+                                       1,
+                                       1,
+                                       1
+                                   ],
+    "nextPriorityDevelopment":  "T-020",
+    "nextManual":  "T-023 (not ready)",
+    "documentationFingerprints":  [
+                                      {
+                                          "path":  "TASK.md",
+                                          "sha256":  "70FCBE4228DACA23FF93A08EE93C080C420E750121385453CD7F1C4F218A2129"
+                                      },
+                                      {
+                                          "path":  "MIGRATION.md",
+                                          "sha256":  "A73244C7893AE3532BCBCDC79B0F716B682FE47120A74A5E2E3E922E85766F70"
+                                      },
+                                      {
+                                          "path":  "REVIEW.md",
+                                          "sha256":  "8122F8689177CC9B056EF6E622D9D206D45BB3E5D0034B89A30CAFF02A5D26A1"
+                                      },
+                                      {
+                                          "path":  "docs/evidence/T-019/README.md",
+                                          "sha256":  "20A3EC1A1F761CED13BDFABA4464801A984FC54FD049C3C604A0BD6EB80DFE31"
+                                      },
+                                      {
+                                          "path":  "docs/evidence/T-019/state-contract.md",
+                                          "sha256":  "A92ED3829A1B19BBC4C73B6226AB6018F9F0DAA6064C60256B2DC3A6182B031F"
+                                      }
+                                  ]
+}

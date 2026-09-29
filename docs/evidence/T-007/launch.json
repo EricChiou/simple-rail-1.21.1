@@ -1,0 +1,9 @@
+﻿{
+    "task":  "T-007",
+    "command":  "C:\\WINDOWS\\system32\\cmd.exe /d /c gradlew.bat runServer --console=plain --info --no-configuration-cache -I docs/evidence/T-006/runtime.init.gradle",
+    "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1",
+    "startedUtc":  "2026-09-26T15:58:35.5221387Z",
+    "launcherPid":  12276,
+    "exitCode":  0,
+    "endedUtc":  "2026-09-26T15:59:51.0190632Z"
+}

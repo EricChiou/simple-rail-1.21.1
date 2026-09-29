@@ -1,0 +1,27 @@
+﻿[
+    {
+        "exitCode":  0,
+        "command":  "javap -c -p -s -v -classpath build/classes/java/main com.ericchiu.simplerail.block.HighSpeedRail",
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\HighSpeedRail-bytecode.txt"
+    },
+    {
+        "exitCode":  0,
+        "command":  "javap -c -p -s -v -classpath build/classes/java/main com.ericchiu.simplerail.block.base.BasePoweredRail",
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\BasePoweredRail-bytecode.txt"
+    },
+    {
+        "exitCode":  0,
+        "command":  "javap -c -p -s -v -classpath build/classes/java/main com.ericchiu.simplerail.block.base.BaseRail",
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\BaseRail-bytecode.txt"
+    },
+    {
+        "exitCode":  0,
+        "command":  "git diff HEAD --binary",
+        "log":  "source.diff"
+    },
+    {
+        "exitCode":  0,
+        "command":  "git -c core.safecrlf=false diff --check",
+        "log":  "diff-check.log"
+    }
+]

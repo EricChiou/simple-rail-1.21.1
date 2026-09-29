@@ -1,0 +1,74 @@
+[
+  {
+    "id": "simplerail:blocks/cross_rail",
+    "type": "minecraft:block",
+    "item": "simplerail:cross_rail",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/destory_rail",
+    "type": "minecraft:block",
+    "item": "simplerail:destory_rail",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/eject_rail",
+    "type": "minecraft:block",
+    "item": "simplerail:eject_rail",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/high_speed_rail",
+    "type": "minecraft:block",
+    "item": "simplerail:high_speed_rail",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/holding_rail",
+    "type": "minecraft:block",
+    "item": "simplerail:holding_rail",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/locomotive_cart",
+    "type": "minecraft:entity",
+    "item": "simplerail:locomotive_cart",
+    "attachment": "no automatic consumer; future T-048 Java destroy is sole planned drop path"
+  },
+  {
+    "id": "simplerail:blocks/oneway_rail",
+    "type": "minecraft:block",
+    "item": "simplerail:oneway_rail",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/signal_timer",
+    "type": "minecraft:block",
+    "item": "simplerail:signal_timer",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/timer_holding_rail",
+    "type": "minecraft:block",
+    "item": "simplerail:timer_holding_rail",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/train_dispenser",
+    "type": "minecraft:block",
+    "item": "simplerail:train_dispenser",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/y_cross_rail",
+    "type": "minecraft:block",
+    "item": "simplerail:y_cross_rail",
+    "attachment": "default block loot identity"
+  },
+  {
+    "id": "simplerail:blocks/y_cross_right_rail",
+    "type": "minecraft:block",
+    "item": "simplerail:y_cross_right_rail",
+    "attachment": "default block loot identity"
+  }
+]

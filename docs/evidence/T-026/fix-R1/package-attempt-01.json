@@ -1,0 +1,24 @@
+﻿{
+    "id":  "T-026-R1-v1",
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-026/fix-R1/package.ps1",
+    "zip":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\test-packages\\T-026-R1-v1.zip",
+    "zipSha256":  "69F82790B19FF6C14A81AF2018EAA210136FA2BB2912F85D89264A5FA63E2639",
+    "jarSha256":  "8455CC5DE6FE2C7E5953E6A8F0D4A4E419A40489B954C8B0B1216304C5CEA599",
+    "files":  18,
+    "caseGroups":  6,
+    "exitCode":  1,
+    "zipMismatches":  [
+                          "evidence/artifact.json",
+                          "evidence/audit-commands.json",
+                          "evidence/audit-results-01.json",
+                          "evidence/audit-results-02.json",
+                          "evidence/build-01.json",
+                          "evidence/build-01.log",
+                          "evidence/model-sources.json",
+                          "evidence/source-fingerprints.json",
+                          "evidence/source.diff",
+                          "evidence/state-coverage.json",
+                          "mods/simplerail-1.0.0.jar"
+                      ],
+    "scope":  "Offline packaging and ZIP byte verification only; no game or full T-094 execution"
+}

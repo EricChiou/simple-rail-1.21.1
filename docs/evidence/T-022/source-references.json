@@ -1,0 +1,89 @@
+﻿[
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/core/registries/Registries.java",
+        "sha256":  "634A44EC433E96572786D504DF525B57B35B6B7D63DAA2CD4D003C47E751DABD",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/world/item/crafting/ShapedRecipe.java",
+        "sha256":  "DEE06D657BB80AFE6A57671A3F6050D8149339AB2B0EA1C3F892C202CFE1B77A",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/world/item/crafting/ShapedRecipePattern.java",
+        "sha256":  "FF5EDEF3890EE3390DD0BC08E362C94037933B6D3A43D8BB4AE33C5E3F83272C",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/world/item/crafting/Ingredient.java",
+        "sha256":  "4E7D9A1976F4328D6D603DF712CE0C2E62ABC7E537A9F020E1F7B4883EB465BC",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/world/item/ItemStack.java",
+        "sha256":  "ACE64C8407E32E63183FCA7BA7DFF2523F3B01F300857C877CE8F2CB30CA9B6B",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/LootTable.java",
+        "sha256":  "CBE54103C19E22821D0F8E8A4FA737C3DB86A7D22B01266A24C81F8FDC8958B5",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/LootPool.java",
+        "sha256":  "FCB7EAE2897578D633D082E32A1432CBC2BE96FB77403818BABB28222C03C436",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/predicates/ExplosionCondition.java",
+        "sha256":  "0EBF18A030A2B1457F7FAB3A87CDF6CC7C6E6373362D3E19807C31AE2F98E8AC",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/parameters/LootContextParamSets.java",
+        "sha256":  "D992484F3AFBDD61558C5D552E713AF6E24687A067D584B750C8CF3BC588623F",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/parameters/LootContextParamSet.java",
+        "sha256":  "42FE3AF57B30C6D0FFBF0548D4A16C740244F65FEC85A45FD699AA7ED22374B2",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/server/ReloadableServerRegistries.java",
+        "sha256":  "46BCED1E4C028F7E409D2B47F096F1C4FA07FE804AF36190D0C5CCAE4DA27B3C",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/tags/TagFile.java",
+        "sha256":  "3AF4D8AC328D2EB7B48A55D98A0088E4341FAC69485F789DB2BBB5D91B533F90",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-009/sources/target/net/minecraft/tags/TagManager.java",
+        "sha256":  "6409A162F7F205258C5870BDE82C4A207C32C464D0CF0D482C39A6DF47F75F10",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-010/probe/T010Probe.java",
+        "sha256":  "D75913DD219220EE20DB378BCF750C2DB9F64604B770EE297761E2E2F5D202ED",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "D:/workspace/java/simple-rail/src/main/java/ericchiu/simplerail/setup/SimpleRailTags.java",
+        "sha256":  "9C18A346CBB5BFEDD69C4E2C2598D0B381511A8CA097336B9DF4F8D640A3A892",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "D:/workspace/java/simple-rail/src/main/java/ericchiu/simplerail/entity/LocomotiveCartEntity.java",
+        "sha256":  "BA3F2F9D83A31087E8A48CC9BF29ECB465CE2EFC34CD2CD86F558BB8E74F3588",
+        "scope":  "Fixed target version source or OLD source reference; no runtime verification"
+    },
+    {
+        "path":  "docs/evidence/T-022/sources/TagKey.java",
+        "sha256":  "51B0C7526A9597555BC4127A886502884C7C9426E892C837832EE288736CF31A",
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/tags/TagKey.java"
+    }
+]

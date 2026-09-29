@@ -1,0 +1,7 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-022/migrate-data.ps1",
+    "startedUtc":  "2026-09-28T10:56:55.6119693Z",
+    "finishedUtc":  "2026-09-28T10:56:55.8264331Z",
+    "migrated":  29,
+    "sourceHashChecks":  29
+}

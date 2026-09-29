@@ -1,0 +1,21 @@
+{
+  "_comment": "====================Tab====================",
+  "itemGroup.simplerail.tab": "Simple Rail",
+  "_comment": "====================Tool====================",
+  "item.simplerail.wrench": "Wrench",
+  "_comment": "====================Cart====================",
+  "item.simplerail.locomotive_cart": "Locomotive",
+  "_comment": "====================Rail====================",
+  "block.simplerail.high_speed_rail": "High Speed Rail",
+  "block.simplerail.holding_rail": "Holding Rail",
+  "block.simplerail.oneway_rail": "Oneway Rail",
+  "block.simplerail.eject_rail": "Eject Rail",
+  "block.simplerail.destory_rail": "Destory Rail",
+  "block.simplerail.timer_holding_rail": "Timer Rail",
+  "block.simplerail.cross_rail": "Cross Rail",
+  "block.simplerail.y_cross_rail": "Y-Cross Rail(left)",
+  "block.simplerail.y_cross_right_rail": "Y-Cross Rail(right)",
+  "_comment": "====================Machine====================",
+  "block.simplerail.train_dispenser": "Train Dispenser",
+  "block.simplerail.signal_timer": "Signal Timer"
+}

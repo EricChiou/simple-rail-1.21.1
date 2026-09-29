@@ -1,0 +1,231 @@
+﻿diff --git a/src/main/java/com/ericchiu/simplerail/Config.java b/src/main/java/com/ericchiu/simplerail/Config.java
+deleted file mode 100644
+index 21a732e..0000000
+--- a/src/main/java/com/ericchiu/simplerail/Config.java
++++ /dev/null
+@@ -1,42 +0,0 @@
+-package com.ericchiu.simplerail;
+-
+-import java.util.List;
+-import java.util.Set;
+-import java.util.stream.Collectors;
+-
+-import net.minecraft.core.registries.BuiltInRegistries;
+-import net.minecraft.resources.ResourceLocation;
+-import net.minecraft.world.item.Item;
+-import net.neoforged.bus.api.SubscribeEvent;
+-import net.neoforged.fml.common.EventBusSubscriber;
+-import net.neoforged.fml.event.config.ModConfigEvent;
+-import net.neoforged.neoforge.common.ModConfigSpec;
+-
+-// An example config class. This is not required, but it's a good idea to have one to keep your config organized.
+-// Demonstrates how to use Neo's config APIs
+-public class Config {
+-    private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
+-
+-    public static final ModConfigSpec.BooleanValue LOG_DIRT_BLOCK = BUILDER
+-            .comment("Whether to log the dirt block on common setup")
+-            .define("logDirtBlock", true);
+-
+-    public static final ModConfigSpec.IntValue MAGIC_NUMBER = BUILDER
+-            .comment("A magic number")
+-            .defineInRange("magicNumber", 42, 0, Integer.MAX_VALUE);
+-
+-    public static final ModConfigSpec.ConfigValue<String> MAGIC_NUMBER_INTRODUCTION = BUILDER
+-            .comment("What you want the introduction message to be for the magic number")
+-            .define("magicNumberIntroduction", "The magic number is... ");
+-
+-    // a list of strings that are treated as resource locations for items
+-    public static final ModConfigSpec.ConfigValue<List<? extends String>> ITEM_STRINGS = BUILDER
+-            .comment("A list of items to log on common setup.")
+-            .defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), () -> "", Config::validateItemName);
+-
+-    static final ModConfigSpec SPEC = BUILDER.build();
+-
+-    private static boolean validateItemName(final Object obj) {
+-        return obj instanceof String itemName && BuiltInRegistries.ITEM.containsKey(ResourceLocation.parse(itemName));
+-    }
+-}
+diff --git a/src/main/java/com/ericchiu/simplerail/SimpleRail.java b/src/main/java/com/ericchiu/simplerail/SimpleRail.java
+index 098376e..0ed8011 100644
+--- a/src/main/java/com/ericchiu/simplerail/SimpleRail.java
++++ b/src/main/java/com/ericchiu/simplerail/SimpleRail.java
+@@ -1,117 +1,13 @@
+ package com.ericchiu.simplerail;
+ 
+-import org.slf4j.Logger;
+-
+-import com.mojang.logging.LogUtils;
+-
+-import net.minecraft.core.registries.BuiltInRegistries;
+-import net.minecraft.core.registries.Registries;
+-import net.minecraft.network.chat.Component;
+-import net.minecraft.world.food.FoodProperties;
+-import net.minecraft.world.item.BlockItem;
+-import net.minecraft.world.item.CreativeModeTab;
+-import net.minecraft.world.item.CreativeModeTabs;
+-import net.minecraft.world.item.Item;
+-import net.minecraft.world.level.block.Block;
+-import net.minecraft.world.level.block.Blocks;
+-import net.minecraft.world.level.block.state.BlockBehaviour;
+-import net.minecraft.world.level.material.MapColor;
+-import net.neoforged.api.distmarker.Dist;
+ import net.neoforged.bus.api.IEventBus;
+-import net.neoforged.bus.api.SubscribeEvent;
+ import net.neoforged.fml.common.Mod;
+-import net.neoforged.fml.config.ModConfig;
+-import net.neoforged.fml.ModContainer;
+-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+-import net.neoforged.neoforge.common.NeoForge;
+-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+-import net.neoforged.neoforge.event.server.ServerStartingEvent;
+-import net.neoforged.neoforge.registries.DeferredBlock;
+-import net.neoforged.neoforge.registries.DeferredHolder;
+-import net.neoforged.neoforge.registries.DeferredItem;
+-import net.neoforged.neoforge.registries.DeferredRegister;
+ 
+-// The value here should match an entry in the META-INF/neoforge.mods.toml file
+ @Mod(SimpleRail.MODID)
+-public class SimpleRail {
+-    // Define mod id in a common place for everything to reference
++public final class SimpleRail {
+     public static final String MODID = "simplerail";
+-    // Directly reference a slf4j logger
+-    public static final Logger LOGGER = LogUtils.getLogger();
+-    // Create a Deferred Register to hold Blocks which will all be registered under the "simplerail" namespace
+-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
+-    // Create a Deferred Register to hold Items which will all be registered under the "simplerail" namespace
+-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
+-    // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "simplerail" namespace
+-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
+-
+-    // Creates a new Block with the id "simplerail:example_block", combining the namespace and path
+-    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
+-    // Creates a new BlockItem with the id "simplerail:example_block", combining the namespace and path
+-    public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("example_block", EXAMPLE_BLOCK);
+-
+-    // Creates a new food item with the id "simplerail:example_id", nutrition 1 and saturation 2
+-    public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.registerSimpleItem("example_item", new Item.Properties().food(new FoodProperties.Builder()
+-            .alwaysEdible().nutrition(1).saturationModifier(2f).build()));
+-
+-    // Creates a creative tab with the id "simplerail:example_tab" for the example item, that is placed after the combat tab
+-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
+-            .title(Component.translatable("itemGroup.simplerail")) //The language key for the title of your CreativeModeTab
+-            .withTabsBefore(CreativeModeTabs.COMBAT)
+-            .icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
+-            .displayItems((parameters, output) -> {
+-                output.accept(EXAMPLE_ITEM.get());// Add the example item to the tab. For your own tabs, this method is preferred over the event
+-            }).build());
+-
+-    // The constructor for the mod class is the first code that is run when your mod is loaded.
+-    // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
+-    public SimpleRail(IEventBus modEventBus, ModContainer modContainer) {
+-        // Register the commonSetup method for modloading
+-        modEventBus.addListener(this::commonSetup);
+-
+-        // Register the Deferred Register to the mod event bus so blocks get registered
+-        BLOCKS.register(modEventBus);
+-        // Register the Deferred Register to the mod event bus so items get registered
+-        ITEMS.register(modEventBus);
+-        // Register the Deferred Register to the mod event bus so tabs get registered
+-        CREATIVE_MODE_TABS.register(modEventBus);
+-
+-        // Register ourselves for server and other game events we are interested in.
+-        // Note that this is necessary if and only if we want *this* class (SimpleRail) to respond directly to events.
+-        // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
+-        NeoForge.EVENT_BUS.register(this);
+-
+-        // Register the item to a creative tab
+-        modEventBus.addListener(this::addCreative);
+-
+-        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
+-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+-    }
+-
+-    private void commonSetup(FMLCommonSetupEvent event) {
+-        // Some common setup code
+-        LOGGER.info("HELLO FROM COMMON SETUP");
+-
+-        if (Config.LOG_DIRT_BLOCK.getAsBoolean()) {
+-            LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
+-        }
+-
+-        LOGGER.info("{}{}", Config.MAGIC_NUMBER_INTRODUCTION.get(), Config.MAGIC_NUMBER.getAsInt());
+-
+-        Config.ITEM_STRINGS.get().forEach((item) -> LOGGER.info("ITEM >> {}", item));
+-    }
+-
+-    // Add the example block item to the building blocks tab
+-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+-            event.accept(EXAMPLE_BLOCK_ITEM);
+-        }
+-    }
+ 
+-    // You can use SubscribeEvent and let the Event Bus discover methods to call
+-    @SubscribeEvent
+-    public void onServerStarting(ServerStartingEvent event) {
+-        // Do something when the server starts
+-        LOGGER.info("HELLO from server starting");
++    public SimpleRail(IEventBus modEventBus) {
++        // Feature registries and listeners will be attached as they are migrated.
+     }
+ }
+diff --git a/src/main/java/com/ericchiu/simplerail/SimpleRailClient.java b/src/main/java/com/ericchiu/simplerail/SimpleRailClient.java
+index 95ed57e..250931e 100644
+--- a/src/main/java/com/ericchiu/simplerail/SimpleRailClient.java
++++ b/src/main/java/com/ericchiu/simplerail/SimpleRailClient.java
+@@ -1,31 +1,11 @@
+ package com.ericchiu.simplerail;
+ 
+-import net.minecraft.client.Minecraft;
+ import net.neoforged.api.distmarker.Dist;
+-import net.neoforged.bus.api.SubscribeEvent;
+-import net.neoforged.fml.ModContainer;
+-import net.neoforged.fml.common.EventBusSubscriber;
+ import net.neoforged.fml.common.Mod;
+-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+-import net.neoforged.neoforge.client.gui.ConfigurationScreen;
+-import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
+ 
+-// This class will not load on dedicated servers. Accessing client side code from here is safe.
+ @Mod(value = SimpleRail.MODID, dist = Dist.CLIENT)
+-// You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
+-@EventBusSubscriber(modid = SimpleRail.MODID, value = Dist.CLIENT)
+-public class SimpleRailClient {
+-    public SimpleRailClient(ModContainer container) {
+-        // Allows NeoForge to create a config screen for this mod's configs.
+-        // The config screen is accessed by going to the Mods screen > clicking on your mod > clicking on config.
+-        // Do not forget to add translations for your config options to the en_us.json file.
+-        container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
+-    }
+-
+-    @SubscribeEvent
+-    static void onClientSetup(FMLClientSetupEvent event) {
+-        // Some client setup code
+-        SimpleRail.LOGGER.info("HELLO FROM CLIENT SETUP");
+-        SimpleRail.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
++public final class SimpleRailClient {
++    public SimpleRailClient() {
++        // Client-only registrations will be attached as their features are migrated.
+     }
+ }
+diff --git a/src/main/resources/assets/simplerail/lang/en_us.json b/src/main/resources/assets/simplerail/lang/en_us.json
+index cbc6d55..0967ef4 100644
+--- a/src/main/resources/assets/simplerail/lang/en_us.json
++++ b/src/main/resources/assets/simplerail/lang/en_us.json
+@@ -1,13 +1 @@
+-{
+-  "itemGroup.simplerail": "Example Mod Tab",
+-  "block.simplerail.example_block": "Example Block",
+-  "item.simplerail.example_item": "Example Item",
+-
+-  "simplerail.configuration.title": "Simple Rail Configs",
+-  "simplerail.configuration.section.simplerail.common.toml": "Simple Rail Configs",
+-  "simplerail.configuration.section.simplerail.common.toml.title": "Simple Rail Configs",
+-  "simplerail.configuration.items": "Item List",
+-  "simplerail.configuration.logDirtBlock": "Log Dirt Block",
+-  "simplerail.configuration.magicNumberIntroduction": "Magic Number Text",
+-  "simplerail.configuration.magicNumber": "Magic Number"
+-}
++{}

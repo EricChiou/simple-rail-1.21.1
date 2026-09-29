@@ -1,0 +1,10 @@
+﻿
+>      Mod List:
+  		Name Version (Mod Id)
+  
+  		Minecraft 1.21.1 (minecraft)
+  		NeoForge 21.1.251 (neoforge)
+  		Simple Rail 1.0.0 (simplerail)
+
+
+

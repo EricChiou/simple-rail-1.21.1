@@ -1,0 +1,122 @@
+﻿[
+    {
+        "selector":  "powered=false,shape=ascending_east",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=false,shape=ascending_east",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=false,shape=ascending_north",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=false,shape=ascending_north",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=false,shape=ascending_south",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=false,shape=ascending_south",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=false,shape=ascending_west",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=false,shape=ascending_west",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=false,shape=east_west",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=false,shape=east_west",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=false,shape=north_south",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=false,shape=north_south",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=true,shape=ascending_east",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=true,shape=ascending_east",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=true,shape=ascending_north",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=true,shape=ascending_north",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=true,shape=ascending_south",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=true,shape=ascending_south",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=true,shape=ascending_west",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=true,shape=ascending_west",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=true,shape=east_west",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=true,shape=east_west",
+        "matches":  true,
+        "waterlogged":  true
+    },
+    {
+        "selector":  "powered=true,shape=north_south",
+        "matches":  true,
+        "waterlogged":  false
+    },
+    {
+        "selector":  "powered=true,shape=north_south",
+        "matches":  true,
+        "waterlogged":  true
+    }
+]

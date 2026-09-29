@@ -1,0 +1,7 @@
+﻿{
+    "task":  "T-020",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "jar":  "build/libs/simplerail-1.0.0.jar",
+    "sha256":  "166E7B63AC9E56A83CEFD23448B458F0E221D7059825BDACFE9A541898A9C467",
+    "testChecks":  159
+}

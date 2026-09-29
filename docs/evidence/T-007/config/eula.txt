@@ -1,0 +1,2 @@
+# User explicitly agreed for this isolated test directory on 2026-09-26 Asia/Taipei.
+eula=true

@@ -1,0 +1,1010 @@
+[
+  {
+    "candidatePath": "assets/simplerail/blockstates/cross_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/cross_rail.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:cross_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/destory_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/destory_rail.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:destory_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/eject_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/eject_rail.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:eject_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/high_speed_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/high_speed_rail.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:high_speed_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/holding_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/holding_rail.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:holding_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/oneway_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/oneway_rail.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:oneway_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/signal_timer.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/signal_timer.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:signal_timer"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/timer_holding_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/timer_holding_rail.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:timer_holding_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/train_dispenser.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/train_dispenser.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:train_dispenser"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/wrench.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/wrench.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:wrench"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/y_cross_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/y_cross_rail.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:y_cross_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/blockstates/y_cross_right_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/blockstates/y_cross_right_rail.json",
+    "category": "blockstate",
+    "logicalId": "simplerail:y_cross_right_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/lang/en_us.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/lang/en_us.json",
+    "category": "language",
+    "logicalId": "simplerail:en_us"
+  },
+  {
+    "candidatePath": "assets/simplerail/lang/zh_tw.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/lang/zh_tw.json",
+    "category": "language",
+    "logicalId": "simplerail:zh_tw"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/cross_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/cross_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/cross_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/destory_powered_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/destory_powered_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/destory_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/destory_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/destory_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/destory_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/eject_powered_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/eject_powered_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/eject_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/eject_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/eject_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/eject_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/eject_reverse_powered_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/eject_reverse_powered_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/eject_reverse_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/eject_reverse_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/eject_reverse_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/eject_reverse_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/high_speed_powered_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/high_speed_powered_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/high_speed_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/high_speed_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/high_speed_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/high_speed_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/holding_powered_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/holding_powered_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/holding_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/holding_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/holding_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/holding_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/oneway_powered_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/oneway_powered_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/oneway_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/oneway_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/oneway_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/oneway_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/oneway_reverse_powered_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/oneway_reverse_powered_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/oneway_reverse_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/oneway_reverse_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/oneway_reverse_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/oneway_reverse_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv0.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv0.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv0"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv1.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv1.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv1"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv2.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv2.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv2"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv3.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv3.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv3"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv4.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv4.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv4"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv5.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv5.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv5"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv6.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv6.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv6"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv7.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv7.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv7"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv8.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv8.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv8"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/signal_timer_lv9.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/signal_timer_lv9.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/signal_timer_lv9"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv0_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv0_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv0_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv1_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv1_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv1_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv2_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv2_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv2_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv3_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv3_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv3_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv4_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv4_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv4_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv5_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv5_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv5_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv6_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv6_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv6_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv7_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv7_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv7_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv8_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv8_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv8_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/timer_holding_lv9_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/timer_holding_lv9_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/timer_holding_lv9_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/train_dispenser.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/train_dispenser.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/train_dispenser"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/y_cross_right_straight_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/y_cross_right_straight_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/y_cross_right_straight_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/y_cross_right_turn_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/y_cross_right_turn_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/y_cross_right_turn_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/y_cross_straight_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/y_cross_straight_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/y_cross_straight_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/block/y_cross_turn_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/block/y_cross_turn_rail.json",
+    "category": "block model",
+    "logicalId": "simplerail:block/y_cross_turn_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/cross_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/cross_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/cross_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/destory_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/destory_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/destory_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/eject_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/eject_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/eject_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/high_speed_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/high_speed_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/high_speed_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/holding_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/holding_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/holding_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/locomotive_cart.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/locomotive_cart.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/locomotive_cart"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/oneway_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/oneway_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/oneway_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/oneway_reverse_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/oneway_reverse_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/oneway_reverse_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/signal_timer.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/signal_timer.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/signal_timer"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/timer_holding_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/timer_holding_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/timer_holding_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/train_dispenser.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/train_dispenser.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/train_dispenser"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/wrench.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/wrench.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/wrench"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/y_cross_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/y_cross_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/y_cross_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/models/item/y_cross_right_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/models/item/y_cross_right_rail.json",
+    "category": "item model",
+    "logicalId": "simplerail:item/y_cross_right_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/cross_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/cross_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/cross_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/destory_powered_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/destory_powered_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/destory_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/destory_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/destory_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/destory_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/eject_powered_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/eject_powered_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/eject_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/eject_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/eject_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/eject_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/eject_reverse_powered_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/eject_reverse_powered_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/eject_reverse_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/eject_reverse_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/eject_reverse_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/eject_reverse_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/high_speed_powered_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/high_speed_powered_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/high_speed_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/high_speed_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/high_speed_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/high_speed_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/holding_powered_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/holding_powered_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/holding_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/holding_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/holding_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/holding_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/oneway_powered_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/oneway_powered_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/oneway_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/oneway_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/oneway_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/oneway_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/oneway_reverse_powered_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/oneway_reverse_powered_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/oneway_reverse_powered_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/oneway_reverse_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/oneway_reverse_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/oneway_reverse_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv0.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv0.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv0"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv1.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv1.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv1"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv2.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv2.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv2"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv3.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv3.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv3"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv4.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv4.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv4"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv5.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv5.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv5"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv6.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv6.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv6"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv7.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv7.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv7"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv8.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv8.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv8"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/signal_timer_lv9.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/signal_timer_lv9.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/signal_timer_lv9"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv0_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv0_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv0_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv1_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv1_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv1_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv2_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv2_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv2_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv3_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv3_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv3_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv4_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv4_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv4_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv5_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv5_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv5_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv6_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv6_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv6_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv7_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv7_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv7_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv8_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv8_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv8_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/timer_holding_lv9_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/timer_holding_lv9_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/timer_holding_lv9_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/train_dispenser.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/train_dispenser.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/train_dispenser"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/train_dispenser_front.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/train_dispenser_front.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/train_dispenser_front"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/y_cross_right_straight_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/y_cross_right_straight_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/y_cross_right_straight_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/y_cross_right_turn_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/y_cross_right_turn_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/y_cross_right_turn_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/y_cross_straight_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/y_cross_straight_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/y_cross_straight_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/blocks/y_cross_turn_rail.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/blocks/y_cross_turn_rail.png",
+    "category": "texture",
+    "logicalId": "simplerail:blocks/y_cross_turn_rail"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/entity/locomotive_cart.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/entity/locomotive_cart.png",
+    "category": "texture",
+    "logicalId": "simplerail:entity/locomotive_cart"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/items/locomotive_cart.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/items/locomotive_cart.png",
+    "category": "texture",
+    "logicalId": "simplerail:items/locomotive_cart"
+  },
+  {
+    "candidatePath": "assets/simplerail/textures/items/wrench.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "assets/simplerail/textures/items/wrench.png",
+    "category": "texture",
+    "logicalId": "simplerail:items/wrench"
+  },
+  {
+    "candidatePath": "data/minecraft/tags/block/rails.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/minecraft/tags/blocks/rails.json",
+    "category": "tag",
+    "logicalId": "minecraft:rails"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/cross_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/cross_rail.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/cross_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/destory_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/destory_rail.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/destory_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/eject_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/eject_rail.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/eject_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/high_speed_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/high_speed_rail.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/high_speed_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/holding_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/holding_rail.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/holding_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/locomotive_cart.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/locomotive_cart.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/locomotive_cart"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/oneway_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/oneway_rail.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/oneway_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/signal_timer.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/signal_timer.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/signal_timer"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/timer_holding_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/timer_holding_rail.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/timer_holding_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/train_dispenser.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/train_dispenser.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/train_dispenser"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/y_cross_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/y_cross_rail.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/y_cross_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/loot_table/blocks/y_cross_right_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/loot_tables/blocks/y_cross_right_rail.json",
+    "category": "loot",
+    "logicalId": "simplerail:blocks/y_cross_right_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/cross_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/cross_rail.json",
+    "category": "recipe",
+    "logicalId": "simplerail:cross_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/destory_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/destory_rail.json",
+    "category": "recipe",
+    "logicalId": "simplerail:destory_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/eject_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/eject_rail.json",
+    "category": "recipe",
+    "logicalId": "simplerail:eject_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/high_speed_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/high_speed_rail.json",
+    "category": "recipe",
+    "logicalId": "simplerail:high_speed_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/holding_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/holding_rail.json",
+    "category": "recipe",
+    "logicalId": "simplerail:holding_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/locomotive_cart.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/locomotive_cart.json",
+    "category": "recipe",
+    "logicalId": "simplerail:locomotive_cart"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/oneway_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/oneway_rail.json",
+    "category": "recipe",
+    "logicalId": "simplerail:oneway_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/signal_timer.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/signal_timer.json",
+    "category": "recipe",
+    "logicalId": "simplerail:signal_timer"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/timer_holding_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/timer_holding_rail.json",
+    "category": "recipe",
+    "logicalId": "simplerail:timer_holding_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/train_dispenser.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/train_dispenser.json",
+    "category": "recipe",
+    "logicalId": "simplerail:train_dispenser"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/wrench.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/wrench.json",
+    "category": "recipe",
+    "logicalId": "simplerail:wrench"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/y_cross_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/y_cross_rail.json",
+    "category": "recipe",
+    "logicalId": "simplerail:y_cross_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/recipe/y_cross_right_rail.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/recipes/y_cross_right_rail.json",
+    "category": "recipe",
+    "logicalId": "simplerail:y_cross_right_rail"
+  },
+  {
+    "candidatePath": "data/simplerail/tags/block/machines.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/tags/blocks/machines.json",
+    "category": "tag",
+    "logicalId": "simplerail:machines"
+  },
+  {
+    "candidatePath": "data/simplerail/tags/block/rails.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/tags/blocks/rails.json",
+    "category": "tag",
+    "logicalId": "simplerail:rails"
+  },
+  {
+    "candidatePath": "data/simplerail/tags/item/wrench.json",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "data/simplerail/tags/items/wrench.json",
+    "category": "tag",
+    "logicalId": "simplerail:wrench"
+  },
+  {
+    "candidatePath": "logo.png",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "logo.png",
+    "category": "metadata/logo",
+    "logicalId": "not a registry object"
+  },
+  {
+    "candidatePath": "META-INF/mods.toml",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "META-INF/mods.toml",
+    "category": "metadata/logo",
+    "logicalId": "not a registry object"
+  },
+  {
+    "candidatePath": "pack.mcmeta",
+    "status": "source reference / candidate only; not migrated",
+    "oldPath": "pack.mcmeta",
+    "category": "metadata/logo",
+    "logicalId": "not a registry object"
+  }
+]

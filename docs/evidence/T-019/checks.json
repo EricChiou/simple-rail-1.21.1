@@ -1,0 +1,159 @@
+﻿{
+    "task":  "T-019",
+    "timestampUtc":  "2026-09-28T08:36:59.4049745Z",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "jar":  "build/libs/simplerail-1.0.0.jar",
+    "jarSha256":  "7AEB033B7B5949E89005DC8B65DF73D93272BCCB430D81F80DE516248ECF9C9D",
+    "oldConstantsSource":  "docs/evidence/T-010/sources/old/constants/I18n.java",
+    "oldConstantsSha256":  "3916FBAE161678474B2513D286B466E632A763E6A8EFE3BC88BA71056BC4204E",
+    "blocks":  [
+                   {
+                       "field":  "HIGH_SPEED_RAIL",
+                       "id":  "high_speed_rail"
+                   },
+                   {
+                       "field":  "HOLDING_RAIL",
+                       "id":  "holding_rail"
+                   },
+                   {
+                       "field":  "ONEWAY_RAIL",
+                       "id":  "oneway_rail"
+                   },
+                   {
+                       "field":  "EJECT_RAIL",
+                       "id":  "eject_rail"
+                   },
+                   {
+                       "field":  "DESTORY_RAIL",
+                       "id":  "destory_rail"
+                   },
+                   {
+                       "field":  "TIMER_HOLDING_RAIL",
+                       "id":  "timer_holding_rail"
+                   },
+                   {
+                       "field":  "CROSS_RAIL",
+                       "id":  "cross_rail"
+                   },
+                   {
+                       "field":  "Y_CROSS_RAIL",
+                       "id":  "y_cross_rail"
+                   },
+                   {
+                       "field":  "Y_CROSS_RIGHT_RAIL",
+                       "id":  "y_cross_right_rail"
+                   },
+                   {
+                       "field":  "TRAIN_DISPENSER",
+                       "id":  "train_dispenser"
+                   },
+                   {
+                       "field":  "SIGNAL_TIMER",
+                       "id":  "signal_timer"
+                   }
+               ],
+    "blockItems":  [
+                       {
+                           "field":  "HIGH_SPEED_RAIL",
+                           "id":  "high_speed_rail",
+                           "blockField":  "HIGH_SPEED_RAIL"
+                       },
+                       {
+                           "field":  "HOLDING_RAIL",
+                           "id":  "holding_rail",
+                           "blockField":  "HOLDING_RAIL"
+                       },
+                       {
+                           "field":  "ONEWAY_RAIL",
+                           "id":  "oneway_rail",
+                           "blockField":  "ONEWAY_RAIL"
+                       },
+                       {
+                           "field":  "EJECT_RAIL",
+                           "id":  "eject_rail",
+                           "blockField":  "EJECT_RAIL"
+                       },
+                       {
+                           "field":  "DESTORY_RAIL",
+                           "id":  "destory_rail",
+                           "blockField":  "DESTORY_RAIL"
+                       },
+                       {
+                           "field":  "TIMER_HOLDING_RAIL",
+                           "id":  "timer_holding_rail",
+                           "blockField":  "TIMER_HOLDING_RAIL"
+                       },
+                       {
+                           "field":  "CROSS_RAIL",
+                           "id":  "cross_rail",
+                           "blockField":  "CROSS_RAIL"
+                       },
+                       {
+                           "field":  "Y_CROSS_RAIL",
+                           "id":  "y_cross_rail",
+                           "blockField":  "Y_CROSS_RAIL"
+                       },
+                       {
+                           "field":  "Y_CROSS_RIGHT_RAIL",
+                           "id":  "y_cross_right_rail",
+                           "blockField":  "Y_CROSS_RIGHT_RAIL"
+                       },
+                       {
+                           "field":  "TRAIN_DISPENSER",
+                           "id":  "train_dispenser",
+                           "blockField":  "TRAIN_DISPENSER"
+                       },
+                       {
+                           "field":  "SIGNAL_TIMER",
+                           "id":  "signal_timer",
+                           "blockField":  "SIGNAL_TIMER"
+                       }
+                   ],
+    "items":  [
+                  {
+                      "field":  "WRENCH",
+                      "id":  "wrench"
+                  },
+                  {
+                      "field":  "LOCOMOTIVE_CART",
+                      "id":  "locomotive_cart"
+                  }
+              ],
+    "creativeTabId":  "simplerail:tab",
+    "creativeTabOrder":  [
+                             "WRENCH",
+                             "LOCOMOTIVE_CART",
+                             "HIGH_SPEED_RAIL",
+                             "HOLDING_RAIL",
+                             "ONEWAY_RAIL",
+                             "EJECT_RAIL",
+                             "DESTORY_RAIL",
+                             "TIMER_HOLDING_RAIL",
+                             "CROSS_RAIL",
+                             "Y_CROSS_RAIL",
+                             "Y_CROSS_RIGHT_RAIL",
+                             "TRAIN_DISPENSER",
+                             "SIGNAL_TIMER"
+                         ],
+    "checks":  {
+                   "oldCatalogueHas11BlocksAnd2Tools":  true,
+                   "blockIdsExactlyMatchOld":  true,
+                   "blockItemIdsExactlyMatchOld":  true,
+                   "blockItemsReferenceMatchingBlocks":  true,
+                   "standaloneItemIdsExactlyMatchOld":  true,
+                   "creativeTabListsExactly13UniqueItems":  true,
+                   "creativeTabUsesHighSpeedIcon":  true,
+                   "creativeTabKeepsTranslationAndDefinesOneKey":  true,
+                   "destorySpellingPreservedAndNoReverseRegistration":  true,
+                   "commonConstructorRegistersAll3Registers":  true,
+                   "commonRegistriesHaveNoClientDependencies":  true,
+                   "blockAndItemStaticDeclarationsDoNotResolveHoldersOrConfig":  true,
+                   "skeletonDoesNotRegisterEntitiesBEOrMenus":  true,
+                   "wrenchStack1AndCartStack64":  true,
+                   "jarContainsAll3RegistryClasses":  true,
+                   "metadataKeepsD8":  true,
+                   "buildExitZero":  true,
+                   "buildSuccessfulNoGameTaskAndTestNoSource":  true
+               },
+    "limitation":  "Source and JAR structure only; no runtime registry dump, Minecraft execution, unit tests or independent review"
+}

@@ -1,0 +1,60 @@
+{
+  "caseId": null,
+  "subcaseId": null,
+  "taskId": null,
+  "status": "未執行",
+  "executedAt": null,
+  "timezone": "Asia/Taipei",
+  "executor": null,
+  "versions": {
+    "oldSourceHead": null,
+    "newHead": null,
+    "worktreeDiff": null,
+    "jarSha256": null,
+    "java": null,
+    "gradle": null,
+    "minecraft": null,
+    "neoforge": null,
+    "mod": null
+  },
+  "environment": {
+    "topology": null,
+    "worldId": null,
+    "worldCreatedBy": null,
+    "dimension": null,
+    "coordinates": null,
+    "configSnapshot": null,
+    "clients": [],
+    "modList": null
+  },
+  "expectation": {
+    "requirement": null,
+    "sourceReference": null,
+    "sourceType": null,
+    "unverifiedOldBehavior": "依原始碼推定／待確認",
+    "measurementSpec": null,
+    "thresholds": null
+  },
+  "steps": [],
+  "commands": [],
+  "exitCodes": [],
+  "before": null,
+  "after": null,
+  "orderedTrainUuids": null,
+  "slotSnapshots": null,
+  "timestamps": {
+    "entered": null,
+    "saved": null,
+    "actuallyUnloadedOrStopped": null,
+    "loaded": null,
+    "released": null
+  },
+  "expected": null,
+  "actual": null,
+  "difference": null,
+  "rawEvidence": [],
+  "blockers": [],
+  "issueIds": [],
+  "retestVersion": null,
+  "independentReview": null
+}

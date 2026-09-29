@@ -1,0 +1,9 @@
+﻿{
+    "task":  "T-012",
+    "command":  ".\\gradlew.bat compileT012Probe --offline --console=plain --info --no-configuration-cache -I docs/evidence/T-012/probe.init.gradle",
+    "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1",
+    "startedUtc":  "2026-09-27T10:35:57.5102465Z",
+    "endedUtc":  "2026-09-27T10:35:57.7289141Z",
+    "exitCode":  1,
+    "log":  "docs/evidence/T-012/compile-01.log"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-029/artifacts/simplerail-1.0.0.jar",
+    "sha256":  "7EE7F6853662572F1D1D073F72EE49E4F44413B2D6CEBB839D5BDFAF36941A7C",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "source":  "Uncommitted full source.diff and source-fingerprints.json",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod":  "1.0.0",
+    "javaToolchain":  "21",
+    "isolatedTestJdk":  "Temurin 21.0.12.1+1",
+    "gradle":  "9.2.1",
+    "modDevGradle":  "2.0.147",
+    "parchment":  "2024.11.17",
+    "license":  "All Rights Reserved",
+    "development":  "T-029 source-compatible implementation complete",
+    "review":  "R-03 pending",
+    "manual":  "T-030 pending",
+    "package":  "T-096 pending",
+    "ambiguity":  "U-07 intent/model mismatch pending; not resolved by test doubles",
+    "gameExecuted":  false
+}

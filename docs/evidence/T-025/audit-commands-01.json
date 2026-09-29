@@ -1,0 +1,43 @@
+﻿[
+    {
+        "command":  "javap -c -p -s -v -classpath build/classes/java/main com.ericchiu.simplerail.block.base.BaseRail",
+        "exitCode":  0,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\BaseRail-bytecode.txt",
+        "scope":  "Disassembly only, no class loading or Minecraft bootstrap"
+    },
+    {
+        "command":  "javap -c -p -s -v -classpath build/classes/java/main com.ericchiu.simplerail.block.base.BasePoweredRail",
+        "exitCode":  0,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\BasePoweredRail-bytecode.txt",
+        "scope":  "Disassembly only, no class loading or Minecraft bootstrap"
+    },
+    {
+        "command":  "javap -c -p -s -v -classpath build/classes/java/main com.ericchiu.simplerail.block.HighSpeedRail",
+        "exitCode":  0,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\HighSpeedRail-bytecode.txt",
+        "scope":  "Disassembly only, no class loading or Minecraft bootstrap"
+    },
+    {
+        "command":  "javap -c -p -s -v -classpath build/classes/java/main com.ericchiu.simplerail.registry.ModBlocks",
+        "exitCode":  0,
+        "log":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\ModBlocks-bytecode.txt",
+        "scope":  "Disassembly only, no class loading or Minecraft bootstrap"
+    },
+    {
+        "command":  "git diff HEAD --binary (then append git diff --no-index --binary -- NUL \u003cuntracked source\u003e per file)",
+        "exitCode":  0,
+        "untrackedDiffExitCode":  "1 means differences, expected",
+        "log":  "source.diff"
+    },
+    {
+        "command":  "git diff --no-index -- before/ModBlocks.java src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java",
+        "exitCode":  1,
+        "meaning":  "1 means the expected T-025 registration difference",
+        "log":  "T-025-registration.diff"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --check",
+        "exitCode":  0,
+        "log":  "diff-check.log"
+    }
+]

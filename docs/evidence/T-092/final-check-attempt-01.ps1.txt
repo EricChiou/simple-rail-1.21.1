@@ -1,0 +1,131 @@
+﻿$ErrorActionPreference = 'Stop'
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+Add-Type -AssemblyName System.IO.Compression
+$root=(Get-Location).Path; $evidence=Join-Path $root 'docs/evidence/T-092'
+$checks=[ordered]@{}
+function Check([string]$name,[bool]$passed) { $script:checks[$name]=$passed }
+function Json([string]$path) { Get-Content -LiteralPath $path -Raw -Encoding utf8 | ConvertFrom-Json }
+function Text([string]$path) { [IO.File]::ReadAllText((Resolve-Path -LiteralPath $path),[Text.Encoding]::UTF8) }
+function Entry-Hash($entry) {
+    $stream=$entry.Open(); $hasher=[Security.Cryptography.SHA256]::Create()
+    try {[BitConverter]::ToString($hasher.ComputeHash($stream)).Replace('-','')} finally {$stream.Dispose();$hasher.Dispose()}
+}
+$outputs=Json (Join-Path $evidence 'packages.json'); $packageCoverage=@()
+foreach ($record in $outputs) {
+    $packageRoot=Join-Path $root ('docs/test-packages/' + $record.package)
+    $manifest=Json (Join-Path $packageRoot 'manifest.json'); $files=Json (Join-Path $packageRoot 'files-manifest.json')
+    $cases=Json (Join-Path $packageRoot 'case-index.json'); $results=Json (Join-Path $packageRoot 'results.json')
+    $allFiles=@(Get-ChildItem -LiteralPath $packageRoot -Recurse -File)
+    $zip=[IO.Compression.ZipFile]::OpenRead((Join-Path $root $record.zip))
+    try {
+        Check ($record.task+' ZIP count/portable unique paths') ($zip.Entries.Count -eq 31 -and $allFiles.Count -eq 31 -and @($zip.Entries | ForEach-Object {$_.FullName} | Select-Object -Unique).Count -eq 31 -and @($zip.Entries | Where-Object {$_.FullName.Contains('\') -or $_.FullName.StartsWith('/') -or $_.FullName.Contains('../')}).Count -eq 0)
+        foreach ($file in $allFiles) {
+            $relative=$file.FullName.Substring($packageRoot.Length+1).Replace('\','/'); $entry=$zip.GetEntry($relative)
+            Check ($record.task+' ZIP bytes '+$relative) ($null -ne $entry -and (Entry-Hash $entry) -eq (Get-FileHash -LiteralPath $file.FullName).Hash)
+        }
+    } finally {$zip.Dispose()}
+    Check ($record.task+' directory manifest hashes') (@($files | Where-Object {(Get-FileHash -LiteralPath (Join-Path $packageRoot $_.path)).Hash -ne $_.sha256}).Count -eq 0 -and $files.Count -eq 30)
+    Check ($record.task+' frozen ZIP/JAR hashes') ((Get-FileHash -LiteralPath (Join-Path $root $record.zip)).Hash -eq $record.zipSha256 -and (Get-FileHash -LiteralPath (Join-Path $packageRoot $manifest.jar.path)).Hash -eq $record.jarSha256 -and $manifest.jar.sha256 -eq $record.jarSha256)
+    Check ($record.task+' unique complete case IDs') ($cases.Count -eq $record.cases -and @($cases | ForEach-Object {$_.caseId} | Select-Object -Unique).Count -eq $record.cases -and @($cases | Where-Object {-not $_.subject -or -not $_.sourceCase -or -not $_.steps -or -not $_.expected -or -not $_.expectedSource -or -not $_.prerequisites -or -not $_.optionalEvidence}).Count -eq 0)
+    Check ($record.task+' all manual results blank') ($null -eq $results.userConfirmation -and $null -eq $results.actualVersion -and $null -eq $manifest.actualResult -and $results.cases.Count -eq $cases.Count -and @($results.cases | Where-Object {$null -ne $_.actualResult}).Count -eq 0 -and @($cases | Where-Object {$null -ne $_.actualResult -or $_.status -ne '未執行'}).Count -eq 0)
+    Check ($record.task+' review pending and no handoff') (-not $manifest.manualHandoffReady -and $manifest.review.status -eq '待審' -and $null -eq $manifest.review.conclusion -and -not $manifest.build.gameStarted)
+    Check ($record.task+' exact versions and historical build only') ($manifest.versions.minecraft -eq '1.21.1' -and $manifest.versions.neoForge -eq '21.1.251' -and $manifest.versions.mod -eq '1.0.0' -and $manifest.versions.license -eq 'All Rights Reserved' -and $manifest.versions.javaMajor -eq 21 -and $manifest.build.originTask -eq 'T-022' -and $manifest.build.exitCode -eq 0 -and -not $manifest.build.newBuildExecuted)
+    Check ($record.task+' no EULA/world/runtime scripts bundled') (@($allFiles | Where-Object {$_.Name -eq 'eula.txt' -or $_.Extension -in @('.mca','.dat','.mcfunction') -or $_.Name -in @('run.bat','runServer.bat','runClient.bat')}).Count -eq 0)
+    foreach ($name in @('README.md','INSTALL.md','CASES.md','TABLES.md')) {
+        $lines=@(Get-Content -LiteralPath (Join-Path $packageRoot $name) -Encoding utf8)
+        Check ($record.task+' Markdown '+$name) ($lines[0].StartsWith('# ') -and @($lines | Where-Object {$_.StartsWith('```')}).Count % 2 -eq 0 -and $lines.Count -gt 6)
+    }
+    foreach ($environment in @('SP','DS')) {
+        $subset=@($cases | Where-Object {$_.environment -eq $environment})
+        if ($record.task -eq 'T-092') {
+            Check ($record.task+' expanded inventory/config '+$environment) (@($subset | Where-Object {$_.sourceCase -eq 'C-001'}).Count -eq 13 -and @($subset | Where-Object {$_.sourceCase -eq 'C-002'}).Count -eq 11 -and @($subset | Where-Object {$_.sourceCase -eq 'C-003'}).Count -eq 25 -and @($subset | Where-Object {$_.sourceCase -eq 'C-004'}).Count -eq 29)
+        } else {
+            Check ($record.task+' all recipes/material cases '+$environment) (@($subset | Where-Object {$_.sourceCase -eq 'C-005'}).Count -eq 41)
+            Check ($record.task+' all drops/tags/reload '+$environment) (@($subset | Where-Object {$_.caseId -like 'T024-C006-*'}).Count -eq 44 -and @($subset | Where-Object {$_.caseId -like 'T024-TAG-*'}).Count -eq 26 -and @($subset | Where-Object {$_.caseId -like 'T024-RELOAD-*'}).Count -eq 1 -and @($subset | Where-Object {$_.caseId -like 'T024-EXTRA-LOOT-*'}).Count -eq 1)
+        }
+    }
+    if ($record.task -eq 'T-092') {
+        Check 'T092 remains blocked non-installable reference draft' ($manifest.developerStatus.StartsWith('受阻') -and $manifest.jar.path.StartsWith('reference/') -and -not (Test-Path (Join-Path $packageRoot 'mods')) -and $manifest.issues -contains 'I-021-01' -and $manifest.issues -contains 'I-092-02')
+    } else {
+        Check 'T093 complete artifact still gated by T023/R02' ($manifest.developerStatus -eq '開發完成' -and $manifest.jar.path.StartsWith('mods/') -and @($cases | Where-Object {-not (($_.prerequisites -join ' ').Contains('T-023'))}).Count -eq 0)
+    }
+    $packageCoverage += [ordered]@{task=$record.task; package=$record.package; cases=$cases.Count; bySource=@($cases | Group-Object sourceCase | ForEach-Object {@{sourceCase=$_.Name; count=$_.Count}}); byEnvironment=@($cases | Group-Object environment | ForEach-Object {@{environment=$_.Name; count=$_.Count}}); jarSha256=$record.jarSha256; zipSha256=$record.zipSha256; manualHandoffReady=$false}
+}
+$inputs=Json (Join-Path $evidence 'source-fingerprints.json')
+Check 'all product inputs unchanged' (@($inputs | Where-Object {(Get-FileHash -LiteralPath $_.path).Hash -ne $_.sha256}).Count -eq 0)
+$commandSources=Json (Join-Path $evidence 'command-sources.json')
+Check 'fixed command/pattern source fingerprints unchanged' ($commandSources.sources.Count -eq 4 -and @($commandSources.sources | Where-Object {(Get-FileHash -LiteralPath (Join-Path $evidence $_.snapshot)).Hash -ne $_.sha256}).Count -eq 0)
+$preparation=Json (Join-Path $evidence 'preparation.json')
+Check 'full HEAD delta includes every originally untracked product file' (@($preparation.untrackedDiffs | Where-Object {-not (Text (Join-Path $evidence 'source.diff')).Contains($_.path.Replace('\','/'))}).Count -eq 0)
+function Task-Map([string]$path) {
+    $map=@{}; $current=$null; $stage=-1; $stageCounts=@{}
+    foreach ($line in Get-Content -LiteralPath $path -Encoding utf8) {
+        $stageMatch=[regex]::Match($line,'^## 階段 ([0-8])')
+        if ($stageMatch.Success) {$stage=[int]$stageMatch.Groups[1].Value; $stageCounts[$stage]=0}
+        $taskMatch=[regex]::Match($line,'^### (T-[0-9]{3})')
+        if ($taskMatch.Success) {
+            $current=$taskMatch.Groups[1].Value; if ($map.ContainsKey($current)) {throw ('Duplicate task '+$current)}
+            $map[$current]=@{heading=$line; status=''; dependencyLine=''; dependencies=@()}; $stageCounts[$stage]++
+        } elseif ($line.StartsWith('## ')) {$current=$null}
+        if ($null -ne $current) {
+            if ($line.StartsWith('- 狀態：')) {$map[$current].status=$line.Substring(5)}
+            if ($line.StartsWith('- 前置任務')) {$map[$current].dependencyLine=$line; $map[$current].dependencies=@([regex]::Matches($line,'T-[0-9]{3}') | ForEach-Object {$_.Value})}
+        }
+    }
+    return @{tasks=$map; stages=$stageCounts}
+}
+$currentMap=Task-Map 'TASK.md'; $beforeMap=Task-Map (Join-Path $evidence 'before/TASK.md')
+$tasks=$currentMap.tasks; $missing=@(); $changedDefinitions=@(); $otherStatusChanges=@()
+foreach ($id in $tasks.Keys) {
+    foreach ($dep in $tasks[$id].dependencies) {if (-not $tasks.ContainsKey($dep)) {$missing += "$id -> $dep"}}
+    if ($tasks[$id].heading -ne $beforeMap.tasks[$id].heading -or $tasks[$id].dependencyLine -ne $beforeMap.tasks[$id].dependencyLine) {$changedDefinitions += $id}
+    if ($id -notin @('T-092','T-093') -and $tasks[$id].status -ne $beforeMap.tasks[$id].status) {$otherStatusChanges += $id}
+}
+$resolved=[Collections.Generic.HashSet[string]]::new()
+do {$advanced=$false; foreach ($id in $tasks.Keys) {if (-not $resolved.Contains($id) -and @($tasks[$id].dependencies | Where-Object {-not $resolved.Contains($_)}).Count -eq 0) {[void]$resolved.Add($id); $advanced=$true}}} while ($advanced)
+Check '126 continuous IDs/direct dependencies unchanged/acyclic' ($tasks.Count -eq 126 -and @(1..126 | Where-Object {-not $tasks.ContainsKey(('T-{0:D3}' -f $_))}).Count -eq 0 -and $changedDefinitions.Count -eq 0 -and $missing.Count -eq 0 -and $resolved.Count -eq 126)
+Check 'only authorized two task statuses changed' ($otherStatusChanges.Count -eq 0 -and $tasks['T-092'].status.StartsWith('受阻') -and $tasks['T-093'].status.StartsWith('開發完成'))
+$statusCounts=@($tasks.Values | Group-Object status | ForEach-Object {@{status=$_.Name; count=$_.Count}})
+Check '17 development/1 blocked/99 pending/9 stages' (@($tasks.Values | Where-Object {$_.status.StartsWith('開發完成')}).Count -eq 17 -and @($tasks.Values | Where-Object {$_.status.StartsWith('受阻')}).Count -eq 1 -and @($tasks.Values | Where-Object {$_.status -eq '待執行'}).Count -eq 99 -and $currentMap.stages.Count -eq 9)
+$stageDifferences=@()
+foreach ($stage in $currentMap.stages.Keys) {
+    $overview=@(Get-Content TASK.md -Encoding utf8 | Where-Object {$_.StartsWith('| '+$stage+'. ')})
+    if ($currentMap.stages[$stage] -ne $beforeMap.stages[$stage] -or [int]($overview[0].Split('|')[3].Trim()) -ne $currentMap.stages[$stage]) {$stageDifferences += $stage}
+}
+Check 'stage counts match overview and baseline' ($stageDifferences.Count -eq 0)
+function Coverage-Text([string]$path) {
+    $collect=$false; $lines=[Collections.Generic.List[string]]::new()
+    foreach ($line in Get-Content -LiteralPath $path -Encoding utf8) {
+        if ($line.StartsWith('## ') -and $line.Contains('覆蓋')) {$collect=$true} elseif ($collect -and $line.StartsWith('## ')) {break}
+        if ($collect) {$lines.Add($line)}
+    }
+    return ($lines -join "`n").Trim()
+}
+Check 'original task coverage table unchanged' ((Coverage-Text 'TASK.md').Length -gt 0 -and (Coverage-Text 'TASK.md') -eq (Coverage-Text (Join-Path $evidence 'before/TASK.md')))
+$review=Text 'REVIEW.md'; $oldReview=Text (Join-Path $evidence 'before/REVIEW.md')
+Check 'historical review sections 8 through 29 unchanged' ($oldReview.Substring($oldReview.IndexOf('## 8. ')).Trim().Replace("`r`n","`n") -eq $review.Substring($review.IndexOf('## 8. '),$review.IndexOf('## 30. ')-$review.IndexOf('## 8. ')).Trim().Replace("`r`n","`n"))
+$documents=@('TASK.md','MIGRATION.md','REVIEW.md','docs/evidence/T-092/README.md','docs/evidence/T-093/README.md')
+$missingLinks=@()
+foreach ($path in $documents) {
+    $full=(Resolve-Path -LiteralPath $path).Path
+    foreach ($link in [regex]::Matches((Text $path),'[[][^]]*[]][(]([^)]*)[)]')) {
+        $target=$link.Groups[1].Value; if ($target.StartsWith('https://') -or $target.StartsWith('http://') -or $target.StartsWith('#')) {continue}
+        $targetPath=[IO.Path]::GetFullPath((Join-Path (Split-Path $full) ($target.Split('#')[0])))
+        if ($targetPath -eq (Join-Path $evidence 'final-check.json')) {continue}
+        if (-not (Test-Path -LiteralPath $targetPath)) {$missingLinks += "$path -> $target"}
+    }
+}
+Check 'all current local document links resolve' ($missingLinks.Count -eq 0)
+$ErrorActionPreference='Continue'
+git -c core.safecrlf=false diff --check *> (Join-Path $evidence 'diff-check.log'); $diffCode=$LASTEXITCODE
+git diff --cached --binary *> (Join-Path $evidence 'index-after.diff'); $indexCode=$LASTEXITCODE
+git status --short *> (Join-Path $evidence 'git-status-after.txt'); $statusCode=$LASTEXITCODE
+$ErrorActionPreference='Stop'
+Check 'staged index preserved and tracked whitespace check passed' ($diffCode -eq 0 -and $indexCode -eq 0 -and (Get-FileHash (Join-Path $evidence 'index-before.diff')).Hash -eq (Get-FileHash (Join-Path $evidence 'index-after.diff')).Hash)
+$r01=Json 'docs/evidence/R-01/reviewed-inputs.json'
+Check 'R01 historical inputs and packages unchanged' (@($r01 | Where-Object {(Get-FileHash -LiteralPath $_.path).Hash -ne $_.sha256}).Count -eq 0)
+$failed=@($checks.Keys | Where-Object {-not $checks[$_]})
+[ordered]@{tasks=@('T-092','T-093'); utc=[DateTime]::UtcNow.ToString('o'); checks=$checks; passed=$checks.Count-$failed.Count; failed=$failed; packages=$packageCoverage; taskStatuses=$statusCounts; stages=$currentMap.stages; missingLinks=$missingLinks; missingDependencies=$missing; definitionChanges=$changedDefinitions; otherStatusChanges=$otherStatusChanges; newBuildExecuted=$false; gameStarted=$false; productInputs=$inputs.Count; diffExitCode=$diffCode; indexExitCode=$indexCode; statusExitCode=$statusCode; nextDevelopment='T-025 (not started)'; nextManual='T-023 (not ready: I-021-01/I-092-02/R-02/new package)'; documentFingerprints=@($documents | ForEach-Object {@{path=$_; sha256=(Get-FileHash -LiteralPath $_).Hash}})} | ConvertTo-Json -Depth 9 | Set-Content -Encoding utf8 (Join-Path $evidence 'final-check.json')
+Copy-Item (Join-Path $evidence 'final-check.json') docs/evidence/T-093/final-check.json
+Write-Output ("Package/document checks: {0} passed, {1} failed; T092 draft 156 cases, T093 226 cases; no game or rebuild" -f ($checks.Count-$failed.Count),$failed.Count)
+if ($failed.Count -gt 0) {throw ($failed -join ', ')}

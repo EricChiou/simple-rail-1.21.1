@@ -1,0 +1,182 @@
+package com.ericchiu.simplerail.config;
+
+import com.electronwill.nightconfig.core.CommentedConfig;
+import com.electronwill.nightconfig.core.UnmodifiableConfig;
+import com.electronwill.nightconfig.toml.TomlParser;
+import com.electronwill.nightconfig.toml.TomlWriter;
+import com.google.gson.GsonBuilder;
+import java.io.StringWriter;
+import java.lang.reflect.Constructor;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import net.neoforged.fml.config.IConfigSpec;
+import net.neoforged.fml.config.ModConfig;
+import net.neoforged.neoforge.common.ModConfigSpec;
+
+/** Runs only the config spec/snapshot in an ordinary JVM; no Minecraft entry point or FML launch. */
+public final class ConfigContractTest {
+    private static final List<Map<String, Object>> checks = new ArrayList<>();
+
+    public static void main(String[] args) throws Exception {
+        Path output = Path.of(args[0]);
+        check("spec initialization does not load config", !CommonConfig.SPEC.isLoaded());
+        expect("snapshot rejects reads before Loading", IllegalStateException.class, CommonConfig::current);
+        expect("publication rejects unloaded spec", IllegalStateException.class, CommonConfig::publishLoadedValues);
+        Map<String, Object> expected = expectedDefaults();
+        Map<String, Object> defined = new LinkedHashMap<>();
+        collectSpecs("", CommonConfig.SPEC.getSpec(), defined);
+        check("exactly 25 legacy paths, no new settings", defined.keySet().equals(expected.keySet()));
+        for (var entry : expected.entrySet()) {
+            ModConfigSpec.ValueSpec spec = (ModConfigSpec.ValueSpec) defined.get(entry.getKey());
+            check("default " + entry.getKey(), Objects.equals(spec.getDefault(), entry.getValue()));
+            if (entry.getValue() instanceof Boolean) {
+                check("boolean domain " + entry.getKey(), spec.test(true) && spec.test(false) && !spec.test("invalid"));
+            } else {
+                Object low, high, below, above;
+                if (entry.getKey().endsWith("maxSpeed")) {
+                    low = 0.4D; high = 2.0D; below = 0.399D; above = 2.001D;
+                } else if (entry.getKey().endsWith("transportDistance")) {
+                    low = 1; high = 100; below = 0; above = 101;
+                } else {
+                    low = 0; high = Integer.MAX_VALUE; below = -1; above = 2147483648L;
+                }
+                check("inclusive bounds " + entry.getKey(), spec.test(low) && spec.test(high));
+                check("reject outside range " + entry.getKey(), !spec.test(below) && !spec.test(above));
+                check("framework clamps bounds " + entry.getKey(), Objects.equals(spec.correct(below), low) && Objects.equals(spec.correct(above), high));
+                check("reject wrong type " + entry.getKey(), !spec.test("invalid"));
+            }
+        }
+        CommentedConfig defaults = CommentedConfig.inMemory();
+        CommonConfig.SPEC.correct(defaults);
+        check("spec-generated defaults valid", CommonConfig.SPEC.isCorrect(defaults));
+        StringWriter writer = new StringWriter();
+        new TomlWriter().write(defaults, writer);
+        Files.writeString(output.resolve(CommonConfig.FILE_NAME), writer.toString());
+        CommentedConfig roundTrip = new TomlParser().parse(writer.toString());
+        check("default TOML round trip", CommonConfig.SPEC.isCorrect(roundTrip));
+        load(roundTrip);
+        CommonConfig.Snapshot original = CommonConfig.current();
+        check("all default values readable through snapshot", flatten(original).equals(expected));
+        check("D3 true key maps to enabled", original.locomotiveChunkLoadingEnabled());
+        check("separate real-seconds and signal-seconds lists", original.holdingWaitSeconds(7) == 40 && original.signalIntervalSeconds(9) == 60);
+        check("signal tick constants stay 20 and 10", CommonConfig.SIGNAL_TICKS_PER_SECOND == 20 && CommonConfig.SIGNAL_PULSE_TICKS == 10);
+        expect("holding level 0 is feature responsibility", IllegalArgumentException.class, () -> original.holdingWaitSeconds(0));
+        expect("signal level 10 rejected", IllegalArgumentException.class, () -> original.signalIntervalSeconds(10));
+        expect("immutable holding list", UnsupportedOperationException.class, () -> original.holdingWaitSecondsByLevel().set(0, 99));
+        expect("immutable signal list", UnsupportedOperationException.class, () -> original.signalIntervalSecondsByLevel().set(0, 99));
+
+        CommentedConfig changed = CommentedConfig.inMemory();
+        CommonConfig.SPEC.correct(changed);
+        for (var entry : expected.entrySet()) {
+            Object next;
+            if (entry.getValue() instanceof Boolean flag) next = !flag;
+            else if (entry.getKey().endsWith("maxSpeed")) next = 1.2D;
+            else if (entry.getKey().endsWith("transportDistance")) next = 100;
+            else next = entry.getKey().startsWith("rail.timer_holding_rail") ? 3 : 4;
+            changed.set(entry.getKey(), next);
+        }
+        load(changed);
+        CommonConfig.Snapshot reloaded = CommonConfig.current();
+        Map<String, Object> actual = flatten(reloaded);
+        for (String key : expected.keySet()) {
+            check("reload value " + key, Objects.equals(actual.get(key), changed.get(key)));
+        }
+        check("reload publishes a new snapshot", reloaded != original);
+        check("retained original snapshot unchanged", flatten(original).equals(expected));
+        check("D3 false remains false without reversing key", !reloaded.locomotiveChunkLoadingEnabled());
+        check("holding/signal groups independent after reload", reloaded.holdingWaitSeconds(1) == 3 && reloaded.signalIntervalSeconds(1) == 4);
+
+        changed.set("rail.timer_holding_rail.lv1", Integer.MAX_VALUE);
+        changed.set("rail.signal_timer_block.lv9", Integer.MAX_VALUE);
+        load(changed);
+        check("large seconds remain intact, no int conversion here", CommonConfig.current().holdingWaitSeconds(1) == Integer.MAX_VALUE && CommonConfig.current().signalIntervalSeconds(9) == Integer.MAX_VALUE);
+        changed.set("rail.eject_rail.transportDistance", 101);
+        check("invalid input rejected by spec", !CommonConfig.SPEC.isCorrect(changed));
+        CommonConfig.SPEC.correct(changed);
+        load(changed);
+        check("corrected eject upper bound readable", CommonConfig.current().ejectTransportDistance() == 100);
+        CommonConfig.clearLoadedValues();
+        CommonConfig.SPEC.acceptConfig(null);
+        expect("snapshot unavailable after Unloading path", IllegalStateException.class, CommonConfig::current);
+        expect("publication still rejects unloaded spec", IllegalStateException.class, CommonConfig::publishLoadedValues);
+        load(roundTrip);
+        check("new load restores complete defaults", flatten(CommonConfig.current()).equals(expected));
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("scope", "standalone config spec and snapshot; no FML lifecycle dispatch, Minecraft or gameplay");
+        result.put("checks", checks);
+        result.put("passed", checks.size());
+        result.put("failed", 0);
+        Files.writeString(output.resolve("test-results.json"), new GsonBuilder().setPrettyPrinting().create().toJson(result));
+        System.out.println("PASS: " + checks.size() + " config contract checks; no Minecraft launched.");
+    }
+
+    private static void load(CommentedConfig config) throws Exception {
+        if (!CommonConfig.SPEC.isCorrect(config)) throw new AssertionError("Fixture must be corrected before acceptConfig to avoid save/event dispatch");
+        // ILoadedConfig is sealed; instantiate its actual package-private record as an in-memory fixture.
+        Constructor<?> constructor = Class.forName("net.neoforged.fml.config.LoadedConfig")
+                .getDeclaredConstructor(CommentedConfig.class, Path.class, ModConfig.class);
+        constructor.setAccessible(true);
+        CommonConfig.SPEC.acceptConfig((IConfigSpec.ILoadedConfig) constructor.newInstance(config, null, null));
+        CommonConfig.publishLoadedValues();
+    }
+
+    private static void collectSpecs(String prefix, UnmodifiableConfig source, Map<String, Object> result) {
+        source.entrySet().forEach(entry -> {
+            String key = entry.getKey();
+            Object value = entry.getValue();
+            String path = prefix.isEmpty() ? key : prefix + "." + key;
+            if (value instanceof UnmodifiableConfig nested) collectSpecs(path, nested, result);
+            else result.put(path, value);
+        });
+    }
+
+    private static Map<String, Object> expectedDefaults() {
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("cart.locomotive.disableLoadingChunk", true);
+        result.put("rail.high_speed_rail.maxSpeed", 0.8D);
+        result.put("rail.oneway_rail.needPower", true);
+        result.put("rail.oneway_rail.usePowerChangeDirection", false);
+        result.put("rail.eject_rail.transportDistance", 3);
+        result.put("rail.eject_rail.needPower", true);
+        result.put("rail.destory_rail.needPower", false);
+        int[] seconds = {5, 10, 15, 20, 25, 30, 40, 50, 60};
+        for (String group : List.of("rail.timer_holding_rail", "rail.signal_timer_block")) {
+            for (int i = 0; i < seconds.length; i++) result.put(group + ".lv" + (i + 1), seconds[i]);
+        }
+        return result;
+    }
+
+    private static Map<String, Object> flatten(CommonConfig.Snapshot snapshot) {
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("cart.locomotive.disableLoadingChunk", snapshot.locomotiveChunkLoadingEnabled());
+        result.put("rail.high_speed_rail.maxSpeed", snapshot.railMaxSpeed());
+        result.put("rail.oneway_rail.needPower", snapshot.onewayNeedPower());
+        result.put("rail.oneway_rail.usePowerChangeDirection", snapshot.onewayUsePowerChangeDirection());
+        result.put("rail.eject_rail.transportDistance", snapshot.ejectTransportDistance());
+        result.put("rail.eject_rail.needPower", snapshot.ejectNeedPower());
+        result.put("rail.destory_rail.needPower", snapshot.destoryNeedPower());
+        for (int level = 1; level <= 9; level++) {
+            result.put("rail.timer_holding_rail.lv" + level, snapshot.holdingWaitSeconds(level));
+            result.put("rail.signal_timer_block.lv" + level, snapshot.signalIntervalSeconds(level));
+        }
+        return result;
+    }
+
+    private static void check(String label, boolean passed) {
+        checks.add(Map.of("case", label, "passed", passed));
+        if (!passed) throw new AssertionError(label);
+    }
+
+    private static void expect(String label, Class<? extends Throwable> type, Runnable operation) {
+        try { operation.run(); } catch (Throwable error) {
+            check(label, type.isInstance(error));
+            return;
+        }
+        check(label, false);
+    }
+}

@@ -1,0 +1,11 @@
+﻿# T-092-v1-draft
+
+**受阻審查草稿，不安裝／不交使用者驗 T-023。** reference JAR 僅固定現況，I-021-01 與 I-092-02 未解除，需新版包。
+
+只由使用者操作 Minecraft，全部 actualResult=null。INSTALL.md、CASES.md、TABLES.md、case-index.json 為完整操作／索引；results.json 選用，確認任務完成即可結案、不要求附件。
+
+固定 JAR SHA-256：`3D4BFC8926509DCE28C6DE11E8198D3639EB288E1EB29FAD89D3AEC9C1C6BBD3`；來源 HEAD `8bd977dbb9f9000411ae5f4d10750228e5f33560` 加 staged／未提交差異，evidence/source.diff 包含 HEAD 差異與全部 untracked 產品檔，未虛構新 commit。
+
+使用 T-022 真實 build 退出 0（本輪不重跑）；test NO-SOURCE。393 資料／159 設定／2519 資源檢查是既有非遊戲證據，不能簽本包 runtime 或 R-02。
+
+失敗後：開發修正→Review 只審程式→使用者重測；新 JAR 產新版包，不覆寫本包。車頭實體／BE／GUI／計時／區塊票證等功能未完成，不以現況取代 D1–D8。

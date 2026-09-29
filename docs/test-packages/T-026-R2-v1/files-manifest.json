@@ -1,0 +1,70 @@
+﻿[
+    {
+        "path":  "case-index.json",
+        "sha256":  "57A8CC94C4AD342F28C144B42D67D451316B874C9CFFFC6DEB57CB2738529B58"
+    },
+    {
+        "path":  "CASES.md",
+        "sha256":  "82B91FEF886234AAE9C4C6E19893AC18B4E7A1E84A8C54A8562A0D196BD91C3B"
+    },
+    {
+        "path":  "INSTALL.md",
+        "sha256":  "3D9672D18620BB25E6D7140AF29F5270A4862F5CAA95B5A2FBC5FEC91E554531"
+    },
+    {
+        "path":  "manifest.json",
+        "sha256":  "999D4A14219AC78726F25E94ED643B77E0286AC25FAB4ABE38C23286FD19E93C"
+    },
+    {
+        "path":  "README.md",
+        "sha256":  "96494D55A13041E90C59AE714BDB15EB09EA7D95BE6DA18D20BA632564CD0D22"
+    },
+    {
+        "path":  "results.json",
+        "sha256":  "B4A254F584F5310A3F171BE143612BC46DA5C5799C0748706C54285824B03F6E"
+    },
+    {
+        "path":  "evidence/artifact.json",
+        "sha256":  "9875029CA6C2EAAD09B88CD601EC952D81A3DBA538F4141CBB5BC529311DFCA4"
+    },
+    {
+        "path":  "evidence/AscentBoundaryTest.java",
+        "sha256":  "D57902319B6C6EE492FF23DCABDAC67AD777D9B49F1D618A998D04E070BE0D24"
+    },
+    {
+        "path":  "evidence/audit-results-02.json",
+        "sha256":  "9F403BF2202913E5E5BB6C46AAA16B6A05BEEA76B2DF7715BB01FD25C86AA089"
+    },
+    {
+        "path":  "evidence/build-01.json",
+        "sha256":  "6781CEA08FAEFB230195F15FFE67721074FC169C234D2B1CC063C78605AD993B"
+    },
+    {
+        "path":  "evidence/build-01.log",
+        "sha256":  "9E2915E7625528C577C75D2EFB17EF176FFE915578D812CA293CBCC00FF385C2"
+    },
+    {
+        "path":  "evidence/numeric-test-01.log",
+        "sha256":  "271BD929DB65C55A0EC03C26F243D39D419015C3C2E189A487342FAEE9F3D673"
+    },
+    {
+        "path":  "evidence/numeric-test.json",
+        "sha256":  "E0AFA07F0BC6ADEB1FD6EBA613DF40042B843E1AE88B06C45DECE8D23DDE818E"
+    },
+    {
+        "path":  "evidence/primary-sources.json",
+        "sha256":  "F46C06450464125B0E8F2D1A21920AF96678678A3166B975158F8D9E218905BB"
+    },
+    {
+        "path":  "evidence/source-fingerprints.json",
+        "sha256":  "652081CC86E7FC13D64257B1AD394A9778AF98F3EAB89AFA56FAFDF052AA91D2"
+    },
+    {
+        "path":  "evidence/source.diff",
+        "sha256":  "717D7B85EFA02DD420914523F6A023D7F665FEF869148AFE36D47BCFCE07D3FA"
+    },
+    {
+        "path":  "mods/simplerail-1.0.0.jar",
+        "sha256":  "C3507DB669B28D719B7DDC8FC0EA35F0F733D8931153DD31FD38741068131C6C"
+    }
+]

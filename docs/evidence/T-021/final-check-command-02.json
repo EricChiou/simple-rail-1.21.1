@@ -1,0 +1,9 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-021/final-check.ps1",
+    "startedUtc":  "2026-09-28T10:26:57.6057467Z",
+    "finishedUtc":  "2026-09-28T10:26:59.8829970Z",
+    "exitCode":  0,
+    "log":  "final-check-02.log",
+    "logEncoding":  "UTF-16LE",
+    "reason":  "Final documentation changes only; no rebuild or resource audit rerun"
+}

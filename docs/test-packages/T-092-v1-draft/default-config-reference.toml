@@ -1,0 +1,103 @@
+	[rail.eject_rail]
+		#Passenger transport distance for eject rails.
+		# Default: 3
+		# Range: 1 ~ 100
+		transportDistance = 3
+		#Whether eject rails require power; also projected to need_power on placement.
+		needPower = true
+
+	[rail.signal_timer_block]
+		#Signal interval in seconds, converted by the signal scheduler using 20 ticks per second.
+		# Default: 5
+		# Range: > 0
+		lv1 = 5
+		#Signal interval in seconds, converted by the signal scheduler using 20 ticks per second.
+		# Default: 15
+		# Range: > 0
+		lv3 = 15
+		#Signal interval in seconds, converted by the signal scheduler using 20 ticks per second.
+		# Default: 10
+		# Range: > 0
+		lv2 = 10
+		#Signal interval in seconds, converted by the signal scheduler using 20 ticks per second.
+		# Default: 25
+		# Range: > 0
+		lv5 = 25
+		#Signal interval in seconds, converted by the signal scheduler using 20 ticks per second.
+		# Default: 20
+		# Range: > 0
+		lv4 = 20
+		#Signal interval in seconds, converted by the signal scheduler using 20 ticks per second.
+		# Default: 40
+		# Range: > 0
+		lv7 = 40
+		#Signal interval in seconds, converted by the signal scheduler using 20 ticks per second.
+		# Default: 30
+		# Range: > 0
+		lv6 = 30
+		#Signal interval in seconds, converted by the signal scheduler using 20 ticks per second.
+		# Default: 60
+		# Range: > 0
+		lv9 = 60
+		#Signal interval in seconds, converted by the signal scheduler using 20 ticks per second.
+		# Default: 50
+		# Range: > 0
+		lv8 = 50
+
+	[rail.oneway_rail]
+		#Oneway power mode; also projected to use_power on placement. Reload does not rewrite blocks.
+		usePowerChangeDirection = false
+		#Whether oneway rails require power; also projected to need_power on placement.
+		needPower = true
+
+	[rail.timer_holding_rail]
+		#Real elapsed seconds for a new holding wait; unloaded/offline time is paused (D5).
+		# Default: 5
+		# Range: > 0
+		lv1 = 5
+		#Real elapsed seconds for a new holding wait; unloaded/offline time is paused (D5).
+		# Default: 15
+		# Range: > 0
+		lv3 = 15
+		#Real elapsed seconds for a new holding wait; unloaded/offline time is paused (D5).
+		# Default: 10
+		# Range: > 0
+		lv2 = 10
+		#Real elapsed seconds for a new holding wait; unloaded/offline time is paused (D5).
+		# Default: 25
+		# Range: > 0
+		lv5 = 25
+		#Real elapsed seconds for a new holding wait; unloaded/offline time is paused (D5).
+		# Default: 20
+		# Range: > 0
+		lv4 = 20
+		#Real elapsed seconds for a new holding wait; unloaded/offline time is paused (D5).
+		# Default: 40
+		# Range: > 0
+		lv7 = 40
+		#Real elapsed seconds for a new holding wait; unloaded/offline time is paused (D5).
+		# Default: 30
+		# Range: > 0
+		lv6 = 30
+		#Real elapsed seconds for a new holding wait; unloaded/offline time is paused (D5).
+		# Default: 60
+		# Range: > 0
+		lv9 = 60
+		#Real elapsed seconds for a new holding wait; unloaded/offline time is paused (D5).
+		# Default: 50
+		# Range: > 0
+		lv8 = 50
+
+	[rail.high_speed_rail]
+		#Shared rail speed limit; actual cart speed also depends on cart limits and movement.
+		# Default: 0.8
+		# Range: 0.4 ~ 2.0
+		maxSpeed = 0.8
+
+	[rail.destory_rail]
+		#Whether destory rail requires power; keep the historical spelling.
+		needPower = false
+
+	[cart.locomotive]
+		#Keep locomotive chunk loading enabled when true (historical key name; default true).
+		disableLoadingChunk = true

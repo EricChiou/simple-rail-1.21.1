@@ -1,0 +1,335 @@
+﻿[
+    {
+        "id":  "simplerail:cross_rail",
+        "pattern":  [
+                        " I ",
+                        " R ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "I",
+                               "R"
+                           ],
+        "ingredients":  {
+                            "I":  {
+                                      "item":  "minecraft:iron_ingot"
+                                  },
+                            "R":  {
+                                      "item":  "minecraft:rail"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:cross_rail",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:destory_rail",
+        "pattern":  [
+                        " P ",
+                        " I ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "P",
+                               "I"
+                           ],
+        "ingredients":  {
+                            "P":  {
+                                      "item":  "minecraft:iron_pickaxe"
+                                  },
+                            "I":  {
+                                      "item":  "minecraft:powered_rail"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:destory_rail",
+                       "count":  3
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:eject_rail",
+        "pattern":  [
+                        "R  ",
+                        " I ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "R ",
+                               " I"
+                           ],
+        "ingredients":  {
+                            "I":  {
+                                      "item":  "minecraft:powered_rail"
+                                  },
+                            "R":  {
+                                      "item":  "minecraft:redstone"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:eject_rail",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:high_speed_rail",
+        "pattern":  [
+                        " I ",
+                        " R ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "I",
+                               "R"
+                           ],
+        "ingredients":  {
+                            "I":  {
+                                      "item":  "minecraft:powered_rail"
+                                  },
+                            "R":  {
+                                      "item":  "minecraft:redstone"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:high_speed_rail",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:holding_rail",
+        "pattern":  [
+                        " R ",
+                        " I ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "R",
+                               "I"
+                           ],
+        "ingredients":  {
+                            "R":  {
+                                      "item":  "minecraft:redstone"
+                                  },
+                            "I":  {
+                                      "item":  "minecraft:powered_rail"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:holding_rail",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:locomotive_cart",
+        "pattern":  [
+                        " G ",
+                        " C ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "G",
+                               "C"
+                           ],
+        "ingredients":  {
+                            "G":  {
+                                      "item":  "minecraft:gold_ingot"
+                                  },
+                            "C":  {
+                                      "item":  "minecraft:minecart"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:locomotive_cart",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:oneway_rail",
+        "pattern":  [
+                        "   ",
+                        "RI ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "RI"
+                           ],
+        "ingredients":  {
+                            "R":  {
+                                      "item":  "minecraft:redstone"
+                                  },
+                            "I":  {
+                                      "item":  "minecraft:powered_rail"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:oneway_rail",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:signal_timer",
+        "pattern":  [
+                        " R ",
+                        " I ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "R",
+                               "I"
+                           ],
+        "ingredients":  {
+                            "R":  {
+                                      "item":  "minecraft:repeater"
+                                  },
+                            "I":  {
+                                      "item":  "minecraft:iron_block"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:signal_timer",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:timer_holding_rail",
+        "pattern":  [
+                        " R ",
+                        " I ",
+                        " R "
+                    ],
+        "croppedPattern":  [
+                               "R",
+                               "I",
+                               "R"
+                           ],
+        "ingredients":  {
+                            "R":  {
+                                      "item":  "minecraft:redstone"
+                                  },
+                            "I":  {
+                                      "item":  "minecraft:powered_rail"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:timer_holding_rail",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:train_dispenser",
+        "pattern":  [
+                        " C ",
+                        " D ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "C",
+                               "D"
+                           ],
+        "ingredients":  {
+                            "C":  {
+                                      "item":  "minecraft:minecart"
+                                  },
+                            "D":  {
+                                      "item":  "minecraft:dispenser"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:train_dispenser",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:wrench",
+        "pattern":  [
+                        " G ",
+                        " I ",
+                        "   "
+                    ],
+        "croppedPattern":  [
+                               "G",
+                               "I"
+                           ],
+        "ingredients":  {
+                            "G":  {
+                                      "item":  "minecraft:gold_nugget"
+                                  },
+                            "I":  {
+                                      "item":  "minecraft:iron_pickaxe"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:wrench",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:y_cross_rail",
+        "pattern":  [
+                        " I ",
+                        " R ",
+                        " S "
+                    ],
+        "croppedPattern":  [
+                               "I",
+                               "R",
+                               "S"
+                           ],
+        "ingredients":  {
+                            "I":  {
+                                      "item":  "minecraft:iron_nugget"
+                                  },
+                            "R":  {
+                                      "item":  "minecraft:rail"
+                                  },
+                            "S":  {
+                                      "item":  "minecraft:redstone"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:y_cross_rail",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    },
+    {
+        "id":  "simplerail:y_cross_right_rail",
+        "pattern":  [
+                        " S ",
+                        " R ",
+                        " I "
+                    ],
+        "croppedPattern":  [
+                               "S",
+                               "R",
+                               "I"
+                           ],
+        "ingredients":  {
+                            "I":  {
+                                      "item":  "minecraft:iron_nugget"
+                                  },
+                            "R":  {
+                                      "item":  "minecraft:rail"
+                                  },
+                            "S":  {
+                                      "item":  "minecraft:redstone"
+                                  }
+                        },
+        "result":  {
+                       "id":  "simplerail:y_cross_right_rail",
+                       "count":  1
+                   },
+        "expectedSource":  "OLD resource + fixed ShapedRecipePattern/Ingredient source; not game tested"
+    }
+]

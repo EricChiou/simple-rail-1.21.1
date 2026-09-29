@@ -1,0 +1,10 @@
+﻿{
+    "dateUtc":  "2026-09-28T13:13:44.9597507Z",
+    "oldHeadCommand":  "git -c safe.directory=D:/workspace/java/simple-rail -C D:/workspace/java/simple-rail rev-parse HEAD",
+    "oldHeadFirstAttemptExitCode":  1,
+    "oldHeadExitCode":  0,
+    "statusExitCode":  0,
+    "indexExitCode":  0,
+    "javaExitCode":  0,
+    "scope":  "Read-only Git/tool snapshot; temporary per-command safe.directory override; no Git configuration changes, OLD build or Minecraft"
+}

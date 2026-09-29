@@ -1,0 +1,100 @@
+﻿[
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/level/block/BaseRailBlock.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\minecraft\\world\\level\\block\\BaseRailBlock.java",
+        "sha256":  "B424C0A9E1A57F213684CA094590F85D69A93630195A07C691FEBD63805929C6",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/level/block/RailBlock.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\minecraft\\world\\level\\block\\RailBlock.java",
+        "sha256":  "40AD089C612DC03AA2C1D8CDCBF52676BE6ECCB6FD28E971EAEF482D99CD8D45",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/level/block/PoweredRailBlock.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\minecraft\\world\\level\\block\\PoweredRailBlock.java",
+        "sha256":  "12CB86CCA248CFD8DDB2C4417021F5D327637862D6B1EB5D20B5C90BC335D39A",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/level/block/RailState.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\minecraft\\world\\level\\block\\RailState.java",
+        "sha256":  "480539DBA2A7EB71AFED96FC9F558141B8FD5A19EF5ABE4B186DAADDED3F7B4A",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/level/block/state/properties/BlockStateProperties.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\minecraft\\world\\level\\block\\state\\properties\\BlockStateProperties.java",
+        "sha256":  "567DE4C1DA591117871888466674F43640CA119EF79153D22F23FD9B2F401BA8",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/entity/vehicle/AbstractMinecart.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\minecraft\\world\\entity\\vehicle\\AbstractMinecart.java",
+        "sha256":  "E68B6F27F5F573E02F0C3BA0C6A5EC798B7FFE3B28CD34CA635C67356854F095",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/neoforged/neoforge/common/extensions/IBaseRailBlockExtension.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\neoforged\\neoforge\\common\\extensions\\IBaseRailBlockExtension.java",
+        "sha256":  "2748D05609D8935F34B1A4257A9C5C4421E7C47CECDBCA3E2275FE70D4DF10C2",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/neoforged/neoforge/common/extensions/IBlockExtension.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\neoforged\\neoforge\\common\\extensions\\IBlockExtension.java",
+        "sha256":  "2DEA052B03B569B82CA728073AB4299282EB4BB9116637B9EE19ADE36975E5A5",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/item/PickaxeItem.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\minecraft\\world\\item\\PickaxeItem.java",
+        "sha256":  "3ADFE3410B8BC911523F2A830FA858E9938E762B9770BA5DD0EEB3ABAF18BD63",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "originSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/item/DiggerItem.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\target\\net\\minecraft\\world\\item\\DiggerItem.java",
+        "sha256":  "28E97BCD91FDD88FAAB34F3956A72AAA7C9D54B146227F17BD9EECE69C38FC32",
+        "scope":  "Fixed 21.1.251 primary source; no runtime verification"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail\\src\\main\\java\\ericchiu\\simplerail\\block\\base\\BaseRail.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\old\\block\\base\\BaseRail.java",
+        "sha256":  "011B834E3A4A171B01B1AA42CE3955B515E9838F971B36D394FF958C2298A824",
+        "scope":  "OLD source inference only; OLD not run or rebuilt"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail\\src\\main\\java\\ericchiu\\simplerail\\block\\base\\BasePoweredRail.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\old\\block\\base\\BasePoweredRail.java",
+        "sha256":  "8E84FA948A81DA93D4F74EA2AB62BD59C3539B6054EB5481E040296C75E7107B",
+        "scope":  "OLD source inference only; OLD not run or rebuilt"
+    },
+    {
+        "origin":  "D:\\workspace\\java\\simple-rail\\src\\main\\java\\ericchiu\\simplerail\\block\\HighSpeedRail.java",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\sources\\old\\block\\HighSpeedRail.java",
+        "sha256":  "25405CEEE7079950D4F3C0A7A419971AB3CB27F3AF0CCE2F72CADF46059266F6",
+        "scope":  "OLD source inference only; OLD not run or rebuilt"
+    }
+]

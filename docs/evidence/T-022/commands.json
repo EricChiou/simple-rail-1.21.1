@@ -1,0 +1,214 @@
+﻿[
+    {
+        "command":  "java --version",
+        "startedUtc":  "2026-09-28T11:01:12.6647954Z",
+        "finishedUtc":  "2026-09-28T11:01:12.7898988Z",
+        "exitCode":  0,
+        "log":  "java-version.log",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "javac -version",
+        "startedUtc":  "2026-09-28T11:01:12.8248529Z",
+        "finishedUtc":  "2026-09-28T11:01:12.9835484Z",
+        "exitCode":  0,
+        "log":  "javac-version.log",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "javap -classpath build/classes/java/main -p -s -c com.ericchiu.simplerail.registry.ModTags",
+        "startedUtc":  "2026-09-28T11:01:12.9849645Z",
+        "finishedUtc":  "2026-09-28T11:01:13.2483400Z",
+        "exitCode":  0,
+        "log":  "tags-bytecode.txt",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git diff -- src/main/java src/main/resources/data",
+        "startedUtc":  "2026-09-28T11:01:13.2493448Z",
+        "finishedUtc":  "2026-09-28T11:01:13.2965768Z",
+        "exitCode":  0,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/java/com/ericchiu/simplerail/registry/ModTags.java",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\tags\\item\\wrench.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\tags\\block\\rails.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\tags\\block\\machines.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\y_cross_right_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\y_cross_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\wrench.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\train_dispenser.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\timer_holding_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\signal_timer.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\oneway_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\locomotive_cart.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\holding_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\high_speed_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\eject_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\destory_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\recipe\\cross_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\y_cross_right_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\y_cross_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\train_dispenser.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\timer_holding_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\signal_timer.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\oneway_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\locomotive_cart.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\holding_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\high_speed_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\eject_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\destory_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\simplerail\\loot_table\\blocks\\cross_rail.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git -c core.safecrlf=false diff --no-index -- NUL src/main/resources/data\\minecraft\\tags\\block\\rails.json",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    }
+]

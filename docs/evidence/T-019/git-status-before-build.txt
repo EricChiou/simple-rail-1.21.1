@@ -1,0 +1,9 @@
+﻿M  .gitignore
+A  MIGRATION.md
+A  REVIEW.md
+A  TASK.md
+D  src/main/java/com/ericchiu/simplerail/Config.java
+MM src/main/java/com/ericchiu/simplerail/SimpleRail.java
+M  src/main/java/com/ericchiu/simplerail/SimpleRailClient.java
+M  src/main/resources/assets/simplerail/lang/en_us.json
+?? src/main/java/com/ericchiu/simplerail/registry/

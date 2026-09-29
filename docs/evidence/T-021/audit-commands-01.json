@@ -1,0 +1,20 @@
+﻿[
+    {
+        "command":  "javac --release 21 -proc:none -encoding UTF-8 -Xlint:all -Werror -cp docs/evidence/T-021/audit/gson-2.10.1.jar -d docs/evidence/T-021/audit/classes docs/evidence/T-021/audit/ResourceAudit.java",
+        "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1",
+        "startedUtc":  "2026-09-28T10:11:20.1232722Z",
+        "finishedUtc":  "2026-09-28T10:11:21.4815331Z",
+        "exitCode":  0,
+        "log":  "audit-compile-01.log",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "java -Djava.awt.headless=true -cp \u003caudit/classes;gson-2.10.1.jar\u003e ResourceAudit D:/workspace/java/simple-rail/src/main/resources src/main/resources docs/evidence/T-021 \u003cminecraft_1.21.1_client.jar as ZIP\u003e",
+        "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1",
+        "startedUtc":  "2026-09-28T10:11:21.4937220Z",
+        "finishedUtc":  "2026-09-28T10:11:21.6761402Z",
+        "exitCode":  1,
+        "log":  "audit-run-01.log",
+        "logEncoding":  "UTF-16LE"
+    }
+]

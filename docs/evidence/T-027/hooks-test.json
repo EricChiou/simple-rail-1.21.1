@@ -1,0 +1,12 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-027/hooks-test.ps1",
+    "compileCommand":  "Temurin 21 javac --release 21 -encoding UTF-8 -Xlint:unchecked -Werror -d isolated-tests/classes [15 explicit test doubles + actual HoldingRail.java + HoldingRailHooksTest.java]",
+    "compileExitCode":  0,
+    "runCommand":  "Temurin 21 java -cp isolated-tests/classes com.ericchiu.simplerail.block.HoldingRailHooksTest",
+    "runExitCode":  0,
+    "startedUtc":  "2026-09-28T16:41:03.0310465Z",
+    "finishedUtc":  "2026-09-28T16:41:04.2426759Z",
+    "scope":  "Actual production hook code compiled separately against local doubles; no real Minecraft classes loaded",
+    "gameExecuted":  false,
+    "metadataCorrection":  "Test command passed 15 generated source files; corrected descriptive count only, without rerunning"
+}

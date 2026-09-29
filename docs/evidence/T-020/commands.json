@@ -1,0 +1,50 @@
+﻿[
+    {
+        "command":  "java --version",
+        "startedUtc":  "2026-09-28T09:04:30.3724518Z",
+        "finishedUtc":  "2026-09-28T09:04:30.5018253Z",
+        "exitCode":  0,
+        "log":  "java-version.log",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "javac -version",
+        "startedUtc":  "2026-09-28T09:04:30.5054016Z",
+        "finishedUtc":  "2026-09-28T09:04:30.6660632Z",
+        "exitCode":  0,
+        "log":  "javac-version.log",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  ".\\gradlew.bat --version --offline --console=plain",
+        "startedUtc":  "2026-09-28T09:04:30.6660632Z",
+        "finishedUtc":  "2026-09-28T09:04:31.3606166Z",
+        "exitCode":  0,
+        "log":  "gradle-version.log",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "javap -classpath build/libs/simplerail-1.0.0.jar -p -c com.ericchiu.simplerail.SimpleRail com.ericchiu.simplerail.config.CommonConfig com.ericchiu.simplerail.config.CommonConfig$Snapshot",
+        "startedUtc":  "2026-09-28T09:04:31.3616226Z",
+        "finishedUtc":  "2026-09-28T09:04:31.6789273Z",
+        "exitCode":  0,
+        "log":  "config-bytecode.txt",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git diff --no-index -- docs/evidence/T-020/SimpleRail-before.java.txt src/main/java/com/ericchiu/simplerail/SimpleRail.java",
+        "startedUtc":  "2026-09-28T09:04:31.8039121Z",
+        "finishedUtc":  "2026-09-28T09:04:31.8458609Z",
+        "exitCode":  1,
+        "log":  "source.diff",
+        "logEncoding":  "UTF-16LE"
+    },
+    {
+        "command":  "git diff --no-index -- NUL src/main/java/com/ericchiu/simplerail/config/CommonConfig.java",
+        "startedUtc":  "2026-09-28T09:04:31.8458609Z",
+        "finishedUtc":  "2026-09-28T09:04:31.8911078Z",
+        "exitCode":  1,
+        "log":  "CommonConfig.diff",
+        "logEncoding":  "UTF-16LE"
+    }
+]

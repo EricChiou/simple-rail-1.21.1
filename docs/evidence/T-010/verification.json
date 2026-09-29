@@ -1,0 +1,25 @@
+﻿{
+    "command":  "\u0026 ([scriptblock]::Create((Get-Content -Raw -Encoding UTF8 docs/evidence/T-010/save-verification.ps1)))",
+    "exitCode":  0,
+    "utc":  "2026-09-27T09:49:26.1672095Z",
+    "newHead":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "gitHeadExit":  0,
+    "newStatus":  [
+                      "M  .gitignore",
+                      "A  MIGRATION.md",
+                      "A  REVIEW.md",
+                      "A  TASK.md"
+                  ],
+    "oldHeadReference":  "6698b1c5f494095a15b055c10045293e91540012 (T-009 read-only Git verification; not rerun OLD build)",
+    "oldSourceFilesMatchingT009":  42,
+    "productFilesUnchanged":  12,
+    "productDiff":  [
+
+                    ],
+    "productDiffExit":  0,
+    "compilerCommand":  "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/javac.exe -version",
+    "compilerOutput":  "javac 21.0.12.1",
+    "compilerExit":  0,
+    "compiledClasses":  5,
+    "probeSha256":  "D75913DD219220EE20DB378BCF750C2DB9F64604B770EE297761E2E2F5D202ED"
+}

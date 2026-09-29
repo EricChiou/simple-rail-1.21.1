@@ -1,0 +1,40 @@
+﻿{
+    "id":  "T-026-R1-v1",
+    "dateUtc":  "2026-09-28T14:21:13.8421197Z",
+    "tasks":  [
+                  "T-025 correction",
+                  "T-026 partial retest"
+              ],
+    "cases":  [
+                  "R1-001",
+                  "R1-002",
+                  "R1-003",
+                  "R1-004",
+                  "R1-005",
+                  "R1-006"
+              ],
+    "migration":  [
+                      "Section 3 shared base/high_speed_rail",
+                      "Section 6 stage 3"
+                  ],
+    "review":  [
+                   "R-03 pending",
+                   "R-F pending"
+               ],
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "jar":  "mods/simplerail-1.0.0.jar",
+    "jarSha256":  "8455CC5DE6FE2C7E5953E6A8F0D4A4E419A40489B954C8B0B1216304C5CEA599",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod":  "1.0.0",
+    "java":  "Temurin 21.0.12.1+1",
+    "gradle":  "9.2.1",
+    "license":  "All Rights Reserved",
+    "parchment":  "2024.11.17 / 1.21.1",
+    "scope":  "User-approved high-speed-only slope exception and targeted reversal diagnostic/retest; not full T-094",
+    "manualHandoffReady":  false,
+    "reason":  "Code review pending; no user retest result",
+    "manualResult":  null,
+    "gameStartedByAgent":  false,
+    "fullT094Completed":  false
+}

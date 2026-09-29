@@ -1,0 +1,70 @@
+﻿[
+    {
+        "sha256":  "4A06A44716B3BACA48B915E891DD0E602F72F265F0F00DF00F7A865ED8D57F26",
+        "path":  "case-index.json"
+    },
+    {
+        "sha256":  "7FAB7E0BF5AD1DE2C660098BDA6C6905871DC2C51E9B38F17B5DE99910FAA837",
+        "path":  "CASES.md"
+    },
+    {
+        "sha256":  "585A831DC0B81C47329ACD37583202728FB8AF1A018FEBEA6A4D2EEBB474D6B3",
+        "path":  "INSTALL.md"
+    },
+    {
+        "sha256":  "F55BD383C6D473E1B02A448F75B6290DAF50D9CB0AFFE09A736D66DAFC97F554",
+        "path":  "manifest.json"
+    },
+    {
+        "sha256":  "C548A035FF79A0BBA3F2EF6A886EB238E8B637C1C3AF5B28D929CCD3606BE915",
+        "path":  "README.md"
+    },
+    {
+        "sha256":  "6407295F5ACA6ACD91B7A0FD6596CFFCCFB9CA440CDDF46D0960A6096B312F56",
+        "path":  "results.json"
+    },
+    {
+        "sha256":  "F6E42710815D9510B361AA9DD5B39332A0414D7E3FB328ADA3800D3BBF3B8CB4",
+        "path":  "evidence/artifact.json"
+    },
+    {
+        "sha256":  "FA59F1CAF5C05CAB96E9158265ADFBDFD72C5E2D50CB57FBC4A08DF0DC6363F8",
+        "path":  "evidence/audit-commands.json"
+    },
+    {
+        "sha256":  "91B780D05C4412871F4C92DAA10577624CC53DBF7E079065C1A7CF12BDFFA5BD",
+        "path":  "evidence/audit-results-01.json"
+    },
+    {
+        "sha256":  "CEA95405E729876E0C7926C0F88AE0B5DEDB79817D5F86A4BD5FD82A38305E5A",
+        "path":  "evidence/audit-results-02.json"
+    },
+    {
+        "sha256":  "49688F746FE0BFC653D20BC5D5E162E62E30EE61CA59DFBE83684C9E9FED9D8E",
+        "path":  "evidence/build-01.json"
+    },
+    {
+        "sha256":  "05D9CE368B2B4EB2AAE8D5C0A854CF097CA35201B2999D7930EAC8B52A7B5FB3",
+        "path":  "evidence/build-01.log"
+    },
+    {
+        "sha256":  "1F83F278D763AF19455536548D26F941BF6D73C9199D3C95700FA9244334B5B5",
+        "path":  "evidence/model-sources.json"
+    },
+    {
+        "sha256":  "7CFAFF2366B419E0F81541C30772FC9F5D6D5D263FB2188B6E25B01FCC599633",
+        "path":  "evidence/source-fingerprints.json"
+    },
+    {
+        "sha256":  "9952AD44EC06C152ADCD3D882E5BFEE2E477707EDB6C2B54DDC6B49A79C04206",
+        "path":  "evidence/source.diff"
+    },
+    {
+        "sha256":  "69B6EE032F2667BD03847204E60A6C70B79152A3D4DE7625DBE811DC4C54C451",
+        "path":  "evidence/state-coverage.json"
+    },
+    {
+        "sha256":  "8455CC5DE6FE2C7E5953E6A8F0D4A4E419A40489B954C8B0B1216304C5CEA599",
+        "path":  "mods/simplerail-1.0.0.jar"
+    }
+]

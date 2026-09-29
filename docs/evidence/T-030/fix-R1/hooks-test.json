@@ -1,0 +1,18 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-030/fix-R1/hooks-test.ps1",
+    "compileCommand":  "Temurin 21 javac --release 21 -proc:none -encoding UTF-8 -Xlint:unchecked -Werror -cp [existing Mixin 0.8.7 jar] -d [isolated classes] [explicit doubles + actual OnewayRail.java + actual AbstractMinecartMixin.java + two tests]",
+    "testDoubleCount":  18,
+    "compileExitCode":  0,
+    "runCommands":  [
+                        "Temurin 21 java -cp [isolated classes;Mixin jar] com.ericchiu.simplerail.block.OnewayRailHooksTest",
+                        "Temurin 21 java -cp [isolated classes;Mixin jar] com.ericchiu.simplerail.block.CoastingRegressionTest"
+                    ],
+    "runExitCodes":  [
+                         0,
+                         0
+                     ],
+    "startedUtc":  "2026-09-29T13:44:31.6003812Z",
+    "finishedUtc":  "2026-09-29T13:44:32.8614445Z",
+    "scope":  "Real hook and redirect source against isolated doubles; no Minecraft runtime or Mixin weaving",
+    "gameExecuted":  false
+}

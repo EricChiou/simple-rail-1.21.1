@@ -1,0 +1,219 @@
+﻿{
+    "scope":  "Product bytecode/source/JAR static contracts only; no callbacks, codec, game or OLD runtime executed",
+    "checks":  40,
+    "passed":  40,
+    "failed":  0,
+    "results":  [
+                    {
+                        "id":  "javap-BaseRail",
+                        "passed":  true,
+                        "detail":  "Compiled product class disassembled without loading it."
+                    },
+                    {
+                        "id":  "javap-BasePoweredRail",
+                        "passed":  true,
+                        "detail":  "Compiled product class disassembled without loading it."
+                    },
+                    {
+                        "id":  "javap-HighSpeedRail",
+                        "passed":  true,
+                        "detail":  "Compiled product class disassembled without loading it."
+                    },
+                    {
+                        "id":  "javap-ModBlocks",
+                        "passed":  true,
+                        "detail":  "Compiled product class disassembled without loading it."
+                    },
+                    {
+                        "id":  "BaseRail-speed-snapshot",
+                        "passed":  true,
+                        "detail":  "Every speed query reads exactly one current config snapshot and returns its double value as float."
+                    },
+                    {
+                        "id":  "BaseRail-no-speed-field",
+                        "passed":  true,
+                        "detail":  "No cached speed or snapshot field in the base."
+                    },
+                    {
+                        "id":  "BaseRail-no-early-config",
+                        "passed":  true,
+                        "detail":  "Codec static initialization does not read unloaded config."
+                    },
+                    {
+                        "id":  "BaseRail-canMakeSlopes",
+                        "passed":  true,
+                        "detail":  "Compiled hook returns false; not a game behavior test."
+                    },
+                    {
+                        "id":  "BaseRail-canEntityDestroy",
+                        "passed":  true,
+                        "detail":  "Compiled hook returns false; not a game behavior test."
+                    },
+                    {
+                        "id":  "BaseRail-parent-state",
+                        "passed":  true,
+                        "detail":  "Vanilla shape domain, defaults, waterlogging, redstone and flexibility remain inherited."
+                    },
+                    {
+                        "id":  "BaseRail-java21",
+                        "passed":  true,
+                        "detail":  "Java 21 class file."
+                    },
+                    {
+                        "id":  "BasePoweredRail-speed-snapshot",
+                        "passed":  true,
+                        "detail":  "Every speed query reads exactly one current config snapshot and returns its double value as float."
+                    },
+                    {
+                        "id":  "BasePoweredRail-no-speed-field",
+                        "passed":  true,
+                        "detail":  "No cached speed or snapshot field in the base."
+                    },
+                    {
+                        "id":  "BasePoweredRail-no-early-config",
+                        "passed":  true,
+                        "detail":  "Codec static initialization does not read unloaded config."
+                    },
+                    {
+                        "id":  "BasePoweredRail-canMakeSlopes",
+                        "passed":  true,
+                        "detail":  "Compiled hook returns false; not a game behavior test."
+                    },
+                    {
+                        "id":  "BasePoweredRail-canEntityDestroy",
+                        "passed":  true,
+                        "detail":  "Compiled hook returns false; not a game behavior test."
+                    },
+                    {
+                        "id":  "BasePoweredRail-parent-state",
+                        "passed":  true,
+                        "detail":  "Vanilla shape domain, defaults, waterlogging, redstone and flexibility remain inherited."
+                    },
+                    {
+                        "id":  "BasePoweredRail-java21",
+                        "passed":  true,
+                        "detail":  "Java 21 class file."
+                    },
+                    {
+                        "id":  "powered-parent-true",
+                        "passed":  true,
+                        "detail":  "The two-argument powered constructor receives true, preserving OLD powered rather than activator behavior."
+                    },
+                    {
+                        "id":  "highspeed-parent",
+                        "passed":  true,
+                        "detail":  "HighSpeedRail inherits all OLD behavior from the powered base."
+                    },
+                    {
+                        "id":  "highspeed-no-special-hooks",
+                        "passed":  true,
+                        "detail":  "No separate acceleration or callback policy added."
+                    },
+                    {
+                        "id":  "highspeed-own-codec",
+                        "passed":  true,
+                        "detail":  "Subclass codec constructs HighSpeedRail rather than the shared base; codec not executed."
+                    },
+                    {
+                        "id":  "block-ids",
+                        "passed":  true,
+                        "detail":  "All eleven block IDs and ordering preserved, including destory_rail."
+                    },
+                    {
+                        "id":  "other-blocks-untouched",
+                        "passed":  true,
+                        "detail":  "Only high_speed_rail registration changed."
+                    },
+                    {
+                        "id":  "highspeed-lazy-factory",
+                        "passed":  true,
+                        "detail":  "Deferred factory; registration does not read config."
+                    },
+                    {
+                        "id":  "physical-properties",
+                        "passed":  true,
+                        "detail":  "OLD collision/strength/sound retained; no new tool drop requirement."
+                    },
+                    {
+                        "id":  "pickaxe-tag",
+                        "passed":  true,
+                        "detail":  "Only the implemented high-speed rail appends to vanilla pickaxe classification."
+                    },
+                    {
+                        "id":  "bounded-product-changes",
+                        "passed":  true,
+                        "detail":  "All pre-existing product/settings/resource files except ModBlocks are byte-identical."
+                    },
+                    {
+                        "id":  "bounded-new-files",
+                        "passed":  true,
+                        "detail":  "Exactly three rail classes and one scoped pickaxe tag were added."
+                    },
+                    {
+                        "id":  "pickaxe-primary-source",
+                        "passed":  true,
+                        "detail":  "Fixed-version PickaxeItem selects the tag; actual mining performance remains untested."
+                    },
+                    {
+                        "id":  "jar-resources",
+                        "passed":  true,
+                        "detail":  "All 145 source resource files included byte-identically."
+                    },
+                    {
+                        "id":  "jar-BaseRail",
+                        "passed":  true,
+                        "detail":  "Compiled class is present in the frozen JAR."
+                    },
+                    {
+                        "id":  "jar-BasePoweredRail",
+                        "passed":  true,
+                        "detail":  "Compiled class is present in the frozen JAR."
+                    },
+                    {
+                        "id":  "jar-HighSpeedRail",
+                        "passed":  true,
+                        "detail":  "Compiled class is present in the frozen JAR."
+                    },
+                    {
+                        "id":  "jar-ModBlocks",
+                        "passed":  true,
+                        "detail":  "Compiled class is present in the frozen JAR."
+                    },
+                    {
+                        "id":  "jar-metadata",
+                        "passed":  true,
+                        "detail":  "D8 metadata retained."
+                    },
+                    {
+                        "id":  "new-build",
+                        "passed":  true,
+                        "detail":  "Actual NEW build exit 0."
+                    },
+                    {
+                        "id":  "no-gradle-tests",
+                        "passed":  true,
+                        "detail":  "No Gradle unit tests were run; do not report test coverage."
+                    },
+                    {
+                        "id":  "diff-check",
+                        "passed":  true,
+                        "detail":  "Git reports no whitespace errors in tracked changes."
+                    },
+                    {
+                        "id":  "index-unchanged",
+                        "passed":  true,
+                        "detail":  "Existing staged changes were not altered."
+                    }
+                ],
+    "artifactSha256":  "2C72767500EDCF8F693FAB2EA874F77F52F3A949BBDF9F0DA10D20C008702BC0",
+    "newProductFiles":  [
+                            "src/main/java/com/ericchiu/simplerail/block/HighSpeedRail.java",
+                            "src/main/java/com/ericchiu/simplerail/block/base/BasePoweredRail.java",
+                            "src/main/java/com/ericchiu/simplerail/block/base/BaseRail.java",
+                            "src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json"
+                        ],
+    "changedExistingProductFiles":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\registry\\ModBlocks.java",
+    "resourceDifferences":  [
+
+                            ]
+}

@@ -1,0 +1,74 @@
+﻿[
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-client-extra-aka-minecraft-resources.jar",
+        "archiveSha256":  "8E9CF6F4B6EAFB1C6BF745A67A61DD1736F31865CAD409E5B2BEC918667DAB5E",
+        "entry":  "assets/minecraft/blockstates/powered_rail.json",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\sources\\vanilla\\powered_rail.json",
+        "sha256":  "EF1EEB6B29EAA97A316A88BC48DF9EF487A91A6C8AC8B1E01BB39777E749AD7A",
+        "scope":  "Fixed-version vanilla resource, not baked or rendered"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-client-extra-aka-minecraft-resources.jar",
+        "archiveSha256":  "8E9CF6F4B6EAFB1C6BF745A67A61DD1736F31865CAD409E5B2BEC918667DAB5E",
+        "entry":  "assets/minecraft/models/block/powered_rail_raised_ne.json",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\sources\\vanilla\\powered_rail_raised_ne.json",
+        "sha256":  "87A92EA0D987CFEC1ECDC9F557E021CAD13774DECC7E2F115F52A4447A336F13",
+        "scope":  "Fixed-version vanilla resource, not baked or rendered"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-client-extra-aka-minecraft-resources.jar",
+        "archiveSha256":  "8E9CF6F4B6EAFB1C6BF745A67A61DD1736F31865CAD409E5B2BEC918667DAB5E",
+        "entry":  "assets/minecraft/models/block/powered_rail_raised_sw.json",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\sources\\vanilla\\powered_rail_raised_sw.json",
+        "sha256":  "93122173613BECC9D89E942AB353EF3AB0F2C33726F5E8E737AD1A2A9884DF2D",
+        "scope":  "Fixed-version vanilla resource, not baked or rendered"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-client-extra-aka-minecraft-resources.jar",
+        "archiveSha256":  "8E9CF6F4B6EAFB1C6BF745A67A61DD1736F31865CAD409E5B2BEC918667DAB5E",
+        "entry":  "assets/minecraft/models/block/powered_rail_on_raised_ne.json",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\sources\\vanilla\\powered_rail_on_raised_ne.json",
+        "sha256":  "B57B2A7AA99FF77FC06A87480C9AF79FCF2166E4792B6EB63BD06F8C3702C66A",
+        "scope":  "Fixed-version vanilla resource, not baked or rendered"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-client-extra-aka-minecraft-resources.jar",
+        "archiveSha256":  "8E9CF6F4B6EAFB1C6BF745A67A61DD1736F31865CAD409E5B2BEC918667DAB5E",
+        "entry":  "assets/minecraft/models/block/powered_rail_on_raised_sw.json",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\sources\\vanilla\\powered_rail_on_raised_sw.json",
+        "sha256":  "50EA26CD33BA9E406C5282FD82ECA1E3A1AE6F96612A9AD9D784CE74A7F32827",
+        "scope":  "Fixed-version vanilla resource, not baked or rendered"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-client-extra-aka-minecraft-resources.jar",
+        "archiveSha256":  "8E9CF6F4B6EAFB1C6BF745A67A61DD1736F31865CAD409E5B2BEC918667DAB5E",
+        "entry":  "assets/minecraft/models/block/rail_raised_ne.json",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\sources\\vanilla\\rail_raised_ne.json",
+        "sha256":  "96257958EE4251A81771F200AC348B976ACA9F9E30A3CED3D0BEFF2CB1178F08",
+        "scope":  "Fixed-version vanilla resource, not baked or rendered"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-client-extra-aka-minecraft-resources.jar",
+        "archiveSha256":  "8E9CF6F4B6EAFB1C6BF745A67A61DD1736F31865CAD409E5B2BEC918667DAB5E",
+        "entry":  "assets/minecraft/models/block/rail_raised_sw.json",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\sources\\vanilla\\rail_raised_sw.json",
+        "sha256":  "98E6BB9500D058BF8A701016DEADA14DED7403A97DF7CC7A1C91503D74F61862",
+        "scope":  "Fixed-version vanilla resource, not baked or rendered"
+    },
+    {
+        "scope":  "Fixed vanilla parent template; not baked/rendered",
+        "archiveSha256":  "8E9CF6F4B6EAFB1C6BF745A67A61DD1736F31865CAD409E5B2BEC918667DAB5E",
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-client-extra-aka-minecraft-resources.jar",
+        "sha256":  "3AFEF39260DE54EB5A01FA66A5663BD339B8DD655029B4B68304C45832E84D54",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\sources\\vanilla\\template_rail_raised_ne.json",
+        "entry":  "assets/minecraft/models/block/template_rail_raised_ne.json"
+    },
+    {
+        "scope":  "Fixed vanilla parent template; not baked/rendered",
+        "archiveSha256":  "8E9CF6F4B6EAFB1C6BF745A67A61DD1736F31865CAD409E5B2BEC918667DAB5E",
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-client-extra-aka-minecraft-resources.jar",
+        "sha256":  "DDB87C38E966A57124C3E1469B327AB6A6868D89D8FE99BD70542725203A0EDA",
+        "snapshot":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\sources\\vanilla\\template_rail_raised_sw.json",
+        "entry":  "assets/minecraft/models/block/template_rail_raised_sw.json"
+    }
+]

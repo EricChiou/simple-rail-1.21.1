@@ -1,0 +1,68 @@
+﻿[
+    {
+        "id":  "simplerail:high_speed_rail",
+        "requiredWrenchProperties":  "none",
+        "currentScope":  "implemented rail",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:holding_rail",
+        "requiredWrenchProperties":  "direction",
+        "currentScope":  "implemented rail",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:oneway_rail",
+        "requiredWrenchProperties":  "reverse",
+        "currentScope":  "implemented rail",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:eject_rail",
+        "requiredWrenchProperties":  "reverse",
+        "currentScope":  "implemented rail",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:destory_rail",
+        "requiredWrenchProperties":  "none",
+        "currentScope":  "implemented rail",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:timer_holding_rail",
+        "requiredWrenchProperties":  "level,direction",
+        "currentScope":  "placeholder; T-038 pending",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:cross_rail",
+        "requiredWrenchProperties":  "none",
+        "currentScope":  "placeholder; T-066 pending",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:y_cross_rail",
+        "requiredWrenchProperties":  "direction",
+        "currentScope":  "placeholder; T-068 pending",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:y_cross_right_rail",
+        "requiredWrenchProperties":  "direction",
+        "currentScope":  "placeholder; T-070 pending",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:train_dispenser",
+        "requiredWrenchProperties":  "facing",
+        "currentScope":  "placeholder; T-044 pending",
+        "gameResult":  null
+    },
+    {
+        "id":  "simplerail:signal_timer",
+        "requiredWrenchProperties":  "level",
+        "currentScope":  "placeholder; T-041 pending",
+        "gameResult":  null
+    }
+]

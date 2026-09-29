@@ -1,0 +1,9 @@
+﻿{
+    "task":  "T-017",
+    "diffCommand":  "git -c core.safecrlf=false diff -- src/main/java/com/ericchiu/simplerail src/main/resources/assets/simplerail/lang/en_us.json",
+    "diffExitCode":  0,
+    "diffCheckCommand":  "git -c core.safecrlf=false diff --check -- src/main/java/com/ericchiu/simplerail src/main/resources/assets/simplerail/lang/en_us.json",
+    "diffCheckExitCode":  0,
+    "jarListCommand":  "jar tf build/libs/simplerail-1.0.0.jar",
+    "jarListExitCode":  0
+}

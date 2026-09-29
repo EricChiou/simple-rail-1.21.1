@@ -1,0 +1,117 @@
+﻿diff --git a/docs/evidence/T-033/before/ModBlocks.java b/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java
+index cdc6def..5eed2b1 100644
+--- a/docs/evidence/T-033/before/ModBlocks.java
++++ b/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java
+@@ -1,6 +1,7 @@
+ package com.ericchiu.simplerail.registry;
+ 
+ import com.ericchiu.simplerail.SimpleRail;
++import com.ericchiu.simplerail.block.DestoryRail;
+ import com.ericchiu.simplerail.block.EjectRail;
+ import com.ericchiu.simplerail.block.HighSpeedRail;
+ import com.ericchiu.simplerail.block.HoldingRail;
+@@ -12,7 +13,7 @@ import net.neoforged.bus.api.IEventBus;
+ import net.neoforged.neoforge.registries.DeferredBlock;
+ import net.neoforged.neoforge.registries.DeferredRegister;
+ 
+-/** Stable IDs. High-speed, holding, oneway and eject rails are implemented; other blocks remain placeholders. */
++/** Stable IDs. Five ordinary rails are implemented; other blocks remain placeholders. */
+ public final class ModBlocks {
+     private static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(SimpleRail.MODID);
+ 
+@@ -21,7 +22,7 @@ public final class ModBlocks {
+     public static final DeferredBlock<OnewayRail> ONEWAY_RAIL = BLOCKS.registerBlock("oneway_rail", OnewayRail::new, railProperties());
+     public static final DeferredBlock<EjectRail> EJECT_RAIL = BLOCKS.registerBlock("eject_rail", EjectRail::new, railProperties());
+     // The historical spelling is part of the public ID contract (D2).
+-    public static final DeferredBlock<Block> DESTORY_RAIL = BLOCKS.registerSimpleBlock("destory_rail", railProperties());
++    public static final DeferredBlock<DestoryRail> DESTORY_RAIL = BLOCKS.registerBlock("destory_rail", DestoryRail::new, railProperties());
+     public static final DeferredBlock<Block> TIMER_HOLDING_RAIL = BLOCKS.registerSimpleBlock("timer_holding_rail", railProperties());
+     public static final DeferredBlock<Block> CROSS_RAIL = BLOCKS.registerSimpleBlock("cross_rail", railProperties());
+     public static final DeferredBlock<Block> Y_CROSS_RAIL = BLOCKS.registerSimpleBlock("y_cross_rail", railProperties());
+diff --git a/docs/evidence/T-033/before/pickaxe.json b/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json
+index 5ce1373..866ab12 100644
+--- a/docs/evidence/T-033/before/pickaxe.json
++++ b/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json
+@@ -4,6 +4,7 @@
+     "simplerail:high_speed_rail",
+     "simplerail:holding_rail",
+     "simplerail:oneway_rail",
+-    "simplerail:eject_rail"
++    "simplerail:eject_rail",
++    "simplerail:destory_rail"
+   ]
+ }
+diff --git a/src/main/java/com/ericchiu/simplerail/block/DestoryRail.java b/src/main/java/com/ericchiu/simplerail/block/DestoryRail.java
+new file mode 100644
+index 0000000..8ab9dc2
+--- /dev/null
++++ b/src/main/java/com/ericchiu/simplerail/block/DestoryRail.java
+@@ -0,0 +1,68 @@
++package com.ericchiu.simplerail.block;
++
++import com.ericchiu.simplerail.block.base.BasePoweredRail;
++import com.ericchiu.simplerail.config.CommonConfig;
++import com.mojang.serialization.MapCodec;
++import net.minecraft.core.BlockPos;
++import net.minecraft.core.particles.ParticleTypes;
++import net.minecraft.server.level.ServerLevel;
++import net.minecraft.sounds.SoundEvents;
++import net.minecraft.sounds.SoundSource;
++import net.minecraft.world.entity.vehicle.AbstractMinecart;
++import net.minecraft.world.level.Level;
++import net.minecraft.world.level.block.Block;
++import net.minecraft.world.level.block.PoweredRailBlock;
++import net.minecraft.world.level.block.state.BlockBehaviour;
++import net.minecraft.world.level.block.state.BlockState;
++import net.minecraft.world.level.block.state.StateDefinition;
++import net.minecraft.world.level.block.state.properties.BooleanProperty;
++
++/** Historical spelling and ordinary minecart removal; consist deletion belongs to T-061. */
++public final class DestoryRail extends BasePoweredRail {
++    public static final MapCodec<PoweredRailBlock> CODEC = simpleCodec(DestoryRail::new);
++    public static final BooleanProperty NEED_POWER = BooleanProperty.create("need_power");
++
++    public DestoryRail(BlockBehaviour.Properties properties) {
++        super(properties);
++        // Registry construction precedes config loading; placement projects loaded values.
++        registerDefaultState(defaultBlockState().setValue(NEED_POWER, false));
++    }
++
++    @Override
++    public MapCodec<PoweredRailBlock> codec() {
++        return CODEC;
++    }
++
++    @Override
++    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
++        super.createBlockStateDefinition(builder);
++        builder.add(NEED_POWER);
++    }
++
++    @Override
++    public void onMinecartPass(BlockState state, Level level, BlockPos pos, AbstractMinecart cart) {
++        if (!(level instanceof ServerLevel serverLevel) || cart.isRemoved()) {
++            return;
++        }
++        CommonConfig.Snapshot config = CommonConfig.current();
++        if (config.destoryNeedPower() && !state.getValue(POWERED)) {
++            return;
++        }
++
++        // discard preserves vanilla removal hooks (including container contents), not damage/drop logic.
++        cart.discard();
++        double x = pos.getX() + 0.5D;
++        double y = pos.getY() + 0.75D;
++        double z = pos.getZ() + 0.5D;
++        serverLevel.sendParticles(ParticleTypes.LARGE_SMOKE, x, y, z, 1, 0.0D, 0.0D, 0.0D, 0.0D);
++        serverLevel.playSound(null, x, y, z, SoundEvents.GENERIC_BURN, SoundSource.BLOCKS, 4.0F, 4.0F);
++    }
++
++    @Override
++    protected void onPlace(BlockState state, Level level, BlockPos pos, BlockState oldState, boolean moving) {
++        if (!level.isClientSide && !oldState.is(this)) {
++            state = state.setValue(NEED_POWER, CommonConfig.current().destoryNeedPower());
++        }
++        super.onPlace(state, level, pos, oldState, moving);
++    }
++}

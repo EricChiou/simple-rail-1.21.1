@@ -1,0 +1,150 @@
+﻿{
+    "task":  "T-025",
+    "utc":  "2026-09-28T13:31:09.7098960Z",
+    "scope":  "Developer document/dependency/scope self-check only; no review approval or game result",
+    "checks":  {
+                   "taskIds126Unique":  true,
+                   "titlesAndDependenciesStable":  true,
+                   "allDependenciesExist":  true,
+                   "graphAcyclic":  true,
+                   "nineStages":  true,
+                   "phaseCountsMatchOverview":  false,
+                   "coverageUnchanged":  true,
+                   "onlyT025TaskBodyChanged":  true,
+                   "t025DeveloperOnly":  true,
+                   "progressCounts":  true,
+                   "t092RemainsBlocked":  true,
+                   "nextT027Pending":  true,
+                   "t002NoDescendants":  true,
+                   "t003NoDescendants":  true,
+                   "requirementSections3And4Unchanged":  true,
+                   "d1ToD8DecisionTextStable":  true,
+                   "reviewHistory8To30Unchanged":  true,
+                   "priorR01EvidenceUnchanged":  true,
+                   "frozenT092T093ZipsUnchanged":  true,
+                   "localLinksExist":  true,
+                   "markdownFencesEncodingTables":  true,
+                   "actualNewBuild":  true,
+                   "actualStaticChecks":  true,
+                   "frozenJarHash":  true,
+                   "sourceSnapshots13Unchanged":  true,
+                   "compiledProductFingerprintsUnchanged":  true,
+                   "indexPreserved":  true,
+                   "diffCheck":  true,
+                   "gitStatusCaptured":  true
+               },
+    "checkCount":  29,
+    "failed":  [
+                   "phaseCountsMatchOverview"
+               ],
+    "statusCounts":  {
+                         "已完成（需求／案例設計，2026-09-26）":  1,
+                         "待執行":  98,
+                         "人工測試通過（使用者確認完成，已結案，2026-09-28）":  2,
+                         "使用者決定免執行":  1,
+                         "開發完成（指定格式來源、ID／引用追蹤與非遊戲檢查，2026-09-27）":  1,
+                         "已完成（來源參考整理，2026-09-26）":  1,
+                         "已完成（NEW 既有框架建置基線，2026-09-26）":  1,
+                         "開發完成；R-01 程式審查通過（2026-09-28，見 [獨立報告](docs/evidence/R-01/README.md)）；人工遊戲未執行":  5,
+                         "已完成（環境盤點，2026-09-26）":  1,
+                         "已完成（既有框架 client 啟動；2026-09-27）":  1,
+                         "開發完成（指定版來源、資料邊界與最小編譯；2026-09-27），R-01 程式審查通過；人工遊戲未執行":  1,
+                         "開發完成；R-02 程式審查待審":  5,
+                         "開發完成（固定版本包與靜態校驗，2026-09-28）":  2,
+                         "開發完成（正式空功能框架與 NEW build，2026-09-28）":  1,
+                         "開發完成（R-03 程式審查待審；人工未執行）":  1,
+                         "已完成（既有框架 server 啟停；2026-09-26）":  1,
+                         "開發完成（指定版本 API 來源與最小編譯，2026-09-27）":  1,
+                         "受阻（固定審查草稿已製作；I-021-01／I-092-02 未解）":  1,
+                         "開發完成（指定來源、完整狀態值域與最小編譯，2026-09-27）":  1
+                     },
+    "stages":  [
+                   {
+                       "stage":  0,
+                       "count":  4,
+                       "overviewCount":  4,
+                       "matches":  true
+                   },
+                   {
+                       "stage":  1,
+                       "count":  17,
+                       "overviewCount":  17,
+                       "matches":  true
+                   },
+                   {
+                       "stage":  2,
+                       "count":  8,
+                       "overviewCount":  8,
+                       "matches":  true
+                   },
+                   {
+                       "stage":  3,
+                       "count":  18,
+                       "overviewCount":  18,
+                       "matches":  true
+                   },
+                   {
+                       "stage":  4,
+                       "count":  16,
+                       "overviewCount":  16,
+                       "matches":  true
+                   },
+                   {
+                       "stage":  5,
+                       "count":  26,
+                       "overviewCount":  26,
+                       "matches":  true
+                   },
+                   {
+                       "stage":  6,
+                       "count":  23,
+                       "overviewCount":  23,
+                       "matches":  true
+                   },
+                   {
+                       "stage":  7,
+                       "count":  8,
+                       "overviewCount":  8,
+                       "matches":  true
+                   },
+                   {
+                       "stage":  8,
+                       "count":  6,
+                       "overviewCount":  6,
+                       "matches":  true
+                   }
+               ],
+    "missingDependencies":  [
+
+                            ],
+    "unresolved":  [
+
+                   ],
+    "otherChangedTasks":  [
+
+                          ],
+    "missingLinks":  [
+
+                     ],
+    "markdownProblems":  [
+
+                         ],
+    "artifactSha256":  "2C72767500EDCF8F693FAB2EA874F77F52F3A949BBDF9F0DA10D20C008702BC0",
+    "commands":  [
+                     {
+                         "exitCode":  0,
+                         "command":  "git diff --cached --binary",
+                         "log":  "index-final.diff"
+                     },
+                     {
+                         "exitCode":  0,
+                         "command":  "git -c core.safecrlf=false diff --check",
+                         "log":  "diff-check-final.log"
+                     },
+                     {
+                         "exitCode":  0,
+                         "command":  "git status --short",
+                         "log":  "git-status-final.txt"
+                     }
+                 ]
+}

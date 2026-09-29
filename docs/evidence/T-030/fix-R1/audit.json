@@ -1,0 +1,8 @@
+﻿{
+    "compileCommand":  "Temurin 21 javac --release 21 -proc:none -encoding UTF-8 -cp [copied ASM 9.10.1/asm-tree] -d [isolated classes] InjectionTargetAudit.java",
+    "compileExitCode":  0,
+    "runCommand":  "Temurin 21 java -cp [isolated classes;ASM 9.10.1/asm-tree] InjectionTargetAudit build/moddev/artifacts/neoforge-21.1.251.jar docs/evidence/T-030/fix-R1/artifacts/simplerail-1.0.0.jar",
+    "runExitCode":  0,
+    "gameExecuted":  false,
+    "mixinWeavingExecuted":  false
+}

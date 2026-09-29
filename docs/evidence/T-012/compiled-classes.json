@@ -1,0 +1,20 @@
+﻿[
+    {
+        "snapshot":  "compiled/evidence\\t012\\T012Probe$TrainDispenserBlock.class",
+        "sha256":  "12BA8753B40A6D36E01DA2E69866EE67BC24DEC24759A8B8E103D8DB65D3C6E2",
+        "majorVersion":  65,
+        "bytes":  4558
+    },
+    {
+        "snapshot":  "compiled/evidence\\t012\\T012Probe$TrainDispenserEntity.class",
+        "sha256":  "ED16D5EAD0DC1482C090B91E3AED259CB42291ECFE2BB90CA8CBE295193369FD",
+        "majorVersion":  65,
+        "bytes":  3990
+    },
+    {
+        "snapshot":  "compiled/evidence\\t012\\T012Probe.class",
+        "sha256":  "1FE7919015E6B8AB36602452652F5BB3D17E636A81BF46EE21F65FD8993B4332",
+        "majorVersion":  65,
+        "bytes":  3835
+    }
+]

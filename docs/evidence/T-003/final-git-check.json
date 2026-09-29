@@ -1,0 +1,9 @@
+{
+  "command": "git rev-parse HEAD; git status --short",
+  "workdir": "D:\\workspace\\java\\simple-rail",
+  "chunk_id": "9594ce",
+  "wall_time_seconds": 0.07891,
+  "exit_code": 0,
+  "original_token_count": 11,
+  "output": "6698b1c5f494095a15b055c10045293e91540012\n"
+}

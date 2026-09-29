@@ -1,0 +1,30 @@
+﻿{
+    "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+    "sources":  [
+                    {
+                        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+                        "entry":  "net/minecraft/server/commands/LootCommand.java",
+                        "snapshot":  "sources/LootCommand.java",
+                        "sha256":  "F9071E19A2366A31C77BD4F3678F20D61B4C2CEDED139A373F297BA1595D5ECD"
+                    },
+                    {
+                        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+                        "entry":  "net/minecraft/server/commands/ExecuteCommand.java",
+                        "snapshot":  "sources/ExecuteCommand.java",
+                        "sha256":  "E2D73E2FA71F921D52F8CEC2BD772C946EF2864366D2C3800F31A27C500076AA"
+                    },
+                    {
+                        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+                        "entry":  "net/minecraft/world/item/crafting/ShapedRecipePattern.java",
+                        "snapshot":  "sources/ShapedRecipePattern.java",
+                        "sha256":  "FF5EDEF3890EE3390DD0BC08E362C94037933B6D3A43D8BB4AE33C5E3F83272C"
+                    },
+                    {
+                        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+                        "entry":  "net/minecraft/world/item/crafting/Ingredient.java",
+                        "snapshot":  "sources/Ingredient.java",
+                        "sha256":  "4E7D9A1976F4328D6D603DF712CE0C2E62ABC7E537A9F020E1F7B4883EB465BC"
+                    }
+                ],
+    "scope":  "Fixed 1.21.1/21.1.251 command syntax source only; no game execution"
+}

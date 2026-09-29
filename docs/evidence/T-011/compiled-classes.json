@@ -1,0 +1,32 @@
+﻿[
+    {
+        "snapshot":  "compiled/evidence\\t011\\T011Probe$SignalBlock.class",
+        "sha256":  "B0D32DF7444DB2FC30BDAFAF3C0E3016033C41BDF2D47579B9D68A2329A764DD",
+        "majorVersion":  65,
+        "bytes":  4757
+    },
+    {
+        "snapshot":  "compiled/evidence\\t011\\T011Probe$SignalEntity.class",
+        "sha256":  "702C95E1D1205290994ACC9F06A402C3CB6F510C9678F1945E7D25AD68363E4F",
+        "majorVersion":  65,
+        "bytes":  1947
+    },
+    {
+        "snapshot":  "compiled/evidence\\t011\\T011Probe$TimerEntity.class",
+        "sha256":  "1133A57B8FA49C464EA2D93D273F45D7EBAE292CDB0480C1F62367CECE00D32F",
+        "majorVersion":  65,
+        "bytes":  2808
+    },
+    {
+        "snapshot":  "compiled/evidence\\t011\\T011Probe$TimerRail.class",
+        "sha256":  "6A9CE1D50A01BE5CD0A62E66B6D6714F5B01E74DDAA347E18F8E20759D16E863",
+        "majorVersion":  65,
+        "bytes":  4104
+    },
+    {
+        "snapshot":  "compiled/evidence\\t011\\T011Probe.class",
+        "sha256":  "C799FF56CA0FFEC937525EED117CCF07B05EDFE0D85C8C7C8D8C6E396881BB5B",
+        "majorVersion":  65,
+        "bytes":  4621
+    }
+]

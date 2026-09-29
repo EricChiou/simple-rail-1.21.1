@@ -1,0 +1,170 @@
+﻿[
+    {
+        "property":  "reverse",
+        "initial":  false,
+        "isolatedNext":  true,
+        "gate":  "rails and clicked cell empty",
+        "gameResult":  null
+    },
+    {
+        "property":  "reverse",
+        "initial":  true,
+        "isolatedNext":  false,
+        "gate":  "rails and clicked cell empty",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  0,
+        "isolatedNext":  1,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  1,
+        "isolatedNext":  2,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  2,
+        "isolatedNext":  3,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  3,
+        "isolatedNext":  4,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  4,
+        "isolatedNext":  5,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  5,
+        "isolatedNext":  6,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  6,
+        "isolatedNext":  7,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  7,
+        "isolatedNext":  8,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  8,
+        "isolatedNext":  9,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "level",
+        "initial":  9,
+        "isolatedNext":  0,
+        "gate":  "rails empty, or machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "direction",
+        "initial":  "north",
+        "isolatedNext":  "east",
+        "gate":  "rails and clicked cell empty",
+        "gameResult":  null
+    },
+    {
+        "property":  "direction",
+        "initial":  "east",
+        "isolatedNext":  "south",
+        "gate":  "rails and clicked cell empty",
+        "gameResult":  null
+    },
+    {
+        "property":  "direction",
+        "initial":  "south",
+        "isolatedNext":  "west",
+        "gate":  "rails and clicked cell empty",
+        "gameResult":  null
+    },
+    {
+        "property":  "direction",
+        "initial":  "west",
+        "isolatedNext":  "north",
+        "gate":  "rails and clicked cell empty",
+        "gameResult":  null
+    },
+    {
+        "property":  "direction",
+        "initial":  "up",
+        "isolatedNext":  "up",
+        "gate":  "rails and clicked cell empty",
+        "gameResult":  null
+    },
+    {
+        "property":  "direction",
+        "initial":  "down",
+        "isolatedNext":  "down",
+        "gate":  "rails and clicked cell empty",
+        "gameResult":  null
+    },
+    {
+        "property":  "facing",
+        "initial":  "north",
+        "isolatedNext":  "east",
+        "gate":  "machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "facing",
+        "initial":  "east",
+        "isolatedNext":  "south",
+        "gate":  "machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "facing",
+        "initial":  "south",
+        "isolatedNext":  "west",
+        "gate":  "machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "facing",
+        "initial":  "west",
+        "isolatedNext":  "north",
+        "gate":  "machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "facing",
+        "initial":  "up",
+        "isolatedNext":  "up",
+        "gate":  "machines regardless of cart",
+        "gameResult":  null
+    },
+    {
+        "property":  "facing",
+        "initial":  "down",
+        "isolatedNext":  "down",
+        "gate":  "machines regardless of cart",
+        "gameResult":  null
+    }
+]

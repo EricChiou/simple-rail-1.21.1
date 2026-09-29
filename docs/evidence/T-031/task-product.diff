@@ -1,0 +1,130 @@
+﻿diff --git a/docs/evidence/T-031/before/ModBlocks.java b/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java
+index 8ba637f..cdc6def 100644
+--- a/docs/evidence/T-031/before/ModBlocks.java
++++ b/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java
+@@ -1,6 +1,7 @@
+ package com.ericchiu.simplerail.registry;
+ 
+ import com.ericchiu.simplerail.SimpleRail;
++import com.ericchiu.simplerail.block.EjectRail;
+ import com.ericchiu.simplerail.block.HighSpeedRail;
+ import com.ericchiu.simplerail.block.HoldingRail;
+ import com.ericchiu.simplerail.block.OnewayRail;
+@@ -11,14 +12,14 @@ import net.neoforged.bus.api.IEventBus;
+ import net.neoforged.neoforge.registries.DeferredBlock;
+ import net.neoforged.neoforge.registries.DeferredRegister;
+ 
+-/** Stable IDs. High-speed, holding and oneway rails are implemented; other blocks remain placeholders. */
++/** Stable IDs. High-speed, holding, oneway and eject rails are implemented; other blocks remain placeholders. */
+ public final class ModBlocks {
+     private static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(SimpleRail.MODID);
+ 
+     public static final DeferredBlock<HighSpeedRail> HIGH_SPEED_RAIL = BLOCKS.registerBlock("high_speed_rail", HighSpeedRail::new, railProperties());
+     public static final DeferredBlock<HoldingRail> HOLDING_RAIL = BLOCKS.registerBlock("holding_rail", HoldingRail::new, railProperties());
+     public static final DeferredBlock<OnewayRail> ONEWAY_RAIL = BLOCKS.registerBlock("oneway_rail", OnewayRail::new, railProperties());
+-    public static final DeferredBlock<Block> EJECT_RAIL = BLOCKS.registerSimpleBlock("eject_rail", railProperties());
++    public static final DeferredBlock<EjectRail> EJECT_RAIL = BLOCKS.registerBlock("eject_rail", EjectRail::new, railProperties());
+     // The historical spelling is part of the public ID contract (D2).
+     public static final DeferredBlock<Block> DESTORY_RAIL = BLOCKS.registerSimpleBlock("destory_rail", railProperties());
+     public static final DeferredBlock<Block> TIMER_HOLDING_RAIL = BLOCKS.registerSimpleBlock("timer_holding_rail", railProperties());
+diff --git a/docs/evidence/T-031/before/pickaxe.json b/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json
+index 3a25932..5ce1373 100644
+--- a/docs/evidence/T-031/before/pickaxe.json
++++ b/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json
+@@ -3,6 +3,7 @@
+   "values": [
+     "simplerail:high_speed_rail",
+     "simplerail:holding_rail",
+-    "simplerail:oneway_rail"
++    "simplerail:oneway_rail",
++    "simplerail:eject_rail"
+   ]
+ }
+diff --git a/src/main/java/com/ericchiu/simplerail/block/EjectRail.java b/src/main/java/com/ericchiu/simplerail/block/EjectRail.java
+new file mode 100644
+index 0000000..412b0d1
+--- /dev/null
++++ b/src/main/java/com/ericchiu/simplerail/block/EjectRail.java
+@@ -0,0 +1,82 @@
++package com.ericchiu.simplerail.block;
++
++import com.ericchiu.simplerail.block.base.BasePoweredRail;
++import com.ericchiu.simplerail.config.CommonConfig;
++import com.mojang.serialization.MapCodec;
++import java.util.List;
++import net.minecraft.core.BlockPos;
++import net.minecraft.server.level.ServerPlayer;
++import net.minecraft.world.entity.Entity;
++import net.minecraft.world.entity.vehicle.AbstractMinecart;
++import net.minecraft.world.level.Level;
++import net.minecraft.world.level.block.Block;
++import net.minecraft.world.level.block.PoweredRailBlock;
++import net.minecraft.world.level.block.state.BlockBehaviour;
++import net.minecraft.world.level.block.state.BlockState;
++import net.minecraft.world.level.block.state.StateDefinition;
++import net.minecraft.world.level.block.state.properties.BooleanProperty;
++import net.minecraft.world.level.block.state.properties.RailShape;
++import net.minecraft.world.phys.Vec3;
++
++/** OLD side-of-rail coordinates, with the server player's position packet API. */
++public final class EjectRail extends BasePoweredRail {
++    public static final MapCodec<PoweredRailBlock> CODEC = simpleCodec(EjectRail::new);
++    public static final BooleanProperty REVERSE = BooleanProperty.create("reverse");
++    public static final BooleanProperty NEED_POWER = BooleanProperty.create("need_power");
++
++    public EjectRail(BlockBehaviour.Properties properties) {
++        super(properties);
++        // Registry construction precedes config loading; placement projects loaded values.
++        registerDefaultState(defaultBlockState().setValue(REVERSE, false).setValue(NEED_POWER, true));
++    }
++
++    @Override
++    public MapCodec<PoweredRailBlock> codec() {
++        return CODEC;
++    }
++
++    @Override
++    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
++        super.createBlockStateDefinition(builder);
++        builder.add(REVERSE, NEED_POWER);
++    }
++
++    @Override
++    public void onMinecartPass(BlockState state, Level level, BlockPos pos, AbstractMinecart cart) {
++        if (level.isClientSide) {
++            return;
++        }
++        CommonConfig.Snapshot config = CommonConfig.current();
++        if (config.ejectNeedPower() && !state.getValue(POWERED)) {
++            return;
++        }
++        List<Entity> passengers = List.copyOf(cart.getPassengers());
++        if (passengers.isEmpty()) {
++            return;
++        }
++
++        double offset = state.getValue(REVERSE)
++                ? config.ejectTransportDistance() + 0.5D : -config.ejectTransportDistance() - 0.5D;
++        boolean northSouth = state.getValue(SHAPE) == RailShape.NORTH_SOUTH;
++        double x = pos.getX() + (northSouth ? offset : 0.5D);
++        double z = pos.getZ() + (northSouth ? 0.5D : offset);
++        cart.ejectPassengers();
++        for (Entity passenger : passengers) {
++            passenger.setDeltaMovement(Vec3.ZERO);
++            if (passenger instanceof ServerPlayer player) {
++                // ServerPlayer.moveTo only resets server tracking; teleportTo also sends the position.
++                player.teleportTo(x, pos.getY(), z);
++            } else {
++                passenger.moveTo(x, pos.getY(), z);
++            }
++        }
++    }
++
++    @Override
++    protected void onPlace(BlockState state, Level level, BlockPos pos, BlockState oldState, boolean moving) {
++        if (!level.isClientSide && !oldState.is(this)) {
++            state = state.setValue(NEED_POWER, CommonConfig.current().ejectNeedPower());
++        }
++        super.onPlace(state, level, pos, oldState, moving);
++    }
++}

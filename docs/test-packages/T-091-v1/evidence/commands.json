@@ -1,0 +1,18 @@
+﻿{
+    "tasks":  [
+                  "T-090",
+                  "T-091"
+              ],
+    "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1",
+    "startedUtc":  "2026-09-28T03:10:25.9082466Z",
+    "endedUtc":  "2026-09-28T03:10:34.2535814Z",
+    "javaCommand":  "java -version",
+    "javaExitCode":  0,
+    "javacCommand":  "javac -version",
+    "javacExitCode":  0,
+    "gradleVersionCommand":  ".\\gradlew.bat --version --offline --console=plain",
+    "gradleVersionExitCode":  0,
+    "buildCommand":  ".\\gradlew.bat build --offline --console=plain --no-configuration-cache",
+    "buildExitCode":  0,
+    "buildLog":  "docs/evidence/T-090/build-01.log"
+}

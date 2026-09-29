@@ -1,0 +1,8 @@
+﻿{
+    "command":  ".\\gradlew.bat build --offline --console=plain --no-configuration-cache",
+    "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1",
+    "startedUtc":  "2026-09-29T13:43:07.2735505Z",
+    "finishedUtc":  "2026-09-29T13:43:12.0342947Z",
+    "exitCode":  0,
+    "scope":  "NEW only; no OLD, Minecraft, GameTest or runData"
+}

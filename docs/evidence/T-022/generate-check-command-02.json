@@ -1,0 +1,7 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-022/generate-check.ps1",
+    "startedUtc":  "2026-09-28T11:08:53.7413949Z",
+    "finishedUtc":  "2026-09-28T11:08:54.0345191Z",
+    "exitCode":  0,
+    "scope":  "Generator retry with UTF-8 BOM; document/JAR check script only"
+}

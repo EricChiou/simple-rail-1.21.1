@@ -1,0 +1,62 @@
+﻿[
+    {
+        "sha256":  "852996E09A3EEB9CF7AF44B312ACDA5D8BA697B54293433307720CF97A53C334",
+        "path":  "CASES.md"
+    },
+    {
+        "sha256":  "2CA58A1C7156B979DCD2A70D1C159B6F7BA9A0ED93024E7AD934DE65F2AEE7DB",
+        "path":  "evidence/build-01.log"
+    },
+    {
+        "sha256":  "52D02B8DAD7074EC16C55578E6AC8C29A6E890A92B3A9EEF9D873FF8E3DA2E1D",
+        "path":  "evidence/commands.json"
+    },
+    {
+        "sha256":  "B2F1005BDD3FF4B67C415FB6CE3A62F0C1DF937FDF4C90512DA3358FD9B9CA36",
+        "path":  "evidence/gradle-version.log"
+    },
+    {
+        "sha256":  "2EC5B6A71A2E8ED430EC719BED7F17178EDB173F210593B98AEC1C5B0B9B0EF8",
+        "path":  "evidence/jar-contents.txt"
+    },
+    {
+        "sha256":  "66678A7D5BDDD237ED1C6846853DE993CFA213968C00DFCEB3AC8D0B690C1516",
+        "path":  "evidence/javac-version.log"
+    },
+    {
+        "sha256":  "B6A5DA0348FC83E066C56639882D118090A6011DE275FE8C56C869FB3C4A4DBE",
+        "path":  "evidence/java-version.log"
+    },
+    {
+        "sha256":  "F63AFDA89E91712ABA44C6DD9D359C977AB6517D8B26C86A85BE7DF3A8D16631",
+        "path":  "evidence/neoforge.mods.toml"
+    },
+    {
+        "sha256":  "B7D4FE262D9F03952E3D48B3F9283386B6C96DBFBFD367546FDEA4C2A9865E52",
+        "path":  "evidence/source.diff"
+    },
+    {
+        "sha256":  "21853BFD3BC5B2F0D63D4D7E0CA1DE8175E68B5E50387A4782EF8A577E8AA21E",
+        "path":  "evidence/source-fingerprints.json"
+    },
+    {
+        "sha256":  "051931F543CE0DE3F4B72690A208219DEAFD6E3E523766FB72B385758C45E92B",
+        "path":  "INSTALL.md"
+    },
+    {
+        "sha256":  "937944F4C937590A386555EC4BC88CCC89C9119934018FD6A6742BDA534F1651",
+        "path":  "manifest.json"
+    },
+    {
+        "sha256":  "537780CB1E3C2B532AF7F22BEC1AA306C0966AFD6C571CC5D2936275B66C3A36",
+        "path":  "mods/simplerail-1.0.0.jar"
+    },
+    {
+        "sha256":  "2025693C42C8CC4C3FFC67FA164B824F4ECFFBC9C1E3265E1A15A40DF36FFA2C",
+        "path":  "README.md"
+    },
+    {
+        "sha256":  "53A66FE97864955677156442683C9A9419B67A5433383AF07FD39AE5CB3D4D16",
+        "path":  "results.json"
+    }
+]

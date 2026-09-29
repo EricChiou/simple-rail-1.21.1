@@ -1,0 +1,788 @@
+﻿{
+    "packageId":  "T-092-v1-draft",
+    "userConfirmation":  null,
+    "actualVersion":  null,
+    "cases":  [
+                  {
+                      "caseId":  "T023-C001-SP-cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-destory_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-eject_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-high_speed_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-locomotive_cart",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-oneway_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-signal_timer",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-timer_holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-train_dispenser",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-wrench",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-y_cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-SP-y_cross_right_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-destory_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-eject_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-high_speed_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-oneway_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-signal_timer",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-timer_holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-train_dispenser",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-y_cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-SP-y_cross_right_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-cart.locomotive.disableLoadingChunk",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.high_speed_rail.maxSpeed",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.oneway_rail.needPower",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.oneway_rail.usePowerChangeDirection",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.eject_rail.transportDistance",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.eject_rail.needPower",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.destory_rail.needPower",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv1",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv2",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv3",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv4",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv5",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv6",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv7",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv8",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.timer_holding_rail.lv9",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.signal_timer_block.lv1",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.signal_timer_block.lv2",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.signal_timer_block.lv3",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.signal_timer_block.lv4",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.signal_timer_block.lv5",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.signal_timer_block.lv6",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.signal_timer_block.lv7",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.signal_timer_block.lv8",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-SP-rail.signal_timer_block.lv9",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-destory_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-eject_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-high_speed_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-locomotive_cart",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-oneway_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-signal_timer",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-timer_holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-train_dispenser",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-wrench",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-y_cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-y_cross_right_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-en_us-tab",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-destory_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-eject_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-high_speed_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-locomotive_cart",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-oneway_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-signal_timer",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-timer_holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-train_dispenser",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-wrench",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-y_cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-y_cross_right_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-zh_tw-tab",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-SP-reload",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-destory_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-eject_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-high_speed_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-locomotive_cart",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-oneway_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-signal_timer",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-timer_holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-train_dispenser",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-wrench",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-y_cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C001-DS-y_cross_right_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-destory_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-eject_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-high_speed_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-oneway_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-signal_timer",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-timer_holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-train_dispenser",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-y_cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C002-DS-y_cross_right_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-cart.locomotive.disableLoadingChunk",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.high_speed_rail.maxSpeed",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.oneway_rail.needPower",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.oneway_rail.usePowerChangeDirection",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.eject_rail.transportDistance",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.eject_rail.needPower",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.destory_rail.needPower",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv1",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv2",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv3",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv4",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv5",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv6",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv7",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv8",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.timer_holding_rail.lv9",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.signal_timer_block.lv1",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.signal_timer_block.lv2",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.signal_timer_block.lv3",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.signal_timer_block.lv4",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.signal_timer_block.lv5",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.signal_timer_block.lv6",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.signal_timer_block.lv7",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.signal_timer_block.lv8",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C003-DS-rail.signal_timer_block.lv9",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-destory_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-eject_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-high_speed_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-locomotive_cart",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-oneway_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-signal_timer",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-timer_holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-train_dispenser",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-wrench",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-y_cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-y_cross_right_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-en_us-tab",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-destory_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-eject_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-high_speed_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-locomotive_cart",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-oneway_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-signal_timer",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-timer_holding_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-train_dispenser",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-wrench",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-y_cross_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-y_cross_right_rail",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-zh_tw-tab",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  },
+                  {
+                      "caseId":  "T023-C004-DS-reload",
+                      "status":  "未填（未執行）",
+                      "actualResult":  null
+                  }
+              ],
+    "note":  "選用；使用者整項確認即可人工結案，Agent 不代填"
+}

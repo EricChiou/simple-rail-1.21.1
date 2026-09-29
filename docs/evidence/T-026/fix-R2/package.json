@@ -1,0 +1,14 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-026/fix-R2/package.ps1",
+    "package":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\test-packages\\T-026-R2-v1.zip",
+    "sha256":  "3C169310EA0E8374785583D84BD4E9A1A165CD7C59E5DCF89C3E393FE0A58A9B",
+    "files":  18,
+    "cases":  7,
+    "mismatches":  [
+
+                   ],
+    "review":  "pending",
+    "manualResults":  "null",
+    "fullT094Completed":  false,
+    "gameExecuted":  false
+}

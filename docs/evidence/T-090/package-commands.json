@@ -1,0 +1,9 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-090/package.ps1",
+    "firstExitCode":  1,
+    "firstLog":  "package-01.log",
+    "firstFailure":  "Windows PowerShell 5.1 parsed UTF-8 without BOM as local encoding; no package emitted",
+    "retry":  "Script saved with UTF-8 BOM; product source unchanged",
+    "retryExitCode":  1,
+    "retryLog":  "package-02.log"
+}

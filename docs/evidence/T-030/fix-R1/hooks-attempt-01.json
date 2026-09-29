@@ -1,0 +1,7 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-030/fix-R1/hooks-test.ps1",
+    "wrapperExitCode":  1,
+    "nativeCompileExitCode":  null,
+    "runtimeTestsCompleted":  false,
+    "reason":  "PowerShell Stop preference terminated on javac sandbox cache JAR close error before full logging; repeated attempt 2 preserved compiler diagnosis; final attempt 3 used copied JAR and returned clean exit 0"
+}

@@ -1,0 +1,275 @@
+﻿{
+    "tasks":  [
+                  "T-092",
+                  "T-093"
+              ],
+    "utc":  "2026-09-28T13:05:30.9234588Z",
+    "checks":  {
+                   "T-092 ZIP count/portable unique paths":  true,
+                   "T-092 ZIP bytes case-index.json":  true,
+                   "T-092 ZIP bytes CASES.md":  true,
+                   "T-092 ZIP bytes default-config-reference.toml":  true,
+                   "T-092 ZIP bytes files-manifest.json":  true,
+                   "T-092 ZIP bytes INSTALL.md":  true,
+                   "T-092 ZIP bytes manifest.json":  true,
+                   "T-092 ZIP bytes README.md":  true,
+                   "T-092 ZIP bytes RECIPE-CATALOG.json":  true,
+                   "T-092 ZIP bytes results.json":  true,
+                   "T-092 ZIP bytes STATE-DOMAINS.json":  true,
+                   "T-092 ZIP bytes TABLES.md":  true,
+                   "T-092 ZIP bytes evidence/artifact.json":  true,
+                   "T-092 ZIP bytes evidence/audit-classpath.json":  true,
+                   "T-092 ZIP bytes evidence/audit-commands-01.json":  true,
+                   "T-092 ZIP bytes evidence/audit-results.json":  true,
+                   "T-092 ZIP bytes evidence/audit-run-01.log":  true,
+                   "T-092 ZIP bytes evidence/build-01.json":  true,
+                   "T-092 ZIP bytes evidence/build-01.log":  true,
+                   "T-092 ZIP bytes evidence/config-static-tests-reference.json":  true,
+                   "T-092 ZIP bytes evidence/data-map.json":  true,
+                   "T-092 ZIP bytes evidence/gradle-version.log":  true,
+                   "T-092 ZIP bytes evidence/jar-contents.txt":  true,
+                   "T-092 ZIP bytes evidence/java-version.log":  true,
+                   "T-092 ZIP bytes evidence/javac-version.log":  true,
+                   "T-092 ZIP bytes evidence/loot-responsibility.json":  true,
+                   "T-092 ZIP bytes evidence/neoforge.mods.toml":  true,
+                   "T-092 ZIP bytes evidence/resource-static-audit-reference.json":  true,
+                   "T-092 ZIP bytes evidence/source-fingerprints.json":  true,
+                   "T-092 ZIP bytes evidence/source.diff":  true,
+                   "T-092 ZIP bytes evidence/state-coverage-reference.json":  true,
+                   "T-092 ZIP bytes reference/simplerail-1.0.0.jar":  true,
+                   "T-092 directory manifest hashes":  true,
+                   "T-092 frozen ZIP/JAR hashes":  true,
+                   "T-092 unique complete case IDs":  true,
+                   "T-092 all manual results blank":  true,
+                   "T-092 review pending and no handoff":  true,
+                   "T-092 exact versions and historical build only":  true,
+                   "T-092 no EULA/world/runtime scripts bundled":  true,
+                   "T-092 Markdown README.md":  true,
+                   "T-092 Markdown INSTALL.md":  true,
+                   "T-092 Markdown CASES.md":  true,
+                   "T-092 Markdown TABLES.md":  true,
+                   "T-092 expanded inventory/config SP":  true,
+                   "T-092 expanded inventory/config DS":  true,
+                   "T092 remains blocked non-installable reference draft":  true,
+                   "T-093 ZIP count/portable unique paths":  true,
+                   "T-093 ZIP bytes case-index.json":  true,
+                   "T-093 ZIP bytes CASES.md":  true,
+                   "T-093 ZIP bytes default-config-reference.toml":  true,
+                   "T-093 ZIP bytes files-manifest.json":  true,
+                   "T-093 ZIP bytes INSTALL.md":  true,
+                   "T-093 ZIP bytes manifest.json":  true,
+                   "T-093 ZIP bytes README.md":  true,
+                   "T-093 ZIP bytes RECIPE-CATALOG.json":  true,
+                   "T-093 ZIP bytes results.json":  true,
+                   "T-093 ZIP bytes STATE-DOMAINS.json":  true,
+                   "T-093 ZIP bytes TABLES.md":  true,
+                   "T-093 ZIP bytes evidence/artifact.json":  true,
+                   "T-093 ZIP bytes evidence/audit-classpath.json":  true,
+                   "T-093 ZIP bytes evidence/audit-commands-01.json":  true,
+                   "T-093 ZIP bytes evidence/audit-results.json":  true,
+                   "T-093 ZIP bytes evidence/audit-run-01.log":  true,
+                   "T-093 ZIP bytes evidence/build-01.json":  true,
+                   "T-093 ZIP bytes evidence/build-01.log":  true,
+                   "T-093 ZIP bytes evidence/config-static-tests-reference.json":  true,
+                   "T-093 ZIP bytes evidence/data-map.json":  true,
+                   "T-093 ZIP bytes evidence/gradle-version.log":  true,
+                   "T-093 ZIP bytes evidence/jar-contents.txt":  true,
+                   "T-093 ZIP bytes evidence/java-version.log":  true,
+                   "T-093 ZIP bytes evidence/javac-version.log":  true,
+                   "T-093 ZIP bytes evidence/loot-responsibility.json":  true,
+                   "T-093 ZIP bytes evidence/neoforge.mods.toml":  true,
+                   "T-093 ZIP bytes evidence/resource-static-audit-reference.json":  true,
+                   "T-093 ZIP bytes evidence/source-fingerprints.json":  true,
+                   "T-093 ZIP bytes evidence/source.diff":  true,
+                   "T-093 ZIP bytes evidence/state-coverage-reference.json":  true,
+                   "T-093 ZIP bytes mods/simplerail-1.0.0.jar":  true,
+                   "T-093 directory manifest hashes":  true,
+                   "T-093 frozen ZIP/JAR hashes":  true,
+                   "T-093 unique complete case IDs":  true,
+                   "T-093 all manual results blank":  true,
+                   "T-093 review pending and no handoff":  true,
+                   "T-093 exact versions and historical build only":  true,
+                   "T-093 no EULA/world/runtime scripts bundled":  true,
+                   "T-093 Markdown README.md":  true,
+                   "T-093 Markdown INSTALL.md":  true,
+                   "T-093 Markdown CASES.md":  true,
+                   "T-093 Markdown TABLES.md":  true,
+                   "T-093 all recipes/material cases SP":  true,
+                   "T-093 all drops/tags/reload SP":  true,
+                   "T-093 all recipes/material cases DS":  true,
+                   "T-093 all drops/tags/reload DS":  true,
+                   "T093 complete artifact still gated by T023/R02":  true,
+                   "all product inputs unchanged":  true,
+                   "fixed command/pattern source fingerprints unchanged":  true,
+                   "full HEAD delta includes every originally untracked product file":  true,
+                   "126 continuous IDs/direct dependencies unchanged/acyclic":  true,
+                   "only authorized two task statuses changed":  true,
+                   "17 development/1 blocked/99 pending/9 stages":  true,
+                   "stage counts match overview and baseline":  true,
+                   "original task coverage table unchanged":  true,
+                   "historical review sections 8 through 29 unchanged":  true,
+                   "all current local document links resolve":  true,
+                   "staged index preserved and tracked whitespace check passed":  true,
+                   "R01 historical inputs and packages unchanged":  true
+               },
+    "passed":  106,
+    "failed":  [
+
+               ],
+    "packages":  [
+                     {
+                         "task":  "T-092",
+                         "package":  "T-092-v1-draft",
+                         "cases":  156,
+                         "bySource":  [
+                                          {
+                                              "count":  26,
+                                              "sourceCase":  "C-001"
+                                          },
+                                          {
+                                              "count":  22,
+                                              "sourceCase":  "C-002"
+                                          },
+                                          {
+                                              "count":  50,
+                                              "sourceCase":  "C-003"
+                                          },
+                                          {
+                                              "count":  58,
+                                              "sourceCase":  "C-004"
+                                          }
+                                      ],
+                         "byEnvironment":  [
+                                               {
+                                                   "environment":  "SP",
+                                                   "count":  78
+                                               },
+                                               {
+                                                   "environment":  "DS",
+                                                   "count":  78
+                                               }
+                                           ],
+                         "jarSha256":  "3D4BFC8926509DCE28C6DE11E8198D3639EB288E1EB29FAD89D3AEC9C1C6BBD3",
+                         "zipSha256":  "C7FD51E6A4E0536DA0D982933E0987B4200D607E3650143B91B7B4AD8E43127E",
+                         "manualHandoffReady":  false
+                     },
+                     {
+                         "task":  "T-093",
+                         "package":  "T-093-v1",
+                         "cases":  226,
+                         "bySource":  [
+                                          {
+                                              "count":  82,
+                                              "sourceCase":  "C-005"
+                                          },
+                                          {
+                                              "count":  142,
+                                              "sourceCase":  "C-006"
+                                          },
+                                          {
+                                              "count":  2,
+                                              "sourceCase":  "C-005/C-006"
+                                          }
+                                      ],
+                         "byEnvironment":  [
+                                               {
+                                                   "environment":  "SP",
+                                                   "count":  113
+                                               },
+                                               {
+                                                   "environment":  "DS",
+                                                   "count":  113
+                                               }
+                                           ],
+                         "jarSha256":  "3D4BFC8926509DCE28C6DE11E8198D3639EB288E1EB29FAD89D3AEC9C1C6BBD3",
+                         "zipSha256":  "9468FE025ECB382A5E0D6D9C837B396E7BCDDF954B391AB9A54C5B68C2AFFC82",
+                         "manualHandoffReady":  false
+                     }
+                 ],
+    "taskStatuses":  [
+                         {
+                             "count":  126,
+                             "status":  ""
+                         }
+                     ],
+    "stages":  [
+                   {
+                       "count":  4,
+                       "stage":  0
+                   },
+                   {
+                       "count":  17,
+                       "stage":  1
+                   },
+                   {
+                       "count":  8,
+                       "stage":  2
+                   },
+                   {
+                       "count":  18,
+                       "stage":  3
+                   },
+                   {
+                       "count":  16,
+                       "stage":  4
+                   },
+                   {
+                       "count":  26,
+                       "stage":  5
+                   },
+                   {
+                       "count":  23,
+                       "stage":  6
+                   },
+                   {
+                       "count":  8,
+                       "stage":  7
+                   },
+                   {
+                       "count":  6,
+                       "stage":  8
+                   }
+               ],
+    "missingLinks":  [
+
+                     ],
+    "missingDependencies":  [
+
+                            ],
+    "definitionChanges":  [
+
+                          ],
+    "otherStatusChanges":  [
+
+                           ],
+    "newBuildExecuted":  false,
+    "gameStarted":  false,
+    "productInputs":  160,
+    "diffExitCode":  0,
+    "indexExitCode":  0,
+    "statusExitCode":  0,
+    "nextDevelopment":  "T-025 (not started)",
+    "nextManual":  "T-023 (not ready: I-021-01/I-092-02/R-02/new package)",
+    "documentFingerprints":  [
+                                 {
+                                     "sha256":  "EB92B718A7C502FCFA5E87F1ACD32088E766526C02EC08183171529B034482FC",
+                                     "path":  "TASK.md"
+                                 },
+                                 {
+                                     "sha256":  "58484C3F8EF9D1474C2A59A0314A1C08556FE50DD58B2F8D10B0D1ED5D0F9AFD",
+                                     "path":  "MIGRATION.md"
+                                 },
+                                 {
+                                     "sha256":  "C7CC252A260B6CC57DC939125E01D6FDFF1357C29E9C71936B00FB91969D9B39",
+                                     "path":  "REVIEW.md"
+                                 },
+                                 {
+                                     "sha256":  "395521322B4C19F0D3E84DC1B802451E00BD6099095BE768FC14CAA73F4516ED",
+                                     "path":  "docs/evidence/T-092/README.md"
+                                 },
+                                 {
+                                     "sha256":  "939E082EC666BCB503E63A2361CB999F55D117330D4E6B587A9E20D135F5B93D",
+                                     "path":  "docs/evidence/T-093/README.md"
+                                 }
+                             ]
+}

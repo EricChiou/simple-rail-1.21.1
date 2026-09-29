@@ -1,0 +1,20 @@
+﻿[
+    {
+        "case":  "U09-rail",
+        "initial":  "reverse=false,level=9,direction=north",
+        "sourceCompatibleFinal":  "reverse=false,level=9,direction=east",
+        "writes":  3,
+        "decision":  "Pending user decision; not fixed",
+        "oldStatus":  "Source-inferred / untested",
+        "gameResult":  null
+    },
+    {
+        "case":  "U09-machine",
+        "initial":  "facing=north,level=9",
+        "sourceCompatibleFinal":  "facing=north,level=0",
+        "writes":  2,
+        "decision":  "Pending user decision; not fixed",
+        "oldStatus":  "Source-inferred / untested",
+        "gameResult":  null
+    }
+]

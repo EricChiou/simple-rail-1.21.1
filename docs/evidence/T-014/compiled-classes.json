@@ -1,0 +1,20 @@
+﻿[
+    {
+        "snapshot":  "compiled/evidence\\t014\\T014Probe$Facing8.class",
+        "sha256":  "06D477A764A0412F9E9DF76DC6685FFC685ADFCAFA9159FC3B958704185781EA",
+        "majorVersion":  65,
+        "bytes":  2266
+    },
+    {
+        "snapshot":  "compiled/evidence\\t014\\T014Probe$Locomotive.class",
+        "sha256":  "7C61A3E038E4BB187B6BB2927A1C9E7FF94C5CECF28F7DECF6D2380E1EFAEA6E",
+        "majorVersion":  65,
+        "bytes":  4719
+    },
+    {
+        "snapshot":  "compiled/evidence\\t014\\T014Probe.class",
+        "sha256":  "0779F671CDBDE28DE2607922A47ECB825D9A8F88F2A76329068E9C5C9FC893F2",
+        "majorVersion":  65,
+        "bytes":  2853
+    }
+]

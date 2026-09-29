@@ -1,0 +1,1 @@
+準備腳本保存規劃文件、index 與既有產品輸入時，已先新增本輪 `ModTags.java`；因此 inputs-before.json 明確排除此新檔。git-status-before.txt 是資料遷移前的狀態，包含新 ModTags，不能當作本輪開始前的全部 Git 狀態。既有輸入另與 T-021 source-fingerprints.json 比對；沒有覆寫原 index、既有 Java 或資源。

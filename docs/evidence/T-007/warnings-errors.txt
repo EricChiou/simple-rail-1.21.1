@@ -1,0 +1,11 @@
+﻿
+[269月2026 23:58:53.054] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[269月2026 23:58:53.057] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[269月2026 23:58:53.062] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[269月2026 23:58:53.063] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[269月2026 23:58:53.065] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[269月2026 23:58:53.500] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/workspace/java/simple-rail-1.21.1/build/moddev/artifacts/neoforge-21.1.251.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[269月2026 23:58:53.501] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/workspace/java/simple-rail-1.21.1/build/moddev/artifacts/neoforge-21.1.251.jar%23125!/data/.mcassetsroot' uses unexpected schema
+
+
+

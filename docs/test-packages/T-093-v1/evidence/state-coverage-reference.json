@@ -1,0 +1,330 @@
+[
+  {
+    "candidateDeclaredCombinations": 24,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:high_speed_rail",
+    "matched": 8,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 16,
+    "uncoveredExamples": [
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "true"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "true",
+        "waterlogged": "false"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "true",
+        "waterlogged": "true"
+      }
+    ]
+  },
+  {
+    "candidateDeclaredCombinations": 144,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:holding_rail",
+    "matched": 48,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 96,
+    "uncoveredExamples": [
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "direction": "down"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "direction": "up"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "direction": "north"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "direction": "south"
+      }
+    ]
+  },
+  {
+    "candidateDeclaredCombinations": 192,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:oneway_rail",
+    "matched": 64,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 128,
+    "uncoveredExamples": [
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "reverse": "false",
+        "need_power": "false",
+        "use_power": "false"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "reverse": "false",
+        "need_power": "false",
+        "use_power": "true"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "reverse": "false",
+        "need_power": "true",
+        "use_power": "false"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "reverse": "false",
+        "need_power": "true",
+        "use_power": "true"
+      }
+    ]
+  },
+  {
+    "candidateDeclaredCombinations": 96,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:eject_rail",
+    "matched": 32,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 64,
+    "uncoveredExamples": [
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "reverse": "false",
+        "need_power": "false"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "reverse": "false",
+        "need_power": "true"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "reverse": "true",
+        "need_power": "false"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "reverse": "true",
+        "need_power": "true"
+      }
+    ]
+  },
+  {
+    "candidateDeclaredCombinations": 48,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:destory_rail",
+    "matched": 16,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 32,
+    "uncoveredExamples": [
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "need_power": "false"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "need_power": "true"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "true",
+        "need_power": "false"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "true",
+        "need_power": "true"
+      }
+    ]
+  },
+  {
+    "candidateDeclaredCombinations": 1440,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:timer_holding_rail",
+    "matched": 480,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 960,
+    "uncoveredExamples": [
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "direction": "down",
+        "level": "0"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "direction": "down",
+        "level": "1"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "direction": "down",
+        "level": "2"
+      },
+      {
+        "shape": "ascending_east",
+        "powered": "false",
+        "waterlogged": "false",
+        "direction": "down",
+        "level": "3"
+      }
+    ]
+  },
+  {
+    "candidateDeclaredCombinations": 20,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:cross_rail",
+    "matched": 20,
+    "plainT019SkeletonHasRequiredProperties": true,
+    "uncovered": 0,
+    "uncoveredExamples": []
+  },
+  {
+    "candidateDeclaredCombinations": 240,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:y_cross_rail",
+    "matched": 160,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 80,
+    "uncoveredExamples": [
+      {
+        "shape": "north_south",
+        "waterlogged": "false",
+        "powered": "false",
+        "direction": "down"
+      },
+      {
+        "shape": "north_south",
+        "waterlogged": "false",
+        "powered": "false",
+        "direction": "up"
+      },
+      {
+        "shape": "north_south",
+        "waterlogged": "false",
+        "powered": "true",
+        "direction": "down"
+      },
+      {
+        "shape": "north_south",
+        "waterlogged": "false",
+        "powered": "true",
+        "direction": "up"
+      }
+    ]
+  },
+  {
+    "candidateDeclaredCombinations": 240,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:y_cross_right_rail",
+    "matched": 160,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 80,
+    "uncoveredExamples": [
+      {
+        "shape": "north_south",
+        "waterlogged": "false",
+        "powered": "false",
+        "direction": "down"
+      },
+      {
+        "shape": "north_south",
+        "waterlogged": "false",
+        "powered": "false",
+        "direction": "up"
+      },
+      {
+        "shape": "north_south",
+        "waterlogged": "false",
+        "powered": "true",
+        "direction": "down"
+      },
+      {
+        "shape": "north_south",
+        "waterlogged": "false",
+        "powered": "true",
+        "direction": "up"
+      }
+    ]
+  },
+  {
+    "candidateDeclaredCombinations": 12,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:train_dispenser",
+    "matched": 8,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 4,
+    "uncoveredExamples": [
+      {
+        "facing": "down",
+        "triggered": "false"
+      },
+      {
+        "facing": "down",
+        "triggered": "true"
+      },
+      {
+        "facing": "up",
+        "triggered": "false"
+      },
+      {
+        "facing": "up",
+        "triggered": "true"
+      }
+    ]
+  },
+  {
+    "candidateDeclaredCombinations": 20,
+    "scope": "candidate domains only, not runtime; gaps retain OLD resource behavior and require feature/pack readiness decisions",
+    "id": "simplerail:signal_timer",
+    "matched": 20,
+    "plainT019SkeletonHasRequiredProperties": false,
+    "uncovered": 0,
+    "uncoveredExamples": []
+  }
+]

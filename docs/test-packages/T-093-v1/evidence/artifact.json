@@ -1,0 +1,10 @@
+﻿{
+    "task":  "T-022",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "jar":  "build/libs/simplerail-1.0.0.jar",
+    "jarSha256":  "3D4BFC8926509DCE28C6DE11E8198D3639EB288E1EB29FAD89D3AEC9C1C6BBD3",
+    "scope":  "T-022 plus previously staged product changes; no commit, no Minecraft",
+    "staticChecks":  393,
+    "references":  85,
+    "integrationLimitation":  "I-021-01 remains; not a T-092 ready game package"
+}

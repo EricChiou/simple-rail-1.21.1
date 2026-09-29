@@ -1,0 +1,268 @@
+[
+  {
+    "id": "simplerail:cross_rail",
+    "pattern": [
+      " I ",
+      " R ",
+      "   "
+    ],
+    "ingredients": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "R": {
+        "item": "minecraft:rail"
+      }
+    },
+    "result": {
+      "id": "simplerail:cross_rail",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:destory_rail",
+    "pattern": [
+      " P ",
+      " I ",
+      "   "
+    ],
+    "ingredients": {
+      "P": {
+        "item": "minecraft:iron_pickaxe"
+      },
+      "I": {
+        "item": "minecraft:powered_rail"
+      }
+    },
+    "result": {
+      "id": "simplerail:destory_rail",
+      "count": 3
+    }
+  },
+  {
+    "id": "simplerail:eject_rail",
+    "pattern": [
+      "R  ",
+      " I ",
+      "   "
+    ],
+    "ingredients": {
+      "I": {
+        "item": "minecraft:powered_rail"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "id": "simplerail:eject_rail",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:high_speed_rail",
+    "pattern": [
+      " I ",
+      " R ",
+      "   "
+    ],
+    "ingredients": {
+      "I": {
+        "item": "minecraft:powered_rail"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "id": "simplerail:high_speed_rail",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:holding_rail",
+    "pattern": [
+      " R ",
+      " I ",
+      "   "
+    ],
+    "ingredients": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "I": {
+        "item": "minecraft:powered_rail"
+      }
+    },
+    "result": {
+      "id": "simplerail:holding_rail",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:locomotive_cart",
+    "pattern": [
+      " G ",
+      " C ",
+      "   "
+    ],
+    "ingredients": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "C": {
+        "item": "minecraft:minecart"
+      }
+    },
+    "result": {
+      "id": "simplerail:locomotive_cart",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:oneway_rail",
+    "pattern": [
+      "   ",
+      "RI ",
+      "   "
+    ],
+    "ingredients": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "I": {
+        "item": "minecraft:powered_rail"
+      }
+    },
+    "result": {
+      "id": "simplerail:oneway_rail",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:signal_timer",
+    "pattern": [
+      " R ",
+      " I ",
+      "   "
+    ],
+    "ingredients": {
+      "R": {
+        "item": "minecraft:repeater"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "id": "simplerail:signal_timer",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:timer_holding_rail",
+    "pattern": [
+      " R ",
+      " I ",
+      " R "
+    ],
+    "ingredients": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "I": {
+        "item": "minecraft:powered_rail"
+      }
+    },
+    "result": {
+      "id": "simplerail:timer_holding_rail",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:train_dispenser",
+    "pattern": [
+      " C ",
+      " D ",
+      "   "
+    ],
+    "ingredients": {
+      "C": {
+        "item": "minecraft:minecart"
+      },
+      "D": {
+        "item": "minecraft:dispenser"
+      }
+    },
+    "result": {
+      "id": "simplerail:train_dispenser",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:wrench",
+    "pattern": [
+      " G ",
+      " I ",
+      "   "
+    ],
+    "ingredients": {
+      "G": {
+        "item": "minecraft:gold_nugget"
+      },
+      "I": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "result": {
+      "id": "simplerail:wrench",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:y_cross_rail",
+    "pattern": [
+      " I ",
+      " R ",
+      " S "
+    ],
+    "ingredients": {
+      "I": {
+        "item": "minecraft:iron_nugget"
+      },
+      "R": {
+        "item": "minecraft:rail"
+      },
+      "S": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "id": "simplerail:y_cross_rail",
+      "count": 1
+    }
+  },
+  {
+    "id": "simplerail:y_cross_right_rail",
+    "pattern": [
+      " S ",
+      " R ",
+      " I "
+    ],
+    "ingredients": {
+      "I": {
+        "item": "minecraft:iron_nugget"
+      },
+      "R": {
+        "item": "minecraft:rail"
+      },
+      "S": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "id": "simplerail:y_cross_right_rail",
+      "count": 1
+    }
+  }
+]

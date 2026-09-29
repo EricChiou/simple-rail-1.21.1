@@ -1,0 +1,19 @@
+// Evidence-only JavaCompile task. Does not change sourceSets or package the probe.
+gradle.projectsEvaluated {
+    def p = rootProject
+    def mainCompile = p.tasks.named('compileJava', JavaCompile)
+    p.tasks.register('compileT008Probe', JavaCompile) {
+        source = p.fileTree('docs/evidence/T-008/probe') { include '**/*.java' }
+        classpath = p.sourceSets.main.compileClasspath
+        javaCompiler.set(mainCompile.get().javaCompiler)
+        destinationDirectory.set(p.layout.buildDirectory.dir('t008-probe/classes'))
+        options.release.set(21)
+        options.encoding = 'UTF-8'
+        options.compilerArgs.addAll(['-Xlint:deprecation', '-Werror'])
+        doFirst {
+            def ev = p.file('docs/evidence/T-008')
+            new File(ev, 'compile-classpath.txt').text = classpath.files.collect { it.absolutePath }.join('\n') + '\n'
+            new File(ev, 'compiler.txt').text = javaCompiler.get().metadata.toString() + '\n' + javaCompiler.get().executablePath.toString() + '\n'
+        }
+    }
+}

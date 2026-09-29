@@ -1,0 +1,7 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-090/package.ps1",
+    "exitCode":  0,
+    "log":  "package-03.log",
+    "retryReason":  "ZIP entry paths made portable with forward slashes; attempt 02 preserved",
+    "productInputsUnchanged":  true
+}

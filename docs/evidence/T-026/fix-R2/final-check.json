@@ -1,0 +1,118 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-026/fix-R2/final-check.ps1",
+    "checks":  [
+                   {
+                       "name":  "126 unique task IDs retained",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "No other task bodies changed",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "No missing dependency IDs",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "No dependency cycle",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Task titles and formal dependencies unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Nine phases and counts retained",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Coverage task mapping unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Review historical sections 8-33 untouched",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "D1-D8 decisions retained (only D6 progress cell updated)",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Compatibility requirements section retained",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Manual partial pass and unresolved reversal explicitly recorded",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Markdown references resolve",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Markdown tables/fences structurally valid",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "R2 user results remain null and code review pending",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "R2 fixed JAR hash matches manifest",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Frozen R1 JAR unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Frozen R1 ZIP unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "R2 package file fingerprints match",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Production files unchanged since successful build/audit",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Final git diff --check exit 0",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Final index unchanged",
+                       "pass":  true
+                   }
+               ],
+    "count":  21,
+    "failed":  [
+
+               ],
+    "taskCount":  126,
+    "phaseCounts":  [
+                        4,
+                        17,
+                        8,
+                        18,
+                        16,
+                        26,
+                        23,
+                        8,
+                        6
+                    ],
+    "missingDependencies":  [
+
+                            ],
+    "otherChangedTasks":  [
+
+                          ],
+    "missingLinks":  [
+
+                     ],
+    "markdownProblems":  [
+
+                         ],
+    "gameExecuted":  false
+}

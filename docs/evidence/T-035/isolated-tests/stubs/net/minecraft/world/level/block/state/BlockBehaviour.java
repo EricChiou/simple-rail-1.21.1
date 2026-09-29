@@ -1,0 +1,1 @@
+package net.minecraft.world.level.block.state; public class BlockBehaviour{public static class Properties{}}

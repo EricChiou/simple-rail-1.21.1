@@ -1,0 +1,23 @@
+﻿{
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "fullDiffExit":  0,
+    "registryDiffExit":  1,
+    "pickaxeDiffExit":  1,
+    "newSourceDiffExit":  1,
+    "statusExit":  0,
+    "productDrift":  [
+
+                     ],
+    "developmentComplete":  21,
+    "pending":  94,
+    "jarSha256":  "D0ECA101CA8A9B72173E9B340206B1DDB7FCB3FE1B7834DDD2F5BA56E3E19B7E",
+    "ejectHooksTestSha256":  "5E2CF79A9E2E14CF801FBCFCA82F4161BB96FB9E0893E1E7C57DDEC8EE095C14",
+    "buildExit":  0,
+    "hooksCompileExit":  0,
+    "hooksRunExit":  0,
+    "gameExecuted":  false,
+    "oldBuildExecuted":  false,
+    "independentReviewExecuted":  false,
+    "nextTaskExecuted":  false,
+    "pass":  true
+}

@@ -1,0 +1,132 @@
+﻿[
+    {
+        "path":  "icon.png",
+        "bytes":  5944,
+        "sha256":  "A65620D8F7E9AA83B95ABFEA65977A54E348FD05573D397829A80580ADD2F119"
+    },
+    {
+        "path":  "level.dat",
+        "bytes":  2532,
+        "sha256":  "9373D1B32D77360CEE423C28494C5C90B7420D1860C1485CA46CC5E62311C9D0"
+    },
+    {
+        "path":  "level.dat_old",
+        "bytes":  2533,
+        "sha256":  "720C789F77FC8C3333C54EB45A295A74C1433A3F925235D16B3A68A4C775118F"
+    },
+    {
+        "path":  "session.lock",
+        "bytes":  3,
+        "sha256":  "51643361C79ECAEF25A8DE802DE24F570BA25D9C2DF1D22D94FADE11B4F466CC"
+    },
+    {
+        "path":  "advancements\\380df991-f603-344c-a090-369bad2a924a.json",
+        "bytes":  325,
+        "sha256":  "F4A49A57A0CFEEF932D28015D8E626395734DF9BE0F10DBF52AD163CCB1BBA84"
+    },
+    {
+        "path":  "data\\neoforge_data_attachments.dat",
+        "bytes":  48,
+        "sha256":  "95486BD4CBD73D4D98F343E42A5792EF5315214015ACCA508842844D73247562"
+    },
+    {
+        "path":  "data\\raids.dat",
+        "bytes":  90,
+        "sha256":  "2CBDB616789C7B5391EC2A78D3558F04CE900427F2DF9CD70A84FC20FA15143A"
+    },
+    {
+        "path":  "DIM-1\\data\\neoforge_data_attachments.dat",
+        "bytes":  48,
+        "sha256":  "95486BD4CBD73D4D98F343E42A5792EF5315214015ACCA508842844D73247562"
+    },
+    {
+        "path":  "DIM-1\\data\\raids.dat",
+        "bytes":  90,
+        "sha256":  "2CBDB616789C7B5391EC2A78D3558F04CE900427F2DF9CD70A84FC20FA15143A"
+    },
+    {
+        "path":  "DIM1\\data\\neoforge_data_attachments.dat",
+        "bytes":  48,
+        "sha256":  "95486BD4CBD73D4D98F343E42A5792EF5315214015ACCA508842844D73247562"
+    },
+    {
+        "path":  "DIM1\\data\\raids_end.dat",
+        "bytes":  90,
+        "sha256":  "2CBDB616789C7B5391EC2A78D3558F04CE900427F2DF9CD70A84FC20FA15143A"
+    },
+    {
+        "path":  "entities\\r.-1.-1.mca",
+        "bytes":  45056,
+        "sha256":  "D15154493EE625C16BE5A05A775D1EF95A25EE48C7274CF349DE97AF8099862D"
+    },
+    {
+        "path":  "entities\\r.-1.0.mca",
+        "bytes":  73728,
+        "sha256":  "2E3A0EA49D1DD2D4B3502C6C5370AE4DE6B9DDCB63A8DF1AD3852F2D09476DFD"
+    },
+    {
+        "path":  "entities\\r.0.-1.mca",
+        "bytes":  94208,
+        "sha256":  "F96D470FBB619A3B38ABDA9A49D3258FC5725EB8B36F39BB75EAFBE59178AAE6"
+    },
+    {
+        "path":  "entities\\r.0.0.mca",
+        "bytes":  94208,
+        "sha256":  "303075A36CCA68A54940A6E836FB55473945F365318D71E53D9E4063FF070CCE"
+    },
+    {
+        "path":  "playerdata\\380df991-f603-344c-a090-369bad2a924a.dat",
+        "bytes":  895,
+        "sha256":  "98623441D065DE7BB7B857FA39AB1E483E5395C6FAF15ED40094C5C4D9FC2D53"
+    },
+    {
+        "path":  "playerdata\\380df991-f603-344c-a090-369bad2a924a.dat_old",
+        "bytes":  895,
+        "sha256":  "6184F0A0C1DD6BB2C12C311D4BDE6E36260D006D44C8E337B9E82747B1E26328"
+    },
+    {
+        "path":  "poi\\r.-1.-1.mca",
+        "bytes":  0,
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "poi\\r.0.-1.mca",
+        "bytes":  77824,
+        "sha256":  "FB1362E3ED954F129A538C58508F81AD1A34DE79607E34B51E160EBA904D9D26"
+    },
+    {
+        "path":  "poi\\r.0.0.mca",
+        "bytes":  61440,
+        "sha256":  "66DE348DCC52B5C0CECAB22B43A52195583A4F7AE0A6D127A076531621C949E0"
+    },
+    {
+        "path":  "region\\r.-1.-1.mca",
+        "bytes":  2568192,
+        "sha256":  "9FF66B6E88E4944FDEEF00C2EA8E66BE0564D2C14A22B853C959218BF3667F48"
+    },
+    {
+        "path":  "region\\r.-1.0.mca",
+        "bytes":  2670592,
+        "sha256":  "0E1C90D02D1BA013B1D432DB7A52F9BEB89A42A89156687832018BC0AB6153CF"
+    },
+    {
+        "path":  "region\\r.0.-1.mca",
+        "bytes":  2674688,
+        "sha256":  "2BFB1EF930B65A9E8D91865105538E28A54F11BE44FDF11680E1593E934651EE"
+    },
+    {
+        "path":  "region\\r.0.0.mca",
+        "bytes":  2781184,
+        "sha256":  "197A7DB3EC7E061658189774B12B1B374431DDA9FBF66757DB021FD20D4455A6"
+    },
+    {
+        "path":  "serverconfig\\readme.txt",
+        "bytes":  469,
+        "sha256":  "B1022AB932F8F0EA0CF78D9F312E95B85A4F96F59CA430E63F9A435E512D1186"
+    },
+    {
+        "path":  "stats\\380df991-f603-344c-a090-369bad2a924a.json",
+        "bytes":  201,
+        "sha256":  "0ECB911329D21017681B59C11273A905B2E5725043F9AF3B5612B5ABD126017A"
+    }
+]

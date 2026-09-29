@@ -1,0 +1,7 @@
+﻿{
+    "attempt":  1,
+    "scriptExit":  0,
+    "documentsWritten":  false,
+    "reason":  "PowerShell Write alias took precedence over function; only emitted content; detected all files unchanged, corrected helper name",
+    "buildExecuted":  false
+}

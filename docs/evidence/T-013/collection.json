@@ -1,0 +1,8 @@
+﻿{
+    "command":  "\u0026 ([scriptblock]::Create((Get-Content -Raw -Encoding UTF8 docs/evidence/T-013/collect.ps1)))",
+    "exitCode":  0,
+    "utc":  "2026-09-27T10:47:17.7212949Z",
+    "targetSources":  25,
+    "oldSources":  6,
+    "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E"
+}

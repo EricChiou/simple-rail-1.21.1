@@ -1,0 +1,20 @@
+﻿{
+    "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-031/artifacts/simplerail-1.0.0.jar",
+    "sha256":  "D0ECA101CA8A9B72173E9B340206B1DDB7FCB3FE1B7834DDD2F5BA56E3E19B7E",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "source":  "Uncommitted full source.diff and source-fingerprints.json",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod":  "1.0.0",
+    "javaToolchain":  "21",
+    "isolatedTestJdk":  "Temurin 21.0.12.1+1",
+    "gradle":  "9.2.1",
+    "modDevGradle":  "2.0.147",
+    "parchment":  "2024.11.17",
+    "license":  "All Rights Reserved",
+    "development":  "T-031 implementation complete",
+    "review":  "R-03 pending",
+    "manual":  "T-032 pending",
+    "package":  "T-097 pending",
+    "gameExecuted":  false
+}

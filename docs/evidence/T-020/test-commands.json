@@ -1,0 +1,8 @@
+﻿{
+    "command":  "javac --release 21 -Xlint:deprecation -Werror -cp \u003ctest-classpath.txt\u003e -d docs/evidence/T-020/test-classes docs/evidence/T-020/test/ConfigContractTest.java",
+    "startedUtc":  "2026-09-28T08:59:38.3376213Z",
+    "finishedUtc":  "2026-09-28T08:59:39.5158976Z",
+    "exitCode":  1,
+    "log":  "test-compile-01.log",
+    "logEncoding":  "UTF-16LE"
+}

@@ -1,0 +1,10 @@
+// Test-only run isolation; no project build file changes.
+gradle.projectsEvaluated {
+    rootProject.extensions.getByName('neoForge').runs.named('client') {
+        gameDirectory.set(rootProject.layout.projectDirectory.dir('run/T-006'))
+    }
+    rootProject.extensions.getByName('neoForge').runs.named('server') {
+        gameDirectory.set(rootProject.layout.projectDirectory.dir('run/T-007'))
+    }
+    rootProject.tasks.named('runServer') { standardInput = System.in }
+}

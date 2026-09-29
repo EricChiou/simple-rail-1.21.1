@@ -1,0 +1,643 @@
+{
+  "scope": "standalone config spec and snapshot; no FML lifecycle dispatch, Minecraft or gameplay",
+  "checks": [
+    {
+      "passed": true,
+      "case": "spec initialization does not load config"
+    },
+    {
+      "passed": true,
+      "case": "snapshot rejects reads before Loading"
+    },
+    {
+      "passed": true,
+      "case": "publication rejects unloaded spec"
+    },
+    {
+      "passed": true,
+      "case": "exactly 25 legacy paths, no new settings"
+    },
+    {
+      "passed": true,
+      "case": "default cart.locomotive.disableLoadingChunk"
+    },
+    {
+      "passed": true,
+      "case": "boolean domain cart.locomotive.disableLoadingChunk"
+    },
+    {
+      "passed": true,
+      "case": "default rail.high_speed_rail.maxSpeed"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.high_speed_rail.maxSpeed"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.high_speed_rail.maxSpeed"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.high_speed_rail.maxSpeed"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.high_speed_rail.maxSpeed"
+    },
+    {
+      "passed": true,
+      "case": "default rail.oneway_rail.needPower"
+    },
+    {
+      "passed": true,
+      "case": "boolean domain rail.oneway_rail.needPower"
+    },
+    {
+      "passed": true,
+      "case": "default rail.oneway_rail.usePowerChangeDirection"
+    },
+    {
+      "passed": true,
+      "case": "boolean domain rail.oneway_rail.usePowerChangeDirection"
+    },
+    {
+      "passed": true,
+      "case": "default rail.eject_rail.transportDistance"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.eject_rail.transportDistance"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.eject_rail.transportDistance"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.eject_rail.transportDistance"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.eject_rail.transportDistance"
+    },
+    {
+      "passed": true,
+      "case": "default rail.eject_rail.needPower"
+    },
+    {
+      "passed": true,
+      "case": "boolean domain rail.eject_rail.needPower"
+    },
+    {
+      "passed": true,
+      "case": "default rail.destory_rail.needPower"
+    },
+    {
+      "passed": true,
+      "case": "boolean domain rail.destory_rail.needPower"
+    },
+    {
+      "passed": true,
+      "case": "default rail.timer_holding_rail.lv1"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.timer_holding_rail.lv1"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.timer_holding_rail.lv1"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.timer_holding_rail.lv1"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.timer_holding_rail.lv1"
+    },
+    {
+      "passed": true,
+      "case": "default rail.timer_holding_rail.lv2"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.timer_holding_rail.lv2"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.timer_holding_rail.lv2"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.timer_holding_rail.lv2"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.timer_holding_rail.lv2"
+    },
+    {
+      "passed": true,
+      "case": "default rail.timer_holding_rail.lv3"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.timer_holding_rail.lv3"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.timer_holding_rail.lv3"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.timer_holding_rail.lv3"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.timer_holding_rail.lv3"
+    },
+    {
+      "passed": true,
+      "case": "default rail.timer_holding_rail.lv4"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.timer_holding_rail.lv4"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.timer_holding_rail.lv4"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.timer_holding_rail.lv4"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.timer_holding_rail.lv4"
+    },
+    {
+      "passed": true,
+      "case": "default rail.timer_holding_rail.lv5"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.timer_holding_rail.lv5"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.timer_holding_rail.lv5"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.timer_holding_rail.lv5"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.timer_holding_rail.lv5"
+    },
+    {
+      "passed": true,
+      "case": "default rail.timer_holding_rail.lv6"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.timer_holding_rail.lv6"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.timer_holding_rail.lv6"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.timer_holding_rail.lv6"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.timer_holding_rail.lv6"
+    },
+    {
+      "passed": true,
+      "case": "default rail.timer_holding_rail.lv7"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.timer_holding_rail.lv7"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.timer_holding_rail.lv7"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.timer_holding_rail.lv7"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.timer_holding_rail.lv7"
+    },
+    {
+      "passed": true,
+      "case": "default rail.timer_holding_rail.lv8"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.timer_holding_rail.lv8"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.timer_holding_rail.lv8"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.timer_holding_rail.lv8"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.timer_holding_rail.lv8"
+    },
+    {
+      "passed": true,
+      "case": "default rail.timer_holding_rail.lv9"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.timer_holding_rail.lv9"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.timer_holding_rail.lv9"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.timer_holding_rail.lv9"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.timer_holding_rail.lv9"
+    },
+    {
+      "passed": true,
+      "case": "default rail.signal_timer_block.lv1"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.signal_timer_block.lv1"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.signal_timer_block.lv1"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.signal_timer_block.lv1"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.signal_timer_block.lv1"
+    },
+    {
+      "passed": true,
+      "case": "default rail.signal_timer_block.lv2"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.signal_timer_block.lv2"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.signal_timer_block.lv2"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.signal_timer_block.lv2"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.signal_timer_block.lv2"
+    },
+    {
+      "passed": true,
+      "case": "default rail.signal_timer_block.lv3"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.signal_timer_block.lv3"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.signal_timer_block.lv3"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.signal_timer_block.lv3"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.signal_timer_block.lv3"
+    },
+    {
+      "passed": true,
+      "case": "default rail.signal_timer_block.lv4"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.signal_timer_block.lv4"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.signal_timer_block.lv4"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.signal_timer_block.lv4"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.signal_timer_block.lv4"
+    },
+    {
+      "passed": true,
+      "case": "default rail.signal_timer_block.lv5"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.signal_timer_block.lv5"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.signal_timer_block.lv5"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.signal_timer_block.lv5"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.signal_timer_block.lv5"
+    },
+    {
+      "passed": true,
+      "case": "default rail.signal_timer_block.lv6"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.signal_timer_block.lv6"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.signal_timer_block.lv6"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.signal_timer_block.lv6"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.signal_timer_block.lv6"
+    },
+    {
+      "passed": true,
+      "case": "default rail.signal_timer_block.lv7"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.signal_timer_block.lv7"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.signal_timer_block.lv7"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.signal_timer_block.lv7"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.signal_timer_block.lv7"
+    },
+    {
+      "passed": true,
+      "case": "default rail.signal_timer_block.lv8"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.signal_timer_block.lv8"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.signal_timer_block.lv8"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.signal_timer_block.lv8"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.signal_timer_block.lv8"
+    },
+    {
+      "passed": true,
+      "case": "default rail.signal_timer_block.lv9"
+    },
+    {
+      "passed": true,
+      "case": "inclusive bounds rail.signal_timer_block.lv9"
+    },
+    {
+      "passed": true,
+      "case": "reject outside range rail.signal_timer_block.lv9"
+    },
+    {
+      "passed": true,
+      "case": "framework clamps bounds rail.signal_timer_block.lv9"
+    },
+    {
+      "passed": true,
+      "case": "reject wrong type rail.signal_timer_block.lv9"
+    },
+    {
+      "passed": true,
+      "case": "spec-generated defaults valid"
+    },
+    {
+      "passed": true,
+      "case": "default TOML round trip"
+    },
+    {
+      "passed": true,
+      "case": "all default values readable through snapshot"
+    },
+    {
+      "passed": true,
+      "case": "D3 true key maps to enabled"
+    },
+    {
+      "passed": true,
+      "case": "separate real-seconds and signal-seconds lists"
+    },
+    {
+      "passed": true,
+      "case": "signal tick constants stay 20 and 10"
+    },
+    {
+      "passed": true,
+      "case": "holding level 0 is feature responsibility"
+    },
+    {
+      "passed": true,
+      "case": "signal level 10 rejected"
+    },
+    {
+      "passed": true,
+      "case": "immutable holding list"
+    },
+    {
+      "passed": true,
+      "case": "immutable signal list"
+    },
+    {
+      "passed": true,
+      "case": "reload value cart.locomotive.disableLoadingChunk"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.high_speed_rail.maxSpeed"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.oneway_rail.needPower"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.oneway_rail.usePowerChangeDirection"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.eject_rail.transportDistance"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.eject_rail.needPower"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.destory_rail.needPower"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.timer_holding_rail.lv1"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.timer_holding_rail.lv2"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.timer_holding_rail.lv3"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.timer_holding_rail.lv4"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.timer_holding_rail.lv5"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.timer_holding_rail.lv6"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.timer_holding_rail.lv7"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.timer_holding_rail.lv8"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.timer_holding_rail.lv9"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.signal_timer_block.lv1"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.signal_timer_block.lv2"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.signal_timer_block.lv3"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.signal_timer_block.lv4"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.signal_timer_block.lv5"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.signal_timer_block.lv6"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.signal_timer_block.lv7"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.signal_timer_block.lv8"
+    },
+    {
+      "passed": true,
+      "case": "reload value rail.signal_timer_block.lv9"
+    },
+    {
+      "passed": true,
+      "case": "reload publishes a new snapshot"
+    },
+    {
+      "passed": true,
+      "case": "retained original snapshot unchanged"
+    },
+    {
+      "passed": true,
+      "case": "D3 false remains false without reversing key"
+    },
+    {
+      "passed": true,
+      "case": "holding/signal groups independent after reload"
+    },
+    {
+      "passed": true,
+      "case": "large seconds remain intact, no int conversion here"
+    },
+    {
+      "passed": true,
+      "case": "invalid input rejected by spec"
+    },
+    {
+      "passed": true,
+      "case": "corrected eject upper bound readable"
+    },
+    {
+      "passed": true,
+      "case": "snapshot unavailable after Unloading path"
+    },
+    {
+      "passed": true,
+      "case": "publication still rejects unloaded spec"
+    },
+    {
+      "passed": true,
+      "case": "new load restores complete defaults"
+    }
+  ],
+  "passed": 159,
+  "failed": 0
+}

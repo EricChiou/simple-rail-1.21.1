@@ -1,0 +1,62 @@
+﻿[
+    {
+        "id":  "C-011-B01",
+        "needPower":  false,
+        "powered":  false,
+        "active":  true,
+        "target":  "Only the callback cart, when not already removed",
+        "removalReason":  "DISCARDED",
+        "effects":  "One LARGE_SMOKE (zero offset/speed) and GENERIC_BURN/BLOCKS volume=4 pitch=4 at rail+(.5,.75,.5)",
+        "ordinaryVehicleItem":  "No rail-added item; no destroy damage path",
+        "containerContents":  "Target source invokes vanilla container removal hook; actual game pending",
+        "passengers":  "Target source invokes stopRiding; actual game pending",
+        "oldReference":  "Source-inferred / untested; OLD superclass side effects not verified",
+        "manualCase":  "C-011 / T-034",
+        "gameResult":  null
+    },
+    {
+        "id":  "C-011-B02",
+        "needPower":  false,
+        "powered":  true,
+        "active":  true,
+        "target":  "Only the callback cart, when not already removed",
+        "removalReason":  "DISCARDED",
+        "effects":  "One LARGE_SMOKE (zero offset/speed) and GENERIC_BURN/BLOCKS volume=4 pitch=4 at rail+(.5,.75,.5)",
+        "ordinaryVehicleItem":  "No rail-added item; no destroy damage path",
+        "containerContents":  "Target source invokes vanilla container removal hook; actual game pending",
+        "passengers":  "Target source invokes stopRiding; actual game pending",
+        "oldReference":  "Source-inferred / untested; OLD superclass side effects not verified",
+        "manualCase":  "C-011 / T-034",
+        "gameResult":  null
+    },
+    {
+        "id":  "C-011-B03",
+        "needPower":  true,
+        "powered":  false,
+        "active":  false,
+        "target":  "Only the callback cart, when not already removed",
+        "removalReason":  null,
+        "effects":  "None",
+        "ordinaryVehicleItem":  "No rail-added item; no destroy damage path",
+        "containerContents":  "Target source invokes vanilla container removal hook; actual game pending",
+        "passengers":  "Target source invokes stopRiding; actual game pending",
+        "oldReference":  "Source-inferred / untested; OLD superclass side effects not verified",
+        "manualCase":  "C-011 / T-034",
+        "gameResult":  null
+    },
+    {
+        "id":  "C-011-B04",
+        "needPower":  true,
+        "powered":  true,
+        "active":  true,
+        "target":  "Only the callback cart, when not already removed",
+        "removalReason":  "DISCARDED",
+        "effects":  "One LARGE_SMOKE (zero offset/speed) and GENERIC_BURN/BLOCKS volume=4 pitch=4 at rail+(.5,.75,.5)",
+        "ordinaryVehicleItem":  "No rail-added item; no destroy damage path",
+        "containerContents":  "Target source invokes vanilla container removal hook; actual game pending",
+        "passengers":  "Target source invokes stopRiding; actual game pending",
+        "oldReference":  "Source-inferred / untested; OLD superclass side effects not verified",
+        "manualCase":  "C-011 / T-034",
+        "gameResult":  null
+    }
+]

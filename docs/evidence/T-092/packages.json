@@ -1,0 +1,26 @@
+﻿[
+    {
+        "task":  "T-092",
+        "package":  "T-092-v1-draft",
+        "zip":  "docs/test-packages/T-092-v1-draft.zip",
+        "zipSha256":  "C7FD51E6A4E0536DA0D982933E0987B4200D607E3650143B91B7B4AD8E43127E",
+        "jarSha256":  "3D4BFC8926509DCE28C6DE11E8198D3639EB288E1EB29FAD89D3AEC9C1C6BBD3",
+        "cases":  156,
+        "files":  31,
+        "developerStatus":  "受阻；固定審查草稿",
+        "manualHandoffReady":  false,
+        "gameStarted":  false
+    },
+    {
+        "task":  "T-093",
+        "package":  "T-093-v1",
+        "zip":  "docs/test-packages/T-093-v1.zip",
+        "zipSha256":  "9468FE025ECB382A5E0D6D9C837B396E7BCDDF954B391AB9A54C5B68C2AFFC82",
+        "jarSha256":  "3D4BFC8926509DCE28C6DE11E8198D3639EB288E1EB29FAD89D3AEC9C1C6BBD3",
+        "cases":  226,
+        "files":  31,
+        "developerStatus":  "開發完成",
+        "manualHandoffReady":  false,
+        "gameStarted":  false
+    }
+]

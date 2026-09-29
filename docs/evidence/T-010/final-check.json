@@ -1,0 +1,57 @@
+﻿{
+    "command":  "\u0026 ([scriptblock]::Create((Get-Content -Raw -Encoding UTF8 docs/evidence/T-010/final-check.ps1)))",
+    "utc":  "2026-09-27T09:52:16.2897403Z",
+    "exitCode":  0,
+    "taskCount":  126,
+    "dependencyGraph":  "valid references, acyclic, unchanged from index",
+    "stageCounts":  [
+                        4,
+                        17,
+                        8,
+                        18,
+                        16,
+                        26,
+                        23,
+                        8,
+                        6
+                    ],
+    "states":  {
+                   "historicalComplete":  6,
+                   "userWaived":  1,
+                   "developmentComplete":  3,
+                   "pending":  116
+               },
+    "localLinksChecked":  68,
+    "markdown":  "table columns/fences valid",
+    "sourceSnapshotsVerified":  77,
+    "productFilesUnchanged":  12,
+    "productDiffExit":  0,
+    "gitDiffCheckExit":  0,
+    "classpathHashesVerified":  84,
+    "classesVerified":  5,
+    "compileExit":  0,
+    "blockDomainListsChecked":  11,
+    "documentHashes":  [
+                           {
+                               "path":  "MIGRATION.md",
+                               "sha256":  "9FC4070DBE52B8CFE2F88EE85DEFE054F6E832C50DBB91D47960AC5C65364904"
+                           },
+                           {
+                               "path":  "TASK.md",
+                               "sha256":  "7105AB265E3F4A6C46740C19624E4292A6016E1E10A14699E486A843A39B1BC7"
+                           },
+                           {
+                               "path":  "REVIEW.md",
+                               "sha256":  "4F5BF02E540A8CFE352414492B95C2E080A95E00A6B0AB18F93FAD86BAB7CEF0"
+                           },
+                           {
+                               "path":  "docs/evidence/T-010/README.md",
+                               "sha256":  "6983DD75EC181A3BE5A6F8E3D9EE74F58A803E91FFF276F462EDE80F0F28F3A4"
+                           },
+                           {
+                               "path":  "docs/evidence/T-010/state-domains.md",
+                               "sha256":  "DD52DB22E58CAD8256C29B9B52E3965EF3AA1A2B0F1CB6D42FA1783BEB4A0A34"
+                           }
+                       ],
+    "scope":  "Document/evidence self-check only; no independent review, callback execution or game tests"
+}

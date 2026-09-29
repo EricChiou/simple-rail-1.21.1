@@ -1,0 +1,16 @@
+﻿{
+    "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-025\\artifacts\\simplerail-1.0.0.jar",
+    "sha256":  "2C72767500EDCF8F693FAB2EA874F77F52F3A949BBDF9F0DA10D20C008702BC0",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "commitScope":  "Existing HEAD plus uncommitted source diff/fingerprints",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod":  "1.0.0",
+    "license":  "All Rights Reserved",
+    "java":  "Temurin 21.0.12.1+1",
+    "gradle":  "9.2.1",
+    "modDevGradle":  "2.0.147",
+    "parchment":  "2024.11.17 / 1.21.1",
+    "build":  "build-01.json",
+    "scope":  "T-025 build artifact; not a T-094 test package or runtime-approved release"
+}

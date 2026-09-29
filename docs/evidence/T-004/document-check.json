@@ -1,0 +1,30 @@
+{
+  "checkedAtUtc": "2026-09-26T15:23:04.760Z",
+  "scope": "文件/來源轉錄自查，不是遊戲或獨立審查",
+  "taskCount": 89,
+  "states": {
+    "已完成": 4,
+    "使用者決定免執行": 1,
+    "待執行": 84
+  },
+  "caseCount": 44,
+  "coverageReferences": 25,
+  "routeBranchTranscription": {
+    "left": 32,
+    "right": 32
+  },
+  "issues": [],
+  "nextReady": [
+    "T-006",
+    "T-007",
+    "T-008",
+    "T-009",
+    "T-010",
+    "T-011",
+    "T-012",
+    "T-013",
+    "T-014",
+    "T-015",
+    "T-016"
+  ]
+}

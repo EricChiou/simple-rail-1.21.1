@@ -1,0 +1,12 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-035/hooks-test.ps1",
+    "compileCommand":  "Temurin 21 javac --release 21 -encoding UTF-8 -Xlint:unchecked -Werror -d isolated-tests/classes [explicit doubles + actual Wrench.java + WrenchHooksTest.java]",
+    "testDoubleCount":  30,
+    "compileExitCode":  0,
+    "runCommand":  "Temurin 21 java -cp isolated-tests/classes com.ericchiu.simplerail.item.WrenchHooksTest",
+    "runExitCode":  0,
+    "startedUtc":  "2026-09-29T12:28:11.2773939Z",
+    "finishedUtc":  "2026-09-29T12:28:12.5048374Z",
+    "scope":  "Real hook source against isolated doubles; no real Minecraft classes or ConfigSpec lifecycle",
+    "gameExecuted":  false
+}

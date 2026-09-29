@@ -1,0 +1,59 @@
+﻿{
+    "archive":  "build/moddev/artifacts/neoforge-21.1.251-sources.jar",
+    "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "target":  [
+                   {
+                       "path":  "net/minecraft/server/level/ServerPlayer.java",
+                       "sha256":  "0B3D42BF1368BD1025AFA810E9D8FF76939F96BE90F926BCD6912690EE95258A"
+                   },
+                   {
+                       "path":  "net/minecraft/server/network/ServerGamePacketListenerImpl.java",
+                       "sha256":  "92F36789407AF5AA6AEEF459BD52423D41F965EF9561C8A72DF925249395F3F1"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/Entity.java",
+                       "sha256":  "8E4D7B36EEEA5DE997D064AE7F9863D22B702EB650FD7EB22982EBDF76907839"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/LivingEntity.java",
+                       "sha256":  "BDBCA87D4E5D1EABF45597214C4027DE319973D0B08E8D2041D147B36AC1BC26"
+                   },
+                   {
+                       "path":  "net/minecraft/world/entity/vehicle/AbstractMinecart.java",
+                       "sha256":  "E68B6F27F5F573E02F0C3BA0C6A5EC798B7FFE3B28CD34CA635C67356854F095"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/BaseRailBlock.java",
+                       "sha256":  "B424C0A9E1A57F213684CA094590F85D69A93630195A07C691FEBD63805929C6"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/PoweredRailBlock.java",
+                       "sha256":  "12CB86CCA248CFD8DDB2C4417021F5D327637862D6B1EB5D20B5C90BC335D39A"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/RailState.java",
+                       "sha256":  "480539DBA2A7EB71AFED96FC9F558141B8FD5A19EF5ABE4B186DAADDED3F7B4A"
+                   },
+                   {
+                       "path":  "net/neoforged/neoforge/common/extensions/IBaseRailBlockExtension.java",
+                       "sha256":  "2748D05609D8935F34B1A4257A9C5C4421E7C47CECDBCA3E2275FE70D4DF10C2"
+                   }
+               ],
+    "old":  [
+                {
+                    "path":  "BasePoweredRail.java",
+                    "sha256":  "8E84FA948A81DA93D4F74EA2AB62BD59C3539B6054EB5481E040296C75E7107B"
+                },
+                {
+                    "path":  "CommonConfig.java",
+                    "sha256":  "12729B08246AC681D8FBE33DEB08749C752010BB648B7260E4ED5439D50BA8CC"
+                },
+                {
+                    "path":  "EjectRail.java",
+                    "sha256":  "045C786B1354D27335BA4C416B8F802EC2F1AB553AD8DAFAB710E63CE7134B2C"
+                }
+            ],
+    "oldStatus":  "Source reference only; OLD build not executed"
+}

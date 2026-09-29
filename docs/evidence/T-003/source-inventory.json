@@ -1,0 +1,1426 @@
+﻿{
+    "capturedUtc":  "2026-09-26T14:54:17.1073637Z",
+    "oldRoot":  "D:\\workspace\\java\\simple-rail",
+    "oldHead":  "6698b1c5f494095a15b055c10045293e91540012",
+    "sourceFiles":  [
+                        {
+                            "path":  "build.gradle",
+                            "sha256":  "EBE968038205B8856A2159C5216B69EFBF8AA1BC56102F50273DD69A413E0806"
+                        },
+                        {
+                            "path":  "gradle.properties",
+                            "sha256":  "CEAC63A731235D07F7D274AA57A20169D022DFC0614EB1FA67EA06DE09F6998F"
+                        },
+                        {
+                            "path":  "gradle/wrapper/gradle-wrapper.jar",
+                            "sha256":  "E55E7E47A79E04C26363805B31E2F40B7A9CC89EA12113BE7DE750A3B2CEDE85"
+                        },
+                        {
+                            "path":  "gradle/wrapper/gradle-wrapper.properties",
+                            "sha256":  "140335B06A23D7A355639EDFBA4A93ACBF5721B49B6C43920F802FE4138E4A94"
+                        },
+                        {
+                            "path":  "gradlew",
+                            "sha256":  "A8A5050A3EBCF75D9C1FD59B35FEE7FCEE282DFA126E8509A9A4144B0A23B144"
+                        },
+                        {
+                            "path":  "gradlew.bat",
+                            "sha256":  "0008D785920C9FF5CAB17403E0270CCC7CEEE8E169B6D67A82D96A5475FEC5C9"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/base/BasePoweredRail.java",
+                            "sha256":  "8E84FA948A81DA93D4F74EA2AB62BD59C3539B6054EB5481E040296C75E7107B"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/base/BaseRail.java",
+                            "sha256":  "011B834E3A4A171B01B1AA42CE3955B515E9838F971B36D394FF958C2298A824"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/CrossRail.java",
+                            "sha256":  "D0D735EC80855C5FFC387C023F07EA321DB8C1A32BA8CA296332F5AA43B0742C"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/DestoryRail.java",
+                            "sha256":  "8E7E592B300111CC2645490EE15B9BDFA873D1DD90B897661EEC78B5B443B66A"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/EjectRail.java",
+                            "sha256":  "045C786B1354D27335BA4C416B8F802EC2F1AB553AD8DAFAB710E63CE7134B2C"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/HighSpeedRail.java",
+                            "sha256":  "25405CEEE7079950D4F3C0A7A419971AB3CB27F3AF0CCE2F72CADF46059266F6"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/HoldingRail.java",
+                            "sha256":  "D37010623929D72978100A7EA4A894560B5CBBCA46D492DEFE1FD121D20D1517"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/OnewayRail.java",
+                            "sha256":  "37E9D2C7A0276F5B515B4C241E1AC68CA09F6EC519FD2A0D585C81943634C2E7"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/SignalTimerBlock.java",
+                            "sha256":  "D964BCD9600605569B263AC2A5D741B8AE5C01BC6E49ADD0A5D05DCA60315B21"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/TimerHoldingRail.java",
+                            "sha256":  "A681EB85810AD0FA25DBF48F51DA5CB596765534B02E738DA4B592E48EFCA911"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/TrainDispenserBlock.java",
+                            "sha256":  "4DAA0A0A8B03324BC8B1D9ED877DBDA83C7D40CEB4A4E5B7FBC1BA4D86CC19A1"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/YCrossRail.java",
+                            "sha256":  "C4C99681D35B3864BD2665C0A299C938A5BC1F25A9FE3C20BA3A292562E794A4"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/block/YCrossRightRail.java",
+                            "sha256":  "4E881B919329B50F6A5B42E4357831E2E282B22E3B55D82B71B6A1FFAD20FC1C"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/config/CommonConfig.java",
+                            "sha256":  "12729B08246AC681D8FBE33DEB08749C752010BB648B7260E4ED5439D50BA8CC"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/constants/Config.java",
+                            "sha256":  "7F357E289F92C301B42C7244A811F33D504FDCF39E0B3E06BE0C68045556B98F"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/constants/I18n.java",
+                            "sha256":  "3916FBAE161678474B2513D286B466E632A763E6A8EFE3BC88BA71056BC4204E"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/constants/Properties.java",
+                            "sha256":  "B2C7F21182394B997F619CFBC7BA93B11BBE4C630B1BE0BD3AB2D49D51F7A02F"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/constants/Tags.java",
+                            "sha256":  "C404BC40B5C6E65F20B3F178C86526AFA3A21A1FAB9B68641E1FA3A099D22135"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/constants/Texture.java",
+                            "sha256":  "2A904166C1E22C88F9D386EF5B0630162F55CA6A9D6F7CD67779AAEFCD2C93EC"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/constants/TileEntityCons.java",
+                            "sha256":  "276031699CB4CD1CD2244419494FF2DEAB27772ED749CE2C037A8E848B2EF8A8"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/constants/WorldData.java",
+                            "sha256":  "D7E6AFB7C13F540188DE4E9D842F243833270818730768553ED8C9C38C61306B"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/entity/LocomotiveCartEntity.java",
+                            "sha256":  "BA3F2F9D83A31087E8A48CC9BF29ECB465CE2EFC34CD2CD86F558BB8E74F3588"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/event/ChunkEventManager.java",
+                            "sha256":  "C67A510667BA660971F2FAB5295A2D78CF013E86CF441E23F2001810AE8D1774"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/item/LocomotiveCart.java",
+                            "sha256":  "607F920E86C49141B0A9E98863B1618BA9A74C24219F168B9BC92077CD222E7E"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/item/Wrench.java",
+                            "sha256":  "766CEE80AF12F582A9C64DD05C9BE02F7BAF36BE5ED63E03C11F98EA62930A0A"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/itemgroup/Rail.java",
+                            "sha256":  "0767DAE89C33EA79DD98FB006060C44277878A096D8FE1E4EBBF9AEE6B8D0F6E"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/link/LinkageManager.java",
+                            "sha256":  "598A0D648E49A90999C7CD669CE45BCFEF53A7B88812F77A985B4B87F5A4BFB5"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/registry/Blocks.java",
+                            "sha256":  "AFA61F6AC3EF8676BCA208F04531E1733A3C61CB091C57A598C9258F1BB11186"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/registry/Entities.java",
+                            "sha256":  "B2A0739810AB48A90DD76F14C5FD24B8A228F87F696043AC2277A3154BF9F60E"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/registry/Items.java",
+                            "sha256":  "6190AF78A7E31DA85D94CF6A80AF2C841BF4FC04B0941A8B9122AAB71CD1039F"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/registry/TileEntities.java",
+                            "sha256":  "B305BEA696DE75C97AE963A8B31BD9B5619F7F86EC2186D455643A4F378A9EB4"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/render/LocomotiveCartRender.java",
+                            "sha256":  "E4CB6FB064649FB108E2174D2B72A4A5B84C1BE51D6CCC474DB9E1AF41D450A8"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/render/model/LocomotiveCartModel.java",
+                            "sha256":  "5239AB266CA7D420AC4EC2C2A0F84FC5B88524B41943E242DC958CBB3E38EB91"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/setup/Registration.java",
+                            "sha256":  "7666D34628746555C8440A9442471B88F80BBDFE41A9B12C367A2A70880C9FAE"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/setup/Render.java",
+                            "sha256":  "099C5F06B2B69B04ADD094D0A2F012A96C7E1C364FE4EBC4325CCD2B460F067E"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/setup/SimpleRailDataSerializers.java",
+                            "sha256":  "C0E56053682A3F48B04B4ECB6A696614E9FF91D92ADC11D15362FD6F1634FD1F"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/setup/SimpleRailProperties.java",
+                            "sha256":  "7E03F79113A3DD6AADECC0C69EF80A342800B87F1C3DB7BD0F8B5D56973A2996"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/setup/SimpleRailTags.java",
+                            "sha256":  "9C18A346CBB5BFEDD69C4E2C2598D0B381511A8CA097336B9DF4F8D640A3A892"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/SimpleRail.java",
+                            "sha256":  "69935F45AAB5A9C9E0C204496D0C949227C63E1D94752C0529FA75532A675D9F"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/tileentity/SignalTimerTileEntity.java",
+                            "sha256":  "1EAAC4C57D865E2547B3D3CDB91F93ACF1AF362D438FD2739DF69E8A41BCD89C"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/tileentity/TimerHoldingRailTileEntity.java",
+                            "sha256":  "38D98F1B4B09FD62937AEDC8433034D648F73B80CC30EB0B968D3DBAA5DB651F"
+                        },
+                        {
+                            "path":  "src/main/java/ericchiu/simplerail/util/Detect.java",
+                            "sha256":  "882105085FE267074570AB67313D7AB739F57B51BA301E7F4A8C8F137D74BC8C"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/cross_rail.json",
+                            "sha256":  "D6B0FC5C96C572FF3F4FD523290E8B5FC9AADC4696D3BB077B6A8B57F6BF8BA9"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/destory_rail.json",
+                            "sha256":  "8D2915B468FAF11AE68B8B44AC5D9A322F50F2880B62EC4C7B8972A9F9CEDD4A"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/eject_rail.json",
+                            "sha256":  "DEA3E72DAF1DD690BBC703551150C12FF13FBC16378438F99A830B50F6C7F8D0"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/high_speed_rail.json",
+                            "sha256":  "3B6A4B9570889D3FA626FFB12E028F33CDD50544760487906BDD0BDFF7C80AB2"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/holding_rail.json",
+                            "sha256":  "B7D75AB38C3341C922B0EA73220DDAD67240A2B53ACD23B200DD2F3288A8FFC8"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/oneway_rail.json",
+                            "sha256":  "A902223863BB5F9AF0E2FB98D578DE7D764C50368F870218F97CE346401653C5"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/signal_timer.json",
+                            "sha256":  "FC638B9B3CBF8C2ADC61BABC3B2B26BB5FAC2742428E2C90973B7C5B63212868"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/timer_holding_rail.json",
+                            "sha256":  "197DE7377236B3B67A41A220C43ECA8EAD7C7FD85C9DA77C6DD0020926B618D4"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/train_dispenser.json",
+                            "sha256":  "D3B67DBC1DC9DA9263C2A63E0D63E0FF293FECFB64B6A2CE72E8E5FA444DE0DE"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/wrench.json",
+                            "sha256":  "5AEA7F3841C194A979636CCBB7965318D50C47064A3B8D957FC3ED4AFEE2CC7C"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/y_cross_rail.json",
+                            "sha256":  "807E15D873332B8E289B6BC38647A648558C1DAB2B29159617A2B46622935F2F"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/blockstates/y_cross_right_rail.json",
+                            "sha256":  "4F7B641AF44141E8BABF4A6FB021B10AE8BAF3861FD6FA6D728EDE3BBBF40DF3"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/lang/en_us.json",
+                            "sha256":  "9B4C266FAF8D8880F69E2372DEBFC5D4900A3DDE3252F4CD17A68744ED71F174"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/lang/zh_tw.json",
+                            "sha256":  "263E753734C553D09C61F23C3C3B6CC153EAE631D8560307B2576F62DEF283A8"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/cross_rail.json",
+                            "sha256":  "084DAE6C722936A6B5B4036C6FBC6B3E53501819781EA645E86FD2C443154A77"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/destory_powered_rail.json",
+                            "sha256":  "ED6F9F36C225D09974ABE4D92A4361329884E7A6CD20513B1ED9AC301AC2A6E6"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/destory_rail.json",
+                            "sha256":  "DB76817243284BC28479B63FFF5FE59268E07D947264EEA6A039568F30ABD8C2"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/eject_powered_rail.json",
+                            "sha256":  "1D4FAB5FB53F5173084CA29228E519EA233A815EFAF3A7A10D77BDEE641E1417"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/eject_rail.json",
+                            "sha256":  "4E89AEEEFEE4DE87D9EAF65DF0E831BF0D9B3B38C2C1EFA0B2A102C54CA4DC2F"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/eject_reverse_powered_rail.json",
+                            "sha256":  "D729EA2263C1FECB43DAAFE9AE671A831FD0B3725D1E9F620BC1EEBC72743BAE"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/eject_reverse_rail.json",
+                            "sha256":  "8AC7B3A3B8135D549602687BF7225455CCFA1CABEFF610C1606B579E8D5CBA50"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/high_speed_powered_rail.json",
+                            "sha256":  "382268226AEA9EBAE9AF472085D669CC03A65A34BF498FCE11B455B444F3708D"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/high_speed_rail.json",
+                            "sha256":  "B724F447861E3B43B3013860D0318ABDDB6CBBC74DFCB88B29F3963948086629"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/holding_powered_rail.json",
+                            "sha256":  "18527846AEF603AEA76E0163A340EF174CF784F75C1B7AC2A98940C859EC9585"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/holding_rail.json",
+                            "sha256":  "B1E4B6AAFE3239EE54AB9EACEB410A134F077452A03CB077F22223EE1E16FF57"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/oneway_powered_rail.json",
+                            "sha256":  "8BEC3BEB4F7C992A63DD49A86C55518DE516EA6FF169C39BA1A2F70887120F12"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/oneway_rail.json",
+                            "sha256":  "CEFE3254DF928F6CA8D417FC28E7182B8A8DCFF6DFDF0015345581671E03E7E6"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/oneway_reverse_powered_rail.json",
+                            "sha256":  "15D10ED3006B3F5AD40B8877D95A2F8DE7F8DFFC06D969B23E4C3090768BB4EF"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/oneway_reverse_rail.json",
+                            "sha256":  "453DC59EE04B04C4B2F8891DD4C94B148D07A3F883165B855F3DC54255B98AD1"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv0.json",
+                            "sha256":  "915BCEAD7429EF99AF63F917F06D18413484B903EB1C4303FEC2DE23AA8841EC"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv1.json",
+                            "sha256":  "370F197D8D91196BB5B7AE0B68BF4D5D0D7BAE045B84F9D5755EA245F8E92489"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv2.json",
+                            "sha256":  "5AA2BCA3C42F4D3AF1374D933CFCF3A298134B2F304AA1F99F190D45E2140CB9"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv3.json",
+                            "sha256":  "A2E39384AFF08D0BDCF04F3165393FCC90D43D9043020AA671A2F5BEA8B6465F"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv4.json",
+                            "sha256":  "F9FC4A9057B0C7EF4CFE0A1AF5705F63675D6CA6CCF9BB70954EC23DABC21C35"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv5.json",
+                            "sha256":  "3BC2BC154ED04CA4DF6046C449B8BC16E2326FDF28FC89F0371B8E9653640FCB"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv6.json",
+                            "sha256":  "8BF87D9A6000A18D2BCD01D1E45108FED1FDD91FA9E88033D9C5D0736AA139A6"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv7.json",
+                            "sha256":  "0EF0253E79A804EB752A5C67AC56578E274E2ACD90B2AD457176FF4E59E7904C"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv8.json",
+                            "sha256":  "E31FBF3918A31AD1CBC4D5FB1C36E801450589D96673EA59522F880CD669AA95"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/signal_timer_lv9.json",
+                            "sha256":  "7A14F1AB618676B4972BD43A28564F83EA7AA2C563523DE7E68ECBDA560034F5"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv0_rail.json",
+                            "sha256":  "6A4130B8473D5CB9456D5C067EC8CBA490E3341DE3AC00306E17E09C5D2A4635"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv1_rail.json",
+                            "sha256":  "A0230B77DC6C1932D9A790279C070D8CF97E19D0E5A5BAF8497659D35014EFC7"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv2_rail.json",
+                            "sha256":  "87DF77029C78F42FE15DF0FF651D67668117465DA3D9CFF9B88803CCF86C8EA1"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv3_rail.json",
+                            "sha256":  "F7AF89E61958789D4E7392952C07BD5A14814A5DF13482A025BB962F2F634261"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv4_rail.json",
+                            "sha256":  "9F0089917EE27057D7398F45DA6E68FBAEFECBA1CE99D7D3BFB66EA470365B5E"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv5_rail.json",
+                            "sha256":  "CBBA6A574137CB17DE872B33F9F4A95BC49C311D6F261B277E257FBB85928A21"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv6_rail.json",
+                            "sha256":  "86827EA6D3E16739DA64418A36261E06383FA69D2F44367BEE7D326CFC16A112"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv7_rail.json",
+                            "sha256":  "93FC6B7E9B55E9B146CB7B68E023682061407F36D2E42A36277AC07BD243B0BC"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv8_rail.json",
+                            "sha256":  "7B2FB1AF2B332F4A0542C51E00FA8493DFB37FD57D3C4CCE4A93216441005989"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/timer_holding_lv9_rail.json",
+                            "sha256":  "F024919AAF08E6DA658538CE224B57EAF57E068053ACB7F19CE8962F960FFE9F"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/train_dispenser.json",
+                            "sha256":  "191AF866D6E75626040DFD33453AA7ADEA07C69E057E0EA4781BB31A98B36BB1"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/y_cross_right_straight_rail.json",
+                            "sha256":  "E9EAE88F178BB07FFB9EFFBCE16A23C906B44E948B0121B872D19B8F5E6444C6"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/y_cross_right_turn_rail.json",
+                            "sha256":  "A72021318667CF1D45BE1E417D8531B7748F2FA0FCBB23AE38B110FA7713191F"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/y_cross_straight_rail.json",
+                            "sha256":  "4CC9368C1CD83D5B84C6BF91E04FD3C07EAEE4781B8DF3338FCA861799DAE328"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/block/y_cross_turn_rail.json",
+                            "sha256":  "CCB1760EF0E3ADDDE8FF0CACD80E4AF5DE3B49486284F8252939E7C25A5F83DC"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/cross_rail.json",
+                            "sha256":  "B0196AF7F534C0CB41CDEB0257873ECF64E1092AEEA97B18247E278A208AC296"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/destory_rail.json",
+                            "sha256":  "96BFE222A60645BAB03A52F8B481765C110AA1D4BD149D8D5ADFEF99C8A1F20C"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/eject_rail.json",
+                            "sha256":  "83E19D8E5D43E664514879595C92786D42974E9D01CE02C3D77E313D4BFCDBA7"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/high_speed_rail.json",
+                            "sha256":  "2040371285323C2171F483DD899561E8B39AA298DEC0BD3EC4D150617144525A"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/holding_rail.json",
+                            "sha256":  "56FC2F570AA00C419B5BD8344C503161C2E98924C0551D2948FAE701CEAEE876"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/locomotive_cart.json",
+                            "sha256":  "786B5A55B840FAA482E556158D4A232476121DCEE674AB41594FD5CAF4511D87"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/oneway_rail.json",
+                            "sha256":  "329EF26148772871D52C8766A17426BC83E8A4713853582FF764CDAED261F659"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/oneway_reverse_rail.json",
+                            "sha256":  "0120157538F298008C631A3CB0169AEF3B40302323237D0CD95066326E2CA904"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/signal_timer.json",
+                            "sha256":  "8187ED03911B95C992B1F49A2CF8EAF3D14172098CF62EAC153F0BB9578C3E0C"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/timer_holding_rail.json",
+                            "sha256":  "8912F27270A2604C7440CD92FC66F869E55B0BB86F5CA5ED93B9C1FFE6C8C995"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/train_dispenser.json",
+                            "sha256":  "B6ABCCCAC63C1CCDFDFC836B5A33EB29B6AEC61A7E621338AF0208B2566BE781"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/wrench.json",
+                            "sha256":  "4BCC0E394846E97DED8E19D9BAF775A9A33CD3DB10E66ACF7FFC804AB9677AC7"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/y_cross_rail.json",
+                            "sha256":  "8C3E42570C90FC0B7693DF8CA9EA57F756D2C320B7791F2FF5C852860100401C"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/models/item/y_cross_right_rail.json",
+                            "sha256":  "7497AE9BBAE32F142088508E95D39219AB87A4C318831B71690DCB6194DEFDEF"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/cross_rail.png",
+                            "sha256":  "FA43ACBA42C5E1B54F8D81BCEC69DDAD8352F26AE4C93F53F89C9707DE1C52E6"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/destory_powered_rail.png",
+                            "sha256":  "3747E2E873A4F4683EF6A7C304575BE299F39B21D6DA4C02B219C90A1B65EFA0"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/destory_rail.png",
+                            "sha256":  "3317A8328576FB0565A02674236AC1B9065B693AD5A7E543D1877E8C5493BE58"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/eject_powered_rail.png",
+                            "sha256":  "A1389F6C2887D12301825F4F5537594D62EF04738440A7648DD378BF9549ED4A"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/eject_rail.png",
+                            "sha256":  "4840507CF6539FCF7BFC071594E0C72BFC695E95A2E250DE3967BA9887870A6F"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/eject_reverse_powered_rail.png",
+                            "sha256":  "CA16FDAE200DFFA25B280E0E14347DBC686503D65534A0A50965D43E60941103"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/eject_reverse_rail.png",
+                            "sha256":  "B0E416FF229E1BE71D9B83614429FD7990870190724C31F0EC73DBD14899AC05"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/high_speed_powered_rail.png",
+                            "sha256":  "8E56EC950692C064D0C436483DF11996B0E7EF3261E92FEA9700937E32C86786"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/high_speed_rail.png",
+                            "sha256":  "5BC89B9C2105F958841E75EFB15E7EC731D7B3574494AC739F11BC1E265CBB24"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/holding_powered_rail.png",
+                            "sha256":  "9F5D1E7CA4862BC416A0EEF105E93D284A769FB1BEEC41E1685443E6C2BE7275"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/holding_rail.png",
+                            "sha256":  "2282B1F4FAB00459E064D3C6C9A5B35B21458FBB18C465F7DE4BBD4E6A8CEF65"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/oneway_powered_rail.png",
+                            "sha256":  "F192ABC7A20080F3D42DD548B6C2F3D53B832A45605DDCDE9B4CB44FE645EABF"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/oneway_rail.png",
+                            "sha256":  "55EDF222909F70D91460F9D9E8BC40EE75CC42F24DC387353154829E4145805B"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/oneway_reverse_powered_rail.png",
+                            "sha256":  "742291736A7FB8B4703FA3588BDE298415134FE94E489BF7F5FBAF4BFFD1F68E"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/oneway_reverse_rail.png",
+                            "sha256":  "0481E3CACB94A36256043B91DDFC3177B3FACCED71B1EDA5A71162E329547DE1"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv0.png",
+                            "sha256":  "79DB51A5120B22CDF4C624F1D7E50798DA919DFACFB042705F0273CB2B0057DD"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv1.png",
+                            "sha256":  "58AC4559FB150C93D99050EDEE5CE21FD6D28154E45E268EA3B5CE52960F2CB5"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv2.png",
+                            "sha256":  "A2C083F2ED5AB43D5AE1AC1C9D73B9058B92BFB3F1FCA72BF8E53E25BE2439F5"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv3.png",
+                            "sha256":  "66A1124424961BBAD3F765BFEAC1BB9584B65BAAF070E510C9E943F16FBAEF10"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv4.png",
+                            "sha256":  "9C79BA9DA634C9162029AABF77894DBAF4B2571CA8CF0697FF2C7AAA09CBC1DE"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv5.png",
+                            "sha256":  "6A8C0F5017DED82BBA963425C3806D1A1E126748080C93BDD18C09E9491DB72E"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv6.png",
+                            "sha256":  "92B9CD164BF6A57A61EC81EE304E9B0A560072960928C0DDEB73032127426EC0"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv7.png",
+                            "sha256":  "F34A467809D451264577518F7B8A54103479746D4102CF3C3B2EF6D4A481F90E"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv8.png",
+                            "sha256":  "814B560AF78DAEE3BA06A16DD4C8068047FF9C897F9B16FB414CDC47E2200D97"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/signal_timer_lv9.png",
+                            "sha256":  "53D936A9D4FA9E5ACB47A0A28458E104EBC4C10B931604A056ADB6BE1CB63DF1"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv0_rail.png",
+                            "sha256":  "736DC058490275A29AD3DB2A1E89144A0DC82FF758C9529C945EA02717318192"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv1_rail.png",
+                            "sha256":  "C19D4368FDBCEEBDC0BC7CC48BE8B34C5DCBA00FEC9D9E5F095DCFF9128448A8"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv2_rail.png",
+                            "sha256":  "91F4AFBCDE04AD0A55198EFFE3EE2DA1AE4C69DC727AF0BC0FD20B5E59C776B7"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv3_rail.png",
+                            "sha256":  "6FAA786D91710777F489B435FB94EADEA8F867EB17405AC9D153ABA3A4275E2C"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv4_rail.png",
+                            "sha256":  "6DDFEDA293A0A510988FB90291170F5C92A6D9C1E4805AE554879A1F0B076F2C"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv5_rail.png",
+                            "sha256":  "798DEF5DD73664C83E9E143F01D62065514FFFF581FE684DE218CDADA74D1AA0"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv6_rail.png",
+                            "sha256":  "E9E7893BA6A0A139C0BF789EECDE7233A903B43DEE6869EFC58DE573B4BC7469"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv7_rail.png",
+                            "sha256":  "197258D0D00B51B8F43ED1EAC1F343FC1FE9FC1D47997E4EDD3EE35E3E076C8F"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv8_rail.png",
+                            "sha256":  "8B8C43290AD17F67CCCB2E2AF9155A308D643DF8333DA540287107E16D9F1152"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/timer_holding_lv9_rail.png",
+                            "sha256":  "366E9F7EA213122942EC4B43DD174F611B26EE07BCBF2032527DA21BC09B24BC"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/train_dispenser.png",
+                            "sha256":  "97E4A508AD647BD326D70DC418C7C7965BF078319C687B1F3B06E53D183607C9"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/train_dispenser_front.png",
+                            "sha256":  "4289A928E1B673245E32842884FEA29D45A4CE58D25354D5E5712D6C0FDDD74F"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/y_cross_right_straight_rail.png",
+                            "sha256":  "AFC78EC6A55EB1C40A3EE6B2E4692B423DE9AC21DA0DF2CC32EA221AB3C21EB9"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/y_cross_right_turn_rail.png",
+                            "sha256":  "D125A02A38827CC0D9706652204971DE46506707A9A7CE3E86303048584FEF75"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/y_cross_straight_rail.png",
+                            "sha256":  "13AC7645C8A1035F3B90743D50C55FCD4F4AF389CEE093F5357BACF064C33677"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/blocks/y_cross_turn_rail.png",
+                            "sha256":  "EA83FB18FCC2EC53C94324FCD7F7CF33A81EF3D2C939CC5EE9397DB0EC1CDB20"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/entity/locomotive_cart.png",
+                            "sha256":  "F2B64C6502099024781691BFBE9A93693DCBABEB225B53DC0C07C545E070B1AF"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/items/locomotive_cart.png",
+                            "sha256":  "D1B353157DB8F9FCDB90DC76B163A3C212FCFE0E58B4BC1A4B98D0F48CC87C2C"
+                        },
+                        {
+                            "path":  "src/main/resources/assets/simplerail/textures/items/wrench.png",
+                            "sha256":  "1335FBD11C28807372C59C45B6BDE1AA58E8BCB11463980FF8F7D1D453235E46"
+                        },
+                        {
+                            "path":  "src/main/resources/data/minecraft/tags/blocks/rails.json",
+                            "sha256":  "EA44C9516C401CE6AA343B2AC47F55402E9FFC525910643F504D2F3945D15200"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/cross_rail.json",
+                            "sha256":  "97D23D2D26AA6E0E9CACF676C4AF71BC8526109CF7D0D6188404CB7CEF5A0D1C"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/destory_rail.json",
+                            "sha256":  "AD64DE8836B84F41FE23AD675AA98EE43CC82F6C1CF1FA814C4DE881FEE94510"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/eject_rail.json",
+                            "sha256":  "ED56B273D91C79CC1AC407B9A0585A2AA3E738206335CAAE5B21038417B38497"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/high_speed_rail.json",
+                            "sha256":  "EEF1D895F29BD1C627ED7D34225E3465EFB7DA8EF08382E936E4D6B303A1E697"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/holding_rail.json",
+                            "sha256":  "F62BD18819CF7988A0B56AFA33DAE993CD5F6B2BCA9D629E5D58C838182AA0FB"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/locomotive_cart.json",
+                            "sha256":  "FD119CC85F9ED917571B428FF1C2F3228208A2A83B026C94232A7F11628FBC86"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/oneway_rail.json",
+                            "sha256":  "A2DB83171A70329D3A1927E3DBB07E4E2797C802F324F2EB1B69B1E475DA3918"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/signal_timer.json",
+                            "sha256":  "5B53CBFD945EC40A418E8F04280217C6ADC30C8A4A9152D9BD189B2143E5B75D"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/timer_holding_rail.json",
+                            "sha256":  "460BF816527E8E373285B54AD9C29E6F144B127A8D9F330E893C7F252E64C0A3"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/train_dispenser.json",
+                            "sha256":  "49EA140CAAA025DE9E26B2A8DF3C0CEBD3EC753AA4E8BC37DE8D1D0FA4043F28"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/y_cross_rail.json",
+                            "sha256":  "5C5E55AAA2CA4A7AE9349B4359AC3EA7F46D67B2951A10D390CE0ED2FB35C42E"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/loot_tables/blocks/y_cross_right_rail.json",
+                            "sha256":  "7710FCDD859E06C3F2848A0AA830C0E5055D1294A879BBDAD9575A78AA826D45"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/cross_rail.json",
+                            "sha256":  "3C4B8774240334C8E35A6EE41F0137F81FF172F4097008C1D7C3B24BAEFE606C"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/destory_rail.json",
+                            "sha256":  "0D4606E8B35692733954C0CD8040CB94F52BA8FCE1D6C98E799A8389BA7DA5C9"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/eject_rail.json",
+                            "sha256":  "A3FAB527C9FEAEAEDB623E71B87F9C1EF0AEC8082A4F3D6E872F1DA997053B94"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/high_speed_rail.json",
+                            "sha256":  "CFF0B860C26722DA5820C33EA5AEFB89E3C11BD4FB716DBF268118F94ED890FD"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/holding_rail.json",
+                            "sha256":  "0CA7AE95E107F55801DC41C45C3DBA32F66EABF0E8421D3CB8FA3C122EAE0694"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/locomotive_cart.json",
+                            "sha256":  "7F56760A4FC6AD187B9AD5A226BF46EE4E6AAD20A4DADFB369782155A1CE1F69"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/oneway_rail.json",
+                            "sha256":  "707DFA90BDDD5EC591F40A4A1AA6B878278CC27D8EF40068467F0C953BA4A37D"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/signal_timer.json",
+                            "sha256":  "D2EB45FE96D95AF97F81C9056DA6685F17555AB0898EE18C4CFFD3005FFE5BCB"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/timer_holding_rail.json",
+                            "sha256":  "7C3C5718A5072A17EB8D2FCDC7812A47A7C467BA937A237A08D404A59AD5A0B6"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/train_dispenser.json",
+                            "sha256":  "89856F528E956BCD5543AAA45922C4B64577F9AB7319857A0C451CBCD6F74BD3"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/wrench.json",
+                            "sha256":  "8C4A1F44ACAF0658E14FCD142575FCDECEA2B5566653803A31B237BC25B5AB7F"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/y_cross_rail.json",
+                            "sha256":  "71B906529F70CCD49D6F52C733444F50B2E92533DBA232F34123738FBDEA7797"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/recipes/y_cross_right_rail.json",
+                            "sha256":  "2102086A7602B652CF4975EC179C1D840915FB49B7B1A42594E05EA8AB621DAA"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/tags/blocks/machines.json",
+                            "sha256":  "5110D0B8BC44F2A83ABF43FA8B3A9877E2871D2FED79716801B42B35B80A5E73"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/tags/blocks/rails.json",
+                            "sha256":  "EA44C9516C401CE6AA343B2AC47F55402E9FFC525910643F504D2F3945D15200"
+                        },
+                        {
+                            "path":  "src/main/resources/data/simplerail/tags/items/wrench.json",
+                            "sha256":  "1E4E5FF18558DFDAF9251ED3CA055D6989315EC05C037D47979A6010E06F5835"
+                        },
+                        {
+                            "path":  "src/main/resources/logo.png",
+                            "sha256":  "2AAFDD89F5E6102C5AADDD98AC51CE91EF5DFE9083008013AC07B359EDF37496"
+                        },
+                        {
+                            "path":  "src/main/resources/META-INF/mods.toml",
+                            "sha256":  "1300204141DFA16C991FE6A101E2FEBF34B3DA38CC0807A31919A3BBEFABCF26"
+                        },
+                        {
+                            "path":  "src/main/resources/pack.mcmeta",
+                            "sha256":  "7302E47318209F0094EBE3B07FE1BE46C37661A43BEA661E50123727977D9C50"
+                        }
+                    ],
+    "recipes":  [
+                    {
+                        "id":  "simplerail:cross_rail",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\cross_rail.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " I ",
+                                                     " R ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "I":  {
+                                                           "item":  "minecraft:iron_ingot"
+                                                       },
+                                                 "R":  {
+                                                           "item":  "minecraft:rail"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:cross_rail",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:destory_rail",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\destory_rail.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " P ",
+                                                     " I ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "P":  {
+                                                           "item":  "minecraft:iron_pickaxe"
+                                                       },
+                                                 "I":  {
+                                                           "item":  "minecraft:powered_rail"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:destory_rail",
+                                                    "count":  3
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:eject_rail",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\eject_rail.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     "R  ",
+                                                     " I ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "I":  {
+                                                           "item":  "minecraft:powered_rail"
+                                                       },
+                                                 "R":  {
+                                                           "item":  "minecraft:redstone"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:eject_rail",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:high_speed_rail",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\high_speed_rail.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " I ",
+                                                     " R ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "I":  {
+                                                           "item":  "minecraft:powered_rail"
+                                                       },
+                                                 "R":  {
+                                                           "item":  "minecraft:redstone"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:high_speed_rail",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:holding_rail",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\holding_rail.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " R ",
+                                                     " I ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "R":  {
+                                                           "item":  "minecraft:redstone"
+                                                       },
+                                                 "I":  {
+                                                           "item":  "minecraft:powered_rail"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:holding_rail",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:locomotive_cart",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\locomotive_cart.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " G ",
+                                                     " C ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "G":  {
+                                                           "item":  "minecraft:gold_ingot"
+                                                       },
+                                                 "C":  {
+                                                           "item":  "minecraft:minecart"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:locomotive_cart",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:oneway_rail",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\oneway_rail.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     "   ",
+                                                     "RI ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "R":  {
+                                                           "item":  "minecraft:redstone"
+                                                       },
+                                                 "I":  {
+                                                           "item":  "minecraft:powered_rail"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:oneway_rail",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:signal_timer",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\signal_timer.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " R ",
+                                                     " I ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "R":  {
+                                                           "item":  "minecraft:repeater"
+                                                       },
+                                                 "I":  {
+                                                           "item":  "minecraft:iron_block"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:signal_timer",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:timer_holding_rail",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\timer_holding_rail.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " R ",
+                                                     " I ",
+                                                     " R "
+                                                 ],
+                                     "key":  {
+                                                 "R":  {
+                                                           "item":  "minecraft:redstone"
+                                                       },
+                                                 "I":  {
+                                                           "item":  "minecraft:powered_rail"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:timer_holding_rail",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:train_dispenser",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\train_dispenser.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " C ",
+                                                     " D ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "C":  {
+                                                           "item":  "minecraft:minecart"
+                                                       },
+                                                 "D":  {
+                                                           "item":  "minecraft:dispenser"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:train_dispenser",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:wrench",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\wrench.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " G ",
+                                                     " I ",
+                                                     "   "
+                                                 ],
+                                     "key":  {
+                                                 "G":  {
+                                                           "item":  "minecraft:gold_nugget"
+                                                       },
+                                                 "I":  {
+                                                           "item":  "minecraft:iron_pickaxe"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:wrench",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:y_cross_rail",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\y_cross_rail.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " I ",
+                                                     " R ",
+                                                     " S "
+                                                 ],
+                                     "key":  {
+                                                 "I":  {
+                                                           "item":  "minecraft:iron_nugget"
+                                                       },
+                                                 "R":  {
+                                                           "item":  "minecraft:rail"
+                                                       },
+                                                 "S":  {
+                                                           "item":  "minecraft:redstone"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:y_cross_rail",
+                                                    "count":  1
+                                                }
+                                 }
+                    },
+                    {
+                        "id":  "simplerail:y_cross_right_rail",
+                        "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\recipes\\y_cross_right_rail.json",
+                        "data":  {
+                                     "type":  "minecraft:crafting_shaped",
+                                     "pattern":  [
+                                                     " S ",
+                                                     " R ",
+                                                     " I "
+                                                 ],
+                                     "key":  {
+                                                 "I":  {
+                                                           "item":  "minecraft:iron_nugget"
+                                                       },
+                                                 "R":  {
+                                                           "item":  "minecraft:rail"
+                                                       },
+                                                 "S":  {
+                                                           "item":  "minecraft:redstone"
+                                                       }
+                                             },
+                                     "result":  {
+                                                    "item":  "simplerail:y_cross_right_rail",
+                                                    "count":  1
+                                                }
+                                 }
+                    }
+                ],
+    "dataFiles":  [
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\minecraft\\tags\\blocks\\rails.json",
+                          "data":  {
+                                       "replace":  false,
+                                       "values":  [
+                                                      "simplerail:high_speed_rail",
+                                                      "simplerail:holding_rail",
+                                                      "simplerail:oneway_rail",
+                                                      "simplerail:eject_rail",
+                                                      "simplerail:destory_rail",
+                                                      "simplerail:timer_holding_rail",
+                                                      "simplerail:cross_rail",
+                                                      "simplerail:y_cross_rail",
+                                                      "simplerail:y_cross_right_rail"
+                                                  ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\cross_rail.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "cross_rail",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:cross_rail"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\destory_rail.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "destory_rail",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:destory_rail"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\eject_rail.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "eject_rail",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:eject_rail"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\high_speed_rail.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "high_speed_rail",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:high_speed_rail"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\holding_rail.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "holding_rail",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:holding_rail"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\locomotive_cart.json",
+                          "data":  {
+                                       "type":  "minecraft:entity",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "locomotive_cart",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:locomotive_cart"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\oneway_rail.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "oneway_rail",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:oneway_rail"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\signal_timer.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "signal_timer",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:signal_timer"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\timer_holding_rail.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "timer_holding_rail",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:timer_holding_rail"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\train_dispenser.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "train_dispenser",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:train_dispenser"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\y_cross_rail.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "y_cross_rail",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:y_cross_rail"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\loot_tables\\blocks\\y_cross_right_rail.json",
+                          "data":  {
+                                       "type":  "minecraft:block",
+                                       "pools":  [
+                                                     {
+                                                         "name":  "y_cross_right_rail",
+                                                         "rolls":  1,
+                                                         "entries":  [
+                                                                         {
+                                                                             "type":  "minecraft:item",
+                                                                             "name":  "simplerail:y_cross_right_rail"
+                                                                         }
+                                                                     ],
+                                                         "conditions":  [
+                                                                            {
+                                                                                "condition":  "minecraft:survives_explosion"
+                                                                            }
+                                                                        ]
+                                                     }
+                                                 ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\tags\\blocks\\machines.json",
+                          "data":  {
+                                       "replace":  false,
+                                       "values":  [
+                                                      "simplerail:train_dispenser",
+                                                      "simplerail:signal_timer"
+                                                  ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\tags\\blocks\\rails.json",
+                          "data":  {
+                                       "replace":  false,
+                                       "values":  [
+                                                      "simplerail:high_speed_rail",
+                                                      "simplerail:holding_rail",
+                                                      "simplerail:oneway_rail",
+                                                      "simplerail:eject_rail",
+                                                      "simplerail:destory_rail",
+                                                      "simplerail:timer_holding_rail",
+                                                      "simplerail:cross_rail",
+                                                      "simplerail:y_cross_rail",
+                                                      "simplerail:y_cross_right_rail"
+                                                  ]
+                                   }
+                      },
+                      {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\data\\simplerail\\tags\\items\\wrench.json",
+                          "data":  {
+                                       "replace":  false,
+                                       "values":  [
+                                                      "simplerail:wrench"
+                                                  ]
+                                   }
+                      }
+                  ]
+}

@@ -1,0 +1,8 @@
+﻿git.exe : warning: in the working copy of 'MIGRATION.md', LF will be replaced by CRLF the next time Git touches it
+位於 線路:76 字元:1
++ & git diff --check 2>&1 | Out-File -Encoding utf8 (Join-Path $ev 'git ...
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+warning: in the working copy of 'REVIEW.md', LF will be replaced by CRLF the next time Git touches it

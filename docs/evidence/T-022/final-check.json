@@ -1,0 +1,171 @@
+﻿{
+    "task":  "T-022",
+    "timestampUtc":  "2026-09-28T11:10:59.0849495Z",
+    "checks":  {
+                   "taskIds126UniqueContinuous":  true,
+                   "taskHeadersAndDependenciesUnchanged":  true,
+                   "dependenciesExistAndAcyclic":  true,
+                   "nineStageOverviewCountsMatch":  true,
+                   "coverageTableUnchanged":  true,
+                   "localLinksResolve":  true,
+                   "historicalReviewSections8To28Unchanged":  true,
+                   "R01ReviewedInputsUnchanged":  true,
+                   "stagedIndexUnchanged":  true,
+                   "trackedWhitespaceCheckPassed":  true,
+                   "allPriorProductInputsUnchanged":  true,
+                   "productTemplateUnchanged":  true,
+                   "priorClassBytesUnchangedOnlyOneNewClass":  true,
+                   "T022DevCompleteT025Pending":  true,
+                   "sixteenDevCompleted101Pending":  true,
+                   "all29DataSourcesMapped":  true,
+                   "resourceTree144Files99Json45Png":  true,
+                   "auditedProductResourceHashesStable":  true,
+                   "audit393PassedWithZeroFailures":  true,
+                   "standaloneAuditCommandsBothExitZero":  true,
+                   "buildSucceededNoGameTasksAndTestNoSource":  true,
+                   "jarExactlyContainsEveryProductResource":  true,
+                   "savedAndLiveJarHashesMatchArtifact":  true,
+                   "jarMetadataKeepsD8AndLogo":  true,
+                   "jarContains29DataJsonNoOldForgeOrPluralDirs":  true,
+                   "preservedT019AndT021JarsUnchanged":  true,
+                   "integrationFindingRecordedWithoutClaimOfGamePass":  true,
+                   "onlyT022StatusChanged":  true,
+                   "only30AuthorizedNewProductFiles":  true,
+                   "fixed17ReferenceSourcesAnd29OldDataUnchanged":  true,
+                   "newModTagsClassAndTypedDeclarationsVerified":  true,
+                   "preservedT020JarUnchanged":  true
+               },
+    "failed":  [
+
+               ],
+    "statuses":  {
+                     "已完成（需求／案例設計，2026-09-26）":  1,
+                     "待執行":  101,
+                     "人工測試通過（使用者確認完成，已結案，2026-09-28）":  2,
+                     "使用者決定免執行":  1,
+                     "開發完成（指定格式來源、ID／引用追蹤與非遊戲檢查，2026-09-27）":  1,
+                     "已完成（來源參考整理，2026-09-26）":  1,
+                     "已完成（NEW 既有框架建置基線，2026-09-26）":  1,
+                     "開發完成；R-01 程式審查通過（2026-09-28，見 [獨立報告](docs/evidence/R-01/README.md)）；人工遊戲未執行":  5,
+                     "已完成（環境盤點，2026-09-26）":  1,
+                     "已完成（既有框架 client 啟動；2026-09-27）":  1,
+                     "開發完成（指定版來源、資料邊界與最小編譯；2026-09-27），R-01 程式審查通過；人工遊戲未執行":  1,
+                     "開發完成；R-02 程式審查待審":  4,
+                     "開發完成（固定版本包與靜態校驗，2026-09-28）":  2,
+                     "開發完成（正式空功能框架與 NEW build，2026-09-28）":  1,
+                     "已完成（既有框架 server 啟停；2026-09-26）":  1,
+                     "開發完成（指定版本 API 來源與最小編譯，2026-09-27）":  1,
+                     "開發完成（指定來源、完整狀態值域與最小編譯，2026-09-27）":  1
+                 },
+    "stageCounts":  [
+                        {
+                            "stage":  0,
+                            "count":  4,
+                            "overviewCount":  4,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  1,
+                            "count":  17,
+                            "overviewCount":  17,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  2,
+                            "count":  8,
+                            "overviewCount":  8,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  3,
+                            "count":  18,
+                            "overviewCount":  18,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  4,
+                            "count":  16,
+                            "overviewCount":  16,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  5,
+                            "count":  26,
+                            "overviewCount":  26,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  6,
+                            "count":  23,
+                            "overviewCount":  23,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  7,
+                            "count":  8,
+                            "overviewCount":  8,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  8,
+                            "count":  6,
+                            "overviewCount":  6,
+                            "matches":  true
+                        }
+                    ],
+    "missingLinks":  [
+
+                     ],
+    "missingDependencies":  [
+
+                            ],
+    "unresolvedTasks":  [
+
+                        ],
+    "changedHistory":  [
+
+                       ],
+    "R01ReviewedInputsCount":  158,
+    "changedProductInputs":  [
+
+                             ],
+    "unauthorizedInputChanges":  [
+
+                                 ],
+    "jarResourceDifferences":  [
+
+                               ],
+    "classDifferences":  [
+
+                         ],
+    "mappedByteChanges":  [
+
+                          ],
+    "diffCheckExitCode":  0,
+    "indexExitCode":  0,
+    "gitStatusExitCode":  0,
+    "nextPriorityDevelopment":  "T-025 (not started)",
+    "nextManual":  "T-023 (not ready: I-021-01, T-092, R-02)",
+    "documentationFingerprints":  [
+                                      {
+                                          "path":  "TASK.md",
+                                          "sha256":  "F1C4BA1AE37F60A5577B25D24883ABFD755704915160AF53FAA846B4BEDB1624"
+                                      },
+                                      {
+                                          "path":  "MIGRATION.md",
+                                          "sha256":  "703B3152A905BD2DD181108072B86D3289E3EE4319B09FDF487311BC4B8D7237"
+                                      },
+                                      {
+                                          "path":  "REVIEW.md",
+                                          "sha256":  "F2E121F407F74484ECB7300F8015239CF42FCECFA2C60EA5F53D6FC82510DEFE"
+                                      },
+                                      {
+                                          "path":  "docs/evidence/T-022/README.md",
+                                          "sha256":  "DC73BC7F659066E3CCA83718246759EFB6C5A0011C115CFC90AEA8C7D8717D36"
+                                      },
+                                      {
+                                          "path":  "docs/evidence/T-022/DATA_CONTRACT.md",
+                                          "sha256":  "A8621E0B29699A4E9AAEC8552480850F050462C7B278DA94F22089AFE948CB85"
+                                      }
+                                  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+    "gson":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.10.1\\b3add478d4382b78ea20b1671390a858002feb6c\\gson-2.10.1.jar",
+    "gsonSha256":  "4241C14A7727C34FEEA6507EC801318A3D4A90F070E4525681079FB94EE4C593",
+    "sourceSha256":  "1B7DF2BE66F606D2FB4C228EC6DB6A70BD1868F4DF2FCFA4BC2FA56C75E110A7",
+    "classSha256":  "50505EB79C5CB122F6B0E3AEF704574F1565AAB42E631C630594529CCBD779FC",
+    "runtimeClasspath":  [
+                             "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-009\\audit\\classes",
+                             "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.10.1\\b3add478d4382b78ea20b1671390a858002feb6c\\gson-2.10.1.jar"
+                         ],
+    "minecraftRuntimeLoaded":  false
+}

@@ -1,0 +1,7 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-022/generate-check.ps1",
+    "startedUtc":  "2026-09-28T11:08:53.3158949Z",
+    "finishedUtc":  "2026-09-28T11:08:53.6966562Z",
+    "exitCode":  1,
+    "scope":  "Preserved reproduction of generator UTF-8 decoding failure; no product changes"
+}

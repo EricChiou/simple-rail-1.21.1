@@ -1,0 +1,12 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-033/hooks-test.ps1",
+    "compileCommand":  "Temurin 21 javac --release 21 -encoding UTF-8 -Xlint:unchecked -Werror -d isolated-tests/classes [explicit doubles + actual DestoryRail.java + DestoryRailHooksTest.java]",
+    "testDoubleCount":  26,
+    "compileExitCode":  0,
+    "runCommand":  "Temurin 21 java -cp isolated-tests/classes com.ericchiu.simplerail.block.DestoryRailHooksTest",
+    "runExitCode":  0,
+    "startedUtc":  "2026-09-29T11:41:03.2006339Z",
+    "finishedUtc":  "2026-09-29T11:41:04.6665728Z",
+    "scope":  "Real hook source against isolated doubles; no real Minecraft classes or ConfigSpec lifecycle",
+    "gameExecuted":  false
+}

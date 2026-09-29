@@ -1,0 +1,149 @@
+﻿[
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/level/storage/loot/parameters/LootContextParamSets.java",
+        "snapshot":  "sources\\target\\net\\minecraft\\world\\level\\storage\\loot\\parameters\\LootContextParamSets.java",
+        "sha256":  "D992484F3AFBDD61558C5D552E713AF6E24687A067D584B750C8CF3BC588623F"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/level/storage/loot/ValidationContext.java",
+        "snapshot":  "sources\\target\\net\\minecraft\\world\\level\\storage\\loot\\ValidationContext.java",
+        "sha256":  "6678F794CE0A126B8CAA06963FB3B660E6AD647D83DAFCE66126E6B661A88498"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/neoforged/neoforge/common/crafting/CraftingHelper.java",
+        "snapshot":  "sources\\target\\net\\neoforged\\neoforge\\common\\crafting\\CraftingHelper.java",
+        "sha256":  "4B7432923D1A755A5D55AD98C90187F1648555C27567343DB9520D59B1B73D3B"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/neoforged/neoforge/client/textures/NamespacedDirectoryLister.java",
+        "snapshot":  "sources\\target\\net\\neoforged\\neoforge\\client\\textures\\NamespacedDirectoryLister.java",
+        "sha256":  "FE83DB9266C7E837D8376B731BBFA4A11795CCF9BE5CA2C16CDC880172D8AE7B"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/client/renderer/texture/atlas/SpriteSources.java",
+        "snapshot":  "sources\\target\\net\\minecraft\\client\\renderer\\texture\\atlas\\SpriteSources.java",
+        "sha256":  "9DF0D6513BCB32D30AB8C6AF162B1490631B9707790FF4B446E6A44A084B74DE"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/server/ReloadableServerRegistries.java",
+        "snapshot":  "sources\\target\\net\\minecraft\\server\\ReloadableServerRegistries.java",
+        "sha256":  "46BCED1E4C028F7E409D2B47F096F1C4FA07FE804AF36190D0C5CCAE4DA27B3C"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/client/resources/model/BlockModelRotation.java",
+        "snapshot":  "sources\\target\\net\\minecraft\\client\\resources\\model\\BlockModelRotation.java",
+        "sha256":  "9636DC10CA7663884B9E20997B4AAC40AD2FB325A8C84594579A71E4AD5ABEE5"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/minecraft/world/level/storage/loot/parameters/LootContextParamSet.java",
+        "snapshot":  "sources\\target\\net\\minecraft\\world\\level\\storage\\loot\\parameters\\LootContextParamSet.java",
+        "sha256":  "42FE3AF57B30C6D0FFBF0548D4A16C740244F65FEC85A45FD699AA7ED22374B2"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/neoforged/neoforge/client/ClientHooks.java",
+        "snapshot":  "sources\\target\\net\\neoforged\\neoforge\\client\\ClientHooks.java",
+        "sha256":  "616798C1CE8F8B865277A8D76CCCE747E07BAB3761FB28512E2D8CC6F9872807"
+    },
+    {
+        "archive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+        "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+        "entry":  "net/neoforged/neoforge/client/ClientNeoForgeMod.java",
+        "snapshot":  "sources\\target\\net\\neoforged\\neoforge\\client\\ClientNeoForgeMod.java",
+        "sha256":  "6CC2D8BDD5F6B8D1688BA4BB8C0E86FCB2B720F287D0928D70F8AFEBB98B7FDF"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "version.json",
+        "snapshot":  "sources\\vanilla\\version.json",
+        "sha256":  "1DFC39C0408D868C95741E492DC19FCA28D67268E4585B2C35430A9EE20C7299"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "assets/minecraft/atlases/blocks.json",
+        "snapshot":  "sources\\vanilla\\assets\\minecraft\\atlases\\blocks.json",
+        "sha256":  "1B388E8C8A29884FE116803CAF00249AB9150E5490BAB735C567FABE8B39DF6B"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "assets/minecraft/models/block/rail_flat.json",
+        "snapshot":  "sources\\vanilla\\assets\\minecraft\\models\\block\\rail_flat.json",
+        "sha256":  "8CAF083B2384530324CBF6BA0AB1E864BE771564A716AB12E5046E49083F28EF"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "assets/minecraft/models/block/rail_raised_ne.json",
+        "snapshot":  "sources\\vanilla\\assets\\minecraft\\models\\block\\rail_raised_ne.json",
+        "sha256":  "96257958EE4251A81771F200AC348B976ACA9F9E30A3CED3D0BEFF2CB1178F08"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "assets/minecraft/models/block/cube_all.json",
+        "snapshot":  "sources\\vanilla\\assets\\minecraft\\models\\block\\cube_all.json",
+        "sha256":  "BE3205D629FFB9E03834C3D1D083F8A2C62E9F9AE80820755129408634E9144A"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "assets/minecraft/models/item/generated.json",
+        "snapshot":  "sources\\vanilla\\assets\\minecraft\\models\\item\\generated.json",
+        "sha256":  "63190611202E75AD7B812BC9A4B31BD53F3E186895D7B53E5E280B0D1E30A67A"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "assets/minecraft/models/item/handheld.json",
+        "snapshot":  "sources\\vanilla\\assets\\minecraft\\models\\item\\handheld.json",
+        "sha256":  "8FE990D1C011429E27DF2D49D35CF8571946370EAC8D0FB7497AACEDE4FF20F5"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "data/minecraft/recipe/rail.json",
+        "snapshot":  "sources\\vanilla\\data\\minecraft\\recipe\\rail.json",
+        "sha256":  "D8B6E062E337338FA27491600C12967048D7EE5619962833E2CD6EDA59A6C78E"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "data/minecraft/recipe/powered_rail.json",
+        "snapshot":  "sources\\vanilla\\data\\minecraft\\recipe\\powered_rail.json",
+        "sha256":  "063B177B577508265A5601FA2C42D13DF0DD14E322EE5E2AB0C0B982D04220FA"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "data/minecraft/loot_table/blocks/rail.json",
+        "snapshot":  "sources\\vanilla\\data\\minecraft\\loot_table\\blocks\\rail.json",
+        "sha256":  "1BAC74EB0EB03C298D374C745AF41733280D65470401E9AD3E40A037063263EB"
+    },
+    {
+        "archive":  "C:\\Users\\Kinoko\\.gradle\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_client.jar",
+        "archiveSha256":  "499F6897D1837516680F3114072D8106E11C9ADCD933FE5CF051B551089B0C99",
+        "entry":  "data/minecraft/tags/block/rails.json",
+        "snapshot":  "sources\\vanilla\\data\\minecraft\\tags\\block\\rails.json",
+        "sha256":  "FA33F7E0EE5381B318E70B3A0A96A73EA420C75355AC77E9AE69933491585A99"
+    }
+]

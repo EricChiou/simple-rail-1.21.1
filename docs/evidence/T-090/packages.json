@@ -1,0 +1,28 @@
+﻿[
+    {
+        "task":  "T-090",
+        "packageId":  "T-090-v1",
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\test-packages\\T-090-v1",
+        "zip":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\test-packages\\T-090-v1.zip",
+        "zipSha256":  "B871DC2B375DD72654EE0B2A48C8CE68CBB92B8750B7A726D41E62B6DE7F6CE8",
+        "jarSha256":  "537780CB1E3C2B532AF7F22BEC1AA306C0966AFD6C571CC5D2936275B66C3A36",
+        "files":  16,
+        "cases":  5,
+        "staticChecks":  "通過",
+        "review":  "待審",
+        "gameStarted":  false
+    },
+    {
+        "task":  "T-091",
+        "packageId":  "T-091-v1",
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\test-packages\\T-091-v1",
+        "zip":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\test-packages\\T-091-v1.zip",
+        "zipSha256":  "491357371F052A18637E7AC7157B2C78EB8F13C857D1153C8B1EDD6523EE3D1A",
+        "jarSha256":  "537780CB1E3C2B532AF7F22BEC1AA306C0966AFD6C571CC5D2936275B66C3A36",
+        "files":  16,
+        "cases":  5,
+        "staticChecks":  "通過",
+        "review":  "待審",
+        "gameStarted":  false
+    }
+]

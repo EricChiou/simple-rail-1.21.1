@@ -1,0 +1,8 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-022/final-check.ps1",
+    "startedUtc":  "2026-09-28T11:10:08.2706281Z",
+    "finishedUtc":  "2026-09-28T11:10:09.5539079Z",
+    "exitCode":  1,
+    "log":  "final-check-01.log",
+    "logEncoding":  "UTF-16LE"
+}

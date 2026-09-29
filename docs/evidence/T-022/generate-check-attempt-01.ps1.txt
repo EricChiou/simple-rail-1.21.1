@@ -1,0 +1,60 @@
+$ErrorActionPreference = 'Stop'
+$text = [IO.File]::ReadAllText((Resolve-Path 'docs/evidence/T-021/final-check.ps1'), [Text.Encoding]::UTF8)
+$text = $text.Replace('T-021', 'T-022').Replace('T-020', 'T-021')
+# This is a new evidence tool, derived from the prior document/JAR checks.
+# It never overwrites the previous task's script or results.
+$edits = @(
+    @('RESOURCE_DECISIONS.md', 'DATA_CONTRACT.md'),
+    @('## 28. ', '## 29. '),
+    @('$unauthorizedInputChanges = @($changedProductInputs | Where-Object { $_.path -notmatch ''\\src\\main\\resources\\'' -and $_.path -notmatch ''\\src\\main\\templates\\META-INF\\neoforge\.mods\.toml$'' })', '$unauthorizedInputChanges = $changedProductInputs'),
+    @('$templateBefore = Read-Utf8 (Join-Path $taskEvidence ''before/neoforge.mods.toml'')', '$templateBefore = Read-Utf8 ''src/main/templates/META-INF/neoforge.mods.toml'''),
+    @('$templateOnlyLogo = $templateAfter -eq $templateBefore.Replace(''#logoFile="examplemod.png" #optional'', ''logoFile="logo.png" #optional'')', '$templateOnlyLogo = $templateAfter -eq $templateBefore'),
+    @('audit-commands-02.json', 'audit-commands-01.json'),
+    @('$coverage = Read-Json (Join-Path $taskEvidence ''state-coverage.json'')', '$coverage = Read-Json ''docs/evidence/T-021/state-coverage.json'''),
+    @('Join-Path ''src/main/resources'' $_.target)', 'Join-Path ''src/main/resources'' $_.targetPath)'),
+    @('-eq @($oldJar.Entries | Where-Object { $_.FullName.EndsWith(''.class'') }).Count', '-eq (@($oldJar.Entries | Where-Object { $_.FullName.EndsWith(''.class'') }).Count + 1)'),
+    @('historicalReviewSections8To27Unchanged', 'historicalReviewSections8To28Unchanged'),
+    @('priorJavaAndGradleInputsUnchanged', 'allPriorProductInputsUnchanged'),
+    @('productTemplateOnlyLogoLineChanged', 'productTemplateUnchanged'),
+    @('productClassBytesUnchangedFromT020', 'priorClassBytesUnchangedOnlyOneNewClass'),
+    @('T021DevCompleteT022Pending', 'T022DevCompleteT025Pending'),
+    @('''T-022'' }).Groups[2].Value -match ''- 狀態：待執行''', '''T-025'' }).Groups[2].Value -match ''- 狀態：待執行'''),
+    @('fifteenDevCompleted102Pending = $devCount -eq 15 -and $statusCounts[''待執行''] -eq 102', 'sixteenDevCompleted101Pending = $devCount -eq 16 -and $statusCounts[''待執行''] -eq 101'),
+    @('all144Sources114Migrated29Deferred1Excluded = $mapping.Count -eq 144 -and $audit.migratedSourceCount -eq 114 -and $audit.deferredT022 -eq 29 -and $audit.excludedForgeMetadata -eq 1', 'all29DataSourcesMapped = $mapping.Count -eq 29 -and $audit.dataFiles -eq 29'),
+    @('resourceTree115Files70Json45Png = $productFiles.Count -eq 115 -and @($productFiles | Where-Object { $_.Extension -in @(''.json'',''.mcmeta'') }).Count -eq 70', 'resourceTree144Files99Json45Png = $productFiles.Count -eq 144 -and @($productFiles | Where-Object { $_.Extension -in @(''.json'',''.mcmeta'') }).Count -eq 99'),
+    @('audit2519PassedWithZeroFailures = $audit.passed -eq 2519 -and $audit.failed -eq 0 -and $audit.failures.Count -eq 0 -and $audit.checks.Count -eq 2519', 'audit393PassedWithZeroFailures = $audit.passed -eq 393 -and $audit.failed -eq 0 -and $audit.checks.Count -eq 393 -and $audit.references -eq 85'),
+    @('noT022DataOrOldForgeMetadataInSourceOrJar = -not (Test-Path ''src/main/resources/data'') -and $jarEntries -notcontains ''META-INF/mods.toml'' -and @($jarEntries | Where-Object { $_ -match ''^data/'' }).Count -eq 0', 'jarContains29DataJsonNoOldForgeOrPluralDirs = $jarEntries -notcontains ''META-INF/mods.toml'' -and @($jarEntries | Where-Object { $_ -match ''^data/.*\.json$'' }).Count -eq 29 -and @($jarEntries | Where-Object { $_ -match ''^data/.*/(recipes|loot_tables|tags/blocks|tags/items)/'' }).Count -eq 0'),
+    @('''T-022 (not started)''', '''T-025 (not started)'''),
+    @('T-023 (not ready: I-021-01, T-022, T-092, R-02)', 'T-023 (not ready: I-021-01, T-092, R-02)')
+)
+foreach ($edit in $edits) {
+    if (-not $text.Contains($edit[0])) { throw ('Cannot locate prior check fragment: ' + $edit[0]) }
+    $text = $text.Replace($edit[0], $edit[1])
+}
+$addition = @'
+$oldBlocks = @([regex]::Matches($oldTask, '(?ms)^### (T-\d{3})[^\r\n]*\r?\n(.*?)(?=^### T-|^## |\z)'))
+$otherStatusChanges = @()
+foreach ($block in $taskBlocks) {
+    $id = $block.Groups[1].Value
+    if ($id -eq 'T-022') { continue }
+    $oldBlock = $oldBlocks | Where-Object { $_.Groups[1].Value -eq $id }
+    if ([regex]::Match($oldBlock.Groups[2].Value, '(?m)^- 狀態：[^\r\n]*').Value -ne [regex]::Match($block.Groups[2].Value, '(?m)^- 狀態：[^\r\n]*').Value) { $otherStatusChanges += $id }
+}
+$baseline = Read-Json (Join-Path $taskEvidence 'inputs-before.json')
+$priorPaths = @($baseline | ForEach-Object { [IO.Path]::GetFullPath((Join-Path (Get-Location) $_.path)) })
+$newFiles = @(rg --files src/main | ForEach-Object { [IO.Path]::GetFullPath((Join-Path (Get-Location) $_)) } | Where-Object { $priorPaths -notcontains $_ })
+$expectedNewFiles = @($mapping | ForEach-Object { [IO.Path]::GetFullPath((Join-Path (Get-Location) ('src/main/resources/' + $_.targetPath))) }) + @([IO.Path]::GetFullPath((Join-Path (Get-Location) 'src/main/java/com/ericchiu/simplerail/registry/ModTags.java')))
+$newFileDelta = @(Compare-Object ($newFiles | Sort-Object) ($expectedNewFiles | Sort-Object))
+$referenceSources = Read-Json (Join-Path $taskEvidence 'source-references.json')
+$changedSources = @($referenceSources | Where-Object { (Get-FileHash -LiteralPath $_.path).Hash -ne $_.sha256 })
+$oldData = Read-Json 'docs/evidence/T-009/source-manifest.json'
+$oldDataChanges = @($oldData | Where-Object { $_.origin -like '*src\main\resources\data\*' } | Where-Object { (Get-FileHash -LiteralPath $_.origin).Hash -ne $_.sha256 })
+$bytecode = Read-Utf8 (Join-Path $taskEvidence 'tags-bytecode.txt')
+$checks.onlyT022StatusChanged = $otherStatusChanges.Count -eq 0
+$checks.only30AuthorizedNewProductFiles = $newFiles.Count -eq 30 -and $newFileDelta.Count -eq 0
+$checks.fixed17ReferenceSourcesAnd29OldDataUnchanged = $referenceSources.Count -eq 17 -and $changedSources.Count -eq 0 -and $oldDataChanges.Count -eq 0
+$checks.newModTagsClassAndTypedDeclarationsVerified = $jarEntries -contains 'com/ericchiu/simplerail/registry/ModTags.class' -and $bytecode -match 'TagKey<net.minecraft.world.item.Item> WRENCH' -and $bytecode -match 'TagKey<net.minecraft.world.level.block.Block> RAILS' -and $bytecode -match 'TagKey<net.minecraft.world.level.block.Block> MACHINES'
+'@
+$text = $text.Replace('$failed = @($checks.Keys | Where-Object { -not $checks[$_] })', $addition + "`n" + '$failed = @($checks.Keys | Where-Object { -not $checks[$_] })')
+[IO.File]::WriteAllText((Join-Path (Get-Location) 'docs/evidence/T-022/final-check.ps1'), $text, [Text.UTF8Encoding]::new($true))
+Write-Output 'Generated T-022 final document/JAR/scope checks from T-021 reference'

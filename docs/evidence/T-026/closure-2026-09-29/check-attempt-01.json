@@ -1,0 +1,117 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-026/closure-2026-09-29/check.ps1",
+    "exitCode":  1,
+    "checks":  [
+                   {
+                       "name":  "126 task IDs preserved",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Titles/dependencies preserved",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Only T-025/T-026 task descriptions updated",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "No missing dependencies",
+                       "pass":  false
+                   },
+                   {
+                       "name":  "No dependency cycles",
+                       "pass":  false
+                   },
+                   {
+                       "name":  "T-026 user confirmed passed",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Three manual passes, zero failures, 97 pending",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "T-027 and T-094 not executed",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Nine phases/counts preserved",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Coverage unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Task failure/correction history unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Review sections 8-34 unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "D1-D8 decisions preserved",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Source/resources/Gradle unchanged",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Links resolve",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Tables/fences valid",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "git diff --check exit 0",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Index unchanged",
+                       "pass":  true
+                   }
+               ],
+    "count":  18,
+    "failed":  [
+                   {
+                       "name":  "No missing dependencies",
+                       "pass":  false
+                   },
+                   {
+                       "name":  "No dependency cycles",
+                       "pass":  false
+                   }
+               ],
+    "missingDependencies":  [
+                                "T-001 -\u003e ",
+                                "T-002 -\u003e "
+                            ],
+    "phaseCounts":  [
+                        4,
+                        17,
+                        8,
+                        18,
+                        16,
+                        26,
+                        23,
+                        8,
+                        6
+                    ],
+    "manualPasses":  3,
+    "manualFailures":  0,
+    "pending":  97,
+    "productChanged":  false,
+    "gameExecuted":  false,
+    "buildExecuted":  false,
+    "review":  "R-03 / R-F pending",
+    "missingLinks":  [
+
+                     ],
+    "markdownProblems":  [
+
+                         ]
+}

@@ -1,0 +1,20 @@
+﻿[
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\t008-probe\\classes\\evidence\\t008\\T008ClientProbe.class",
+        "sha256":  "B652F306B452EEB7CECA8BAE7062ECF26B3A5BC6DB6F09762FC20DC8039B5F8E",
+        "majorVersion":  65,
+        "bytes":  1874
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\t008-probe\\classes\\evidence\\t008\\T008Probe$Snapshot.class",
+        "sha256":  "001E8EB61DFC2A9CCFE299810E382F829479C79E6C3ACB4ABF4B55CA79E112C9",
+        "majorVersion":  65,
+        "bytes":  1718
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\t008-probe\\classes\\evidence\\t008\\T008Probe.class",
+        "sha256":  "FC9F70E18586ECCD5223DC103095991BC5315993A1BC39652CDB3E2749982FA6",
+        "majorVersion":  65,
+        "bytes":  13654
+    }
+]

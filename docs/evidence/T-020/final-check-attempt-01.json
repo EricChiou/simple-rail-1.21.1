@@ -1,0 +1,149 @@
+﻿{
+    "task":  "T-020",
+    "timestampUtc":  "2026-09-28T09:11:29.5082484Z",
+    "checks":  {
+                   "taskIds126UniqueAndContinuous":  true,
+                   "taskHeadersAndDependenciesUnchanged":  true,
+                   "allDependenciesExistAndNoCycles":  true,
+                   "nineStagesAndOverviewCountsMatch":  true,
+                   "coverageTableUnchanged":  true,
+                   "localLinksResolve":  false,
+                   "historicalReviewSectionsUnchanged":  true,
+                   "previousEvidenceFilesUnchanged":  true,
+                   "preexistingIndexUnchanged":  true,
+                   "noGradleResourceOrIgnoreDelta":  true,
+                   "trackedAndNewJavaWhitespaceChecksPass":  true,
+                   "T020DevCompleteAndT021StillPending":  true,
+                   "fourteenDevCompletedAnd103Pending":  true,
+                   "otherT019ProductInputsUnchanged":  true,
+                   "commonConstructorInjectsAndRegistersConfig":  true,
+                   "commonSpecRegisteredAndAllLifecycleHandlersFiltered":  true,
+                   "noConfigGetInStaticInitializerOrEntry":  true,
+                   "configHasNoClientWorldNetworkingOrTicketReferences":  true,
+                   "immutableVolatileSnapshot":  true,
+                   "configContractTests159PassedWithExitZero":  true,
+                   "generatedDefaultTomlHas25UniqueKeys":  true,
+                   "buildSucceededAndNoGameTask":  true,
+                   "savedJarFingerprintAndConfigClassesMatch":  true,
+                   "metadataKeepsD8":  true
+               },
+    "statuses":  {
+                     "已完成（需求／案例設計，2026-09-26）":  1,
+                     "待執行":  103,
+                     "人工測試通過（使用者確認完成，已結案，2026-09-28）":  2,
+                     "使用者決定免執行":  1,
+                     "開發完成（指定格式來源、ID／引用追蹤與非遊戲檢查，2026-09-27）":  1,
+                     "已完成（來源參考整理，2026-09-26）":  1,
+                     "已完成（NEW 既有框架建置基線，2026-09-26）":  1,
+                     "開發完成；R-01 程式審查通過（2026-09-28，見 [獨立報告](docs/evidence/R-01/README.md)）；人工遊戲未執行":  5,
+                     "已完成（環境盤點，2026-09-26）":  1,
+                     "已完成（既有框架 client 啟動；2026-09-27）":  1,
+                     "開發完成（指定版來源、資料邊界與最小編譯；2026-09-27），R-01 程式審查通過；人工遊戲未執行":  1,
+                     "開發完成；R-02 程式審查待審":  2,
+                     "開發完成（固定版本包與靜態校驗，2026-09-28）":  2,
+                     "開發完成（正式空功能框架與 NEW build，2026-09-28）":  1,
+                     "已完成（既有框架 server 啟停；2026-09-26）":  1,
+                     "開發完成（指定版本 API 來源與最小編譯，2026-09-27）":  1,
+                     "開發完成（指定來源、完整狀態值域與最小編譯，2026-09-27）":  1
+                 },
+    "stageCounts":  [
+                        {
+                            "stage":  0,
+                            "count":  4,
+                            "overviewCount":  4,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  1,
+                            "count":  17,
+                            "overviewCount":  17,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  2,
+                            "count":  8,
+                            "overviewCount":  8,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  3,
+                            "count":  18,
+                            "overviewCount":  18,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  4,
+                            "count":  16,
+                            "overviewCount":  16,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  5,
+                            "count":  26,
+                            "overviewCount":  26,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  6,
+                            "count":  23,
+                            "overviewCount":  23,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  7,
+                            "count":  8,
+                            "overviewCount":  8,
+                            "matches":  true
+                        },
+                        {
+                            "stage":  8,
+                            "count":  6,
+                            "overviewCount":  6,
+                            "matches":  true
+                        }
+                    ],
+    "missingLinks":  [
+                         "docs/evidence/T-020/README.md -\u003e final-check.json"
+                     ],
+    "missingDependencies":  [
+
+                            ],
+    "unresolvedTasks":  [
+
+                        ],
+    "changedHistoryFiles":  [
+
+                            ],
+    "reviewedEvidenceFilesCount":  158,
+    "protectedDelta":  [
+
+                       ],
+    "diffCheckExitCode":  0,
+    "newJavaWhitespaceExitCodes":  [
+                                       1
+                                   ],
+    "nextPriorityDevelopment":  "T-021",
+    "nextManual":  "T-023 (not ready)",
+    "documentationFingerprints":  [
+                                      {
+                                          "path":  "TASK.md",
+                                          "sha256":  "1189CD1A96389A79B4694FCABD322A647F8BDD1ED6D81B99AFA0734F1ADCF0CB"
+                                      },
+                                      {
+                                          "path":  "MIGRATION.md",
+                                          "sha256":  "0EBDDB1A58A82C5AA256D00AEF7E1B906B5A473A1B8C068718BFBB27EA2C50E7"
+                                      },
+                                      {
+                                          "path":  "REVIEW.md",
+                                          "sha256":  "017AFF942B87737FABEFF6261A6F33ECC6A33ED822D2D3DBAADBFA34B4EE366A"
+                                      },
+                                      {
+                                          "path":  "docs/evidence/T-020/README.md",
+                                          "sha256":  "2FA10327FDEA9F3CE25029FA72D186A139CA073A026367625B6B1EC9BFFE3EAE"
+                                      },
+                                      {
+                                          "path":  "docs/evidence/T-020/config-contract.md",
+                                          "sha256":  "A7749BD8DC63DD22A8A7D0A3588F3FB655DB5D45642662011C71FFFB0AFE0640"
+                                      }
+                                  ]
+}

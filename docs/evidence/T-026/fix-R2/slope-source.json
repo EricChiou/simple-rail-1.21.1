@@ -1,0 +1,7 @@
+﻿{
+    "path":  "docs/evidence/T-010/sources/target/net/neoforged/neoforge/common/extensions/IAbstractMinecartExtension.java",
+    "sha256":  "361A4E0B63952BEA5602C652FE297C7A17A4FA720E89E3B5B1F975FF7B9B81CA",
+    "lines":  "120-121",
+    "method":  "getSlopeAdjustment",
+    "default":  "0.0078125D"
+}

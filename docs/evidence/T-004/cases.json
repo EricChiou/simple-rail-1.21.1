@@ -1,0 +1,816 @@
+{
+  "version": "1.0",
+  "kind": "案例設計，非執行報告",
+  "sourceReport": "../T-003/README.md",
+  "cases": [
+    {
+      "id": "C-001",
+      "title": "全部ID與分頁",
+      "requirement": "§3註冊/物品；§4.1；D2",
+      "expectedSource": "B-01–B-03、catalogue.json",
+      "tasks": [
+        "T-019",
+        "T-023",
+        "T-081"
+      ],
+      "environment": "SP＋DS",
+      "steps": "匯出NEW各registry，逐項與名冊比對；取得每件物品、查看分頁；最終版本重做",
+      "expected": "11方塊、13物品、1車頭、2既有BE ID完整無更名；新BE獨立列出；無範例註冊",
+      "evidence": "registry差異表、13物品清單/畫面、分頁圖示、build與載入log",
+      "gate": "T-008／T-012先定新增分頁/BE ID",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-002",
+      "title": "方塊狀態與預設",
+      "requirement": "§4.1；§6階段2/7",
+      "expectedSource": "B-03、U-08、catalogue.md",
+      "tasks": [
+        "T-010",
+        "T-019",
+        "T-036",
+        "T-081",
+        "T-082"
+      ],
+      "environment": "SP＋DS",
+      "steps": "逐11方塊放置並讀預設；逐適用屬性取全值域，操作後保存重啟比較",
+      "expected": "每個已定state值域/預設可追溯；沒有未指定的非水平狀態或資源變體遺失",
+      "evidence": "每方塊state快照、屬性值域/來源、操作與重啟log",
+      "gate": "U-08方向與繼承預設須由T-010定義",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-003",
+      "title": "COMMON設定與重載",
+      "requirement": "§3設定；§4.4",
+      "expectedSource": "B-03、B-06、U-07、catalogue.md",
+      "tasks": [
+        "T-008",
+        "T-020",
+        "T-030",
+        "T-042"
+      ],
+      "environment": "SP＋DS",
+      "steps": "逐設定預設/兩端值/合法上下界讀取；啟動前修改與運行中重載分開測；記錄是否需重啟",
+      "expected": "有效值與來源規格一致；static final影響已處置或明確揭露，未定重載策略不判通過",
+      "evidence": "設定副本、有效值、載入時序、client/server差異",
+      "gate": "T-008／T-020界定重載與同步；時間大值用邊界測例不等待數十年",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-004",
+      "title": "資源/雙語/透明材質",
+      "requirement": "§3渲染與資料；§6階段2",
+      "expectedSource": "B-24/B-25、catalogue.json",
+      "tasks": [
+        "T-009",
+        "T-021",
+        "T-023",
+        "T-050",
+        "T-081"
+      ],
+      "environment": "SP＋DS client",
+      "steps": "逐資源ID核對引用，reload；切en_us/zh_tw；展示9軌所有模型變體與機器等級",
+      "expected": "邏輯ID無遺失、無相關載入錯誤；透明區域及雙語顯示與來源/目標規格一致",
+      "evidence": "逐檔差異、reload log、各變體畫面與語系清單",
+      "gate": "目標pack格式/目錄由T-009查證；不能照用pack6",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-005",
+      "title": "13合成配方",
+      "requirement": "§3配方；§6階段2",
+      "expectedSource": "B-25、catalogue.json recipes",
+      "tasks": [
+        "T-022",
+        "T-024",
+        "T-086"
+      ],
+      "environment": "SP＋DS",
+      "steps": "每配方獨立子案例依完整pattern與key擺放材料，記錄輸入/輸出/扣除；不只比JSON數量",
+      "expected": "13配方可合成同名物品；destory_rail產3其餘1；材料與排列符合名冊",
+      "evidence": "每配方網格前後快照、數量、recipe ID、資料載入log",
+      "gate": "鏡射/空列正規化依T-009所查NEW格式，額外行為不猜",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-006",
+      "title": "11方塊掉落及額外loot",
+      "requirement": "§3掉落；§4.1",
+      "expectedSource": "B-08/B-17/B-25、U-11",
+      "tasks": [
+        "T-009",
+        "T-024",
+        "T-048",
+        "T-052",
+        "T-062"
+      ],
+      "environment": "SP＋DS",
+      "steps": "逐11方塊以已定生存破壞條件測掉落；另查車頭Java與额外loot責任，doEntityDrops開關分列",
+      "expected": "方塊對應同名掉落；車頭不重複掉落；額外loot用途有處置且ID保留",
+      "evidence": "掉落實體/物品前後清單、loot引用、gamerule與log",
+      "gate": "T-009/T-048界定爆炸與實體掉落適用条件",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-007",
+      "title": "高速軌與所有共用基底",
+      "requirement": "§3共用基底/high_speed；§6階段3/6",
+      "expectedSource": "B-04；maxSpeed0.4/0.8/2.0",
+      "tasks": [
+        "T-026",
+        "T-028",
+        "T-030",
+        "T-032",
+        "T-034",
+        "T-040",
+        "T-067",
+        "T-069",
+        "T-071"
+      ],
+      "environment": "SP＋DS",
+      "steps": "9軌逐適用N/E/S/W、供電、原版銜接、坡道嘗試及實體破壞；設定0.4/0.8/2.0，記錄位置/每tick與時間",
+      "expected": "禁坡/不可被實體破壞的目標規格成立；各軌共用速度設定生效，無把設定直接當blocks/s",
+      "evidence": "軌段座標/長度、tick與單調時間、位置資料、錄影",
+      "gate": "M-02速度量測/誤差由T-010/T-026定義；遊戲物理/父類先查證",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-008",
+      "title": "停車/重新放行",
+      "requirement": "§3 holding_rail",
+      "expectedSource": "B-05、U-06",
+      "tasks": [
+        "T-027",
+        "T-028"
+      ],
+      "environment": "SP＋DS",
+      "steps": "四方向有車/空軌、未供電進入→靜止→供電放行，連續切電並接原版軌",
+      "expected": "停車位置及方向按來源/查明API；每次放行一次有效狀態變化，不重複位移",
+      "evidence": "車UUID、方向/速度/位置時間軸、紅石與兩端log",
+      "gate": "updateState時序與moveTo精確座標由T-010/T-027確認",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-009",
+      "title": "單向全布林組合",
+      "requirement": "§3 oneway_rail；§4.4",
+      "expectedSource": "B-06、U-07",
+      "tasks": [
+        "T-029",
+        "T-030"
+      ],
+      "environment": "SP＋DS",
+      "steps": "兩軌向×4來車方向×reverse×powered×needPower×usePowerChangeDirection，逐組記錄作用分支及運動",
+      "expected": "依B-06分支的候選方向表及查明規格，未啟用分支也測；不按註解自行翻轉",
+      "evidence": "組合矩陣、vx/vz、有效設定與state、錄影",
+      "gate": "usePowerChangeDirection意圖未決只暫緩相關案例；T-029/T-030負責釐清",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-010",
+      "title": "下車位置與距離",
+      "requirement": "§3 eject_rail",
+      "expectedSource": "B-07",
+      "tasks": [
+        "T-031",
+        "T-032"
+      ],
+      "environment": "SP＋DS",
+      "steps": "兩軌向×4來車方向×reverse×needPower×供電；距離1/3/100；空車/乘客與目的地障礙分列",
+      "expected": "乘客離車且座標按B-07公式/查明規格；未觸發不傳送；不新增未定傳送政策",
+      "evidence": "乘客/車UUID、觸發前後座標/速度、距離、障礙场景",
+      "gate": "障礙和多乘客結果U-10由T-010/T-032釐清，位置允差M-02",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-011",
+      "title": "一般destory移除",
+      "requirement": "§3 destory_rail；D2",
+      "expectedSource": "B-08、U-10",
+      "tasks": [
+        "T-033",
+        "T-034"
+      ],
+      "environment": "SP＋DS",
+      "steps": "needPower×供電；空軌、普通車與各原版容器車，放置無關鄰車作對照",
+      "expected": "只在來源條件成立移除目標；destory拼字不變；掉落/乘客符合查明規格",
+      "evidence": "實體與物品前後清單、UUID、容器資料、粒子/聲音影片",
+      "gate": "T-013/T-034釐清remove副作用，D3釋放不列條件",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-012",
+      "title": "扳手調向/調級",
+      "requirement": "§3 wrench；§6階段3/4",
+      "expectedSource": "B-15、U-09",
+      "tasks": [
+        "T-035",
+        "T-036",
+        "T-040",
+        "T-042",
+        "T-047"
+      ],
+      "environment": "SP＋DS",
+      "steps": "rails空格/有車格分別操作；reverse各值、level0→9→0、direction/facing四向輪轉；計時軌記錄一次點擊所有state差異",
+      "expected": "stack1；僅適用屬性改動，機器/軌道條件與規格一致；複合state覆寫疑點有判定",
+      "evidence": "點擊位置/朝向/物品、每次完整state快照、雙端log",
+      "gate": "U-09由T-035/T-036確認複合操作預期後才判定",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-013",
+      "title": "計時等級/實際秒數",
+      "requirement": "§3 timer_holding_rail；D5",
+      "expectedSource": "B-09/B-10；D5",
+      "tasks": [
+        "T-038",
+        "T-040",
+        "T-083"
+      ],
+      "environment": "SP＋DS",
+      "steps": "等級0–9各四方向，供電開關、改級、設定改變；同車/換車進入；记录進入、停止與放行時刻",
+      "expected": "0級不停車；1–9按有效秒數等待；保持實際時間計時及讀回補償，不改為純tick",
+      "evidence": "設定、cart_uuid、剩餘資料與狀態、時間軸/錄影",
+      "gate": "M-01誤差與起訖先定；父類供電影響U-08先查",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-014",
+      "title": "計時空資料/缺鍵/上限",
+      "requirement": "§4.3(4)；D1/D5",
+      "expectedSource": "B-10、U-04",
+      "tasks": [
+        "T-037",
+        "T-039",
+        "T-040"
+      ],
+      "environment": "SP＋DS＋可查證最小測例",
+      "steps": "首次未使用軌保存重啟；NEW資料按案例分別去除可選鍵；測0及乘法邊界/設定最大值，觀察標髒及寫回",
+      "expected": "無未處理缺鍵/溢位；保存可靠性有實際寫回證據；確認問題才修正",
+      "evidence": "NEW資料構造方法、原始片段/差異、異常堆疊/修正前後",
+      "gate": "T-011/T-037先定有效缺鍵/邊界預期；不使用舊NBT轉換",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-015",
+      "title": "剩約3秒時真卸載",
+      "requirement": "§6階段4/7；D5",
+      "expectedSource": "D5、B-10、U-02/U-04",
+      "tasks": [
+        "T-040",
+        "T-077",
+        "T-083"
+      ],
+      "environment": "SP＋DS，各自必測",
+      "steps": "等待到剩餘約3秒，記錄保存點與實際卸載點；確證區塊卸載；離開時間長於剩餘時間後重載並量到放行",
+      "expected": "重新載入後仍約需3秒（按保存至卸載仍活動時間校正）；卸載間隔不扣除",
+      "evidence": "保存/真卸載/載入/放行時間軸、卸載觀测、剩餘值/計算、影片/log",
+      "gate": "M-01誤差待技術定義；票證保留不算卸載，用無強制票證場景且不更改D3",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-016",
+      "title": "剩約3秒時關服",
+      "requirement": "§6階段4/7；D5",
+      "expectedSource": "D5、B-10、U-04",
+      "tasks": [
+        "T-040",
+        "T-083"
+      ],
+      "environment": "SP正常停整合伺服器＋DS正常stop，各自必測",
+      "steps": "剩約3秒時正常保存停服，等待較長離線時間，重新啟動原NEW世界量測到放行",
+      "expected": "重新載入後仍約需3秒，離線時間不扣除；不以此取代C-015真卸載",
+      "evidence": "stop完整log、保存/關服/重啟/放行時刻、世界識別、差異計算",
+      "gate": "M-01；不得以只關GUI作停服",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-017",
+      "title": "訊號計時脈衝/相位",
+      "requirement": "§3 signal_timer；§4.2/4.4",
+      "expectedSource": "B-11、U-07/U-08",
+      "tasks": [
+        "T-041",
+        "T-042",
+        "T-083"
+      ],
+      "environment": "SP＋DS",
+      "steps": "0–9逐級監測輸出；改級/供電/設定修改/真卸載/重啟；記錄tick排程与輸出邊緣",
+      "expected": "0級0；有效powered脈衝15；候選10tick高電位、秒×20−10排程須經API查證定正式週期；無額外重複脈衝",
+      "evidence": "tick/紅石時間軸、排程紀錄、state、重啟結果",
+      "gate": "T-011/T-042先定相位與去重，不套用計時軌D5秒數",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-018",
+      "title": "專用BE/箱子GUI/27格存讀",
+      "requirement": "§3GUI/BE；D4",
+      "expectedSource": "D4、B-12",
+      "tasks": [
+        "T-012",
+        "T-044",
+        "T-047",
+        "T-082"
+      ],
+      "environment": "SP＋DS＋MP",
+      "steps": "開關GUI；槽0–26放不同種類數量名稱資料、拖曳/shift操作；保存重啟两次并真卸載讀回",
+      "expected": "專用BE及已定新ID；27格箱子GUI可用，合法編輯同步；名称/內容不丟失",
+      "evidence": "BE ID、27格完整快照、操作/兩端畫面、保存資料/log",
+      "gate": "T-012定容器同步/名稱責任及新增ID",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-019",
+      "title": "原版車生成/位置/不消耗",
+      "requirement": "§3 train_dispenser；D4",
+      "expectedSource": "B-13、D4",
+      "tasks": [
+        "T-045",
+        "T-047"
+      ],
+      "environment": "SP＋DS",
+      "steps": "四朝向×空樣板/滿樣板/空格間隔/普通與箱子漏斗熔爐TNT等已定車種；生成前後逐格比較",
+      "expected": "每合法槽按B-13位置公式/查明車種生成；樣板種類/數量/名稱/資料完全不變；玩家編輯另算",
+      "evidence": "27格快照、每車UUID/類型/座標、生成影片/log",
+      "gate": "T-043查明MinecartItem default車種範圍；不加外部車廂",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-020",
+      "title": "發射觸發與占位",
+      "requirement": "§4.3(5)",
+      "expectedSource": "B-13、U-05",
+      "tasks": [
+        "T-043",
+        "T-046",
+        "T-047"
+      ],
+      "environment": "SP＋DS",
+      "steps": "持續供電多次鄰居更新/斷電再供電；在首槽/空槽位置/中段放既有礦車，記錄後續槽處置",
+      "expected": "依調查後觸發規格；來源占位break為參考，額外生成是否問題由已定預期判定；D4不消耗非bug",
+      "evidence": "鄰居事件時序、占位座標、實體增量/快照、修正前後log",
+      "gate": "T-043先消歧；不得自行節流或消耗物品",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-021",
+      "title": "發射器整列樣板",
+      "requirement": "§3發射器/編組；D4",
+      "expectedSource": "B-14、U-05",
+      "tasks": [
+        "T-059",
+        "T-060"
+      ],
+      "environment": "SP＋DS＋MP",
+      "steps": "第0格車頭/非0格車頭/多車頭、空格及阻擋分別生成；運行後存讀",
+      "expected": "只有已定連結條件建立有序列車；樣板27格不變，不重複或誤連其他車頭",
+      "evidence": "槽位→生成UUID→有序編組表、保存資料與三端log",
+      "gate": "T-043/T-059界定特殊槽位，不憑名稱推定玩法",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-022",
+      "title": "手持車頭放置/命名",
+      "requirement": "§3 locomotive_cart物品",
+      "expectedSource": "B-16、U-10",
+      "tasks": [
+        "T-051",
+        "T-052",
+        "T-063"
+      ],
+      "environment": "SP＋DS＋MP",
+      "steps": "自訂/原版rails與非rail；單個/多個命名stack、坡道；生存/創造分列，量兩端物品與實體數",
+      "expected": "stack64；合法位置依來源/已查明規格生成且命名；非法不生成；每次操作不雙重扣除/生成",
+      "evidence": "玩家物品前後、UUID/座標/名称、單個命名stack專項紀錄",
+      "gate": "T-013/T-051先定最後1個物品名稱及父類/模式語意",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-023",
+      "title": "車頭碰撞/破壞/父類",
+      "requirement": "§3車頭實體",
+      "expectedSource": "B-17、U-10",
+      "tasks": [
+        "T-048",
+        "T-052",
+        "T-062"
+      ],
+      "environment": "SP＋DS",
+      "steps": "運動/靜止車頭分別遇玩家/車頭/其他礦車/活體；破壞/選取與doEntityDrops開關、燃料互動分列",
+      "expected": "符合B-17經查明的分支，不新增未定動力玩法；掉自身物品及命名且不重複",
+      "evidence": "交互矩陣、實體/物品/運動前後、gamerule、影片",
+      "gate": "T-013/T-048先查父類；只在測試世界操作",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-024",
+      "title": "車頭8向/模型/UV",
+      "requirement": "§3渲染",
+      "expectedSource": "B-24、B-19",
+      "tasks": [
+        "T-015",
+        "T-050",
+        "T-052"
+      ],
+      "environment": "SP＋DS client＋MP",
+      "steps": "8方向移動/停止，觀察模型與角度、陰影貼圖、坡度/受傷擺動及追蹤重入",
+      "expected": "8向與B-24方向對照及已定模型規格一致；無黑面缺圖、dedicated server不載client類",
+      "evidence": "8向截圖、模型/UV對照、雙端影片/server log",
+      "gate": "T-015模型API待查證",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-025",
+      "title": "生成與同步追蹤",
+      "requirement": "§3網路；§4.3(6)",
+      "expectedSource": "B-19、U-06/U-11",
+      "tasks": [
+        "T-014",
+        "T-049",
+        "T-052",
+        "T-065"
+      ],
+      "environment": "MP",
+      "steps": "雙client加入/離線重連/遠離追蹤範圍再返回；同時觀察車頭方向/名稱/編組與物品",
+      "expected": "兩端和server UUID/數量/已定同步欄位一致，无額外副作用；LINKABLE責任已查明",
+      "evidence": "三端log、同步欄位快照、對齊錄影/事件時間",
+      "gate": "M-04同步觀測窗口先定；單client不代替",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-026",
+      "title": "有序編組/跟車/停止",
+      "requirement": "§3 LinkageManager",
+      "expectedSource": "B-18",
+      "tasks": [
+        "T-053",
+        "T-056"
+      ],
+      "environment": "SP＋DS",
+      "steps": "空編組及多節，不同原版車廂；移動跨格、停止再開；連結已連車與不合法引用",
+      "expected": "UUID順序保持，跟車/stopPos按已定規格；無重複連結、遺失或殘留",
+      "evidence": "逐步有序UUID、位置/stopPos來源對照、運行影片",
+      "gate": "T-013/T-053界定新暫存機制，不預設SavedData",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-027",
+      "title": "晚載入與編組恢復",
+      "requirement": "§4.3(1)；§4.2",
+      "expectedSource": "B-18、U-01；D1",
+      "tasks": [
+        "T-054",
+        "T-055",
+        "T-056",
+        "T-082",
+        "T-084"
+      ],
+      "environment": "SP＋DS",
+      "steps": "車头先載入、車廂晚載入、暫時查不到UUID、已刪除/不合法引用；跨區塊/維度與世界切換，兩次重啟",
+      "expected": "有效車廂UUID及順序不因暫時未載入丟失；不跨世界誤清；確認問題才修正",
+      "evidence": "載入時序、原始保存資料、前後有序UUID、失敗與修正版本",
+      "gate": "不要求OLD log；晚載入測試fixture由T-013查證",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-028",
+      "title": "扳手相鄰連結",
+      "requirement": "§3 wrench編組",
+      "expectedSource": "B-15、U-01/U-09",
+      "tasks": [
+        "T-057",
+        "T-058"
+      ],
+      "environment": "SP＋DS＋MP",
+      "steps": "四面朝向，點擊小數<0.5/=0.5/>0.5；兩格有/無車頭、已連車、無效點擊、雙人同時操作",
+      "expected": "按已定相鄰選格及合法性連結且只一份；既有順序無誤改",
+      "evidence": "點擊/朝向/位置、前後UUID、三端操作時間軸",
+      "gate": "T-057確認玩家入口，不用未查證封包猜測",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-029",
+      "title": "整列destory移除",
+      "requirement": "§3整列移除",
+      "expectedSource": "B-08/B-18、U-10；D3",
+      "tasks": [
+        "T-061",
+        "T-062"
+      ],
+      "environment": "SP＋DS＋MP",
+      "steps": "帶乘客/容器車編組通過，旁置未連車；供電/needPower全組合；核對索引/掉落",
+      "expected": "只移除合法目標列車及索引、不誤刪無關車；內容/乘客按已查明規格；不默加釋放票證政策",
+      "evidence": "車UUID/索引、物品/乘客前後、設定与三端log",
+      "gate": "T-013/T-062先釐清移除副作用",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-030",
+      "title": "十字路口方向/速度",
+      "requirement": "§3 cross_rail",
+      "expectedSource": "B-20、route-reference.md",
+      "tasks": [
+        "T-066",
+        "T-067"
+      ],
+      "environment": "SP＋DS，單車＋編組",
+      "steps": "4來車方向×供電開關，原版銜接；零速/同時兩車另列；記錄兩段過車",
+      "expected": "依來車直行到對應鄰格並保持已定速度；電力不新增轉向；暫存問題另C-033",
+      "evidence": "入/出方向與速度、路口state、UUID/軌跡",
+      "gate": "T-010釐清getMotionDirection；M-02速度",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-031",
+      "title": "左Y全部方向",
+      "requirement": "§3 y_cross_rail；§6階段6",
+      "expectedSource": "B-21、route-reference.md左Y",
+      "tasks": [
+        "T-068",
+        "T-069"
+      ],
+      "environment": "SP＋DS，單車＋編組",
+      "steps": "4方塊direction×4來車方向×供電開關逐組；每組比較來源表，過車中切電另測",
+      "expected": "32組分支各有預期，單車/編組同遵已定路徑，不按名稱簡化成總是左轉",
+      "evidence": "矩陣子ID、入/出軌跡/速度/UUID、紅石/暫存快照",
+      "gate": "getMotionDirection含義及變電時序由T-010/T-068查明",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-032",
+      "title": "右Y全部方向",
+      "requirement": "§3 y_cross_right_rail；§6階段6",
+      "expectedSource": "B-22、route-reference.md右Y",
+      "tasks": [
+        "T-070",
+        "T-071"
+      ],
+      "environment": "SP＋DS，單車＋編組",
+      "steps": "與C-031相同完整輸入集合，獨立比對右Y表，不複用左Y鏡射預期",
+      "expected": "32組分支各符查明規格，單車/編組均驗收",
+      "evidence": "獨立矩陣、軌跡/速度/UUID、紅石與暫存快照",
+      "gate": "T-010/T-070查明方向與時序",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-033",
+      "title": "路口暫存隔離",
+      "requirement": "§4.3(3)",
+      "expectedSource": "B-20–B-22、U-03",
+      "tasks": [
+        "T-072",
+        "T-073",
+        "T-074",
+        "T-084"
+      ],
+      "environment": "SP＋DS＋MP",
+      "steps": "三路口在不同維度同座標過車、同程序切世界、破壞/卸載、中途存讀、兩車交錯",
+      "expected": "不跨世界/維度誤用暫存，不卡車/覆寫其他車路徑；確認缺陷才修",
+      "evidence": "維度+位置+UUID、Map觀测、載入/破壞時序、前後版本log",
+      "gate": "資料範圍/清理時機T-072確認；不因OLD無log阻擋",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-034",
+      "title": "D3呼叫/啟用對照",
+      "requirement": "§3區塊載入；D3",
+      "expectedSource": "B-23、U-02",
+      "tasks": [
+        "T-016",
+        "T-075",
+        "T-076",
+        "T-077"
+      ],
+      "environment": "DS＋SP server",
+      "steps": "true/false設定、車頭與非車頭、跨區塊；比對owner/維度/中心/force/tick及重複呼叫",
+      "expected": "true啟用且保持原中心呼叫邏輯；不假設5×5；API無法等價才列具體缺口",
+      "evidence": "原碼→NEW API參數對照、實際呼叫/座標集合、設定",
+      "gate": "T-016 API待查；不把呼叫次數當票證數",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-035",
+      "title": "票證實際生命週期與政策",
+      "requirement": "§4.3(2)；D3/D6",
+      "expectedSource": "B-23、U-02",
+      "tasks": [
+        "T-075",
+        "T-077",
+        "T-078",
+        "T-079",
+        "T-080",
+        "T-084"
+      ],
+      "environment": "SP＋DS",
+      "steps": "進出區塊、離玩家範圍、停止/移除車頭、重啟、跨維度、多列車；觀察實際載入/tick/活動",
+      "expected": "依D3對照規格；無未授權5×5/釋放/上限；已確認保留限制有具體決策；缺陷修正後回歸",
+      "evidence": "owner/座標/票證/tick時間軸、列車活動、政策決策與差異",
+      "gate": "必要政策變更僅T-078具體審閱；效能M-03未定不判通過",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-036",
+      "title": "新世界完整存讀",
+      "requirement": "§4.2；§6階段7；D1/D4/D5",
+      "expectedSource": "catalogue保存欄位；D1",
+      "tasks": [
+        "T-081",
+        "T-082",
+        "T-083"
+      ],
+      "environment": "SP＋DS",
+      "steps": "NEW新世界布置所有內容/狀態、空/多節編組、27槽、計時；保存停服重啟至少兩輪，另真卸載",
+      "expected": "逐欄ID/state/數量/名稱/UUID次序/槽位一致；計時按補償規格；無遺失重複",
+      "evidence": "每輪世界版本/副本、保存前後資料/差異、完整重啟/卸載log",
+      "gate": "M-01；不匯入OLD世界，不要求舊NBT相容",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-037",
+      "title": "完整世界/多人回歸",
+      "requirement": "§6階段7",
+      "expectedSource": "D1、B-18–B-23",
+      "tasks": [
+        "T-084"
+      ],
+      "environment": "MP＋同程序切世界",
+      "steps": "完整整合環境重跑編組晚載入、三路口、票證、計時真卸載與重啟；不同維度同座標与多列車",
+      "expected": "核心不變性均仍成立，不沿用早期版本通過；各受影響分項有新證據",
+      "evidence": "案例→版本矩陣、三端log/錄影、保存差異",
+      "gate": "所有必要門檻先定；單分支失敗只限制受影響範圍但候選不得全通過",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-038",
+      "title": "執行端疑點確認/修正回歸",
+      "requirement": "§4.3(6)",
+      "expectedSource": "U-06、B-05/B-06/B-08/B-19",
+      "tasks": [
+        "T-063",
+        "T-064",
+        "T-065"
+      ],
+      "environment": "MP",
+      "steps": "追蹤rails回呼、放置/扣物、生成/刪除/連結、tick與互動；未接玩家入口用已查證fixture",
+      "expected": "端權責由API与三端觀察確認；已證實重複/不同步才修；原失敗案例重新驗收",
+      "evidence": "回呼/狀態寫入端表、原失敗/修正後三端log、版本",
+      "gate": "M-04；無顯式client判斷不自動等於bug",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-039",
+      "title": "NEW工具鏈/框架建置",
+      "requirement": "§2；§6階段1；D8",
+      "expectedSource": "NEW設定及T-005實際證據獨立保存",
+      "tasks": [
+        "T-005",
+        "T-017",
+        "T-018"
+      ],
+      "environment": "DEV",
+      "steps": "以現有Wrapper build，核對实际JDK/Gradle/NeoForge/ModDevGradle/Parchment；讀JAR metadata與雜湊",
+      "expected": "命令exit0且JAR識別完整，D8基線不變；範例JAR不當遷移完成",
+      "evidence": "完整命令/log/退出碼、解析版本、JAR SHA-256/metadata",
+      "gate": "本案例檔是設計；本輪T-005既有框架結果見其證據，不視為T-017/T-018完成",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-040",
+      "title": "NEW client/server/連線分開",
+      "requirement": "§6階段1；D7/D8",
+      "expectedSource": "已定TASK T-006/T-007/T-089",
+      "tasks": [
+        "T-006",
+        "T-007",
+        "T-089",
+        "T-018"
+      ],
+      "environment": "SP＋DS",
+      "steps": "client進新世界；dedicated server獨立啟動保存停止；兩者分別通過後client連DS、退出/重連；正式框架再測",
+      "expected": "T-007只證明server啟停，T-089才證明連線；無client類在server載入錯誤",
+      "evidence": "分開命令/退出碼/log/版本/世界識別，連線畫面與時間點",
+      "gate": "執行環境、帳號/顯示/可用埠待T-006/T-007確認，本輪不啟動",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-041",
+      "title": "指定版本API規格",
+      "requirement": "§6階段1；§4風險",
+      "expectedSource": "B-01–B-25；未驗證API清單",
+      "tasks": [
+        "T-008",
+        "T-009",
+        "T-010",
+        "T-011",
+        "T-012",
+        "T-013",
+        "T-014",
+        "T-015",
+        "T-016"
+      ],
+      "environment": "DEV",
+      "steps": "逐領域記舊符號→指定版本來源/官方依據→候選→最小編譯/觀測，區分編譯與執行語意",
+      "expected": "每個後繼需求有版本可追溯規格，未定明列受影響案例；不借其他版本代替",
+      "evidence": "來源版本/位置、最小測例/命令/退出碼、用法與結果",
+      "gate": "本輪不執行API任務；NEO方法/格式不在T-004猜定",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-042",
+      "title": "發行候選打包與乾淨實測",
+      "requirement": "§6階段8；D7/D8",
+      "expectedSource": "D7/D8、全部功能案例",
+      "tasks": [
+        "T-085",
+        "T-086"
+      ],
+      "environment": "乾淨SP＋MP",
+      "steps": "建置候選；查內容metadata/ID；以同SHA-256 JAR在仅三模組組合跑代表案例及双client",
+      "expected": "1.0.0/All Rights Reserved/NeoForge21.1.251/MC1.21.1；無範例註冊、無外部模組、載入/代表功能驗收有證據",
+      "evidence": "build log/退出碼、候選內容/雜湊、三端同版本證據、無錯誤log",
+      "gate": "本輪框架JAR不作候選；正式API/功能驗收先完成",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-043",
+      "title": "效能/限制/最終覆蓋",
+      "requirement": "§6階段8；D6",
+      "expectedSource": "已定門檻、U-01–U-12與六疑點",
+      "tasks": [
+        "T-004",
+        "T-087",
+        "T-088"
+      ],
+      "environment": "DEV＋MP",
+      "steps": "先定硬體/列車数/路線/預熱/觀測長度；量tick/負載；稽核需求→案例→證據→候選SHA與六疑點結案",
+      "expected": "門檻先定且達標才判效能通過；未解必要條件不簽全數完成；T-002免執行單列",
+      "evidence": "原始量測、限制/政策決策、覆蓋缺口與獨立審查索引",
+      "gate": "M-03由T-087技術定義；T-088須覆核REVIEW規範，本輪不獨立簽核",
+      "status": "未執行（案例設計）",
+      "actual": null
+    },
+    {
+      "id": "C-044",
+      "title": "遷移範圍與授權稽核",
+      "requirement": "D1–D8；§5",
+      "expectedSource": "使用者已定決策；TASK/REVIEW",
+      "tasks": [
+        "T-004",
+        "T-078",
+        "T-081",
+        "T-085",
+        "T-088"
+      ],
+      "environment": "DEV",
+      "steps": "檢查差異與依賴、候選內容及政策決策：全部ID、不含舊資料轉換或外部整合，27格不消耗、計時/票證不默改",
+      "expected": "D1–D8逐項符合；T-002免執行不冒充Agent build；新疑點需先確認再修正；未授權政策無變更",
+      "evidence": "決策→案例→實作差異/版本/證據表、免執行記錄",
+      "gate": "文件/靜態審閱不代替功能或獨立審查通過",
+      "status": "未執行（案例設計）",
+      "actual": null
+    }
+  ]
+}

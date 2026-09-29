@@ -1,0 +1,10 @@
+$ErrorActionPreference='Stop'
+$docs=@('TASK.md','MIGRATION.md','REVIEW.md') + @(Get-ChildItem docs/evidence/T-003,docs/evidence/T-004,docs/evidence/T-005 -Filter *.md -File | ForEach-Object { $_.FullName })
+$missingLinks=@()
+foreach ($doc in $docs) { $full=(Resolve-Path -LiteralPath $doc).Path; $body=Get-Content -Raw -Encoding UTF8 -LiteralPath $full; foreach ($m in [regex]::Matches($body,'\]\(([^)]+)\)')) { $target=$m.Groups[1].Value; if ($target -match '^(https?:|#)') { continue }; $target=($target -split '#')[0]; if (-not [System.IO.Path]::IsPathRooted($target)) { $target=Join-Path ([System.IO.Path]::GetDirectoryName($full)) $target }; if (-not (Test-Path -LiteralPath $target)) { $missingLinks += [ordered]@{document=$doc;target=$target} } } }
+$diffOutput=@(& git diff --exit-code HEAD -- src build.gradle settings.gradle gradle.properties gradle gradlew gradlew.bat 2>&1)
+$diffExit=$LASTEXITCODE
+$report=[ordered]@{timeUtc=(Get-Date).ToUniversalTime().ToString('o');missingLinks=$missingLinks;newTrackedSourceDiffExit=$diffExit;newTrackedSourceDiffOutput=$diffOutput;taskSha256=(Get-FileHash -Algorithm SHA256 TASK.md).Hash;artifactSha256=(Get-FileHash -Algorithm SHA256 docs/evidence/T-005/simplerail-1.0.0.jar).Hash;gitStatus=@(& git status --short)}
+$report | ConvertTo-Json -Depth 7 | Set-Content -Encoding UTF8 docs/evidence/T-005/final-check.json
+$report | ConvertTo-Json -Depth 7
+if ($missingLinks.Count -gt 0 -or $diffExit -ne 0) { exit 1 }

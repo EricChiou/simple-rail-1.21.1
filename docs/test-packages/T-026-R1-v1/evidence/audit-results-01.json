@@ -1,0 +1,174 @@
+﻿{
+    "scope":  "Static actual bytecode/resource/scope contracts; no Minecraft bootstrap or callbacks",
+    "checks":  31,
+    "passed":  30,
+    "failed":  1,
+    "results":  [
+                    {
+                        "id":  "HighSpeedRail-slopes",
+                        "passed":  true,
+                        "detail":  "Actual compiled slope hook; disassembly only, no class loading."
+                    },
+                    {
+                        "id":  "BasePoweredRail-slopes",
+                        "passed":  true,
+                        "detail":  "Actual compiled slope hook; disassembly only, no class loading."
+                    },
+                    {
+                        "id":  "BaseRail-slopes",
+                        "passed":  true,
+                        "detail":  "Actual compiled slope hook; disassembly only, no class loading."
+                    },
+                    {
+                        "id":  "twelve-variants",
+                        "passed":  true,
+                        "detail":  "Six shapes times two powered states."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=false,shape=ascending_east",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=false,shape=ascending_north",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=false,shape=ascending_south",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=false,shape=ascending_west",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=false,shape=east_west",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=false,shape=north_south",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=true,shape=ascending_east",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=true,shape=ascending_north",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=true,shape=ascending_south",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=true,shape=ascending_west",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=true,shape=east_west",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "vanilla-geometry-powered=true,shape=north_south",
+                        "passed":  true,
+                        "detail":  "Shape model and rotation match fixed-version vanilla powered rail."
+                    },
+                    {
+                        "id":  "complete-declared-coverage",
+                        "passed":  true,
+                        "detail":  "All 24 inherited declared combinations have a selector, including both waterlogged values; no runtime baking."
+                    },
+                    {
+                        "id":  "model-high_speed_rail_raised_ne",
+                        "passed":  true,
+                        "detail":  "Vanilla raised template and preserved off/on texture."
+                    },
+                    {
+                        "id":  "model-high_speed_rail_raised_sw",
+                        "passed":  true,
+                        "detail":  "Vanilla raised template and preserved off/on texture."
+                    },
+                    {
+                        "id":  "model-high_speed_powered_rail_raised_ne",
+                        "passed":  true,
+                        "detail":  "Vanilla raised template and preserved off/on texture."
+                    },
+                    {
+                        "id":  "model-high_speed_powered_rail_raised_sw",
+                        "passed":  true,
+                        "detail":  "Vanilla raised template and preserved off/on texture."
+                    },
+                    {
+                        "id":  "existing-scope",
+                        "passed":  true,
+                        "detail":  "Only HighSpeedRail and its blockstate changed; bases, IDs, settings, other rails, Gradle and original resources untouched."
+                    },
+                    {
+                        "id":  "new-scope",
+                        "passed":  true,
+                        "detail":  "Exactly four high-speed raised models added."
+                    },
+                    {
+                        "id":  "no-direction-patch",
+                        "passed":  true,
+                        "detail":  "No guessed direction, speed-vector or teleport correction introduced."
+                    },
+                    {
+                        "id":  "template-ne",
+                        "passed":  true,
+                        "detail":  "Vanilla model parent exists in the pinned archive."
+                    },
+                    {
+                        "id":  "template-sw",
+                        "passed":  true,
+                        "detail":  "Vanilla model parent exists in the pinned archive."
+                    },
+                    {
+                        "id":  "jar-resources",
+                        "passed":  true,
+                        "detail":  "All 149 source resources packaged byte-identically."
+                    },
+                    {
+                        "id":  "new-build",
+                        "passed":  true,
+                        "detail":  "NEW build exit 0."
+                    },
+                    {
+                        "id":  "gradle-tests-boundary",
+                        "passed":  true,
+                        "detail":  "No Gradle unit tests executed; these checks are source/bytecode/resource contracts."
+                    },
+                    {
+                        "id":  "index-preserved",
+                        "passed":  false,
+                        "detail":  "Staged user changes preserved."
+                    },
+                    {
+                        "id":  "diff-check",
+                        "passed":  true,
+                        "detail":  "Whitespace check succeeds."
+                    }
+                ],
+    "artifactSha256":  "8455CC5DE6FE2C7E5953E6A8F0D4A4E419A40489B954C8B0B1216304C5CEA599",
+    "changedExisting":  [
+                            "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\HighSpeedRail.java",
+                            "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\resources\\assets\\simplerail\\blockstates\\high_speed_rail.json"
+                        ],
+    "newFiles":  [
+                     "src/main/resources/assets/simplerail/models/block/high_speed_powered_rail_raised_ne.json",
+                     "src/main/resources/assets/simplerail/models/block/high_speed_powered_rail_raised_sw.json",
+                     "src/main/resources/assets/simplerail/models/block/high_speed_rail_raised_ne.json",
+                     "src/main/resources/assets/simplerail/models/block/high_speed_rail_raised_sw.json"
+                 ]
+}

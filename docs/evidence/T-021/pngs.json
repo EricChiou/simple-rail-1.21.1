@@ -1,0 +1,317 @@
+[
+  {
+    "path": "assets/simplerail/textures/blocks/cross_rail.png",
+    "sha256": "FA43ACBA42C5E1B54F8D81BCEC69DDAD8352F26AE4C93F53F89C9707DE1C52E6",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 432
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/destory_powered_rail.png",
+    "sha256": "3747E2E873A4F4683EF6A7C304575BE299F39B21D6DA4C02B219C90A1B65EFA0",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 364
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/destory_rail.png",
+    "sha256": "3317A8328576FB0565A02674236AC1B9065B693AD5A7E543D1877E8C5493BE58",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 364
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/eject_powered_rail.png",
+    "sha256": "A1389F6C2887D12301825F4F5537594D62EF04738440A7648DD378BF9549ED4A",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 314
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/eject_rail.png",
+    "sha256": "4840507CF6539FCF7BFC071594E0C72BFC695E95A2E250DE3967BA9887870A6F",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 314
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/eject_reverse_powered_rail.png",
+    "sha256": "CA16FDAE200DFFA25B280E0E14347DBC686503D65534A0A50965D43E60941103",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 314
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/eject_reverse_rail.png",
+    "sha256": "B0E416FF229E1BE71D9B83614429FD7990870190724C31F0EC73DBD14899AC05",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 314
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/high_speed_powered_rail.png",
+    "sha256": "8E56EC950692C064D0C436483DF11996B0E7EF3261E92FEA9700937E32C86786",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 336
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/high_speed_rail.png",
+    "sha256": "5BC89B9C2105F958841E75EFB15E7EC731D7B3574494AC739F11BC1E265CBB24",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 336
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/holding_powered_rail.png",
+    "sha256": "9F5D1E7CA4862BC416A0EEF105E93D284A769FB1BEEC41E1685443E6C2BE7275",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/holding_rail.png",
+    "sha256": "2282B1F4FAB00459E064D3C6C9A5B35B21458FBB18C465F7DE4BBD4E6A8CEF65",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/oneway_powered_rail.png",
+    "sha256": "F192ABC7A20080F3D42DD548B6C2F3D53B832A45605DDCDE9B4CB44FE645EABF",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 354
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/oneway_rail.png",
+    "sha256": "55EDF222909F70D91460F9D9E8BC40EE75CC42F24DC387353154829E4145805B",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 354
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/oneway_reverse_powered_rail.png",
+    "sha256": "742291736A7FB8B4703FA3588BDE298415134FE94E489BF7F5FBAF4BFFD1F68E",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 354
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/oneway_reverse_rail.png",
+    "sha256": "0481E3CACB94A36256043B91DDFC3177B3FACCED71B1EDA5A71162E329547DE1",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 354
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv0.png",
+    "sha256": "79DB51A5120B22CDF4C624F1D7E50798DA919DFACFB042705F0273CB2B0057DD",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv1.png",
+    "sha256": "58AC4559FB150C93D99050EDEE5CE21FD6D28154E45E268EA3B5CE52960F2CB5",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv2.png",
+    "sha256": "A2C083F2ED5AB43D5AE1AC1C9D73B9058B92BFB3F1FCA72BF8E53E25BE2439F5",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv3.png",
+    "sha256": "66A1124424961BBAD3F765BFEAC1BB9584B65BAAF070E510C9E943F16FBAEF10",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv4.png",
+    "sha256": "9C79BA9DA634C9162029AABF77894DBAF4B2571CA8CF0697FF2C7AAA09CBC1DE",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv5.png",
+    "sha256": "6A8C0F5017DED82BBA963425C3806D1A1E126748080C93BDD18C09E9491DB72E",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv6.png",
+    "sha256": "92B9CD164BF6A57A61EC81EE304E9B0A560072960928C0DDEB73032127426EC0",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv7.png",
+    "sha256": "F34A467809D451264577518F7B8A54103479746D4102CF3C3B2EF6D4A481F90E",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv8.png",
+    "sha256": "814B560AF78DAEE3BA06A16DD4C8068047FF9C897F9B16FB414CDC47E2200D97",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/signal_timer_lv9.png",
+    "sha256": "53D936A9D4FA9E5ACB47A0A28458E104EBC4C10B931604A056ADB6BE1CB63DF1",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv0_rail.png",
+    "sha256": "736DC058490275A29AD3DB2A1E89144A0DC82FF758C9529C945EA02717318192",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv1_rail.png",
+    "sha256": "C19D4368FDBCEEBDC0BC7CC48BE8B34C5DCBA00FEC9D9E5F095DCFF9128448A8",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv2_rail.png",
+    "sha256": "91F4AFBCDE04AD0A55198EFFE3EE2DA1AE4C69DC727AF0BC0FD20B5E59C776B7",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv3_rail.png",
+    "sha256": "6FAA786D91710777F489B435FB94EADEA8F867EB17405AC9D153ABA3A4275E2C",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv4_rail.png",
+    "sha256": "6DDFEDA293A0A510988FB90291170F5C92A6D9C1E4805AE554879A1F0B076F2C",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv5_rail.png",
+    "sha256": "798DEF5DD73664C83E9E143F01D62065514FFFF581FE684DE218CDADA74D1AA0",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv6_rail.png",
+    "sha256": "E9E7893BA6A0A139C0BF789EECDE7233A903B43DEE6869EFC58DE573B4BC7469",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv7_rail.png",
+    "sha256": "197258D0D00B51B8F43ED1EAC1F343FC1FE9FC1D47997E4EDD3EE35E3E076C8F",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv8_rail.png",
+    "sha256": "8B8C43290AD17F67CCCB2E2AF9155A308D643DF8333DA540287107E16D9F1152",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/timer_holding_lv9_rail.png",
+    "sha256": "366E9F7EA213122942EC4B43DD174F611B26EE07BCBF2032527DA21BC09B24BC",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 320
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/train_dispenser.png",
+    "sha256": "97E4A508AD647BD326D70DC418C7C7965BF078319C687B1F3B06E53D183607C9",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/train_dispenser_front.png",
+    "sha256": "4289A928E1B673245E32842884FEA29D45A4CE58D25354D5E5712D6C0FDDD74F",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 0
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/y_cross_right_straight_rail.png",
+    "sha256": "AFC78EC6A55EB1C40A3EE6B2E4692B423DE9AC21DA0DF2CC32EA221AB3C21EB9",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 408
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/y_cross_right_turn_rail.png",
+    "sha256": "D125A02A38827CC0D9706652204971DE46506707A9A7CE3E86303048584FEF75",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 384
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/y_cross_straight_rail.png",
+    "sha256": "13AC7645C8A1035F3B90743D50C55FCD4F4AF389CEE093F5357BACF064C33677",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 408
+  },
+  {
+    "path": "assets/simplerail/textures/blocks/y_cross_turn_rail.png",
+    "sha256": "EA83FB18FCC2EC53C94324FCD7F7CF33A81EF3D2C939CC5EE9397DB0EC1CDB20",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 384
+  },
+  {
+    "path": "assets/simplerail/textures/entity/locomotive_cart.png",
+    "sha256": "F2B64C6502099024781691BFBE9A93693DCBABEB225B53DC0C07C545E070B1AF",
+    "height": 64,
+    "width": 96,
+    "transparentPixels": 3596
+  },
+  {
+    "path": "assets/simplerail/textures/items/locomotive_cart.png",
+    "sha256": "D1B353157DB8F9FCDB90DC76B163A3C212FCFE0E58B4BC1A4B98D0F48CC87C2C",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 388
+  },
+  {
+    "path": "assets/simplerail/textures/items/wrench.png",
+    "sha256": "1335FBD11C28807372C59C45B6BDE1AA58E8BCB11463980FF8F7D1D453235E46",
+    "height": 32,
+    "width": 32,
+    "transparentPixels": 752
+  },
+  {
+    "path": "logo.png",
+    "sha256": "2AAFDD89F5E6102C5AADDD98AC51CE91EF5DFE9083008013AC07B359EDF37496",
+    "height": 512,
+    "width": 512,
+    "transparentPixels": 79659
+  }
+]

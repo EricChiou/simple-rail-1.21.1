@@ -1,0 +1,37 @@
+﻿{
+    "command":  "\u0026 ([scriptblock]::Create((Get-Content -Raw -Encoding UTF8 docs/evidence/T-015/save-verification.ps1)))",
+    "exitCode":  0,
+    "utc":  "2026-09-27T16:05:54.5278981Z",
+    "newHead":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "gitHeadExit":  0,
+    "newStatus":  [
+                      "M  .gitignore",
+                      "AM MIGRATION.md",
+                      "AM REVIEW.md",
+                      "AM TASK.md"
+                  ],
+    "oldHeadReference":  "6698b1c5f494095a15b055c10045293e91540012 (T-003 read-only reference; no OLD build)",
+    "oldSourceFilesMatchingT003":  5,
+    "targetSourceFiles":  16,
+    "targetArchiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+    "productFilesUnchanged":  12,
+    "productDiff":  [
+
+                    ],
+    "productDiffExit":  0,
+    "compilerCommand":  "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/javac.exe -version",
+    "compilerOutput":  "javac 21.0.12.1",
+    "compilerExit":  0,
+    "compiledClasses":  3,
+    "probeSha256":  "2390B443B4D7D7B54B3B38E9FAAF814AD78EB0C6E5C74C0A75B11AEB17009D59",
+    "compileAttempts":  [
+                            {
+                                "exitCode":  1,
+                                "attempt":  "docs/evidence/T-015/compile-01.log"
+                            },
+                            {
+                                "exitCode":  0,
+                                "attempt":  "docs/evidence/T-015/compile-02.log"
+                            }
+                        ]
+}

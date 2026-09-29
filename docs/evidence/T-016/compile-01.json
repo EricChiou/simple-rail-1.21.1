@@ -1,0 +1,9 @@
+﻿{
+    "task":  "T-016",
+    "command":  ".\\gradlew.bat compileT016Probe --offline --console=plain --info --no-configuration-cache -I docs/evidence/T-016/probe.init.gradle",
+    "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1",
+    "startedUtc":  "2026-09-27T16:31:54.1433665Z",
+    "endedUtc":  "2026-09-27T16:31:54.3615474Z",
+    "exitCode":  1,
+    "log":  "docs/evidence/T-016/compile-01.log"
+}

@@ -1,0 +1,9 @@
+﻿{
+    "compileCommand":  "javac -encoding UTF-8 -d docs/evidence/T-026/fix-R2/test-classes src/main/java/com/ericchiu/simplerail/block/RailAscentMovementLimit.java docs/evidence/T-026/fix-R2/AscentBoundaryTest.java",
+    "compileExitCode":  0,
+    "testCommand":  "java -cp docs/evidence/T-026/fix-R2/test-classes com.ericchiu.simplerail.block.AscentBoundaryTest",
+    "testExitCode":  0,
+    "java":  "Temurin 21.0.12.1+1",
+    "minecraftStarted":  false,
+    "limitation":  "Scalar geometry and source-defined collision/slope arithmetic; not a game simulation or user-report reproduction"
+}

@@ -1,0 +1,265 @@
+{
+    "dateUtc":  "2026-09-28T06:32:48.0451810Z",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "checks":  [
+                   {
+                       "name":  "T-008 source snapshots and origins",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  28,
+                                      "errors":  [
+
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-008 compile classpath",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  84,
+                                      "mismatches":  [
+
+                                                     ]
+                                  }
+                   },
+                   {
+                       "name":  "T-009 source snapshots and origins",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  241,
+                                      "errors":  [
+
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-010 source snapshots and origins",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  77,
+                                      "errors":  [
+
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-010 compile classpath",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  84,
+                                      "mismatches":  [
+
+                                                     ]
+                                  }
+                   },
+                   {
+                       "name":  "T-011 source snapshots and origins",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  34,
+                                      "errors":  [
+
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-011 compile classpath",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  84,
+                                      "mismatches":  [
+
+                                                     ]
+                                  }
+                   },
+                   {
+                       "name":  "T-012 source snapshots and origins",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  24,
+                                      "errors":  [
+
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-012 compile classpath",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  84,
+                                      "mismatches":  [
+
+                                                     ]
+                                  }
+                   },
+                   {
+                       "name":  "T-013 source snapshots and origins",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  31,
+                                      "errors":  [
+
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-013 compile classpath",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  84,
+                                      "mismatches":  [
+
+                                                     ]
+                                  }
+                   },
+                   {
+                       "name":  "T-014 source snapshots and origins",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  26,
+                                      "errors":  [
+
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-014 compile classpath",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  84,
+                                      "mismatches":  [
+
+                                                     ]
+                                  }
+                   },
+                   {
+                       "name":  "T-015 source snapshots and origins",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  21,
+                                      "errors":  [
+
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-015 compile classpath",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  84,
+                                      "mismatches":  [
+
+                                                     ]
+                                  }
+                   },
+                   {
+                       "name":  "T-016 source snapshots and origins",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  15,
+                                      "errors":  [
+
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-016 compile classpath",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  84,
+                                      "mismatches":  [
+
+                                                     ]
+                                  }
+                   },
+                   {
+                       "name":  "Current product inputs match T-090/T-091",
+                       "passed":  true,
+                       "detail":  {
+                                      "count":  11,
+                                      "mismatches":  [
+
+                                                     ]
+                                  }
+                   },
+                   {
+                       "name":  "T-005 historical JAR",
+                       "passed":  true,
+                       "detail":  "D6BB8A92830EDDE583838496D471E9F201BE0D16694D0B487D06D46D21D9FE94"
+                   },
+                   {
+                       "name":  "T-090 package integrity",
+                       "passed":  true,
+                       "detail":  {
+                                      "zipSha256":  "B871DC2B375DD72654EE0B2A48C8CE68CBB92B8750B7A726D41E62B6DE7F6CE8",
+                                      "errors":  [
+
+                                                 ],
+                                      "files":  16
+                                  }
+                   },
+                   {
+                       "name":  "T-090 JAR binding",
+                       "passed":  true,
+                       "detail":  {
+                                      "sha256":  "537780CB1E3C2B532AF7F22BEC1AA306C0966AFD6C571CC5D2936275B66C3A36",
+                                      "path":  "mods/simplerail-1.0.0.jar"
+                                  }
+                   },
+                   {
+                       "name":  "T-090 case/result boundary",
+                       "passed":  true,
+                       "detail":  [
+                                      "T089-01",
+                                      "T089-02",
+                                      "T089-03",
+                                      "T089-04",
+                                      "T089-05"
+                                  ]
+                   },
+                   {
+                       "name":  "T-091 package integrity",
+                       "passed":  true,
+                       "detail":  {
+                                      "zipSha256":  "491357371F052A18637E7AC7157B2C78EB8F13C857D1153C8B1EDD6523EE3D1A",
+                                      "errors":  [
+
+                                                 ],
+                                      "files":  16
+                                  }
+                   },
+                   {
+                       "name":  "T-091 JAR binding",
+                       "passed":  true,
+                       "detail":  {
+                                      "sha256":  "537780CB1E3C2B532AF7F22BEC1AA306C0966AFD6C571CC5D2936275B66C3A36",
+                                      "path":  "mods/simplerail-1.0.0.jar"
+                                  }
+                   },
+                   {
+                       "name":  "T-091 case/result boundary",
+                       "passed":  true,
+                       "detail":  [
+                                      "T018-01",
+                                      "T018-02",
+                                      "T018-03",
+                                      "T018-04",
+                                      "T018-05"
+                                  ]
+                   },
+                   {
+                       "name":  "Product JAR contains only the two entry classes",
+                       "passed":  true,
+                       "detail":  [
+                                      "com/ericchiu/simplerail/SimpleRail.class",
+                                      "com/ericchiu/simplerail/SimpleRailClient.class"
+                                  ]
+                   },
+                   {
+                       "name":  "Product metadata",
+                       "passed":  true,
+                       "detail":  "Exact build target and supported range remain distinct."
+                   }
+               ],
+    "gameStarted":  false
+}

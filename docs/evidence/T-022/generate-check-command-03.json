@@ -1,0 +1,8 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-022/generate-check.ps1",
+    "startedUtc":  "2026-09-28T11:09:57.1821398Z",
+    "finishedUtc":  "2026-09-28T11:09:57.5327704Z",
+    "exitCode":  0,
+    "log":  "generate-check-03.log",
+    "logEncoding":  "UTF-16LE"
+}

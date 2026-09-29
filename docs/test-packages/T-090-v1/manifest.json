@@ -1,0 +1,70 @@
+﻿{
+    "packageId":  "T-090-v1",
+    "createdUtc":  "2026-09-28T03:17:32.6516600Z",
+    "developerTasks":  [
+                           "T-090"
+                       ],
+    "manualTask":  "T-089",
+    "cases":  [
+                  "T089-01",
+                  "T089-02",
+                  "T089-03",
+                  "T089-04",
+                  "T089-05"
+              ],
+    "sourceCases":  [
+                        "C-040"
+                    ],
+    "migration":  [
+                      "§3 入口與網路",
+                      "§6 階段 1"
+                  ],
+    "review":  {
+                   "status":  "待審",
+                   "conclusion":  null,
+                   "id":  "R-01",
+                   "checks":  [
+                                  "C-09"
+                              ]
+               },
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "cleanCommit":  false,
+    "productDiff":  "evidence/source.diff",
+    "sourceFingerprints":  "evidence/source-fingerprints.json",
+    "jar":  {
+                "sha256":  "537780CB1E3C2B532AF7F22BEC1AA306C0966AFD6C571CC5D2936275B66C3A36",
+                "path":  "mods/simplerail-1.0.0.jar"
+            },
+    "versions":  {
+                     "minecraft":  "1.21.1",
+                     "gradle":  "9.2.1",
+                     "parchmentMappings":  "2024.11.17",
+                     "modDevGradle":  "2.0.147",
+                     "parchmentMinecraft":  "1.21.1",
+                     "modId":  "simplerail",
+                     "mod":  "1.0.0",
+                     "license":  "All Rights Reserved",
+                     "buildJava":  "Temurin 21.0.12.1+1",
+                     "javaMajor":  21,
+                     "neoForge":  "21.1.251"
+                 },
+    "build":  {
+                  "exitCode":  0,
+                  "command":  ".\\gradlew.bat build --offline --console=plain --no-configuration-cache",
+                  "gameStarted":  false,
+                  "log":  "evidence/build-01.log",
+                  "test":  "NO-SOURCE"
+              },
+    "install":  "INSTALL.md",
+    "scenarios":  "CASES.md",
+    "optionalObservations":  "各 game directory 的 logs/latest.log、選用 debug.log／crash-reports；client F2 圖片在 screenshots。",
+    "requiredUserReply":  "任務完成／通過或失敗確認即可；附件與版本證明均選用。既有結案不要求重測。",
+    "historicalManualConfirmation":  {
+                                         "status":  "人工通過並已結案",
+                                         "artifactBinding":  null,
+                                         "task":  "T-089",
+                                         "note":  "先前整項回報不綁定本次包，不代填本包逐例結果。",
+                                         "quote":  "我已驗證完 T-089、T-018，皆正確執行。"
+                                     },
+    "untested":  "本包未啟動 Minecraft；逐例結果空白；不代表正式功能或候選發行驗收。"
+}

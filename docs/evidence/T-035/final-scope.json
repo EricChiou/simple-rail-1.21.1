@@ -1,0 +1,27 @@
+﻿{
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "fullDiffExit":  0,
+    "registryDiffExit":  1,
+    "newSourceDiffExit":  1,
+    "statusExit":  0,
+    "productDrift":  [
+
+                     ],
+    "developmentComplete":  23,
+    "pending":  92,
+    "jarSha256":  "7328D1A4078043DD7D17C1731C1D661B81538395A53BA1A1FFA54F90336E89C8",
+    "hooksSourceSha256":  "0360EEE1A87808348311AF16C911BF3D0EA2B5870EE01F17EA7EC0A25FEC1CC1",
+    "buildExit":  0,
+    "hooksCompileExit":  0,
+    "hooksRunExit":  0,
+    "documentCheckExit":  0,
+    "auditCount":  204,
+    "auditFailed":  0,
+    "U09Intent":  "Pending user decision; source-compatible implementation; not fixed",
+    "ownerIntegration":  "level/facing and some direction owners pending",
+    "gameExecuted":  false,
+    "oldBuildExecuted":  false,
+    "independentReviewExecuted":  false,
+    "nextTaskExecuted":  false,
+    "pass":  true
+}

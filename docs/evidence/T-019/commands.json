@@ -1,0 +1,79 @@
+﻿[
+    {
+        "value":  [
+                      {
+                          "command":  "java -version",
+                          "exitCode":  0,
+                          "startedUtc":  "2026-09-28T08:39:56.6063500Z",
+                          "finishedUtc":  "2026-09-28T08:39:56.7905105Z",
+                          "log":  "java-version.log",
+                          "logEncoding":  "UTF-16LE"
+                      },
+                      {
+                          "command":  "javac -version",
+                          "exitCode":  0,
+                          "startedUtc":  "2026-09-28T08:39:56.7940515Z",
+                          "finishedUtc":  "2026-09-28T08:39:56.9985884Z",
+                          "log":  "javac-version.log",
+                          "logEncoding":  "UTF-16LE"
+                      },
+                      {
+                          "command":  "javap -classpath build/libs/simplerail-1.0.0.jar -p -c -s com.ericchiu.simplerail.SimpleRail com.ericchiu.simplerail.registry.ModBlocks com.ericchiu.simplerail.registry.ModItems com.ericchiu.simplerail.registry.ModCreativeTabs",
+                          "exitCode":  0,
+                          "startedUtc":  "2026-09-28T08:39:56.9985884Z",
+                          "finishedUtc":  "2026-09-28T08:39:57.3371796Z",
+                          "log":  "registry-bytecode.txt",
+                          "logEncoding":  "UTF-16LE"
+                      },
+                      {
+                          "command":  "git diff -- src/main/java/com/ericchiu/simplerail/SimpleRail.java",
+                          "exitCode":  0,
+                          "startedUtc":  "2026-09-28T08:39:57.3371796Z",
+                          "finishedUtc":  "2026-09-28T08:39:57.3896808Z",
+                          "log":  "source.diff",
+                          "logEncoding":  "UTF-16LE"
+                      },
+                      {
+                          "command":  "git diff --no-index -- NUL src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java",
+                          "exitCode":  1,
+                          "startedUtc":  "2026-09-28T08:39:57.3896808Z",
+                          "finishedUtc":  "2026-09-28T08:39:57.4372175Z",
+                          "log":  "ModBlocks.java.diff",
+                          "logEncoding":  "UTF-16LE"
+                      },
+                      {
+                          "command":  "git diff --no-index -- NUL src/main/java/com/ericchiu/simplerail/registry/ModItems.java",
+                          "exitCode":  1,
+                          "startedUtc":  "2026-09-28T08:39:57.4422196Z",
+                          "finishedUtc":  "2026-09-28T08:39:57.4838927Z",
+                          "log":  "ModItems.java.diff",
+                          "logEncoding":  "UTF-16LE"
+                      },
+                      {
+                          "command":  "git diff --no-index -- NUL src/main/java/com/ericchiu/simplerail/registry/ModCreativeTabs.java",
+                          "exitCode":  1,
+                          "startedUtc":  "2026-09-28T08:39:57.4851433Z",
+                          "finishedUtc":  "2026-09-28T08:39:57.5221427Z",
+                          "log":  "ModCreativeTabs.java.diff",
+                          "logEncoding":  "UTF-16LE"
+                      },
+                      {
+                          "command":  "git diff --cached --binary",
+                          "exitCode":  0,
+                          "startedUtc":  "2026-09-28T08:39:57.5246594Z",
+                          "finishedUtc":  "2026-09-28T08:39:57.6378918Z",
+                          "log":  "preexisting-index.diff",
+                          "logEncoding":  "UTF-16LE"
+                      }
+                  ],
+        "Count":  8
+    },
+    {
+        "command":  ".\\gradlew.bat --version --offline --console=plain",
+        "exitCode":  0,
+        "startedUtc":  "2026-09-28T08:40:17.2105876Z",
+        "finishedUtc":  "2026-09-28T08:40:17.9768607Z",
+        "log":  "gradle-version.log",
+        "logEncoding":  "UTF-16LE"
+    }
+]

@@ -1,0 +1,470 @@
+{
+  "task": "T-001",
+  "scope": "僅 Git／工具鏈盤點及 Wrapper --version；未執行 build 或遊戲。",
+  "time_note": "started_utc 為各批查詢提交前的 UTC 時間；同批獨立唯讀查詢並行。wall_time_seconds 及 exit_code 由執行工具回報。",
+  "commands": [
+    {
+      "id": "C01",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "git --no-optional-locks rev-parse --show-toplevel",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "89ad0c",
+        "wall_time_seconds": 0.000019,
+        "exit_code": 0,
+        "original_token_count": 8,
+        "output": "D:/workspace/java/simple-rail\n"
+      }
+    },
+    {
+      "id": "C02",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "git --no-optional-locks rev-parse HEAD",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "3b7c62",
+        "wall_time_seconds": 0.0000116,
+        "exit_code": 0,
+        "original_token_count": 11,
+        "output": "6698b1c5f494095a15b055c10045293e91540012\n"
+      }
+    },
+    {
+      "id": "C03",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "git --no-optional-locks branch --show-current",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "3d477b",
+        "wall_time_seconds": 0.000012,
+        "exit_code": 0,
+        "original_token_count": 2,
+        "output": "main\n"
+      }
+    },
+    {
+      "id": "C04",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "git --no-optional-locks status --porcelain=v1 --untracked-files=all",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "a06c45",
+        "wall_time_seconds": 0.0000081,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "id": "C05",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "git --no-optional-locks diff --stat",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "39993a",
+        "wall_time_seconds": 0.0000115,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "id": "C06",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "git --no-optional-locks diff --cached --stat",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "d60bf4",
+        "wall_time_seconds": 0.0000122,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "id": "C07",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --no-optional-locks rev-parse --show-toplevel",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "c3cf43",
+        "wall_time_seconds": 0.0000102,
+        "exit_code": 0,
+        "original_token_count": 10,
+        "output": "D:/workspace/java/simple-rail-1.21.1\n"
+      }
+    },
+    {
+      "id": "C08",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --no-optional-locks rev-parse HEAD",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "8036ef",
+        "wall_time_seconds": 0.0000125,
+        "exit_code": 0,
+        "original_token_count": 11,
+        "output": "8bd977dbb9f9000411ae5f4d10750228e5f33560\n"
+      }
+    },
+    {
+      "id": "C09",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --no-optional-locks branch --show-current",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "fb9eb5",
+        "wall_time_seconds": 0.0000086,
+        "exit_code": 0,
+        "original_token_count": 2,
+        "output": "main\n"
+      }
+    },
+    {
+      "id": "C10",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --no-optional-locks status --porcelain=v1 --untracked-files=all",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "54877b",
+        "wall_time_seconds": 0.0394433,
+        "exit_code": 0,
+        "original_token_count": 7,
+        "output": "A  MIGRATION.md\n?? TASK.md\n"
+      }
+    },
+    {
+      "id": "C11",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --no-optional-locks diff --stat",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "e134a5",
+        "wall_time_seconds": 0.0180611,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "id": "C12",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --no-optional-locks diff --cached --stat",
+      "started_utc": "2026-09-26 07:59:53 UTC",
+      "result": {
+        "chunk_id": "0385a3",
+        "wall_time_seconds": 0.0000136,
+        "exit_code": 0,
+        "original_token_count": 29,
+        "output": " MIGRATION.md | 246 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n 1 file changed, 246 insertions(+)\n"
+      }
+    },
+    {
+      "id": "C13",
+      "project": "HOST",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "$PSVersionTable.PSVersion.ToString()\nGet-Command git,java,javac,gradle -All -ErrorAction SilentlyContinue | Select-Object Name,Source,CommandType | Format-Table -AutoSize\nWrite-Output ('JAVA_HOME=' + $env:JAVA_HOME)\nWrite-Output ('GRADLE_USER_HOME=' + $env:GRADLE_USER_HOME)\nexit 0",
+      "started_utc": "2026-09-26 08:00:16 UTC",
+      "result": {
+        "chunk_id": "2a24ba",
+        "wall_time_seconds": 0.8660749,
+        "exit_code": 0,
+        "original_token_count": 194,
+        "output": "5.1.26100.9444\r\n\r\nName      Source                                                                  CommandType\r\n----      ------                                                                  -----------\r\ngit.exe   C:\\Program Files\\Git\\cmd\\git.exe                                        Application\r\njava.exe  C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\java.exe  Application\r\njava.exe  C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot\\bin\\java.exe   Application\r\njavac.exe C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe Application\r\njavac.exe C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot\\bin\\javac.exe  Application\r\n\r\n\r\nJAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\\r\nGRADLE_USER_HOME=\r\n"
+      }
+    },
+    {
+      "id": "C14",
+      "project": "HOST",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --version",
+      "started_utc": "2026-09-26 08:00:16 UTC",
+      "result": {
+        "chunk_id": "085e80",
+        "wall_time_seconds": 0.0000235,
+        "exit_code": 0,
+        "original_token_count": 8,
+        "output": "git version 2.55.0.windows.5\n"
+      }
+    },
+    {
+      "id": "C15",
+      "project": "HOST",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "java -version",
+      "started_utc": "2026-09-26 08:00:16 UTC",
+      "result": {
+        "chunk_id": "69c381",
+        "wall_time_seconds": 0.0357493,
+        "exit_code": 0,
+        "original_token_count": 52,
+        "output": "openjdk version \"21.0.12.1\" 2026-08-18 LTS\r\nOpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)\r\nOpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)\r\n"
+      }
+    },
+    {
+      "id": "C16",
+      "project": "HOST",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "javac -version",
+      "started_utc": "2026-09-26 08:00:16 UTC",
+      "result": {
+        "chunk_id": "b5fced",
+        "wall_time_seconds": 0.2609525,
+        "exit_code": 0,
+        "original_token_count": 5,
+        "output": "javac 21.0.12.1\r\n"
+      }
+    },
+    {
+      "id": "C17",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "$ErrorActionPreference = 'Stop'\n$paths = @('build.gradle','gradle.properties','gradle/wrapper/gradle-wrapper.properties','src/main/resources/META-INF/mods.toml','gradlew.bat')\nforeach ($p in $paths) { Write-Output ('FILE: ' + $p); Get-Content -Encoding UTF8 -LiteralPath $p }\nWrite-Output ('settings.gradle exists=' + (Test-Path -LiteralPath settings.gradle))",
+      "started_utc": "2026-09-26 08:00:16 UTC",
+      "result": {
+        "chunk_id": "5b5914",
+        "wall_time_seconds": 0.1361472,
+        "exit_code": 0,
+        "original_token_count": 1621,
+        "output": "FILE: build.gradle\r\nbuildscript {\r\n    repositories {\r\n        maven { url = 'https://files.minecraftforge.net/maven' }\r\n        mavenCentral()\r\n    }\r\n    dependencies {\r\n        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true\r\n    }\r\n}\r\napply plugin: 'net.minecraftforge.gradle'\r\napply plugin: 'eclipse'\r\napply plugin: 'maven-publish'\r\n\r\nversion = '1.16.5-0.3.25'\r\ngroup = 'ericchiu.simplerail'\r\narchivesBaseName = 'simplerail'\r\n\r\njava.toolchain.languageVersion = JavaLanguageVersion.of(8)\r\n\r\nprintln('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))\r\nminecraft {\r\n    mappings channel: 'official', version: '1.16.5'\r\n    // makeObfSourceJar = false\r\n    \r\n    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')\r\n\r\n    runs {\r\n        client {\r\n            workingDirectory project.file('run')\r\n\r\n            property 'forge.logging.markers', 'REGISTRIES'\r\n\r\n            property 'forge.logging.console.level', 'debug'\r\n\r\n            mods {\r\n                simplerail {\r\n                    source sourceSets.main\r\n                }\r\n            }\r\n        }\r\n\r\n        server {\r\n            workingDirectory project.file('run')\r\n\r\n            property 'forge.logging.markers', 'REGISTRIES'\r\n\r\n            property 'forge.logging.console.level', 'debug'\r\n\r\n            mods {\r\n                simplerail {\r\n                    source sourceSets.main\r\n                }\r\n            }\r\n        }\r\n\r\n        data {\r\n            workingDirectory project.file('run')\r\n\r\n            property 'forge.logging.markers', 'REGISTRIES'\r\n\r\n            property 'forge.logging.console.level', 'debug'\r\n\r\n            args '--mod', 'simplerail', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')\r\n\r\n            mods {\r\n                simplerail {\r\n                    source sourceSets.main\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nsourceSets.main.resources { srcDir 'src/generated/resources' }\r\n\r\ndependencies {\r\n    minecraft 'net.minecraftforge:forge:1.16.5-36.1.0'\r\n}\r\n\r\njar {\r\n    manifest {\r\n        attributes([\r\n            \"Specification-Title\": \"SimpleRail\",\r\n            \"Specification-Vendor\": \"EricChiu\",\r\n            \"Specification-Version\": \"1\",\r\n            \"Implementation-Title\": project.name,\r\n            \"Implementation-Version\": \"${version}\",\r\n            \"Implementation-Vendor\" :\"EricChiu\",\r\n            \"Implementation-Timestamp\": new Date().format(\"yyyy-MM-dd'T'HH:mm:ssZ\")\r\n        ])\r\n    }\r\n}\r\n\r\njar.finalizedBy('reobfJar') \r\n\r\npublishing {\r\n    publications {\r\n        mavenJava(MavenPublication) {\r\n            artifact jar\r\n        }\r\n    }\r\n    repositories {\r\n        maven {\r\n            url \"file:///${project.projectDir}/mcmodsrepo\"\r\n        }\r\n    }\r\n}\r\nFILE: gradle.properties\r\n# Sets default memory used for gradle commands. Can be overridden by user or command line properties.\r\n# This is required to provide enough memory for the Minecraft decompilation process.\r\norg.gradle.jvmargs=-Xmx3G\r\norg.gradle.daemon=false\r\nFILE: gradle/wrapper/gradle-wrapper.properties\r\ndistributionBase=GRADLE_USER_HOME\r\ndistributionPath=wrapper/dists\r\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-6.8.1-all.zip\r\nzipStoreBase=GRADLE_USER_HOME\r\nzipStorePath=wrapper/dists\r\nFILE: src/main/resources/META-INF/mods.toml\r\nmodLoader=\"javafml\"\r\nloaderVersion=\"[36,)\"\r\nlicense=\"MIT\"\r\n# issueTrackerURL=\"\"\r\n\r\n[[mods]]\r\nmodId=\"simplerail\"\r\nversion=\"1.16.5-0.3.25\"\r\ndisplayName=\"Simple Rail\"\r\n# updateJSONURL=\"\"\r\n# displayURL=\"\"\r\nlogoFile=\"logo.png\"\r\ncredits=\"Thanks for my wife and daughter, they are everything in my life.\"\r\nauthors=\"EricChiu\"\r\ndescription='''\r\nAdd some useful rail.\r\n'''\r\n\r\n[[dependencies.simplerail]]\r\n    modId=\"forge\"\r\n    mandatory=true\r\n    versionRange=\"[36,)\"\r\n    ordering=\"NONE\"\r\n    side=\"BOTH\"\r\n\r\n[[dependencies.simplerail]]\r\n    modId=\"minecraft\"\r\n    mandatory=true\r\n    versionRange=\"[1.16.5,1.17)\"\r\n    ordering=\"NONE\"\r\n    side=\"BOTH\"\r\nFILE: gradlew.bat\r\n@if \"%DEBUG%\" == \"\" @echo off\r\n@rem ##########################################################################\r\n@rem\r\n@rem  Gradle startup script for Windows\r\n@rem\r\n@rem ##########################################################################\r\n\r\n@rem Set local scope for the variables with windows NT shell\r\nif \"%OS%\"==\"Windows_NT\" setlocal\r\n\r\nset DIRNAME=%~dp0\r\nif \"%DIRNAME%\" == \"\" set DIRNAME=.\r\nset APP_BASE_NAME=%~n0\r\nset APP_HOME=%DIRNAME%\r\n\r\n@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.\r\nset DEFAULT_JVM_OPTS=\r\n\r\n@rem Find java.exe\r\nif defined JAVA_HOME goto findJavaFromJavaHome\r\n\r\nset JAVA_EXE=java.exe\r\n%JAVA_EXE% -version >NUL 2>&1\r\nif \"%ERRORLEVEL%\" == \"0\" goto init\r\n\r\necho.\r\necho ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.\r\necho.\r\necho Please set the JAVA_HOME variable in your environment to match the\r\necho location of your Java installation.\r\n\r\ngoto fail\r\n\r\n:findJavaFromJavaHome\r\nset JAVA_HOME=%JAVA_HOME:\"=%\r\nset JAVA_EXE=%JAVA_HOME%/bin/java.exe\r\n\r\nif exist \"%JAVA_EXE%\" goto init\r\n\r\necho.\r\necho ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%\r\necho.\r\necho Please set the JAVA_HOME variable in your environment to match the\r\necho location of your Java installation.\r\n\r\ngoto fail\r\n\r\n:init\r\n@rem Get command-line arguments, handling Windows variants\r\n\r\nif not \"%OS%\" == \"Windows_NT\" goto win9xME_args\r\n\r\n:win9xME_args\r\n@rem Slurp the command line arguments.\r\nset CMD_LINE_ARGS=\r\nset _SKIP=2\r\n\r\n:win9xME_args_slurp\r\nif \"x%~1\" == \"x\" goto execute\r\n\r\nset CMD_LINE_ARGS=%*\r\n\r\n:execute\r\n@rem Setup the command line\r\n\r\nset CLASSPATH=%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar\r\n\r\n@rem Execute Gradle\r\n\"%JAVA_EXE%\" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% \"-Dorg.gradle.appname=%APP_BASE_NAME%\" -classpath \"%CLASSPATH%\" org.gradle.wrapper.GradleWrapperMain %CMD_LINE_ARGS%\r\n\r\n:end\r\n@rem End local scope for the variables with windows NT shell\r\nif \"%ERRORLEVEL%\"==\"0\" goto mainEnd\r\n\r\n:fail\r\nrem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of\r\nrem the _cmd.exe /c_ return code!\r\nif  not \"\" == \"%GRADLE_EXIT_CONSOLE%\" exit 1\r\nexit /b 1\r\n\r\n:mainEnd\r\nif \"%OS%\"==\"Windows_NT\" endlocal\r\n\r\n:omega\r\nsettings.gradle exists=False\r\n"
+      }
+    },
+    {
+      "id": "C18",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "$ErrorActionPreference = 'Stop'\n$paths = @('build.gradle','settings.gradle','gradle.properties','gradle/wrapper/gradle-wrapper.properties','src/main/templates/META-INF/neoforge.mods.toml','gradlew.bat','.github/workflows/build.yml')\nforeach ($p in $paths) { Write-Output ('FILE: ' + $p); Get-Content -Encoding UTF8 -LiteralPath $p }",
+      "started_utc": "2026-09-26 08:00:16 UTC",
+      "result": {
+        "chunk_id": "4a1d44",
+        "wall_time_seconds": 0.1693831,
+        "exit_code": 0,
+        "original_token_count": 4647,
+        "output": "FILE: build.gradle\r\nplugins {\r\n    id 'java-library'\r\n    id 'maven-publish'\r\n    id 'net.neoforged.moddev' version '2.0.147'\r\n    id 'idea'\r\n}\r\n\r\ntasks.named('wrapper', Wrapper).configure {\r\n    // Define wrapper values here so as to not have to always do so when updating gradlew.properties.\r\n    // Switching this to Wrapper.DistributionType.ALL will download the full gradle sources that comes with\r\n    // documentation attached on cursor hover of gradle classes and methods. However, this comes with increased\r\n    // file size for Gradle. If you do switch this to ALL, run the Gradle wrapper task twice afterwards.\r\n    // (Verify by checking gradle/wrapper/gradle-wrapper.properties to see if distributionUrl now points to `-all`)\r\n    distributionType = Wrapper.DistributionType.BIN\r\n}\r\n\r\nversion = mod_version\r\ngroup = mod_group_id\r\n\r\nsourceSets.main.resources {\r\n    // Include resources generated by data generators.\r\n    srcDir('src/generated/resources')\r\n\r\n    // Exclude common development only resources from finalized outputs\r\n    exclude(\"**/*.bbmodel\") // BlockBench project files\r\n    exclude(\"src/generated/**/.cache\") // datagen cache files\r\n}\r\n\r\nrepositories {\r\n    // Add here additional repositories if required by some of the dependencies below.\r\n}\r\n\r\nbase {\r\n    archivesName = mod_id\r\n}\r\n\r\n// Mojang ships Java 21 to end users in 1.21.1, so mods should target Java 21.\r\njava.toolchain.languageVersion = JavaLanguageVersion.of(21)\r\n\r\nneoForge {\r\n    // Specify the version of NeoForge to use.\r\n    version = project.neo_version\r\n\r\n    parchment {\r\n        mappingsVersion = project.parchment_mappings_version\r\n        minecraftVersion = project.parchment_minecraft_version\r\n    }\r\n\r\n    // This line is optional. Access Transformers are automatically detected\r\n    // accessTransformers = project.files('src/main/resources/META-INF/accesstransformer.cfg')\r\n\r\n    // Default run configurations.\r\n    // These can be tweaked, removed, or duplicated as needed.\r\n    runs {\r\n        client {\r\n            client()\r\n            // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.\r\n            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id\r\n        }\r\n\r\n        server {\r\n            server()\r\n            programArgument '--nogui'\r\n            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id\r\n        }\r\n\r\n        // This run config launches GameTestServer and runs all registered gametests, then exits.\r\n        // By default, the server will crash when no gametests are provided.\r\n        // The gametest system is also enabled by default for other run configs under the /test command.\r\n        gameTestServer {\r\n            type = \"gameTestServer\"\r\n            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id\r\n        }\r\n\r\n        data {\r\n            data()\r\n            // example of overriding the workingDirectory set in configureEach above, uncomment if you want to use it\r\n            // gameDirectory = project.file('run-data')\r\n\r\n            // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.\r\n            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()\r\n        }\r\n\r\n        // applies to all the run configs above\r\n        configureEach {\r\n            // Recommended logging data for a userdev environment\r\n            // The markers can be added/remove as needed separated by commas.\r\n            // \"SCAN\": For mods scan.\r\n            // \"REGISTRIES\": For firing of registry events.\r\n            // \"REGISTRYDUMP\": For getting the contents of all registries.\r\n            systemProperty 'forge.logging.markers', 'REGISTRIES'\r\n\r\n            // Recommended logging level for the console\r\n            // You can set various levels here.\r\n            // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels\r\n            logLevel = org.slf4j.event.Level.DEBUG\r\n        }\r\n    }\r\n\r\n    mods {\r\n        // define mod <-> source bindings\r\n        // these are used to tell the game which sources are for which mod\r\n        // multi mod projects should define one per mod\r\n        \"${mod_id}\" {\r\n            sourceSet(sourceSets.main)\r\n        }\r\n    }\r\n}\r\n\r\n// Sets up a dependency configuration called 'localRuntime'.\r\n// This configuration should be used instead of 'runtimeOnly' to declare\r\n// a dependency that will be present for runtime testing but that is\r\n// \"optional\", meaning it will not be pulled by dependents of this mod.\r\nconfigurations {\r\n    runtimeClasspath.extendsFrom localRuntime\r\n}\r\n\r\ndependencies {\r\n    // Example optional mod dependency with JEI\r\n    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime\r\n    // compileOnly \"mezz.jei:jei-${mc_version}-common-api:${jei_version}\"\r\n    // compileOnly \"mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}\"\r\n    // We add the full version to localRuntime, not runtimeOnly, so that we do not publish a dependency on it\r\n    // localRuntime \"mezz.jei:jei-${mc_version}-neoforge:${jei_version}\"\r\n\r\n    // Example mod dependency using a mod jar from ./libs with a flat dir repository\r\n    // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar\r\n    // The group id is ignored when searching -- in this case, it is \"blank\"\r\n    // implementation \"blank:coolmod-${mc_version}:${coolmod_version}\"\r\n\r\n    // Example mod dependency using a file as dependency\r\n    // implementation files(\"libs/coolmod-${mc_version}-${coolmod_version}.jar\")\r\n\r\n    // Example project dependency using a sister or child project:\r\n    // implementation project(\":myproject\")\r\n\r\n    // For more info:\r\n    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html\r\n    // http://www.gradle.org/docs/current/userguide/dependency_management.html\r\n}\r\n\r\n// This block of code expands all declared replace properties in the specified resource targets.\r\n// A missing property will result in an error. Properties are expanded using ${} Groovy notation.\r\nvar generateModMetadata = tasks.register(\"generateModMetadata\", ProcessResources) {\r\n    var replaceProperties = [\r\n            minecraft_version      : minecraft_version,\r\n            minecraft_version_range: minecraft_version_range,\r\n            neo_version            : neo_version,\r\n            loader_version_range   : loader_version_range,\r\n            mod_id                 : mod_id,\r\n            mod_name               : mod_name,\r\n            mod_license            : mod_license,\r\n            mod_version            : mod_version,\r\n    ]\r\n    inputs.properties replaceProperties\r\n    expand replaceProperties\r\n    from \"src/main/templates\"\r\n    into \"build/generated/sources/modMetadata\"\r\n}\r\n// Include the output of \"generateModMetadata\" as an input directory for the build\r\n// this works with both building through Gradle and the IDE.\r\nsourceSets.main.resources.srcDir generateModMetadata\r\n// To avoid having to run \"generateModMetadata\" manually, make it run on every project reload\r\nneoForge.ideSyncTask generateModMetadata\r\n\r\n// Example configuration to allow publishing using the maven-publish plugin\r\npublishing {\r\n    publications {\r\n        register('mavenJava', MavenPublication) {\r\n            from components.java\r\n        }\r\n    }\r\n    repositories {\r\n        maven {\r\n            url \"file://${project.projectDir}/repo\"\r\n        }\r\n    }\r\n}\r\n\r\ntasks.withType(JavaCompile).configureEach {\r\n    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation\r\n}\r\n\r\n// IDEA no longer automatically downloads sources/javadoc jars for dependencies, so we need to explicitly enable the behavior.\r\nidea {\r\n    module {\r\n        downloadSources = true\r\n        downloadJavadoc = true\r\n    }\r\n}\r\nFILE: settings.gradle\r\npluginManagement {\r\n    repositories {\r\n        gradlePluginPortal()\r\n    }\r\n}\r\n\r\nplugins {\r\n    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'\r\n}\r\nFILE: gradle.properties\r\n# Sets default memory used for gradle commands. Can be overridden by user or command line properties.\r\norg.gradle.jvmargs=-Xmx1G\r\norg.gradle.daemon=true\r\norg.gradle.parallel=true\r\norg.gradle.caching=true\r\norg.gradle.configuration-cache=true\r\n\r\n#read more on this at https://github.com/neoforged/ModDevGradle?tab=readme-ov-file#better-minecraft-parameter-names--javadoc-parchment\r\n# you can also find the latest versions at: https://parchmentmc.org/docs/getting-started\r\nparchment_minecraft_version=1.21.1\r\nparchment_mappings_version=2024.11.17\r\n# Environment Properties\r\n# You can find the latest versions here: https://projects.neoforged.net/neoforged/neoforge\r\n# The Minecraft version must agree with the Neo version to get a valid artifact\r\nminecraft_version=1.21.1\r\n# The Minecraft version range can use any release version of Minecraft as bounds.\r\n# Snapshots, pre-releases, and release candidates are not guaranteed to sort properly\r\n# as they do not follow standard versioning conventions.\r\nminecraft_version_range=[1.21.1]\r\n# The Neo version must agree with the Minecraft version to get a valid artifact\r\nneo_version=21.1.251\r\n# The loader version range can only use the major version of FML as bounds\r\nloader_version_range=[1,)\r\n\r\n## Mod Properties\r\n\r\n# The unique mod identifier for the mod. Must be lowercase in English locale. Must fit the regex [a-z][a-z0-9_]{1,63}\r\n# Must match the String constant located in the main mod class annotated with @Mod.\r\nmod_id=simplerail\r\n# The human-readable display name for the mod.\r\nmod_name=Simple Rail\r\n# The license of the mod. Review your options at https://choosealicense.com/. All Rights Reserved is the default.\r\nmod_license=All Rights Reserved\r\n# The mod version. See https://semver.org/\r\nmod_version=1.0.0\r\n# The group ID for the mod. It is only important when publishing as an artifact to a Maven repository.\r\n# This should match the base package used for the mod sources.\r\n# See https://maven.apache.org/guides/mini/guide-naming-conventions.html\r\nmod_group_id=com.ericchiu.simplerail\r\nFILE: gradle/wrapper/gradle-wrapper.properties\r\ndistributionBase=GRADLE_USER_HOME\r\ndistributionPath=wrapper/dists\r\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-9.2.1-bin.zip\r\nnetworkTimeout=10000\r\nvalidateDistributionUrl=true\r\nzipStoreBase=GRADLE_USER_HOME\r\nzipStorePath=wrapper/dists\r\nFILE: src/main/templates/META-INF/neoforge.mods.toml\r\n# This is an example neoforge.mods.toml file. It contains the data relating to the loading mods.\r\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\r\n# The overall format is standard TOML format, v0.5.0.\r\n# Note that there are a couple of TOML lists in this file.\r\n# Find more information on toml format here:  https://github.com/toml-lang/toml\r\n\r\n# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml\r\nmodLoader=\"javafml\" #mandatory\r\n\r\n# A version range to match for said mod loader - for regular FML @Mod it will be the FML version. This is currently 2.\r\nloaderVersion=\"${loader_version_range}\" #mandatory\r\n\r\n# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.\r\n# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.\r\nlicense=\"${mod_license}\"\r\n\r\n# A URL to refer people to when problems occur with this mod\r\n#issueTrackerURL=\"https://change.me.to.your.issue.tracker.example.invalid/\" #optional\r\n\r\n# A list of mods - how many allowed here is determined by the individual mod loader\r\n[[mods]] #mandatory\r\n\r\n# The modid of the mod\r\nmodId=\"${mod_id}\" #mandatory\r\n\r\n# The version number of the mod\r\nversion=\"${mod_version}\" #mandatory\r\n\r\n# A display name for the mod\r\ndisplayName=\"${mod_name}\" #mandatory\r\n\r\n# A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/\r\n#updateJSONURL=\"https://change.me.example.invalid/updates.json\" #optional\r\n\r\n# A URL for the \"homepage\" for this mod, displayed in the mod UI\r\n#displayURL=\"https://change.me.to.your.mods.homepage.example.invalid/\" #optional\r\n\r\n# A file name (in the root of the mod JAR) containing a logo for display\r\n#logoFile=\"examplemod.png\" #optional\r\n\r\n# A text field displayed in the mod UI\r\n#credits=\"\" #optional\r\n\r\n# The authors of the mod, displayed in the mod UI (optional)\r\nauthors=\"Eric Chiu\"\r\n\r\n# The description text for the mod (multi line!) (#mandatory)\r\ndescription='''\r\nSimple rail system\r\n'''\r\n\r\n# The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.\r\n#[[mixins]]\r\n#config=\"${mod_id}.mixins.json\"\r\n\r\n# The [[accessTransformers]] block allows you to declare where your AT file is.\r\n# If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg\r\n#[[accessTransformers]]\r\n#file=\"META-INF/accesstransformer.cfg\"\r\n\r\n# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.\r\n[[dependencies.${mod_id}]] #optional\r\n    # the modid of the dependency\r\n    modId=\"neoforge\" #mandatory\r\n    # The type of the dependency. Can be one of \"required\", \"optional\", \"incompatible\" or \"discouraged\" (case insensitive).\r\n    # 'required' requires the mod to exist, 'optional' does not\r\n    # 'incompatible' will prevent the game from loading when the mod exists, and 'discouraged' will show a warning\r\n    type=\"required\" #mandatory\r\n    # Optional field describing why the dependency is required or why it is incompatible\r\n    # reason=\"...\"\r\n    # The version range of the dependency\r\n    versionRange=\"[${neo_version},)\" #mandatory\r\n    # An ordering relationship for the dependency.\r\n    # BEFORE - This mod is loaded BEFORE the dependency\r\n    # AFTER - This mod is loaded AFTER the dependency\r\n    ordering=\"NONE\"\r\n    # Side this dependency is applied on - BOTH, CLIENT, or SERVER\r\n    side=\"BOTH\"\r\n\r\n# Here's another dependency\r\n[[dependencies.${mod_id}]]\r\n    modId=\"minecraft\"\r\n    type=\"required\"\r\n    # This version range declares a minimum of the current minecraft version up to but not including the next major version\r\n    versionRange=\"${minecraft_version_range}\"\r\n    ordering=\"NONE\"\r\n    side=\"BOTH\"\r\n\r\n# Features are specific properties of the game environment, that you may want to declare you require. This example declares\r\n# that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't\r\n# stop your mod loading on the server for example.\r\n#[features.${mod_id}]\r\n#openGLVersion=\"[3.2,)\"\r\nFILE: gradlew.bat\r\n@rem\r\n@rem Copyright 2015 the original author or authors.\r\n@rem\r\n@rem Licensed under the Apache License, Version 2.0 (the \"License\");\r\n@rem you may not use this file except in compliance with the License.\r\n@rem You may obtain a copy of the License at\r\n@rem\r\n@rem      https://www.apache.org/licenses/LICENSE-2.0\r\n@rem\r\n@rem Unless required by applicable law or agreed to in writing, software\r\n@rem distributed under the License is distributed on an \"AS IS\" BASIS,\r\n@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n@rem See the License for the specific language governing permissions and\r\n@rem limitations under the License.\r\n@rem\r\n@rem SPDX-License-Identifier: Apache-2.0\r\n@rem\r\n\r\n@if \"%DEBUG%\"==\"\" @echo off\r\n@rem ##########################################################################\r\n@rem\r\n@rem  Gradle startup script for Windows\r\n@rem\r\n@rem ##########################################################################\r\n\r\n@rem Set local scope for the variables with windows NT shell\r\nif \"%OS%\"==\"Windows_NT\" setlocal\r\n\r\nset DIRNAME=%~dp0\r\nif \"%DIRNAME%\"==\"\" set DIRNAME=.\r\n@rem This is normally unused\r\nset APP_BASE_NAME=%~n0\r\nset APP_HOME=%DIRNAME%\r\n\r\n@rem Resolve any \".\" and \"..\" in APP_HOME to make it shorter.\r\nfor %%i in (\"%APP_HOME%\") do set APP_HOME=%%~fi\r\n\r\n@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.\r\nset DEFAULT_JVM_OPTS=\"-Xmx64m\" \"-Xms64m\"\r\n\r\n@rem Find java.exe\r\nif defined JAVA_HOME goto findJavaFromJavaHome\r\n\r\nset JAVA_EXE=java.exe\r\n%JAVA_EXE% -version >NUL 2>&1\r\nif %ERRORLEVEL% equ 0 goto execute\r\n\r\necho. 1>&2\r\necho ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH. 1>&2\r\necho. 1>&2\r\necho Please set the JAVA_HOME variable in your environment to match the 1>&2\r\necho location of your Java installation. 1>&2\r\n\r\ngoto fail\r\n\r\n:findJavaFromJavaHome\r\nset JAVA_HOME=%JAVA_HOME:\"=%\r\nset JAVA_EXE=%JAVA_HOME%/bin/java.exe\r\n\r\nif exist \"%JAVA_EXE%\" goto execute\r\n\r\necho. 1>&2\r\necho ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME% 1>&2\r\necho. 1>&2\r\necho Please set the JAVA_HOME variable in your environment to match the 1>&2\r\necho location of your Java installation. 1>&2\r\n\r\ngoto fail\r\n\r\n:execute\r\n@rem Setup the command line\r\n\r\nset CLASSPATH=\r\n\r\n\r\n@rem Execute Gradle\r\n\"%JAVA_EXE%\" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% \"-Dorg.gradle.appname=%APP_BASE_NAME%\" -classpath \"%CLASSPATH%\" -jar \"%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar\" %*\r\n\r\n:end\r\n@rem End local scope for the variables with windows NT shell\r\nif %ERRORLEVEL% equ 0 goto mainEnd\r\n\r\n:fail\r\nrem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of\r\nrem the _cmd.exe /c_ return code!\r\nset EXIT_CODE=%ERRORLEVEL%\r\nif %EXIT_CODE% equ 0 set EXIT_CODE=1\r\nif not \"\"==\"%GRADLE_EXIT_CONSOLE%\" exit %EXIT_CODE%\r\nexit /b %EXIT_CODE%\r\n\r\n:mainEnd\r\nif \"%OS%\"==\"Windows_NT\" endlocal\r\n\r\n:omega\r\nFILE: .github/workflows/build.yml\r\nname: Build\r\n\r\non: [push, pull_request]\r\n\r\njobs:\r\n  build:\r\n    runs-on: ubuntu-latest\r\n    steps:\r\n      - name: Checkout repository\r\n        uses: actions/checkout@v4\r\n        with:\r\n          fetch-depth: 0\r\n          fetch-tags: true\r\n\r\n      - name: Setup JDK 21\r\n        uses: actions/setup-java@v4\r\n        with:\r\n          java-version: '21'\r\n          distribution: 'temurin'\r\n\r\n      - name: Setup Gradle\r\n        uses: gradle/actions/setup-gradle@v4\r\n\r\n      # This is needed to be able to run ./gradlew below\r\n      # You can run `git update-index --chmod +x gradlew` then remove this step.\r\n      - name: Make Gradle wrapper executable\r\n        run: chmod +x ./gradlew\r\n\r\n      - name: Build with Gradle\r\n        run: ./gradlew build\r\n"
+      }
+    },
+    {
+      "id": "C19",
+      "project": "HOST",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "$ErrorActionPreference = 'Stop'\n$roots = @('C:/Program Files/Eclipse Adoptium','C:/Program Files/Java','C:/Program Files/Microsoft','C:/Program Files/Amazon Corretto','C:/Program Files/Zulu', (Join-Path $env:USERPROFILE '.jdks'), (Join-Path $env:USERPROFILE '.gradle/jdks'), (Join-Path $env:USERPROFILE '.gradle/wrapper/dists'))\nforeach ($root in $roots) {\n    Write-Output ('ROOT: ' + $root)\n    if (Test-Path -LiteralPath $root) { Get-ChildItem -LiteralPath $root -Directory -Force | Select-Object -ExpandProperty FullName } else { Write-Output '(absent)' }\n}\n$regRoots = @('HKLM:/SOFTWARE/JavaSoft','HKLM:/SOFTWARE/WOW6432Node/JavaSoft')\nforeach ($root in $regRoots) { Write-Output ('REGISTRY: ' + $root); if (Test-Path -LiteralPath $root) { Get-ChildItem -LiteralPath $root -Recurse | ForEach-Object { $p = Get-ItemProperty -LiteralPath $_.PSPath; if ($p.JavaHome) { Write-Output ($_.Name + ' JavaHome=' + $p.JavaHome) } } } else { Write-Output '(absent)' } }",
+      "started_utc": "2026-09-26 08:00:55 UTC",
+      "result": {
+        "chunk_id": "a3a157",
+        "wall_time_seconds": 0.0948267,
+        "exit_code": 0,
+        "original_token_count": 269,
+        "output": "ROOT: C:/Program Files/Eclipse Adoptium\r\nC:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\r\nC:\\Program Files\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot\r\nROOT: C:/Program Files/Java\r\n(absent)\r\nROOT: C:/Program Files/Microsoft\r\n(absent)\r\nROOT: C:/Program Files/Amazon Corretto\r\n(absent)\r\nROOT: C:/Program Files/Zulu\r\n(absent)\r\nROOT: C:\\Users\\Kinoko\\.jdks\r\n(absent)\r\nROOT: C:\\Users\\Kinoko\\.gradle\\jdks\r\n(absent)\r\nROOT: C:\\Users\\Kinoko\\.gradle\\wrapper\\dists\r\nC:\\Users\\Kinoko\\.gradle\\wrapper\\dists\\gradle-9.2.1-bin\r\nREGISTRY: HKLM:/SOFTWARE/JavaSoft\r\nHKEY_LOCAL_MACHINE\\SOFTWARE\\JavaSoft\\JDK\\21 JavaHome=C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\\r\nHKEY_LOCAL_MACHINE\\SOFTWARE\\JavaSoft\\JDK\\21.0.12.101 JavaHome=C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\\r\nHKEY_LOCAL_MACHINE\\SOFTWARE\\JavaSoft\\JDK\\25 JavaHome=C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot\\\r\nHKEY_LOCAL_MACHINE\\SOFTWARE\\JavaSoft\\JDK\\25.0.4.101 JavaHome=C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot\\\r\nREGISTRY: HKLM:/SOFTWARE/WOW6432Node/JavaSoft\r\n(absent)\r\n"
+      }
+    },
+    {
+      "id": "C20",
+      "project": "HOST",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "& 'C:/Program Files/Eclipse Adoptium/jdk-25.0.4.101-hotspot/bin/java.exe' -version\nexit $LASTEXITCODE",
+      "started_utc": "2026-09-26 08:00:55 UTC",
+      "result": {
+        "chunk_id": "eba703",
+        "wall_time_seconds": 0.0778148,
+        "exit_code": 0,
+        "original_token_count": 51,
+        "output": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\r\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\r\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\r\n"
+      }
+    },
+    {
+      "id": "C21",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "$ErrorActionPreference = 'Stop'\n$tracked = @(git --no-optional-locks ls-files)\nif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }\n$protected = @($tracked | Where-Object { $_ -like 'src/*' -or $_ -like 'gradle/*' -or $_ -match '(^|/)(build\\.gradle|settings\\.gradle|gradle\\.properties|gradlew|gradlew\\.bat)$' } | Sort-Object)\n$rows = foreach ($p in $protected) { $h = (Get-FileHash -Algorithm SHA256 -LiteralPath $p).Hash; $p + \"`t\" + $h }\n$sha = [System.Security.Cryptography.SHA256]::Create()\n$digest = [BitConverter]::ToString($sha.ComputeHash([System.Text.Encoding]::UTF8.GetBytes(($rows -join \"`n\")))).Replace('-', '')\n$sha.Dispose()\nWrite-Output ('Protected tracked files=' + $protected.Count)\nWrite-Output ('Aggregate SHA256=' + $digest)\nGet-FileHash -Algorithm SHA256 -LiteralPath gradle/wrapper/gradle-wrapper.jar | Format-List Path,Hash",
+      "started_utc": "2026-09-26 08:00:55 UTC",
+      "result": {
+        "chunk_id": "d55a17",
+        "wall_time_seconds": 0.3973968,
+        "exit_code": 0,
+        "original_token_count": 67,
+        "output": "Protected tracked files=192\r\nAggregate SHA256=148DAC137A1750F09FA59CABEA18532EBE38AE047E5D99E9BEE47CC8CB9D80D5\r\n\r\n\r\nPath : D:\\workspace\\java\\simple-rail\\gradle\\wrapper\\gradle-wrapper.jar\r\nHash : E55E7E47A79E04C26363805B31E2F40B7A9CC89EA12113BE7DE750A3B2CEDE85\r\n\r\n\r\n\r\n"
+      }
+    },
+    {
+      "id": "C22",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "$ErrorActionPreference = 'Stop'\n$tracked = @(git --no-optional-locks ls-files)\nif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }\n$protected = @($tracked | Where-Object { $_ -like 'src/*' -or $_ -like 'gradle/*' -or $_ -match '(^|/)(build\\.gradle|settings\\.gradle|gradle\\.properties|gradlew|gradlew\\.bat)$' } | Sort-Object)\n$rows = foreach ($p in $protected) { $h = (Get-FileHash -Algorithm SHA256 -LiteralPath $p).Hash; $p + \"`t\" + $h }\n$sha = [System.Security.Cryptography.SHA256]::Create()\n$digest = [BitConverter]::ToString($sha.ComputeHash([System.Text.Encoding]::UTF8.GetBytes(($rows -join \"`n\")))).Replace('-', '')\n$sha.Dispose()\nWrite-Output ('Protected tracked files=' + $protected.Count)\nWrite-Output ('Aggregate SHA256=' + $digest)\nGet-FileHash -Algorithm SHA256 -LiteralPath gradle/wrapper/gradle-wrapper.jar | Format-List Path,Hash",
+      "started_utc": "2026-09-26 08:00:55 UTC",
+      "result": {
+        "chunk_id": "65ea84",
+        "wall_time_seconds": 0.1562235,
+        "exit_code": 0,
+        "original_token_count": 69,
+        "output": "Protected tracked files=12\r\nAggregate SHA256=DF9C031FC6857183D8D0569D629F7E7B52D3DE294E64668EF261E18CE8102749\r\n\r\n\r\nPath : D:\\workspace\\java\\simple-rail-1.21.1\\gradle\\wrapper\\gradle-wrapper.jar\r\nHash : 7D3A4AC4DE1C32B59BC6A4EB8ECB8E612CCD0CF1AE1E99F66902DA64DF296172\r\n\r\n\r\n\r\n"
+      }
+    },
+    {
+      "id": "C23",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": ".\\gradlew.bat --version",
+      "started_utc": "2026-09-26 08:01:17 UTC",
+      "result": {
+        "chunk_id": "f3c60e",
+        "wall_time_seconds": 0.1973224,
+        "exit_code": 1,
+        "original_token_count": 570,
+        "output": "\r\nD:\\workspace\\java\\simple-rail-1.21.1>if \"Windows_NT\" == \"Windows_NT\" setlocal\r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set DIRNAME=D:\\workspace\\java\\simple-rail-1.21.1\\ \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if \"D:\\workspace\\java\\simple-rail-1.21.1\\\" == \"\" set DIRNAME=. \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set APP_BASE_NAME=gradlew \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set APP_HOME=D:\\workspace\\java\\simple-rail-1.21.1\\ \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>for %i in (\"D:\\workspace\\java\\simple-rail-1.21.1\\\") do set APP_HOME=%~fi \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set APP_HOME=D:\\workspace\\java\\simple-rail-1.21.1\\ \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set DEFAULT_JVM_OPTS=\"-Xmx64m\" \"-Xms64m\" \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if defined JAVA_HOME goto findJavaFromJavaHome \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\ \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set JAVA_EXE=C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\/bin/java.exe \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if exist \"C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\/bin/java.exe\" goto execute \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set CLASSPATH= \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>\"C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\/bin/java.exe\" \"-Xmx64m\" \"-Xms64m\"   \"-Dorg.gradle.appname=gradlew\" -classpath \"\" -jar \"D:\\workspace\\java\\simple-rail-1.21.1\\\\gradle\\wrapper\\gradle-wrapper.jar\" --version \r\nException in thread \"main\" java.lang.RuntimeException: Could not create parent directory for lock file C:\\.gradle\\wrapper\\dists\\gradle-9.2.1-bin\\2t0n5ozlw9xmuyvbp7dnzaxug\\gradle-9.2.1-bin.zip.lck\r\n\tat org.gradle.wrapper.GradleWrapperMain.main(SourceFile:65)\r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if 1 EQU 0 goto mainEnd \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>rem the _cmd.exe /c_ return code! \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set EXIT_CODE=1 \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if 1 EQU 0 set EXIT_CODE=1 \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if not \"\" == \"\" exit 1 \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>exit /b 1 \r\n"
+      }
+    },
+    {
+      "id": "C24",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": ".\\gradlew.bat --version",
+      "sandbox_permissions": "require_escalated",
+      "started_utc": "2026-09-26 11:43:05 UTC",
+      "result": {
+        "chunk_id": "5c5e14",
+        "wall_time_seconds": 0.8003139,
+        "exit_code": 0,
+        "original_token_count": 624,
+        "output": "\r\nD:\\workspace\\java\\simple-rail-1.21.1>if \"Windows_NT\" == \"Windows_NT\" setlocal\r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set DIRNAME=D:\\workspace\\java\\simple-rail-1.21.1\\ \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if \"D:\\workspace\\java\\simple-rail-1.21.1\\\" == \"\" set DIRNAME=. \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set APP_BASE_NAME=gradlew \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set APP_HOME=D:\\workspace\\java\\simple-rail-1.21.1\\ \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>for %i in (\"D:\\workspace\\java\\simple-rail-1.21.1\\\") do set APP_HOME=%~fi \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set APP_HOME=D:\\workspace\\java\\simple-rail-1.21.1\\ \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set DEFAULT_JVM_OPTS=\"-Xmx64m\" \"-Xms64m\" \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if defined JAVA_HOME goto findJavaFromJavaHome \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\ \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set JAVA_EXE=C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\/bin/java.exe \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if exist \"C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\/bin/java.exe\" goto execute \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>set CLASSPATH= \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>\"C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\/bin/java.exe\" \"-Xmx64m\" \"-Xms64m\"   \"-Dorg.gradle.appname=gradlew\" -classpath \"\" -jar \"D:\\workspace\\java\\simple-rail-1.21.1\\\\gradle\\wrapper\\gradle-wrapper.jar\" --version \r\n\r\nWelcome to Gradle 9.2.1!\r\n\r\nHere are the highlights of this release:\r\n - Windows ARM support\n - Improved publishing APIs\n - Better guidance for dependency verification failures\r\n\r\nFor more details see https://docs.gradle.org/9.2.1/release-notes.html\r\n\r\n\r\n------------------------------------------------------------\r\nGradle 9.2.1\r\n------------------------------------------------------------\r\n\r\nBuild time:    2025-11-17 13:40:48 UTC\r\nRevision:      30ecdc708db275e8f8769ea0620f6dd919a58f76\r\n\r\nKotlin:        2.2.20\r\nGroovy:        4.0.28\r\nAnt:           Apache Ant(TM) version 1.10.15 compiled on August 25 2024\r\nLauncher JVM:  21.0.12.1 (Eclipse Adoptium 21.0.12.1+1-LTS)\r\nDaemon JVM:    C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot (no JDK specified, using current Java home)\r\nOS:            Windows 11 10.0 amd64\r\n\r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if 0 EQU 0 goto mainEnd \r\n\r\nD:\\workspace\\java\\simple-rail-1.21.1>if \"Windows_NT\" == \"Windows_NT\" endlocal\r\n"
+      }
+    },
+    {
+      "id": "C25",
+      "project": "HOST",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "$ErrorActionPreference = 'Continue'\n& java -XshowSettings:properties -version 2>&1 | Select-String -Pattern 'java.home =','java.version =','java.vendor =','user.home =','os.name =','os.arch ='\n$versionExitCode = $LASTEXITCODE\nWrite-Output ('java command exit=' + $versionExitCode)\nexit $versionExitCode",
+      "started_utc": "2026-09-26 11:44:50 UTC",
+      "result": {
+        "chunk_id": "75a63b",
+        "wall_time_seconds": 0.4818253,
+        "exit_code": 0,
+        "original_token_count": 58,
+        "output": "\r\n    java.home = C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\r\n    java.vendor = Eclipse Adoptium\r\n    java.version = 21.0.12.1\r\n    os.arch = amd64\r\n    os.name = Windows 11\r\n    user.home = C:\\\r\njava command exit=0\r\n"
+      }
+    },
+    {
+      "id": "C26",
+      "project": "HOST",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "$ErrorActionPreference = 'Stop'\n$roots = @('C:/.gradle/wrapper/dists','C:/.gradle/jdks', (Join-Path $env:USERPROFILE '.gradle/wrapper/dists'), (Join-Path $env:USERPROFILE '.gradle/jdks'))\nforeach ($root in $roots) { Write-Output ('ROOT: ' + $root); if (Test-Path -LiteralPath $root) { Get-ChildItem -LiteralPath $root -Directory -Force | Select-Object -ExpandProperty FullName } else { Write-Output '(absent)' } }\nWrite-Output ('JAVA_HOME=' + $env:JAVA_HOME)\nWrite-Output ('GRADLE_USER_HOME=' + $env:GRADLE_USER_HOME)",
+      "started_utc": "2026-09-26 11:44:50 UTC",
+      "result": {
+        "chunk_id": "7bfd1b",
+        "wall_time_seconds": 0.3428514,
+        "exit_code": 0,
+        "original_token_count": 78,
+        "output": "ROOT: C:/.gradle/wrapper/dists\r\n(absent)\r\nROOT: C:/.gradle/jdks\r\n(absent)\r\nROOT: C:\\Users\\Kinoko\\.gradle\\wrapper\\dists\r\nC:\\Users\\Kinoko\\.gradle\\wrapper\\dists\\gradle-9.2.1-bin\r\nROOT: C:\\Users\\Kinoko\\.gradle\\jdks\r\n(absent)\r\nJAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\\r\nGRADLE_USER_HOME=\r\n"
+      }
+    },
+    {
+      "id": "C27",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "$ErrorActionPreference = 'Stop'\n$tracked = @(git --no-optional-locks ls-files)\nif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }\n$protected = @($tracked | Where-Object { $_ -like 'src/*' -or $_ -like 'gradle/*' -or $_ -match '(^|/)(build\\.gradle|settings\\.gradle|gradle\\.properties|gradlew|gradlew\\.bat)$' } | Sort-Object)\n$rows = foreach ($p in $protected) { $h = (Get-FileHash -Algorithm SHA256 -LiteralPath $p).Hash; $p + \"`t\" + $h }\n$sha = [System.Security.Cryptography.SHA256]::Create()\n$digest = [BitConverter]::ToString($sha.ComputeHash([System.Text.Encoding]::UTF8.GetBytes(($rows -join \"`n\")))).Replace('-', '')\n$sha.Dispose()\nWrite-Output ('Protected tracked files=' + $protected.Count)\nWrite-Output ('Aggregate SHA256=' + $digest)\nGet-FileHash -Algorithm SHA256 -LiteralPath gradle/wrapper/gradle-wrapper.jar | Format-List Path,Hash",
+      "started_utc": "2026-09-26 11:44:50 UTC",
+      "result": {
+        "chunk_id": "0b3ff8",
+        "wall_time_seconds": 0.7065141,
+        "exit_code": 0,
+        "original_token_count": 67,
+        "output": "Protected tracked files=192\r\nAggregate SHA256=148DAC137A1750F09FA59CABEA18532EBE38AE047E5D99E9BEE47CC8CB9D80D5\r\n\r\n\r\nPath : D:\\workspace\\java\\simple-rail\\gradle\\wrapper\\gradle-wrapper.jar\r\nHash : E55E7E47A79E04C26363805B31E2F40B7A9CC89EA12113BE7DE750A3B2CEDE85\r\n\r\n\r\n\r\n"
+      }
+    },
+    {
+      "id": "C28",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "$ErrorActionPreference = 'Stop'\n$tracked = @(git --no-optional-locks ls-files)\nif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }\n$protected = @($tracked | Where-Object { $_ -like 'src/*' -or $_ -like 'gradle/*' -or $_ -match '(^|/)(build\\.gradle|settings\\.gradle|gradle\\.properties|gradlew|gradlew\\.bat)$' } | Sort-Object)\n$rows = foreach ($p in $protected) { $h = (Get-FileHash -Algorithm SHA256 -LiteralPath $p).Hash; $p + \"`t\" + $h }\n$sha = [System.Security.Cryptography.SHA256]::Create()\n$digest = [BitConverter]::ToString($sha.ComputeHash([System.Text.Encoding]::UTF8.GetBytes(($rows -join \"`n\")))).Replace('-', '')\n$sha.Dispose()\nWrite-Output ('Protected tracked files=' + $protected.Count)\nWrite-Output ('Aggregate SHA256=' + $digest)\nGet-FileHash -Algorithm SHA256 -LiteralPath gradle/wrapper/gradle-wrapper.jar | Format-List Path,Hash",
+      "started_utc": "2026-09-26 11:44:50 UTC",
+      "result": {
+        "chunk_id": "d32702",
+        "wall_time_seconds": 0.441899,
+        "exit_code": 0,
+        "original_token_count": 69,
+        "output": "Protected tracked files=12\r\nAggregate SHA256=DF9C031FC6857183D8D0569D629F7E7B52D3DE294E64668EF261E18CE8102749\r\n\r\n\r\nPath : D:\\workspace\\java\\simple-rail-1.21.1\\gradle\\wrapper\\gradle-wrapper.jar\r\nHash : 7D3A4AC4DE1C32B59BC6A4EB8ECB8E612CCD0CF1AE1E99F66902DA64DF296172\r\n\r\n\r\n\r\n"
+      }
+    },
+    {
+      "id": "C29",
+      "project": "OLD",
+      "cwd": "D:\\workspace\\java\\simple-rail",
+      "cmd": "git --no-optional-locks status --porcelain=v1 --untracked-files=all",
+      "started_utc": "2026-09-26 11:50:22 UTC",
+      "result": {
+        "chunk_id": "ce922c",
+        "wall_time_seconds": 0.0000227,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "id": "C30",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --no-optional-locks status --porcelain=v1 --untracked-files=all",
+      "started_utc": "2026-09-26 11:50:22 UTC",
+      "result": {
+        "chunk_id": "f544d7",
+        "wall_time_seconds": 0.0000135,
+        "exit_code": 0,
+        "original_token_count": 38,
+        "output": "A  MIGRATION.md\nAM TASK.md\n?? REVIEW.md\n?? docs/evidence/T-001/FOLLOW_UP_DRAFT.md\n?? docs/evidence/T-001/README.md\n?? docs/evidence/T-001/commands.json\n"
+      }
+    },
+    {
+      "id": "C31",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --no-optional-locks diff --cached --stat",
+      "started_utc": "2026-09-26 11:50:22 UTC",
+      "result": {
+        "chunk_id": "2e5c8f",
+        "wall_time_seconds": 0.0571766,
+        "exit_code": 0,
+        "original_token_count": 39,
+        "output": " MIGRATION.md | 246 +++++++++++++++\n TASK.md      | 966 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n 2 files changed, 1212 insertions(+)\n"
+      }
+    },
+    {
+      "id": "C32",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "git --no-optional-locks diff --exit-code -- MIGRATION.md",
+      "started_utc": "2026-09-26 11:50:22 UTC",
+      "result": {
+        "chunk_id": "eb4271",
+        "wall_time_seconds": 0.0477187,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "id": "C33",
+      "project": "NEW",
+      "cwd": "D:\\workspace\\java\\simple-rail-1.21.1",
+      "cmd": "$ErrorActionPreference = 'Stop'\n$doc = [System.IO.File]::ReadAllText((Join-Path (Get-Location) 'TASK.md'))\n$entries = [regex]::Matches($doc, '(?ms)^### (T-\\d{3}) (.+?)\\r?\\n(.*?)(?=^### T-|^## |\\z)')\nif ($entries.Count -ne 88) { throw 'Task count changed' }\nif ($entries[0].Groups[3].Value -notmatch '(?m)^- 狀態：已完成（環境盤點，2026-09-26）') { throw 'T-001 completion missing' }\nforeach ($e in $entries | Select-Object -Skip 1) { if ($e.Groups[3].Value -notmatch '(?m)^- 狀態：待執行') { throw ('Unexpected task status: ' + $e.Groups[1].Value) } }\nif ($entries[6].Groups[3].Value -notmatch '(?m)^- 前置任務：T-005、T-006') { throw 'T-007 prerequisite changed' }\n$raw = Get-Content -Raw -Encoding UTF8 -LiteralPath docs/evidence/T-001/commands.json | ConvertFrom-Json\nWrite-Output ('Command records before final audit append=' + $raw.commands.Count)\nWrite-Output 'Task count=88; T-001 completed inventory; remaining 87 pending; T-007 prerequisites unchanged'\n$mdPaths = @('TASK.md','docs/evidence/T-001/README.md','docs/evidence/T-001/FOLLOW_UP_DRAFT.md')\nforeach ($mdPath in $mdPaths) {\n    $lines = [System.IO.File]::ReadAllLines((Join-Path (Get-Location) $mdPath))\n    $columns = 0\n    for ($i = 0; $i -lt $lines.Count; $i++) {\n        $line = $lines[$i]\n        if ($line.StartsWith('|')) {\n            $n = [regex]::Matches($line, '(?<!\\\\)\\|').Count - 1\n            if ($columns -eq 0) { $columns = $n }\n            if ($n -ne $columns) { throw ('Table mismatch: ' + $mdPath + ':' + ($i + 1)) }\n        } else { $columns = 0 }\n        if ([regex]::Matches($line, '`').Count % 2 -ne 0 -or $line -match '[ \\t]+$') { throw ('Markdown delimiter/whitespace: ' + $mdPath + ':' + ($i + 1)) }\n    }\n}\nWrite-Output 'Markdown table/code/whitespace checks passed'",
+      "started_utc": "2026-09-26 11:50:22 UTC",
+      "result": {
+        "chunk_id": "4ce56c",
+        "wall_time_seconds": 0.1763123,
+        "exit_code": 0,
+        "original_token_count": 47,
+        "output": "Command records before final audit append=28\r\nTask count=88; T-001 completed inventory; remaining 87 pending; T-007 prerequisites unchanged\r\nMarkdown table/code/whitespace checks passed\r\n"
+      }
+    }
+  ]
+}

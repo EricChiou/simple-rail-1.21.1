@@ -1,0 +1,43 @@
+﻿{
+    "id":  "T-026-R2-v1",
+    "tasks":  [
+                  "T-025 correction",
+                  "T-026 partial retest"
+              ],
+    "cases":  [
+                  "R2-001",
+                  "R2-002",
+                  "R2-003",
+                  "R2-004",
+                  "R2-005",
+                  "R2-006",
+                  "R2-007"
+              ],
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "source":  "Uncommitted diff in evidence/source.diff and source-fingerprints.json",
+    "jar":  "mods/simplerail-1.0.0.jar",
+    "jarSha256":  "C3507DB669B28D719B7DDC8FC0EA35F0F733D8931153DD31FD38741068131C6C",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod":  "1.0.0",
+    "java":  "21",
+    "gradle":  "9.2.1",
+    "modDevGradle":  "2.0.147",
+    "parchment":  "2024.11.17",
+    "license":  "All Rights Reserved",
+    "migration":  [
+                      "Section 3 shared rails/high_speed_rail",
+                      "Section 6 stage 3"
+                  ],
+    "review":  [
+                   "R-03 pending",
+                   "R-F pending"
+               ],
+    "manualHandoffReady":  false,
+    "reason":  "Independent code review pending; R2 user test not performed",
+    "priorUserResult":  "Slope subfeature confirmed; reversal still about 10%, including high-speed to itself; tested artifact not inferred",
+    "manualResult":  null,
+    "fullT094Completed":  false,
+    "gameStartedByAgent":  false,
+    "createdUtc":  "2026-09-28T15:03:45.3575342Z"
+}

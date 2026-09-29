@@ -1,0 +1,32 @@
+﻿[
+    {
+        "snapshot":  "compiled/evidence\\t010\\T010Probe$FlatRailProbe.class",
+        "sha256":  "3D8FBDA28E8632949599F2EFF3DA98BB7776EF35FB195149ED8E60F3E7C4C6CB",
+        "majorVersion":  65,
+        "bytes":  5846
+    },
+    {
+        "snapshot":  "compiled/evidence\\t010\\T010Probe$MachineProbe.class",
+        "sha256":  "FF35D61702C164BBAF537B62EEDEC49E70693CB38E5E774753E1598F468ECA52",
+        "majorVersion":  65,
+        "bytes":  7224
+    },
+    {
+        "snapshot":  "compiled/evidence\\t010\\T010Probe$PoweredProbe.class",
+        "sha256":  "1F46B1D34AD537249EDCEB5F4DC2C39A3D1B3D63F07F2579806AC5C16D033816",
+        "majorVersion":  65,
+        "bytes":  7264
+    },
+    {
+        "snapshot":  "compiled/evidence\\t010\\T010Probe$WrenchProbe.class",
+        "sha256":  "434F4D7EB613EF52A0A9BB91F9C0A5F72131CCB191026E4BE9947E31B36203F5",
+        "majorVersion":  65,
+        "bytes":  4953
+    },
+    {
+        "snapshot":  "compiled/evidence\\t010\\T010Probe.class",
+        "sha256":  "40FC02D0520CFDA3FF106F291E4C11AA036E2F809D735A604ABF63AD21BEB9AB",
+        "majorVersion":  65,
+        "bytes":  5565
+    }
+]

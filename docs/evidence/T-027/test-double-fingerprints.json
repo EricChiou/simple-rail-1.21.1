@@ -1,0 +1,62 @@
+﻿[
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\com\\ericchiu\\simplerail\\block\\base\\BasePoweredRail.java",
+        "sha256":  "8E5AB7E1376724E41821EBD36D046FDAA442217B2B3F0EB81325DF7CF582FB5C"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\com\\mojang\\serialization\\MapCodec.java",
+        "sha256":  "9C82503AE4C897494F6B7B258C8BA866541FF4D727638EA773395C578AB2FA8B"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\core\\BlockPos.java",
+        "sha256":  "6C2972F7B9E871A2CEDC5B112DECFD4C3E812357F98F59EF59BD4BDC8A7998CE"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\core\\Direction.java",
+        "sha256":  "A04AB8A1EEF99450E0CC23FA124F293F9661CB03F4969218D8B36A7B90A8B321"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\entity\\vehicle\\AbstractMinecart.java",
+        "sha256":  "949227DC8A8779F53DD6487B99E043F57961A376CAB00C0D24ACFE5479C27623"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\Level.java",
+        "sha256":  "419E5842C247AAA02EF7621CB6BFE606F22C89ADAFF70DD4E2A5CAEEA9974A7B"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\Block.java",
+        "sha256":  "A7F6E43A33D78A705DD9740FD9C1CA94E1D9C438288CDB1A2D48FAEB94D8D93F"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\PoweredRailBlock.java",
+        "sha256":  "7CF9EB13D41694A80741D322C391F5290284744663B20A8732785C4BCAD1142E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\BlockBehaviour.java",
+        "sha256":  "3B0311ADAC2F32B087B22F71F4B5575837AFC6C6B9B0721AC716A96BB926B2D9"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\BlockState.java",
+        "sha256":  "EE066B5744FB05856DACA333A1793457884D59704E62F05A4FA95B42F9B333A4"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\StateDefinition.java",
+        "sha256":  "D5923F21C0A5F300F9FC85B732EA1A0A2931EF7BF87082676EF96E5409AD020E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\EnumProperty.java",
+        "sha256":  "181DDEFCDC25B66C696FCC6DFA1E3BE203BFC113E0407747ADA3C3C3876F7C6D"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\Property.java",
+        "sha256":  "F9D5D2BC022B77A6AC72E413A680F3147BADDB92A74F5F9D94A1A2CF02CF9B5C"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\phys\\AABB.java",
+        "sha256":  "0A8E26840159B4B9245AB32B88ECC08A41C7B8A8C2E83074C8AB931DC275557A"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-027\\isolated-tests\\stubs\\net\\minecraft\\world\\phys\\Vec3.java",
+        "sha256":  "E959950140D47638026B9BB421DE1B8A68A18A8CB0BC8D402C77DBCAB42131AE"
+    }
+]

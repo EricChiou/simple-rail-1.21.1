@@ -1,0 +1,18 @@
+﻿{
+    "newHead":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "gitHeadExitCode":  0,
+    "gitStatus":  [
+                      "M  .gitignore",
+                      "AM MIGRATION.md",
+                      "AM REVIEW.md",
+                      "AM TASK.md"
+                  ],
+    "productDiff":  [
+
+                    ],
+    "sourceFilesUnchanged":  12,
+    "compiledClasses":  3,
+    "javaCompiler":  "javac 21.0.12.1",
+    "oldHeadReference":  "6698b1c5f494095a15b055c10045293e91540012 (T-003 source reference, no OLD build)",
+    "checkedUtc":  "2026-09-27T00:13:05.3437424Z"
+}

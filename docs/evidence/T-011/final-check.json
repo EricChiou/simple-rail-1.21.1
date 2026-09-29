@@ -1,0 +1,52 @@
+﻿{
+    "command":  "\u0026 ([scriptblock]::Create((Get-Content -Raw -Encoding UTF8 docs/evidence/T-011/final-check.ps1)))",
+    "utc":  "2026-09-27T10:12:23.9656747Z",
+    "exitCode":  0,
+    "taskCount":  126,
+    "dependencyGraph":  "valid references, acyclic, unchanged from index",
+    "stageCounts":  [
+                        4,
+                        17,
+                        8,
+                        18,
+                        16,
+                        26,
+                        23,
+                        8,
+                        6
+                    ],
+    "states":  {
+                   "historicalComplete":  6,
+                   "userWaived":  1,
+                   "developmentComplete":  4,
+                   "pending":  115
+               },
+    "localLinksChecked":  79,
+    "markdown":  "table columns/fences valid",
+    "sourceSnapshotsVerified":  34,
+    "productFilesUnchanged":  12,
+    "productDiffExit":  0,
+    "gitDiffCheckExit":  0,
+    "classpathHashesVerified":  84,
+    "classesVerified":  5,
+    "compileExit":  0,
+    "documentHashes":  [
+                           {
+                               "path":  "MIGRATION.md",
+                               "sha256":  "47532AB923A5F410616D93A5BD5E859DE2F9B2595058A09D747204F587BDF2B2"
+                           },
+                           {
+                               "path":  "TASK.md",
+                               "sha256":  "38AB7C44F5FD7FB05389E0CBBD06E58E59746918196BB2E963C46B9321256D6B"
+                           },
+                           {
+                               "path":  "REVIEW.md",
+                               "sha256":  "E4CFA093726945EF41B7C5EBBA08A6B762AEE165B971DA2DFCA993E4CB81FB0A"
+                           },
+                           {
+                               "path":  "docs/evidence/T-011/README.md",
+                               "sha256":  "68250D02C5DE333B7B08B949496194986BFF44AEFA49CC8813F64DA83CD71E6B"
+                           }
+                       ],
+    "scope":  "Document/evidence self-check only; no independent review, probe execution or game tests"
+}

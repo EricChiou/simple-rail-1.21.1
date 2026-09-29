@@ -1,0 +1,22 @@
+﻿{
+    "tasks":  [
+                  "T-090",
+                  "T-091"
+              ],
+    "headingCount":  126,
+    "uniqueCount":  126,
+    "phaseCount":  9,
+    "dependencies":  "all exist, no cycles",
+    "developed":  12,
+    "manualPassed":  2,
+    "waiting":  105,
+    "packageStates":  [
+                          "- 狀態：開發完成（固定版本包與靜態校驗，2026-09-28）",
+                          "- 狀態：開發完成（固定版本包與靜態校驗，2026-09-28）"
+                      ],
+    "productInputsUnchanged":  true,
+    "frozenZipHashesMatch":  true,
+    "diffCheckExitCode":  0,
+    "gameStarted":  false,
+    "review":  "R-01 待審"
+}

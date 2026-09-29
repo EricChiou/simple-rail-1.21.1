@@ -1,0 +1,74 @@
+﻿[
+    {
+        "id":  "R1-001",
+        "task":  "T-026",
+        "issue":  "I-026-01",
+        "steps":  "CASES.md",
+        "environments":  [
+                             "SP",
+                             "DS"
+                         ],
+        "actualResult":  null,
+        "userConfirmation":  null
+    },
+    {
+        "id":  "R1-002",
+        "task":  "T-026",
+        "issue":  "I-026-01",
+        "steps":  "CASES.md",
+        "environments":  [
+                             "SP",
+                             "DS"
+                         ],
+        "actualResult":  null,
+        "userConfirmation":  null
+    },
+    {
+        "id":  "R1-003",
+        "task":  "T-026",
+        "issue":  "I-026-02",
+        "steps":  "CASES.md",
+        "environments":  [
+                             "SP",
+                             "DS"
+                         ],
+        "actualResult":  null,
+        "userConfirmation":  null
+    },
+    {
+        "id":  "R1-004",
+        "task":  "T-026",
+        "issue":  "I-026-02",
+        "steps":  "CASES.md",
+        "environments":  [
+                             "SP",
+                             "DS"
+                         ],
+        "actualResult":  null,
+        "userConfirmation":  null
+    },
+    {
+        "id":  "R1-005",
+        "task":  "T-026",
+        "issue":  "I-026-02",
+        "steps":  "CASES.md",
+        "environments":  [
+                             "SP",
+                             "DS"
+                         ],
+        "actualResult":  null,
+        "userConfirmation":  null
+    },
+    {
+        "id":  "R1-006",
+        "task":  "T-026",
+        "issue":  "I-026-02",
+        "steps":  "CASES.md",
+        "environments":  [
+                             "SP",
+                             "DS"
+                         ],
+        "actualResult":  null,
+        "userConfirmation":  null
+    }
+]

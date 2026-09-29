@@ -1,0 +1,18 @@
+﻿{
+    "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-026\\fix-R1\\artifacts\\simplerail-1.0.0.jar",
+    "sha256":  "8455CC5DE6FE2C7E5953E6A8F0D4A4E419A40489B954C8B0B1216304C5CEA599",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "source":  "Uncommitted diff plus source-fingerprints.json",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod":  "1.0.0",
+    "java":  "Temurin 21.0.12.1+1",
+    "gradle":  "9.2.1",
+    "modDevGradle":  "2.0.147",
+    "parchment":  "2024.11.17 / 1.21.1",
+    "license":  "All Rights Reserved",
+    "developer":  "Slope exception implemented and built",
+    "codeReview":  "R-03 / R-F pending",
+    "manual":  "Not rerun; prior T-026 failed",
+    "reversal":  "Root cause and runtime fix unverified"
+}

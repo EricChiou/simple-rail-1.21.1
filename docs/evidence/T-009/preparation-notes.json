@@ -1,0 +1,29 @@
+﻿{
+    "scope":  "Read-only preparation and Git retry; no OLD build",
+    "firstOldGit":  {
+                        "commands":  [
+                                         "git -C D:/workspace/java/simple-rail rev-parse HEAD",
+                                         "git -C D:/workspace/java/simple-rail status --short"
+                                     ],
+                        "result":  "Both rejected by dubious ownership; HEAD/status unavailable in collection.json, not an empty clean result",
+                        "exitCodeNote":  "Native per-command exit codes not captured; collection command overall exit 0 only means source collection completed. Both Git queries failed as shown by fatal ownership output."
+                    },
+    "retryOldGit":  {
+                        "commands":  [
+                                         "git -C D:/workspace/java/simple-rail rev-parse HEAD",
+                                         "git -C D:/workspace/java/simple-rail status --short"
+                                     ],
+                        "combinedCommandExitCode":  0,
+                        "status":  [
+
+                                   ],
+                        "head":  "6698b1c5f494095a15b055c10045293e91540012",
+                        "execution":  "approved outside sandbox"
+                    },
+    "preparationFailures":  [
+                                "python --version could not launch Windows python alias; audit instead uses JDK plus Gson",
+                                "Initial javac capture interrupted by PowerShell NativeCommandError; tool exit 1, actual compiler exit not captured; compile.log empty. audit-commands.json contains only version query, not compile pass.",
+                                "Audit attempt 1 compiled exit 0 but checked rotation too narrowly: five negative rotations flagged; BlockModelRotation.by source normalizes modulo 360. Audit corrected, OLD resources unchanged. Original report/source/log preserved."
+                            ],
+    "currentResult":  "audit-commands-2.json: javac version 0, compile 0, standalone audit 0"
+}

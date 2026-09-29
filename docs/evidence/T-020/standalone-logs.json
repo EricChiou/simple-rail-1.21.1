@@ -1,0 +1,20 @@
+﻿[
+    {
+        "file":  "debug.log",
+        "createdUtc":  "2026-09-28T09:00:50.7357965Z",
+        "lastWriteUtc":  "2026-09-28T09:00:50.9273484Z",
+        "sha256":  "D0C60037CBBABE524DA750903D7F1A83E6C965AE08DF697C95549CCC73CC3CF2",
+        "movedFrom":  "D:\\workspace\\java\\simple-rail-1.21.1\\logs\\debug.log",
+        "movedTo":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-020\\standalone-logs\\debug.log",
+        "scope":  "standalone config-test Log4j output, not Minecraft logs"
+    },
+    {
+        "file":  "latest.log",
+        "createdUtc":  "2026-09-28T09:00:50.7271760Z",
+        "lastWriteUtc":  "2026-09-28T09:00:50.7271760Z",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "movedFrom":  "D:\\workspace\\java\\simple-rail-1.21.1\\logs\\latest.log",
+        "movedTo":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-020\\standalone-logs\\latest.log",
+        "scope":  "standalone config-test Log4j output, not Minecraft logs"
+    }
+]

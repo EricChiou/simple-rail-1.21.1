@@ -1,0 +1,641 @@
+﻿{
+    "command":  "\u0026 ([scriptblock]::Create((Get-Content -Raw -Encoding UTF8 docs/evidence/T-015/inspect-resources.ps1)))",
+    "exitCode":  0,
+    "utc":  "2026-09-27T16:04:56.1051223Z",
+    "railBlocks":  [
+                       {
+                           "id":  "simplerail:high_speed_rail",
+                           "blockstate":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\blockstates\\high_speed_rail.json",
+                           "sha256":  "3B6A4B9570889D3FA626FFB12E028F33CDD50544760487906BDD0BDFF7C80AB2",
+                           "modelReferenceCount":  4,
+                           "models":  [
+                                          "high_speed_powered_rail",
+                                          "high_speed_rail"
+                                      ]
+                       },
+                       {
+                           "id":  "simplerail:holding_rail",
+                           "blockstate":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\blockstates\\holding_rail.json",
+                           "sha256":  "B7D75AB38C3341C922B0EA73220DDAD67240A2B53ACD23B200DD2F3288A8FFC8",
+                           "modelReferenceCount":  4,
+                           "models":  [
+                                          "holding_powered_rail",
+                                          "holding_rail"
+                                      ]
+                       },
+                       {
+                           "id":  "simplerail:oneway_rail",
+                           "blockstate":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\blockstates\\oneway_rail.json",
+                           "sha256":  "A902223863BB5F9AF0E2FB98D578DE7D764C50368F870218F97CE346401653C5",
+                           "modelReferenceCount":  16,
+                           "models":  [
+                                          "oneway_powered_rail",
+                                          "oneway_rail",
+                                          "oneway_reverse_powered_rail",
+                                          "oneway_reverse_rail"
+                                      ]
+                       },
+                       {
+                           "id":  "simplerail:eject_rail",
+                           "blockstate":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\blockstates\\eject_rail.json",
+                           "sha256":  "DEA3E72DAF1DD690BBC703551150C12FF13FBC16378438F99A830B50F6C7F8D0",
+                           "modelReferenceCount":  12,
+                           "models":  [
+                                          "eject_powered_rail",
+                                          "eject_rail",
+                                          "eject_reverse_powered_rail",
+                                          "eject_reverse_rail"
+                                      ]
+                       },
+                       {
+                           "id":  "simplerail:destory_rail",
+                           "blockstate":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\blockstates\\destory_rail.json",
+                           "sha256":  "8D2915B468FAF11AE68B8B44AC5D9A322F50F2880B62EC4C7B8972A9F9CEDD4A",
+                           "modelReferenceCount":  6,
+                           "models":  [
+                                          "destory_powered_rail",
+                                          "destory_rail"
+                                      ]
+                       },
+                       {
+                           "id":  "simplerail:timer_holding_rail",
+                           "blockstate":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\blockstates\\timer_holding_rail.json",
+                           "sha256":  "197DE7377236B3B67A41A220C43ECA8EAD7C7FD85C9DA77C6DD0020926B618D4",
+                           "modelReferenceCount":  20,
+                           "models":  [
+                                          "timer_holding_lv0_rail",
+                                          "timer_holding_lv1_rail",
+                                          "timer_holding_lv2_rail",
+                                          "timer_holding_lv3_rail",
+                                          "timer_holding_lv4_rail",
+                                          "timer_holding_lv5_rail",
+                                          "timer_holding_lv6_rail",
+                                          "timer_holding_lv7_rail",
+                                          "timer_holding_lv8_rail",
+                                          "timer_holding_lv9_rail"
+                                      ]
+                       },
+                       {
+                           "id":  "simplerail:cross_rail",
+                           "blockstate":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\blockstates\\cross_rail.json",
+                           "sha256":  "D6B0FC5C96C572FF3F4FD523290E8B5FC9AADC4696D3BB077B6A8B57F6BF8BA9",
+                           "modelReferenceCount":  1,
+                           "models":  [
+                                          "cross_rail"
+                                      ]
+                       },
+                       {
+                           "id":  "simplerail:y_cross_rail",
+                           "blockstate":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\blockstates\\y_cross_rail.json",
+                           "sha256":  "807E15D873332B8E289B6BC38647A648558C1DAB2B29159617A2B46622935F2F",
+                           "modelReferenceCount":  8,
+                           "models":  [
+                                          "y_cross_straight_rail",
+                                          "y_cross_turn_rail"
+                                      ]
+                       },
+                       {
+                           "id":  "simplerail:y_cross_right_rail",
+                           "blockstate":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\blockstates\\y_cross_right_rail.json",
+                           "sha256":  "4F7B641AF44141E8BABF4A6FB021B10AE8BAF3861FD6FA6D728EDE3BBBF40DF3",
+                           "modelReferenceCount":  8,
+                           "models":  [
+                                          "y_cross_right_straight_rail",
+                                          "y_cross_right_turn_rail"
+                                      ]
+                       }
+                   ],
+    "blockModels":  [
+                        {
+                            "id":  "simplerail:block/oneway_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\oneway_rail.json",
+                            "sha256":  "CEFE3254DF928F6CA8D417FC28E7182B8A8DCFF6DFDF0015345581671E03E7E6",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/oneway_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/eject_reverse_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\eject_reverse_rail.json",
+                            "sha256":  "8AC7B3A3B8135D549602687BF7225455CCFA1CABEFF610C1606B579E8D5CBA50",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/eject_reverse_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/oneway_reverse_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\oneway_reverse_rail.json",
+                            "sha256":  "453DC59EE04B04C4B2F8891DD4C94B148D07A3F883165B855F3DC54255B98AD1",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/oneway_reverse_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv7_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv7_rail.json",
+                            "sha256":  "93FC6B7E9B55E9B146CB7B68E023682061407F36D2E42A36277AC07BD243B0BC",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv7_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/cross_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\cross_rail.json",
+                            "sha256":  "084DAE6C722936A6B5B4036C6FBC6B3E53501819781EA645E86FD2C443154A77",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/cross_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv0_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv0_rail.json",
+                            "sha256":  "6A4130B8473D5CB9456D5C067EC8CBA490E3341DE3AC00306E17E09C5D2A4635",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv0_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/y_cross_right_turn_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\y_cross_right_turn_rail.json",
+                            "sha256":  "A72021318667CF1D45BE1E417D8531B7748F2FA0FCBB23AE38B110FA7713191F",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/y_cross_right_turn_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv3_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv3_rail.json",
+                            "sha256":  "F7AF89E61958789D4E7392952C07BD5A14814A5DF13482A025BB962F2F634261",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv3_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv1_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv1_rail.json",
+                            "sha256":  "A0230B77DC6C1932D9A790279C070D8CF97E19D0E5A5BAF8497659D35014EFC7",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv1_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv4_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv4_rail.json",
+                            "sha256":  "9F0089917EE27057D7398F45DA6E68FBAEFECBA1CE99D7D3BFB66EA470365B5E",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv4_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/eject_reverse_powered_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\eject_reverse_powered_rail.json",
+                            "sha256":  "D729EA2263C1FECB43DAAFE9AE671A831FD0B3725D1E9F620BC1EEBC72743BAE",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/eject_reverse_powered_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv2_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv2_rail.json",
+                            "sha256":  "87DF77029C78F42FE15DF0FF651D67668117465DA3D9CFF9B88803CCF86C8EA1",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv2_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/eject_powered_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\eject_powered_rail.json",
+                            "sha256":  "1D4FAB5FB53F5173084CA29228E519EA233A815EFAF3A7A10D77BDEE641E1417",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/eject_powered_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/holding_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\holding_rail.json",
+                            "sha256":  "B1E4B6AAFE3239EE54AB9EACEB410A134F077452A03CB077F22223EE1E16FF57",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/holding_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/holding_powered_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\holding_powered_rail.json",
+                            "sha256":  "18527846AEF603AEA76E0163A340EF174CF784F75C1B7AC2A98940C859EC9585",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/holding_powered_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/destory_powered_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\destory_powered_rail.json",
+                            "sha256":  "ED6F9F36C225D09974ABE4D92A4361329884E7A6CD20513B1ED9AC301AC2A6E6",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/destory_powered_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/high_speed_powered_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\high_speed_powered_rail.json",
+                            "sha256":  "382268226AEA9EBAE9AF472085D669CC03A65A34BF498FCE11B455B444F3708D",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/high_speed_powered_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/destory_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\destory_rail.json",
+                            "sha256":  "DB76817243284BC28479B63FFF5FE59268E07D947264EEA6A039568F30ABD8C2",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/destory_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/high_speed_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\high_speed_rail.json",
+                            "sha256":  "B724F447861E3B43B3013860D0318ABDDB6CBBC74DFCB88B29F3963948086629",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/high_speed_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/y_cross_turn_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\y_cross_turn_rail.json",
+                            "sha256":  "CCB1760EF0E3ADDDE8FF0CACD80E4AF5DE3B49486284F8252939E7C25A5F83DC",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/y_cross_turn_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/y_cross_straight_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\y_cross_straight_rail.json",
+                            "sha256":  "4CC9368C1CD83D5B84C6BF91E04FD3C07EAEE4781B8DF3338FCA861799DAE328",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/y_cross_straight_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv8_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv8_rail.json",
+                            "sha256":  "7B2FB1AF2B332F4A0542C51E00FA8493DFB37FD57D3C4CCE4A93216441005989",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv8_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/eject_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\eject_rail.json",
+                            "sha256":  "4E89AEEEFEE4DE87D9EAF65DF0E831BF0D9B3B38C2C1EFA0B2A102C54CA4DC2F",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/eject_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/oneway_reverse_powered_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\oneway_reverse_powered_rail.json",
+                            "sha256":  "15D10ED3006B3F5AD40B8877D95A2F8DE7F8DFFC06D969B23E4C3090768BB4EF",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/oneway_reverse_powered_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv9_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv9_rail.json",
+                            "sha256":  "F024919AAF08E6DA658538CE224B57EAF57E068053ACB7F19CE8962F960FFE9F",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv9_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/oneway_powered_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\oneway_powered_rail.json",
+                            "sha256":  "8BEC3BEB4F7C992A63DD49A86C55518DE516EA6FF169C39BA1A2F70887120F12",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/oneway_powered_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv6_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv6_rail.json",
+                            "sha256":  "86827EA6D3E16739DA64418A36261E06383FA69D2F44367BEE7D326CFC16A112",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv6_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/y_cross_right_straight_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\y_cross_right_straight_rail.json",
+                            "sha256":  "E9EAE88F178BB07FFB9EFFBCE16A23C906B44E948B0121B872D19B8F5E6444C6",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/y_cross_right_straight_rail"
+                                         ]
+                        },
+                        {
+                            "id":  "simplerail:block/timer_holding_lv5_rail",
+                            "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\models\\block\\timer_holding_lv5_rail.json",
+                            "sha256":  "CBBA6A574137CB17DE872B33F9F4A95BC49C311D6F261B277E257FBB85928A21",
+                            "parent":  "block/rail_flat",
+                            "hasRenderType":  false,
+                            "textures":  [
+                                             "simplerail:blocks/timer_holding_lv5_rail"
+                                         ]
+                        }
+                    ],
+    "blockTextures":  [
+                          {
+                              "id":  "simplerail:blocks/oneway_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\oneway_rail.png",
+                              "sha256":  "55EDF222909F70D91460F9D9E8BC40EE75CC42F24DC387353154829E4145805B",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  354
+                          },
+                          {
+                              "id":  "simplerail:blocks/eject_reverse_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\eject_reverse_rail.png",
+                              "sha256":  "B0E416FF229E1BE71D9B83614429FD7990870190724C31F0EC73DBD14899AC05",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  314
+                          },
+                          {
+                              "id":  "simplerail:blocks/oneway_reverse_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\oneway_reverse_rail.png",
+                              "sha256":  "0481E3CACB94A36256043B91DDFC3177B3FACCED71B1EDA5A71162E329547DE1",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  354
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv7_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv7_rail.png",
+                              "sha256":  "197258D0D00B51B8F43ED1EAC1F343FC1FE9FC1D47997E4EDD3EE35E3E076C8F",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/cross_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\cross_rail.png",
+                              "sha256":  "FA43ACBA42C5E1B54F8D81BCEC69DDAD8352F26AE4C93F53F89C9707DE1C52E6",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  432
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv0_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv0_rail.png",
+                              "sha256":  "736DC058490275A29AD3DB2A1E89144A0DC82FF758C9529C945EA02717318192",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/y_cross_right_turn_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\y_cross_right_turn_rail.png",
+                              "sha256":  "D125A02A38827CC0D9706652204971DE46506707A9A7CE3E86303048584FEF75",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  384
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv3_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv3_rail.png",
+                              "sha256":  "6FAA786D91710777F489B435FB94EADEA8F867EB17405AC9D153ABA3A4275E2C",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv1_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv1_rail.png",
+                              "sha256":  "C19D4368FDBCEEBDC0BC7CC48BE8B34C5DCBA00FEC9D9E5F095DCFF9128448A8",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv4_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv4_rail.png",
+                              "sha256":  "6DDFEDA293A0A510988FB90291170F5C92A6D9C1E4805AE554879A1F0B076F2C",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/eject_reverse_powered_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\eject_reverse_powered_rail.png",
+                              "sha256":  "CA16FDAE200DFFA25B280E0E14347DBC686503D65534A0A50965D43E60941103",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  314
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv2_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv2_rail.png",
+                              "sha256":  "91F4AFBCDE04AD0A55198EFFE3EE2DA1AE4C69DC727AF0BC0FD20B5E59C776B7",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/eject_powered_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\eject_powered_rail.png",
+                              "sha256":  "A1389F6C2887D12301825F4F5537594D62EF04738440A7648DD378BF9549ED4A",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  314
+                          },
+                          {
+                              "id":  "simplerail:blocks/holding_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\holding_rail.png",
+                              "sha256":  "2282B1F4FAB00459E064D3C6C9A5B35B21458FBB18C465F7DE4BBD4E6A8CEF65",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/holding_powered_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\holding_powered_rail.png",
+                              "sha256":  "9F5D1E7CA4862BC416A0EEF105E93D284A769FB1BEEC41E1685443E6C2BE7275",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/destory_powered_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\destory_powered_rail.png",
+                              "sha256":  "3747E2E873A4F4683EF6A7C304575BE299F39B21D6DA4C02B219C90A1B65EFA0",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  364
+                          },
+                          {
+                              "id":  "simplerail:blocks/high_speed_powered_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\high_speed_powered_rail.png",
+                              "sha256":  "8E56EC950692C064D0C436483DF11996B0E7EF3261E92FEA9700937E32C86786",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  336
+                          },
+                          {
+                              "id":  "simplerail:blocks/destory_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\destory_rail.png",
+                              "sha256":  "3317A8328576FB0565A02674236AC1B9065B693AD5A7E543D1877E8C5493BE58",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  364
+                          },
+                          {
+                              "id":  "simplerail:blocks/high_speed_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\high_speed_rail.png",
+                              "sha256":  "5BC89B9C2105F958841E75EFB15E7EC731D7B3574494AC739F11BC1E265CBB24",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  336
+                          },
+                          {
+                              "id":  "simplerail:blocks/y_cross_turn_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\y_cross_turn_rail.png",
+                              "sha256":  "EA83FB18FCC2EC53C94324FCD7F7CF33A81EF3D2C939CC5EE9397DB0EC1CDB20",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  384
+                          },
+                          {
+                              "id":  "simplerail:blocks/y_cross_straight_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\y_cross_straight_rail.png",
+                              "sha256":  "13AC7645C8A1035F3B90743D50C55FCD4F4AF389CEE093F5357BACF064C33677",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  408
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv8_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv8_rail.png",
+                              "sha256":  "8B8C43290AD17F67CCCB2E2AF9155A308D643DF8333DA540287107E16D9F1152",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/eject_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\eject_rail.png",
+                              "sha256":  "4840507CF6539FCF7BFC071594E0C72BFC695E95A2E250DE3967BA9887870A6F",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  314
+                          },
+                          {
+                              "id":  "simplerail:blocks/oneway_reverse_powered_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\oneway_reverse_powered_rail.png",
+                              "sha256":  "742291736A7FB8B4703FA3588BDE298415134FE94E489BF7F5FBAF4BFFD1F68E",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  354
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv9_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv9_rail.png",
+                              "sha256":  "366E9F7EA213122942EC4B43DD174F611B26EE07BCBF2032527DA21BC09B24BC",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/oneway_powered_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\oneway_powered_rail.png",
+                              "sha256":  "F192ABC7A20080F3D42DD548B6C2F3D53B832A45605DDCDE9B4CB44FE645EABF",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  354
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv6_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv6_rail.png",
+                              "sha256":  "E9E7893BA6A0A139C0BF789EECDE7233A903B43DEE6869EFC58DE573B4BC7469",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          },
+                          {
+                              "id":  "simplerail:blocks/y_cross_right_straight_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\y_cross_right_straight_rail.png",
+                              "sha256":  "AFC78EC6A55EB1C40A3EE6B2E4692B423DE9AC21DA0DF2CC32EA221AB3C21EB9",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  408
+                          },
+                          {
+                              "id":  "simplerail:blocks/timer_holding_lv5_rail",
+                              "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\blocks\\timer_holding_lv5_rail.png",
+                              "sha256":  "798DEF5DD73664C83E9E143F01D62065514FFFF581FE684DE218CDADA74D1AA0",
+                              "width":  32,
+                              "height":  32,
+                              "fullyTransparentPixels":  320
+                          }
+                      ],
+    "entityTexture":  {
+                          "path":  "D:\\workspace\\java\\simple-rail\\src\\main\\resources\\assets\\simplerail\\textures\\entity\\locomotive_cart.png",
+                          "sha256":  "F2B64C6502099024781691BFBE9A93693DCBABEB225B53DC0C07C545E070B1AF",
+                          "width":  96,
+                          "height":  64,
+                          "pixelFormat":  "Format32bppArgb"
+                      }
+}

@@ -1,0 +1,122 @@
+﻿[
+    {
+        "path":  "case-index.json",
+        "sha256":  "3F227A27AF5416D3934565E1F9F5FAB0FAB508CBC27C71073936F2AC88FE214A"
+    },
+    {
+        "path":  "CASES.md",
+        "sha256":  "D3E44B75FFAF9626FEFC479B61EDB04C5989024AA9CAB0E26789BAB24B7C17E1"
+    },
+    {
+        "path":  "default-config-reference.toml",
+        "sha256":  "48107FD292C5B79A09FCC517A139DBF9C3B956F9919E1DDF5C54226A3A15571E"
+    },
+    {
+        "path":  "evidence/artifact.json",
+        "sha256":  "A1E618299C881CB81B0870B32D8540B5EE91E6BA3281058411FE5E5D51C9B251"
+    },
+    {
+        "path":  "evidence/audit-classpath.json",
+        "sha256":  "296F956E979695C518726729EFE879766F3680A32A0923D95789D24E6A3E8049"
+    },
+    {
+        "path":  "evidence/audit-commands-01.json",
+        "sha256":  "04213B3A8198CA67A9C8FEE043780A22AB5F007BB38653DF00948C81FBE33446"
+    },
+    {
+        "path":  "evidence/audit-results.json",
+        "sha256":  "9A4C33140246363B332F98C72CF682A17F9175AA4A469C99EC3C5822DD1F409F"
+    },
+    {
+        "path":  "evidence/audit-run-01.log",
+        "sha256":  "141EC95F98E757C9BB069B36CC38DCBB844F40A34BC72B464DB6910EF3B11042"
+    },
+    {
+        "path":  "evidence/build-01.json",
+        "sha256":  "123510CD804ADA60BBE3D1EB0B953F21F8389BD28C2043E75E85CE5D0A70B097"
+    },
+    {
+        "path":  "evidence/build-01.log",
+        "sha256":  "435F8C7FB22104DFB35E84B1C78675DCDCF49DDAE6E96902BF6DB021A4ABE274"
+    },
+    {
+        "path":  "evidence/config-static-tests-reference.json",
+        "sha256":  "8C3D53DAA788082667159C85A680AF32F7D0F5332889941FDC3D39273A9C811C"
+    },
+    {
+        "path":  "evidence/data-map.json",
+        "sha256":  "A5B8E821A5979210B95DD2A177AF0CC2919F07879490CE1CFAAD9F905A3BA2C3"
+    },
+    {
+        "path":  "evidence/gradle-version.log",
+        "sha256":  "B2F1005BDD3FF4B67C415FB6CE3A62F0C1DF937FDF4C90512DA3358FD9B9CA36"
+    },
+    {
+        "path":  "evidence/jar-contents.txt",
+        "sha256":  "F15A2F2A263E9AD29626714D3147BD0AC93F5006A41B61246A1B98F45C9CC930"
+    },
+    {
+        "path":  "evidence/javac-version.log",
+        "sha256":  "66678A7D5BDDD237ED1C6846853DE993CFA213968C00DFCEB3AC8D0B690C1516"
+    },
+    {
+        "path":  "evidence/java-version.log",
+        "sha256":  "C87B485C9A7B043EB53C5532794B4A86C0647A40978A14391FDD71966A4F8BF0"
+    },
+    {
+        "path":  "evidence/loot-responsibility.json",
+        "sha256":  "F085D226A9E78EF2560840DDD30224A59D2DAC8C1C9A71B88F30C01696DF01BC"
+    },
+    {
+        "path":  "evidence/neoforge.mods.toml",
+        "sha256":  "47BADB63DFD58580717ED7FB1CD6A8D5671C8970E78F1C571B1E1A550BD8B25E"
+    },
+    {
+        "path":  "evidence/resource-static-audit-reference.json",
+        "sha256":  "811270B4D89874D2B3C2E515B2A396A06F0316AE8A8A8AEB0C86A2BE868EFE17"
+    },
+    {
+        "path":  "evidence/source.diff",
+        "sha256":  "0DD110F10D9B3A95984ED4DE9885B5351F5B4DB1D50432ED1F0F5AF5F8B40E49"
+    },
+    {
+        "path":  "evidence/source-fingerprints.json",
+        "sha256":  "9BDCAEE3C2BAC8478C10E35231BDDA588F732BA71965391E341E10C477AC81F8"
+    },
+    {
+        "path":  "evidence/state-coverage-reference.json",
+        "sha256":  "8C18F471930B0954492F8F2069C937BC45F6A8A545BB58E2C59AECC8EA3201E5"
+    },
+    {
+        "path":  "INSTALL.md",
+        "sha256":  "60722DC59D9F512131266AA38DC849FCFB26688920BBAAC7835C794E01B673B0"
+    },
+    {
+        "path":  "manifest.json",
+        "sha256":  "AA2E476195D1CFB805EC28EAA01B221B20E076219F953885FB5B667E106E5ABC"
+    },
+    {
+        "path":  "README.md",
+        "sha256":  "16E4D188C671DCE3F8F504BDF8F0A9597F1D7381BC59F9732C49A49DE8B0B30E"
+    },
+    {
+        "path":  "RECIPE-CATALOG.json",
+        "sha256":  "657E3066C639D9AF1CCBAA4F49C39B2B70BA1B73C35A84F2BD983D875A799E68"
+    },
+    {
+        "path":  "reference/simplerail-1.0.0.jar",
+        "sha256":  "3D4BFC8926509DCE28C6DE11E8198D3639EB288E1EB29FAD89D3AEC9C1C6BBD3"
+    },
+    {
+        "path":  "results.json",
+        "sha256":  "895F6DD2A6F9F5522364CC657EFD59EBF3E1E0DA6F1A1A12679850C93725D4D9"
+    },
+    {
+        "path":  "STATE-DOMAINS.json",
+        "sha256":  "27E55E6052A7948589E3097FAD05D67522CC9768C7FED024CF1112C9C168D243"
+    },
+    {
+        "path":  "TABLES.md",
+        "sha256":  "8B53BB5C52AB4547516B0E0F1AF0164F4DB42F051885D64CDA803CFB5E69A2FB"
+    }
+]

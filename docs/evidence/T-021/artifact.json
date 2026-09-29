@@ -1,0 +1,10 @@
+﻿{
+    "task":  "T-021",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "jar":  "build/libs/simplerail-1.0.0.jar",
+    "jarSha256":  "3FB257657741F7A0A50EE0879FC92C7F15EB51C1434F2FDBB1EE51AD0B5A96AD",
+    "staticChecks":  2519,
+    "referenceChecks":  563,
+    "decodedPngs":  45,
+    "integrationLimitation":  "I-021-01: T-092/T-023 not ready until StateDefinition/model coverage integrated"
+}

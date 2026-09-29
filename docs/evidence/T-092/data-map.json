@@ -1,0 +1,263 @@
+﻿[
+    {
+        "oldPath":  "data/minecraft/tags/blocks/rails.json",
+        "targetPath":  "data/minecraft/tags/block/rails.json",
+        "logicalId":  "minecraft:rails",
+        "registry":  "block",
+        "oldSha256":  "EA44C9516C401CE6AA343B2AC47F55402E9FFC525910643F504D2F3945D15200",
+        "targetSha256":  "EA44C9516C401CE6AA343B2AC47F55402E9FFC525910643F504D2F3945D15200",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/cross_rail.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/cross_rail.json",
+        "logicalId":  "simplerail:blocks/cross_rail",
+        "registry":  "loot_table",
+        "oldSha256":  "97D23D2D26AA6E0E9CACF676C4AF71BC8526109CF7D0D6188404CB7CEF5A0D1C",
+        "targetSha256":  "97D23D2D26AA6E0E9CACF676C4AF71BC8526109CF7D0D6188404CB7CEF5A0D1C",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/destory_rail.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/destory_rail.json",
+        "logicalId":  "simplerail:blocks/destory_rail",
+        "registry":  "loot_table",
+        "oldSha256":  "AD64DE8836B84F41FE23AD675AA98EE43CC82F6C1CF1FA814C4DE881FEE94510",
+        "targetSha256":  "AD64DE8836B84F41FE23AD675AA98EE43CC82F6C1CF1FA814C4DE881FEE94510",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/eject_rail.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/eject_rail.json",
+        "logicalId":  "simplerail:blocks/eject_rail",
+        "registry":  "loot_table",
+        "oldSha256":  "ED56B273D91C79CC1AC407B9A0585A2AA3E738206335CAAE5B21038417B38497",
+        "targetSha256":  "ED56B273D91C79CC1AC407B9A0585A2AA3E738206335CAAE5B21038417B38497",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/high_speed_rail.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/high_speed_rail.json",
+        "logicalId":  "simplerail:blocks/high_speed_rail",
+        "registry":  "loot_table",
+        "oldSha256":  "EEF1D895F29BD1C627ED7D34225E3465EFB7DA8EF08382E936E4D6B303A1E697",
+        "targetSha256":  "EEF1D895F29BD1C627ED7D34225E3465EFB7DA8EF08382E936E4D6B303A1E697",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/holding_rail.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/holding_rail.json",
+        "logicalId":  "simplerail:blocks/holding_rail",
+        "registry":  "loot_table",
+        "oldSha256":  "F62BD18819CF7988A0B56AFA33DAE993CD5F6B2BCA9D629E5D58C838182AA0FB",
+        "targetSha256":  "F62BD18819CF7988A0B56AFA33DAE993CD5F6B2BCA9D629E5D58C838182AA0FB",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/locomotive_cart.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/locomotive_cart.json",
+        "logicalId":  "simplerail:blocks/locomotive_cart",
+        "registry":  "loot_table",
+        "oldSha256":  "FD119CC85F9ED917571B428FF1C2F3228208A2A83B026C94232A7F11628FBC86",
+        "targetSha256":  "77D57B3FF539C9886232CCD18266BFB8A4A50D8592B0B3D50B0E92D99B65DE9A",
+        "change":  "Preserved entity type/blocks ID/pool/item; removed incompatible EXPLOSION_RADIUS condition; no entity attachment"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/oneway_rail.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/oneway_rail.json",
+        "logicalId":  "simplerail:blocks/oneway_rail",
+        "registry":  "loot_table",
+        "oldSha256":  "A2DB83171A70329D3A1927E3DBB07E4E2797C802F324F2EB1B69B1E475DA3918",
+        "targetSha256":  "A2DB83171A70329D3A1927E3DBB07E4E2797C802F324F2EB1B69B1E475DA3918",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/signal_timer.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/signal_timer.json",
+        "logicalId":  "simplerail:blocks/signal_timer",
+        "registry":  "loot_table",
+        "oldSha256":  "5B53CBFD945EC40A418E8F04280217C6ADC30C8A4A9152D9BD189B2143E5B75D",
+        "targetSha256":  "5B53CBFD945EC40A418E8F04280217C6ADC30C8A4A9152D9BD189B2143E5B75D",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/timer_holding_rail.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/timer_holding_rail.json",
+        "logicalId":  "simplerail:blocks/timer_holding_rail",
+        "registry":  "loot_table",
+        "oldSha256":  "460BF816527E8E373285B54AD9C29E6F144B127A8D9F330E893C7F252E64C0A3",
+        "targetSha256":  "460BF816527E8E373285B54AD9C29E6F144B127A8D9F330E893C7F252E64C0A3",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/train_dispenser.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/train_dispenser.json",
+        "logicalId":  "simplerail:blocks/train_dispenser",
+        "registry":  "loot_table",
+        "oldSha256":  "49EA140CAAA025DE9E26B2A8DF3C0CEBD3EC753AA4E8BC37DE8D1D0FA4043F28",
+        "targetSha256":  "49EA140CAAA025DE9E26B2A8DF3C0CEBD3EC753AA4E8BC37DE8D1D0FA4043F28",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/y_cross_rail.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/y_cross_rail.json",
+        "logicalId":  "simplerail:blocks/y_cross_rail",
+        "registry":  "loot_table",
+        "oldSha256":  "5C5E55AAA2CA4A7AE9349B4359AC3EA7F46D67B2951A10D390CE0ED2FB35C42E",
+        "targetSha256":  "5C5E55AAA2CA4A7AE9349B4359AC3EA7F46D67B2951A10D390CE0ED2FB35C42E",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/loot_tables/blocks/y_cross_right_rail.json",
+        "targetPath":  "data/simplerail/loot_table/blocks/y_cross_right_rail.json",
+        "logicalId":  "simplerail:blocks/y_cross_right_rail",
+        "registry":  "loot_table",
+        "oldSha256":  "7710FCDD859E06C3F2848A0AA830C0E5055D1294A879BBDAD9575A78AA826D45",
+        "targetSha256":  "7710FCDD859E06C3F2848A0AA830C0E5055D1294A879BBDAD9575A78AA826D45",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/cross_rail.json",
+        "targetPath":  "data/simplerail/recipe/cross_rail.json",
+        "logicalId":  "simplerail:cross_rail",
+        "registry":  "recipe",
+        "oldSha256":  "3C4B8774240334C8E35A6EE41F0137F81FF172F4097008C1D7C3B24BAEFE606C",
+        "targetSha256":  "B06A20B27A3B1F05D7D380A36E0C740420B79ED2478BB0162E12A6B32245CB3E",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/destory_rail.json",
+        "targetPath":  "data/simplerail/recipe/destory_rail.json",
+        "logicalId":  "simplerail:destory_rail",
+        "registry":  "recipe",
+        "oldSha256":  "0D4606E8B35692733954C0CD8040CB94F52BA8FCE1D6C98E799A8389BA7DA5C9",
+        "targetSha256":  "620F200792171D102685F169655D3E7B7A900DB372F6191BCE3DCF37708116FD",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/eject_rail.json",
+        "targetPath":  "data/simplerail/recipe/eject_rail.json",
+        "logicalId":  "simplerail:eject_rail",
+        "registry":  "recipe",
+        "oldSha256":  "A3FAB527C9FEAEAEDB623E71B87F9C1EF0AEC8082A4F3D6E872F1DA997053B94",
+        "targetSha256":  "5B624B074E87E49561160B4D509DD4CD687DEC0FFB5033354C48F1DBCE99C016",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/high_speed_rail.json",
+        "targetPath":  "data/simplerail/recipe/high_speed_rail.json",
+        "logicalId":  "simplerail:high_speed_rail",
+        "registry":  "recipe",
+        "oldSha256":  "CFF0B860C26722DA5820C33EA5AEFB89E3C11BD4FB716DBF268118F94ED890FD",
+        "targetSha256":  "088A8C38DE691E6C0441C5FD0A848ADD05A18B7ED03B1212089EE1F145575C49",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/holding_rail.json",
+        "targetPath":  "data/simplerail/recipe/holding_rail.json",
+        "logicalId":  "simplerail:holding_rail",
+        "registry":  "recipe",
+        "oldSha256":  "0CA7AE95E107F55801DC41C45C3DBA32F66EABF0E8421D3CB8FA3C122EAE0694",
+        "targetSha256":  "EC9F250A1FDCB6DA5E3D4B8230733F061D6BDB38D89D66D8091696CF6F0CE84D",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/locomotive_cart.json",
+        "targetPath":  "data/simplerail/recipe/locomotive_cart.json",
+        "logicalId":  "simplerail:locomotive_cart",
+        "registry":  "recipe",
+        "oldSha256":  "7F56760A4FC6AD187B9AD5A226BF46EE4E6AAD20A4DADFB369782155A1CE1F69",
+        "targetSha256":  "8BAFFC6757C454277514BDEB4F73178590D36A1AD6FC6B18868F8043E6AFAA51",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/oneway_rail.json",
+        "targetPath":  "data/simplerail/recipe/oneway_rail.json",
+        "logicalId":  "simplerail:oneway_rail",
+        "registry":  "recipe",
+        "oldSha256":  "707DFA90BDDD5EC591F40A4A1AA6B878278CC27D8EF40068467F0C953BA4A37D",
+        "targetSha256":  "75A0E80A84C41A7E04033ED4F9DB44A95263E2C260D1521D2B113E1B9365782A",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/signal_timer.json",
+        "targetPath":  "data/simplerail/recipe/signal_timer.json",
+        "logicalId":  "simplerail:signal_timer",
+        "registry":  "recipe",
+        "oldSha256":  "D2EB45FE96D95AF97F81C9056DA6685F17555AB0898EE18C4CFFD3005FFE5BCB",
+        "targetSha256":  "ADB40A6C8B1B6946660DA0895A64F88BAB9707D331B3819FF7DC61F5907C1706",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/timer_holding_rail.json",
+        "targetPath":  "data/simplerail/recipe/timer_holding_rail.json",
+        "logicalId":  "simplerail:timer_holding_rail",
+        "registry":  "recipe",
+        "oldSha256":  "7C3C5718A5072A17EB8D2FCDC7812A47A7C467BA937A237A08D404A59AD5A0B6",
+        "targetSha256":  "D00C3265145FFE6E0D7A3C31EF030BF2BA0D5162665868443711B6FA03C72933",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/train_dispenser.json",
+        "targetPath":  "data/simplerail/recipe/train_dispenser.json",
+        "logicalId":  "simplerail:train_dispenser",
+        "registry":  "recipe",
+        "oldSha256":  "89856F528E956BCD5543AAA45922C4B64577F9AB7319857A0C451CBCD6F74BD3",
+        "targetSha256":  "DCD0559FFAC646ABC25749E069E5B0FC3E739925C497CD406E7CA2B6542727DF",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/wrench.json",
+        "targetPath":  "data/simplerail/recipe/wrench.json",
+        "logicalId":  "simplerail:wrench",
+        "registry":  "recipe",
+        "oldSha256":  "8C4A1F44ACAF0658E14FCD142575FCDECEA2B5566653803A31B237BC25B5AB7F",
+        "targetSha256":  "33D8DEA5FC81A6A783F49A5624EF423BDDEEDF3902483FEDAB6A2360C01354F2",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/y_cross_rail.json",
+        "targetPath":  "data/simplerail/recipe/y_cross_rail.json",
+        "logicalId":  "simplerail:y_cross_rail",
+        "registry":  "recipe",
+        "oldSha256":  "71B906529F70CCD49D6F52C733444F50B2E92533DBA232F34123738FBDEA7797",
+        "targetSha256":  "5308F1F01F993C82388669CEF90A9485421B5C7C235B40D05A7857714A8A6A39",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/recipes/y_cross_right_rail.json",
+        "targetPath":  "data/simplerail/recipe/y_cross_right_rail.json",
+        "logicalId":  "simplerail:y_cross_right_rail",
+        "registry":  "recipe",
+        "oldSha256":  "2102086A7602B652CF4975EC179C1D840915FB49B7B1A42594E05EA8AB621DAA",
+        "targetSha256":  "78007865BF47BB6E713DC0B16CF40F1D874A2861961EFE71EBA03914C0D4792B",
+        "change":  "result.item -\u003e result.id only; ingredients/pattern/count unchanged"
+    },
+    {
+        "oldPath":  "data/simplerail/tags/blocks/machines.json",
+        "targetPath":  "data/simplerail/tags/block/machines.json",
+        "logicalId":  "simplerail:machines",
+        "registry":  "block",
+        "oldSha256":  "5110D0B8BC44F2A83ABF43FA8B3A9877E2871D2FED79716801B42B35B80A5E73",
+        "targetSha256":  "5110D0B8BC44F2A83ABF43FA8B3A9877E2871D2FED79716801B42B35B80A5E73",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/tags/blocks/rails.json",
+        "targetPath":  "data/simplerail/tags/block/rails.json",
+        "logicalId":  "simplerail:rails",
+        "registry":  "block",
+        "oldSha256":  "EA44C9516C401CE6AA343B2AC47F55402E9FFC525910643F504D2F3945D15200",
+        "targetSha256":  "EA44C9516C401CE6AA343B2AC47F55402E9FFC525910643F504D2F3945D15200",
+        "change":  "Directory rename only; original bytes retained"
+    },
+    {
+        "oldPath":  "data/simplerail/tags/items/wrench.json",
+        "targetPath":  "data/simplerail/tags/item/wrench.json",
+        "logicalId":  "simplerail:wrench",
+        "registry":  "item",
+        "oldSha256":  "1E4E5FF18558DFDAF9251ED3CA055D6989315EC05C037D47979A6010E06F5835",
+        "targetSha256":  "1E4E5FF18558DFDAF9251ED3CA055D6989315EC05C037D47979A6010E06F5835",
+        "change":  "Directory rename only; original bytes retained"
+    }
+]

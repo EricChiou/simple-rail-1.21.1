@@ -1,0 +1,36 @@
+{
+    "dateUtc":  "2026-09-28T06:39:57.4772103Z",
+    "passed":  true,
+    "taskCount":  126,
+    "stageCount":  9,
+    "taskHeadersAndDependenciesUnchanged":  true,
+    "reviewHistoryUnchanged":  true,
+    "missingLinks":  [
+
+                     ],
+    "productDeltaFromIndex":  [
+
+                              ],
+    "diffCheckExitCode":  0,
+    "staticCheckCount":  27,
+    "javacRuns":  9,
+    "compiledClasses":  29,
+    "files":  [
+                  {
+                      "path":  "TASK.md",
+                      "sha256":  "8F5B011D1530C8B5D6498CD8F2651F97FE74F803FAE9287B1A09F73AE8FF523B"
+                  },
+                  {
+                      "path":  "REVIEW.md",
+                      "sha256":  "706BF0384D0A3A93BA16A602425B6FC5E43D8B813D714135A50FC10E797A02EA"
+                  },
+                  {
+                      "path":  "MIGRATION.md",
+                      "sha256":  "FB0862040FFC860EE12770027A94F8094A2A504FB0BB4E95D1420C5B2403E08A"
+                  },
+                  {
+                      "path":  "docs/evidence/R-01/README.md",
+                      "sha256":  "B279A5F9729DC455D2091155A61F01FC53ED92B82E7DEBB8D19AF69DF9CD5D79"
+                  }
+              ]
+}

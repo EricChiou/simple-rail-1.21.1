@@ -1,0 +1,107 @@
+﻿{
+    "archive":  "build/moddev/artifacts/neoforge-21.1.251-sources.jar",
+    "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "target":  [
+                   {
+                       "path":  "net/minecraft/client/multiplayer/MultiPlayerGameMode.java",
+                       "sha256":  "6E7A584DCC0632D36F4896BB8BF46F98290B2E7737BF307677CB1E30404CFC0E"
+                   },
+                   {
+                       "path":  "net/minecraft/core/Direction.java",
+                       "sha256":  "3852BD671E7ED5E41472398D8AB189F0C8B42894AC05E4D140394AF6487FFEEC"
+                   },
+                   {
+                       "path":  "net/minecraft/server/level/ServerLevel.java",
+                       "sha256":  "AD692045B8DBCAD4A6950A909E5BF97021A595E7C49F00A8B6063ADEEA9090C9"
+                   },
+                   {
+                       "path":  "net/minecraft/server/level/ServerPlayerGameMode.java",
+                       "sha256":  "912F2032AC119988E3CCAA5B4CA30682229E0375A841A8628FC95822186659BC"
+                   },
+                   {
+                       "path":  "net/minecraft/world/InteractionResult.java",
+                       "sha256":  "B7C8B81332CA222FF2D640F6D7A16AAC1D5F012FB862E99258E08EF0A2C4F6EF"
+                   },
+                   {
+                       "path":  "net/minecraft/world/item/Item.java",
+                       "sha256":  "C4F2C7B6A36A100A2354F6C3024036B4A7608AF69CF64473D1ACBA8BED766B56"
+                   },
+                   {
+                       "path":  "net/minecraft/world/item/ItemStack.java",
+                       "sha256":  "ACE64C8407E32E63183FCA7BA7DFF2523F3B01F300857C877CE8F2CB30CA9B6B"
+                   },
+                   {
+                       "path":  "net/minecraft/world/item/context/UseOnContext.java",
+                       "sha256":  "315CDADB72BFE8DBC941704ADC39DEF38A8E90BB45B4C7086C2E5B9F2E22C032"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/EntityGetter.java",
+                       "sha256":  "6D68587E90D2897E989D78A1735DD9A8C4463219FE0553D9838B13C2BD7EFC15"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/Level.java",
+                       "sha256":  "4BF2B125FBC6E4B8C21DF6841CA9D0123F4BFC0E781656721973A26DD5278A6F"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/state/StateDefinition.java",
+                       "sha256":  "6F0B0F543E5AD45EBBC4C39DBF3B081389D56235F755654F05E981159152817D"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/state/StateHolder.java",
+                       "sha256":  "875AEA2DA33468A3D039440A336040610C9F12F8DB0A2C9083526755DB9FE4DC"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/state/properties/BlockStateProperties.java",
+                       "sha256":  "567DE4C1DA591117871888466674F43640CA119EF79153D22F23FD9B2F401BA8"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/state/properties/BooleanProperty.java",
+                       "sha256":  "D87BC48048E715843A49B2A661247314FD826BCFAEEA1596F99940DFA5F80FD8"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/state/properties/EnumProperty.java",
+                       "sha256":  "188C6FC87018450CA2B6CEA5DB917A611E083E77AF9CE6E2B8041F87273F1486"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/state/properties/IntegerProperty.java",
+                       "sha256":  "EC942AB1E8099D7127D0356D36CF5CAF99D8BDF9ADD8EABAA790592942DAEE74"
+                   },
+                   {
+                       "path":  "net/minecraft/world/level/block/state/properties/Property.java",
+                       "sha256":  "2B1D9E1BFFE14FCA1D2AA12D94D8AA0F53A1D7EC04EAF13848080420C70BCD07"
+                   },
+                   {
+                       "path":  "net/minecraft/world/phys/AABB.java",
+                       "sha256":  "14C36B02469D33F4E302966330327DA8215FA8E69890D6FDF53C0CD91DC55995"
+                   },
+                   {
+                       "path":  "net/neoforged/neoforge/common/ItemAbilities.java",
+                       "sha256":  "AF0A1048044806BE751081822B00768F0FB2DE9114D78F68E8A66E571EC26183"
+                   },
+                   {
+                       "path":  "net/neoforged/neoforge/common/ItemAbility.java",
+                       "sha256":  "AAA8DCD087C182AE8A798FF13E89CE3A129E1E4A5C5CFDB545BF07C36A4EA983"
+                   },
+                   {
+                       "path":  "net/neoforged/neoforge/common/extensions/IItemExtension.java",
+                       "sha256":  "F81D0C27EE3FC80DB52D43F87BDD09BCBED4A02A126B09EC2CDC59A7EA340214"
+                   },
+                   {
+                       "path":  "net/neoforged/neoforge/registries/DeferredRegister.java",
+                       "sha256":  "725F5B09CD0B356C8371358A78D0ED2457CB2F14A0586D7179BF42AB02DD6163"
+                   }
+               ],
+    "old":  [
+                {
+                    "path":  "SimpleRailProperties.java",
+                    "sha256":  "7E03F79113A3DD6AADECC0C69EF80A342800B87F1C3DB7BD0F8B5D56973A2996"
+                },
+                {
+                    "path":  "Wrench.java",
+                    "sha256":  "766CEE80AF12F582A9C64DD05C9BE02F7BAF36BE5ED63E03C11F98EA62930A0A"
+                }
+            ],
+    "oldStatus":  "Source reference only; OLD build not executed; U09 intent pending; OLD not executed"
+}

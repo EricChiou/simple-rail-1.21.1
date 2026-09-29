@@ -1,0 +1,15 @@
+﻿{
+    "jar":  "docs/evidence/T-030/fix-R1/artifacts/simplerail-1.0.0.jar",
+    "sha256":  "3AB3E37EF4AA21342011332E9531088DB36D121A1F6C9C9823DD6B3259538594",
+    "head":  "8bd977dbb9f9000411ae5f4d10750228e5f33560",
+    "workingTreeUncommitted":  true,
+    "minecraft":  "1.21.1",
+    "neoForge":  "21.1.251",
+    "modVersion":  "1.0.0",
+    "java":  "21.0.12.1",
+    "gradle":  "9.2.1",
+    "buildExitCode":  0,
+    "testResult":  "NO-SOURCE",
+    "gameResult":  null,
+    "reviewResult":  null
+}

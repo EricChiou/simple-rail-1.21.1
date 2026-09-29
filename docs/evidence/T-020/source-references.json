@@ -1,0 +1,34 @@
+﻿[
+    {
+        "path":  "docs/evidence/T-008/sources/neoforge/net/neoforged/neoforge/common/ModConfigSpec.java",
+        "sha256":  "E2AF2D8E8CC251EA5B6D9BE81FAD320E011E5D8C6B46F42D41CB85A3BD8F92A6"
+    },
+    {
+        "path":  "docs/evidence/T-008/sources/fml/net/neoforged/fml/ModContainer.java",
+        "sha256":  "F36E326DA0B19624E147EFBCDD3DB29B5C10CBB564763E30B3B73E73F8777DC9"
+    },
+    {
+        "path":  "docs/evidence/T-008/sources/fml/net/neoforged/fml/config/ModConfig.java",
+        "sha256":  "12BE8B71028A88D3974267061AF3EF07CE2D9D1C528F45E495E93CBED071AB5A"
+    },
+    {
+        "path":  "docs/evidence/T-008/sources/fml/net/neoforged/fml/event/config/ModConfigEvent.java",
+        "sha256":  "7AAADE589B35E468931AB2DBD775396D2D11AF82FA255A944C8D39E2FE78051C"
+    },
+    {
+        "path":  "docs/evidence/T-020/sources/IConfigSpec.java",
+        "sha256":  "DF0505965E3DCFC073BEB47BAEA5B009DCF0C7E4CFCF221D3F74CA0A1F9AC947"
+    },
+    {
+        "path":  "docs/evidence/T-020/sources/LoadedConfig.java",
+        "sha256":  "D152FDE783ED68A66F4E5D080D18814C2280E981629A6B63454601DA670ECB58"
+    },
+    {
+        "path":  "docs/evidence/T-020/sources/OldCommonConfig.java.txt",
+        "sha256":  "12729B08246AC681D8FBE33DEB08749C752010BB648B7260E4ED5439D50BA8CC"
+    },
+    {
+        "path":  "docs/evidence/T-020/sources/OldConstants.java.txt",
+        "sha256":  "7F357E289F92C301B42C7244A811F33D504FDCF39E0B3E06BE0C68045556B98F"
+    }
+]
