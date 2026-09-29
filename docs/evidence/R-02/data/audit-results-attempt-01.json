@@ -1,0 +1,1585 @@
+{
+  "scope": "strict file/source contracts only; no Minecraft codec/context execution/reload/game",
+  "passed": 393,
+  "failed": 1,
+  "dataFiles": 30,
+  "references": 85,
+  "checks": [
+    {
+      "passed": true,
+      "check": "source registry skeleton: 11 blocks and 13 items"
+    },
+    {
+      "passed": false,
+      "check": "29 data files exactly"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\minecraft\\tags\\block\\mineable\\pickaxe.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\minecraft\\tags\\block\\rails.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\cross_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\destory_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\eject_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\high_speed_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\holding_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\locomotive_cart.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\oneway_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\signal_timer.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\timer_holding_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\train_dispenser.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\y_cross_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\loot_table\\blocks\\y_cross_right_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\cross_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\destory_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\eject_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\high_speed_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\holding_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\locomotive_cart.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\oneway_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\signal_timer.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\timer_holding_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\train_dispenser.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\wrench.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\y_cross_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\recipe\\y_cross_right_rail.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\tags\\block\\machines.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\tags\\block\\rails.json"
+    },
+    {
+      "passed": true,
+      "check": "strict JSON without duplicate keys or trailing content data\\simplerail\\tags\\item\\wrench.json"
+    },
+    {
+      "passed": true,
+      "check": "no legacy plural data directories"
+    },
+    {
+      "passed": true,
+      "check": "vanilla archive version is 1.21.1 (ZIP only)"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "cross_rail.json resolves item simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "cross_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:iron_ingot"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "cross_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "destory_rail.json resolves item simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "destory_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:iron_pickaxe"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "destory_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:powered_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "eject_rail.json resolves item simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "eject_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:powered_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "eject_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:redstone"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "high_speed_rail.json resolves item simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "high_speed_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:powered_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "high_speed_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:redstone"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "holding_rail.json resolves item simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "holding_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:redstone"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "holding_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:powered_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "locomotive_cart.json resolves item simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "locomotive_cart.json resolves vanilla item model/source proxy (not runtime registry) minecraft:gold_ingot"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "locomotive_cart.json resolves vanilla item model/source proxy (not runtime registry) minecraft:minecart"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "oneway_rail.json resolves item simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "oneway_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:redstone"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "oneway_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:powered_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "signal_timer.json resolves item simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "signal_timer.json resolves vanilla item model/source proxy (not runtime registry) minecraft:repeater"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "signal_timer.json resolves vanilla item model/source proxy (not runtime registry) minecraft:iron_block"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "timer_holding_rail.json resolves item simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "timer_holding_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:redstone"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "timer_holding_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:powered_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "train_dispenser.json resolves item simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "train_dispenser.json resolves vanilla item model/source proxy (not runtime registry) minecraft:minecart"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "train_dispenser.json resolves vanilla item model/source proxy (not runtime registry) minecraft:dispenser"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "wrench.json resolves item simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "wrench.json resolves vanilla item model/source proxy (not runtime registry) minecraft:gold_nugget"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "wrench.json resolves vanilla item model/source proxy (not runtime registry) minecraft:iron_pickaxe"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "y_cross_rail.json resolves item simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "y_cross_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:iron_nugget"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "y_cross_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "y_cross_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:redstone"
+    },
+    {
+      "passed": true,
+      "check": "recipe preserves entire OLD payload except result key simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "shaped recipe type simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "y_cross_right_rail.json resolves item simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "recipe output identity and quantity simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "output within T-019 stack limit simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "pattern height <= 3 simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "rectangular pattern width <= 3 simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "all pattern symbols bound; no unused key simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "y_cross_right_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:iron_nugget"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "y_cross_right_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:rail"
+    },
+    {
+      "passed": true,
+      "check": "single non-space ingredient symbol simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "ingredient keeps item field simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "y_cross_right_rail.json resolves vanilla item model/source proxy (not runtime registry) minecraft:redstone"
+    },
+    {
+      "passed": true,
+      "check": "all 13 registered item identities have exactly one recipe"
+    },
+    {
+      "passed": true,
+      "check": "minecraft:rails additive membership preserves vanilla (static union)"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/cross_rail.json resolves item simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/cross_rail.json resolves block simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/destory_rail.json resolves item simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/destory_rail.json resolves block simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/eject_rail.json resolves item simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/eject_rail.json resolves block simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/high_speed_rail.json resolves item simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/high_speed_rail.json resolves block simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/holding_rail.json resolves item simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/holding_rail.json resolves block simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload except incompatible explosion condition simplerail:blocks/locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "blocks/locomotive_cart.json resolves item simplerail:locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/locomotive_cart"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/oneway_rail.json resolves item simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/oneway_rail.json resolves block simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "blocks/signal_timer.json resolves item simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "blocks/signal_timer.json resolves block simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/timer_holding_rail.json resolves item simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/timer_holding_rail.json resolves block simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "blocks/train_dispenser.json resolves item simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "blocks/train_dispenser.json resolves block simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/y_cross_rail.json resolves item simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/y_cross_rail.json resolves block simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot preserves OLD payload simplerail:blocks/y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot context identity preserved simplerail:blocks/y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot pool simplerail:blocks/y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot roll simplerail:blocks/y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "one loot entry simplerail:blocks/y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "loot item/pool identity simplerail:blocks/y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/y_cross_right_rail.json resolves item simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "blocks/y_cross_right_rail.json resolves block simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "known condition params fit fixed BLOCK/ENTITY context source simplerail:blocks/y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "11 block loot tables + extra cart table; no cart block"
+    },
+    {
+      "passed": true,
+      "check": "tag payload unchanged simplerail/tags/block/rails.json"
+    },
+    {
+      "passed": true,
+      "check": "tag additive replace=false simplerail/tags/block/rails.json"
+    },
+    {
+      "passed": true,
+      "check": "exact tag membership without duplicates simplerail/tags/block/rails.json"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/rails.json resolves block simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/rails.json resolves block simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/rails.json resolves block simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/rails.json resolves block simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/rails.json resolves block simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/rails.json resolves block simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/rails.json resolves block simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/rails.json resolves block simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/rails.json resolves block simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "tag payload unchanged simplerail/tags/block/machines.json"
+    },
+    {
+      "passed": true,
+      "check": "tag additive replace=false simplerail/tags/block/machines.json"
+    },
+    {
+      "passed": true,
+      "check": "exact tag membership without duplicates simplerail/tags/block/machines.json"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/machines.json resolves block simplerail:train_dispenser"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/block/machines.json resolves block simplerail:signal_timer"
+    },
+    {
+      "passed": true,
+      "check": "tag payload unchanged simplerail/tags/item/wrench.json"
+    },
+    {
+      "passed": true,
+      "check": "tag additive replace=false simplerail/tags/item/wrench.json"
+    },
+    {
+      "passed": true,
+      "check": "exact tag membership without duplicates simplerail/tags/item/wrench.json"
+    },
+    {
+      "passed": true,
+      "check": "simplerail/tags/item/wrench.json resolves item simplerail:wrench"
+    },
+    {
+      "passed": true,
+      "check": "tag payload unchanged minecraft/tags/block/rails.json"
+    },
+    {
+      "passed": true,
+      "check": "tag additive replace=false minecraft/tags/block/rails.json"
+    },
+    {
+      "passed": true,
+      "check": "exact tag membership without duplicates minecraft/tags/block/rails.json"
+    },
+    {
+      "passed": true,
+      "check": "minecraft/tags/block/rails.json resolves block simplerail:high_speed_rail"
+    },
+    {
+      "passed": true,
+      "check": "minecraft/tags/block/rails.json resolves block simplerail:holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "minecraft/tags/block/rails.json resolves block simplerail:oneway_rail"
+    },
+    {
+      "passed": true,
+      "check": "minecraft/tags/block/rails.json resolves block simplerail:eject_rail"
+    },
+    {
+      "passed": true,
+      "check": "minecraft/tags/block/rails.json resolves block simplerail:destory_rail"
+    },
+    {
+      "passed": true,
+      "check": "minecraft/tags/block/rails.json resolves block simplerail:timer_holding_rail"
+    },
+    {
+      "passed": true,
+      "check": "minecraft/tags/block/rails.json resolves block simplerail:cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "minecraft/tags/block/rails.json resolves block simplerail:y_cross_rail"
+    },
+    {
+      "passed": true,
+      "check": "minecraft/tags/block/rails.json resolves block simplerail:y_cross_right_rail"
+    },
+    {
+      "passed": true,
+      "check": "WRENCH identity declared with item registry"
+    },
+    {
+      "passed": true,
+      "check": "RAILS/MACHINES identities declared with block registry"
+    },
+    {
+      "passed": true,
+      "check": "tag keys introduce no client classes/config/registry objects"
+    }
+  ]
+}

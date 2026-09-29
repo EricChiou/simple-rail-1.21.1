@@ -1,0 +1,2007 @@
+{
+    "head":  "139985ffbc6827ccf585a98ff06773b30d8947bc",
+    "scope":  "Independent static checks; archived inputs and bounded current integration; no game",
+    "passed":  389,
+    "failed":  0,
+    "checks":  [
+                   {
+                       "name":  "T-019 fixed JAR hash",
+                       "passed":  true,
+                       "detail":  "7AEB033B7B5949E89005DC8B65DF73D93272BCCB430D81F80DE516248ECF9C9D"
+                   },
+                   {
+                       "name":  "T-019 historical NEW build evidence",
+                       "passed":  true,
+                       "detail":  ".\\gradlew.bat build --offline --console=plain --no-configuration-cache"
+                   },
+                   {
+                       "name":  "T-020 fixed JAR hash",
+                       "passed":  true,
+                       "detail":  "166E7B63AC9E56A83CEFD23448B458F0E221D7059825BDACFE9A541898A9C467"
+                   },
+                   {
+                       "name":  "T-020 historical NEW build evidence",
+                       "passed":  true,
+                       "detail":  ".\\gradlew.bat build --offline --console=plain --no-configuration-cache"
+                   },
+                   {
+                       "name":  "T-021 fixed JAR hash",
+                       "passed":  true,
+                       "detail":  "3FB257657741F7A0A50EE0879FC92C7F15EB51C1434F2FDBB1EE51AD0B5A96AD"
+                   },
+                   {
+                       "name":  "T-021 historical NEW build evidence",
+                       "passed":  true,
+                       "detail":  ".\\gradlew.bat build --offline --console=plain --no-configuration-cache"
+                   },
+                   {
+                       "name":  "T-022 fixed JAR hash",
+                       "passed":  true,
+                       "detail":  "3D4BFC8926509DCE28C6DE11E8198D3639EB288E1EB29FAD89D3AEC9C1C6BBD3"
+                   },
+                   {
+                       "name":  "T-022 historical NEW build evidence",
+                       "passed":  true,
+                       "detail":  ".\\gradlew.bat build --offline --console=plain --no-configuration-cache"
+                   },
+                   {
+                       "name":  "T-020 source docs/evidence/T-008/sources/neoforge/net/neoforged/neoforge/common/ModConfigSpec.java",
+                       "passed":  true,
+                       "detail":  "E2AF2D8E8CC251EA5B6D9BE81FAD320E011E5D8C6B46F42D41CB85A3BD8F92A6"
+                   },
+                   {
+                       "name":  "T-020 source docs/evidence/T-008/sources/fml/net/neoforged/fml/ModContainer.java",
+                       "passed":  true,
+                       "detail":  "F36E326DA0B19624E147EFBCDD3DB29B5C10CBB564763E30B3B73E73F8777DC9"
+                   },
+                   {
+                       "name":  "T-020 source docs/evidence/T-008/sources/fml/net/neoforged/fml/config/ModConfig.java",
+                       "passed":  true,
+                       "detail":  "12BE8B71028A88D3974267061AF3EF07CE2D9D1C528F45E495E93CBED071AB5A"
+                   },
+                   {
+                       "name":  "T-020 source docs/evidence/T-008/sources/fml/net/neoforged/fml/event/config/ModConfigEvent.java",
+                       "passed":  true,
+                       "detail":  "7AAADE589B35E468931AB2DBD775396D2D11AF82FA255A944C8D39E2FE78051C"
+                   },
+                   {
+                       "name":  "T-020 source docs/evidence/T-020/sources/IConfigSpec.java",
+                       "passed":  true,
+                       "detail":  "DF0505965E3DCFC073BEB47BAEA5B009DCF0C7E4CFCF221D3F74CA0A1F9AC947"
+                   },
+                   {
+                       "name":  "T-020 source docs/evidence/T-020/sources/LoadedConfig.java",
+                       "passed":  true,
+                       "detail":  "D152FDE783ED68A66F4E5D080D18814C2280E981629A6B63454601DA670ECB58"
+                   },
+                   {
+                       "name":  "T-020 source docs/evidence/T-020/sources/OldCommonConfig.java.txt",
+                       "passed":  true,
+                       "detail":  "12729B08246AC681D8FBE33DEB08749C752010BB648B7260E4ED5439D50BA8CC"
+                   },
+                   {
+                       "name":  "T-020 source docs/evidence/T-020/sources/OldConstants.java.txt",
+                       "passed":  true,
+                       "detail":  "7F357E289F92C301B42C7244A811F33D504FDCF39E0B3E06BE0C68045556B98F"
+                   },
+                   {
+                       "name":  "T-021 source docs/evidence/T-009/sources/target/net/neoforged/neoforge/resource/ResourcePackLoader.java",
+                       "passed":  true,
+                       "detail":  "822F1050DB0A1E807DD6AEE55D5B1458D971B3224D93B7D522C07C8E71468549"
+                   },
+                   {
+                       "name":  "T-021 source docs/evidence/T-009/sources/target/net/minecraft/client/renderer/texture/atlas/SpriteSourceList.java",
+                       "passed":  true,
+                       "detail":  "E084AE2028D7F09CE2C28BCC260D207274FF88BAFAF342897BE3AE0731DD7C5B"
+                   },
+                   {
+                       "name":  "T-021 source docs/evidence/T-009/sources/target/net/neoforged/neoforge/client/textures/NamespacedDirectoryLister.java",
+                       "passed":  true,
+                       "detail":  "FE83DB9266C7E837D8376B731BBFA4A11795CCF9BE5CA2C16CDC880172D8AE7B"
+                   },
+                   {
+                       "name":  "T-021 source docs/evidence/T-009/sources/target/net/minecraft/client/resources/model/BlockStateModelLoader.java",
+                       "passed":  true,
+                       "detail":  "B6AECC7D0D33B8B7F9807661E65207889CE5D47F5BCB12536842116AEC45334E"
+                   },
+                   {
+                       "name":  "T-021 source docs/evidence/T-015/sources/target/net/minecraft/client/renderer/ItemBlockRenderTypes.java",
+                       "passed":  true,
+                       "detail":  "E3CBDA78268475B261D79D139746E75D6DA57FFA65A5721E1FED364830FA5817"
+                   },
+                   {
+                       "name":  "T-021 source docs/evidence/T-010/state-domains.json",
+                       "passed":  true,
+                       "detail":  "27E55E6052A7948589E3097FAD05D67522CC9768C7FED024CF1112C9C168D243"
+                   },
+                   {
+                       "name":  "T-021 source docs/evidence/T-009/source-manifest.json",
+                       "passed":  true,
+                       "detail":  "4123B6A31F648204D41ED499D5B14D56F49E64B3A7C3D3B4DFB78C3E140B8316"
+                   },
+                   {
+                       "name":  "T-021 source docs/evidence/T-009/resource-map.json",
+                       "passed":  true,
+                       "detail":  "289C7E1BEFDC8314312E20E50CDFECA159327E34735BE759878301107DE942F4"
+                   },
+                   {
+                       "name":  "T-021 source docs/evidence/T-015/resources.json",
+                       "passed":  true,
+                       "detail":  "98871C9BA5315B9DCF50F62CE2A51028B0E02E60D039F79183C3A7C5A550921E"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/core/registries/Registries.java",
+                       "passed":  true,
+                       "detail":  "634A44EC433E96572786D504DF525B57B35B6B7D63DAA2CD4D003C47E751DABD"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/world/item/crafting/ShapedRecipe.java",
+                       "passed":  true,
+                       "detail":  "DEE06D657BB80AFE6A57671A3F6050D8149339AB2B0EA1C3F892C202CFE1B77A"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/world/item/crafting/ShapedRecipePattern.java",
+                       "passed":  true,
+                       "detail":  "FF5EDEF3890EE3390DD0BC08E362C94037933B6D3A43D8BB4AE33C5E3F83272C"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/world/item/crafting/Ingredient.java",
+                       "passed":  true,
+                       "detail":  "4E7D9A1976F4328D6D603DF712CE0C2E62ABC7E537A9F020E1F7B4883EB465BC"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/world/item/ItemStack.java",
+                       "passed":  true,
+                       "detail":  "ACE64C8407E32E63183FCA7BA7DFF2523F3B01F300857C877CE8F2CB30CA9B6B"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/LootTable.java",
+                       "passed":  true,
+                       "detail":  "CBE54103C19E22821D0F8E8A4FA737C3DB86A7D22B01266A24C81F8FDC8958B5"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/LootPool.java",
+                       "passed":  true,
+                       "detail":  "FCB7EAE2897578D633D082E32A1432CBC2BE96FB77403818BABB28222C03C436"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/predicates/ExplosionCondition.java",
+                       "passed":  true,
+                       "detail":  "0EBF18A030A2B1457F7FAB3A87CDF6CC7C6E6373362D3E19807C31AE2F98E8AC"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/parameters/LootContextParamSets.java",
+                       "passed":  true,
+                       "detail":  "D992484F3AFBDD61558C5D552E713AF6E24687A067D584B750C8CF3BC588623F"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/world/level/storage/loot/parameters/LootContextParamSet.java",
+                       "passed":  true,
+                       "detail":  "42FE3AF57B30C6D0FFBF0548D4A16C740244F65FEC85A45FD699AA7ED22374B2"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/server/ReloadableServerRegistries.java",
+                       "passed":  true,
+                       "detail":  "46BCED1E4C028F7E409D2B47F096F1C4FA07FE804AF36190D0C5CCAE4DA27B3C"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/tags/TagFile.java",
+                       "passed":  true,
+                       "detail":  "3AF4D8AC328D2EB7B48A55D98A0088E4341FAC69485F789DB2BBB5D91B533F90"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-009/sources/target/net/minecraft/tags/TagManager.java",
+                       "passed":  true,
+                       "detail":  "6409A162F7F205258C5870BDE82C4A207C32C464D0CF0D482C39A6DF47F75F10"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-010/probe/T010Probe.java",
+                       "passed":  true,
+                       "detail":  "D75913DD219220EE20DB378BCF750C2DB9F64604B770EE297761E2E2F5D202ED"
+                   },
+                   {
+                       "name":  "T-022 source D:/workspace/java/simple-rail/src/main/java/ericchiu/simplerail/setup/SimpleRailTags.java",
+                       "passed":  true,
+                       "detail":  "9C18A346CBB5BFEDD69C4E2C2598D0B381511A8CA097336B9DF4F8D640A3A892"
+                   },
+                   {
+                       "name":  "T-022 source D:/workspace/java/simple-rail/src/main/java/ericchiu/simplerail/entity/LocomotiveCartEntity.java",
+                       "passed":  true,
+                       "detail":  "BA3F2F9D83A31087E8A48CC9BF29ECB465CE2EFC34CD2CD86F558BB8E74F3588"
+                   },
+                   {
+                       "name":  "T-022 source docs/evidence/T-022/sources/TagKey.java",
+                       "passed":  true,
+                       "detail":  "51B0C7526A9597555BC4127A886502884C7C9426E892C837832EE288736CF31A"
+                   },
+                   {
+                       "name":  "T-022 existing inputs differ only in four documented R-03 paths",
+                       "passed":  true,
+                       "detail":  [
+                                      "src/main/templates/META-INF/neoforge.mods.toml",
+                                      "src/main/resources/assets/simplerail/blockstates/high_speed_rail.json",
+                                      "src/main/java/com/ericchiu/simplerail/registry/ModItems.java",
+                                      "src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java"
+                                  ]
+                   },
+                   {
+                       "name":  "all eleven block IDs retained and unique",
+                       "passed":  true,
+                       "detail":  [
+                                      "high_speed_rail",
+                                      "holding_rail",
+                                      "oneway_rail",
+                                      "eject_rail",
+                                      "destory_rail",
+                                      "timer_holding_rail",
+                                      "cross_rail",
+                                      "y_cross_rail",
+                                      "y_cross_right_rail",
+                                      "train_dispenser",
+                                      "signal_timer"
+                                  ]
+                   },
+                   {
+                       "name":  "all thirteen item IDs retained and unique",
+                       "passed":  true,
+                       "detail":  [
+                                      "wrench",
+                                      "locomotive_cart",
+                                      "high_speed_rail",
+                                      "holding_rail",
+                                      "oneway_rail",
+                                      "eject_rail",
+                                      "destory_rail",
+                                      "timer_holding_rail",
+                                      "cross_rail",
+                                      "y_cross_rail",
+                                      "y_cross_right_rail",
+                                      "train_dispenser",
+                                      "signal_timer"
+                                  ]
+                   },
+                   {
+                       "name":  "same-ID BlockItem high_speed_rail",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem holding_rail",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem oneway_rail",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem eject_rail",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem destory_rail",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem timer_holding_rail",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem cross_rail",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem y_cross_rail",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem y_cross_right_rail",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem train_dispenser",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "same-ID BlockItem signal_timer",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "creative contents include thirteen items exactly once",
+                       "passed":  true,
+                       "detail":  [
+                                      "wrench",
+                                      "locomotive_cart",
+                                      "high_speed_rail",
+                                      "holding_rail",
+                                      "oneway_rail",
+                                      "eject_rail",
+                                      "destory_rail",
+                                      "timer_holding_rail",
+                                      "cross_rail",
+                                      "y_cross_rail",
+                                      "y_cross_right_rail",
+                                      "train_dispenser",
+                                      "signal_timer"
+                                  ]
+                   },
+                   {
+                       "name":  "creative title and icon",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed data archive has 29 files",
+                       "passed":  true,
+                       "detail":  29
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/minecraft/tags/block/rails.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/cross_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/destory_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/eject_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/high_speed_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/holding_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/locomotive_cart.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/oneway_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/signal_timer.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/timer_holding_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/train_dispenser.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/y_cross_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/loot_table/blocks/y_cross_right_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/cross_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/destory_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/eject_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/high_speed_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/holding_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/locomotive_cart.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/oneway_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/signal_timer.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/timer_holding_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/train_dispenser.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/wrench.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/y_cross_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/recipe/y_cross_right_rail.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/tags/block/machines.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/tags/block/rails.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current data equals fixed artifact data/simplerail/tags/item/wrench.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "separate R-03 pickaxe tag is additive and resolves five implemented rails",
+                       "passed":  true,
+                       "detail":  {
+                                      "replace":  false,
+                                      "values":  [
+                                                     "simplerail:high_speed_rail",
+                                                     "simplerail:holding_rail",
+                                                     "simplerail:oneway_rail",
+                                                     "simplerail:eject_rail",
+                                                     "simplerail:destory_rail"
+                                                 ]
+                                  }
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP hash",
+                       "passed":  true,
+                       "detail":  "C7FD51E6A4E0536DA0D982933E0987B4200D607E3650143B91B7B4AD8E43127E"
+                   },
+                   {
+                       "name":  "T-092-v1-draft file count and ZIP entries",
+                       "passed":  true,
+                       "detail":  31
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file case-index.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file CASES.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file default-config-reference.toml",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file files-manifest.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file INSTALL.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file manifest.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file README.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file RECIPE-CATALOG.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file results.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file STATE-DOMAINS.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file TABLES.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/artifact.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/audit-classpath.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/audit-commands-01.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/audit-results.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/audit-run-01.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/build-01.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/build-01.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/config-static-tests-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/data-map.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/gradle-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/jar-contents.txt",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/java-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/javac-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/loot-responsibility.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/neoforge.mods.toml",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/resource-static-audit-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/source-fingerprints.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/source.diff",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file evidence/state-coverage-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft ZIP/file reference/simplerail-1.0.0.jar",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest case-index.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest CASES.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest default-config-reference.toml",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/artifact.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/audit-classpath.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/audit-commands-01.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/audit-results.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/audit-run-01.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/build-01.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/build-01.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/config-static-tests-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/data-map.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/gradle-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/jar-contents.txt",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/javac-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/java-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/loot-responsibility.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/neoforge.mods.toml",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/resource-static-audit-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/source.diff",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/source-fingerprints.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest evidence/state-coverage-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest INSTALL.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest manifest.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest README.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest RECIPE-CATALOG.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest reference/simplerail-1.0.0.jar",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest results.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest STATE-DOMAINS.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft manifest TABLES.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft unique cases and manifest",
+                       "passed":  true,
+                       "detail":  156
+                   },
+                   {
+                       "name":  "T-092-v1-draft no invented actual results",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-092-v1-draft SP cases have actionable structure or explicit local issue",
+                       "passed":  true,
+                       "detail":  78
+                   },
+                   {
+                       "name":  "T-092-v1-draft DS cases have actionable structure or explicit local issue",
+                       "passed":  true,
+                       "detail":  78
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP hash",
+                       "passed":  true,
+                       "detail":  "9468FE025ECB382A5E0D6D9C837B396E7BCDDF954B391AB9A54C5B68C2AFFC82"
+                   },
+                   {
+                       "name":  "T-093-v1 file count and ZIP entries",
+                       "passed":  true,
+                       "detail":  31
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file case-index.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file CASES.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file default-config-reference.toml",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file files-manifest.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file INSTALL.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file manifest.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file README.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file RECIPE-CATALOG.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file results.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file STATE-DOMAINS.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file TABLES.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/artifact.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/audit-classpath.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/audit-commands-01.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/audit-results.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/audit-run-01.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/build-01.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/build-01.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/config-static-tests-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/data-map.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/gradle-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/jar-contents.txt",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/java-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/javac-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/loot-responsibility.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/neoforge.mods.toml",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/resource-static-audit-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/source-fingerprints.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/source.diff",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file evidence/state-coverage-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 ZIP/file mods/simplerail-1.0.0.jar",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest case-index.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest CASES.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest default-config-reference.toml",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/artifact.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/audit-classpath.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/audit-commands-01.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/audit-results.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/audit-run-01.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/build-01.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/build-01.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/config-static-tests-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/data-map.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/gradle-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/jar-contents.txt",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/javac-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/java-version.log",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/loot-responsibility.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/neoforge.mods.toml",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/resource-static-audit-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/source.diff",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/source-fingerprints.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest evidence/state-coverage-reference.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest INSTALL.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest manifest.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest mods/simplerail-1.0.0.jar",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest README.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest RECIPE-CATALOG.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest results.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest STATE-DOMAINS.json",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 manifest TABLES.md",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 unique cases and manifest",
+                       "passed":  true,
+                       "detail":  226
+                   },
+                   {
+                       "name":  "T-093-v1 no invented actual results",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 SP cases have actionable structure or explicit local issue",
+                       "passed":  true,
+                       "detail":  113
+                   },
+                   {
+                       "name":  "T093 SP recipe wrench original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe wrench offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe wrench mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe locomotive_cart original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe locomotive_cart offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe locomotive_cart mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe high_speed_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe high_speed_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe high_speed_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe holding_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe holding_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe holding_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe oneway_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe oneway_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe oneway_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe eject_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe eject_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe eject_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe destory_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe destory_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe destory_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe timer_holding_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe timer_holding_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe timer_holding_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe cross_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe cross_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe cross_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe y_cross_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe y_cross_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe y_cross_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe y_cross_right_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe y_cross_right_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe y_cross_right_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe train_dispenser original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe train_dispenser offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe train_dispenser mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe signal_timer original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe signal_timer offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP recipe signal_timer mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot high_speed_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot high_speed_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot high_speed_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot high_speed_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot holding_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot holding_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot holding_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot holding_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot oneway_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot oneway_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot oneway_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot oneway_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot eject_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot eject_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot eject_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot eject_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot destory_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot destory_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot destory_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot destory_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot timer_holding_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot timer_holding_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot timer_holding_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot timer_holding_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot cross_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot cross_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot cross_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot cross_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot y_cross_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot y_cross_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot y_cross_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot y_cross_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot y_cross_right_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot y_cross_right_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot y_cross_right_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot y_cross_right_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot train_dispenser iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot train_dispenser hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot train_dispenser loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot train_dispenser explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot signal_timer iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot signal_timer hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot signal_timer loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 SP loot signal_timer explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T-093-v1 DS cases have actionable structure or explicit local issue",
+                       "passed":  true,
+                       "detail":  113
+                   },
+                   {
+                       "name":  "T093 DS recipe wrench original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe wrench offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe wrench mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe locomotive_cart original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe locomotive_cart offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe locomotive_cart mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe high_speed_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe high_speed_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe high_speed_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe holding_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe holding_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe holding_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe oneway_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe oneway_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe oneway_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe eject_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe eject_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe eject_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe destory_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe destory_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe destory_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe timer_holding_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe timer_holding_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe timer_holding_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe cross_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe cross_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe cross_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe y_cross_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe y_cross_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe y_cross_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe y_cross_right_rail original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe y_cross_right_rail offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe y_cross_right_rail mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe train_dispenser original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe train_dispenser offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe train_dispenser mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe signal_timer original",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe signal_timer offset",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS recipe signal_timer mirror",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot high_speed_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot high_speed_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot high_speed_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot high_speed_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot holding_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot holding_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot holding_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot holding_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot oneway_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot oneway_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot oneway_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot oneway_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot eject_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot eject_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot eject_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot eject_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot destory_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot destory_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot destory_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot destory_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot timer_holding_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot timer_holding_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot timer_holding_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot timer_holding_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot cross_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot cross_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot cross_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot cross_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot y_cross_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot y_cross_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot y_cross_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot y_cross_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot y_cross_right_rail iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot y_cross_right_rail hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot y_cross_right_rail loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot y_cross_right_rail explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot train_dispenser iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot train_dispenser hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot train_dispenser loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot train_dispenser explosion",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot signal_timer iron_pickaxe",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot signal_timer hand",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot signal_timer loot-mine",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T093 DS loot signal_timer explosion",
+                       "passed":  true,
+                       "detail":  null
+                   }
+               ]
+}

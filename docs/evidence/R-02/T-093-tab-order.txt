@@ -1,0 +1,2 @@
+分頁順序：high_speed_rail、holding_rail、oneway_rail、eject_rail、destory_rail、timer_holding_rail、cross_rail、y_cross_rail、y_cross_right_rail、train_dispenser、signal_timer、wrench、locomotive_cart；分頁 simplerail:tab，兩語系名 Simple Rail。
+Actual source order: wrench, locomotive_cart, high_speed_rail, holding_rail, oneway_rail, eject_rail, destory_rail, timer_holding_rail, cross_rail, y_cross_rail, y_cross_right_rail, train_dispenser, signal_timer

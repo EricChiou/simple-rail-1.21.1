@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "locomotive_cart",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "simplerail:locomotive_cart"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+param([switch]$SkipResource)
+$ErrorActionPreference = 'Stop'
+$root = (Get-Location).Path
+$out = Join-Path $root 'docs/evidence/R-02'
+$utf8 = [Text.UTF8Encoding]::new($false)
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+$records = [Collections.Generic.List[object]]::new()
+function Run([string]$name, [string]$exe, [string[]]$arguments, [string]$cwd) {
+    $info = [Diagnostics.ProcessStartInfo]::new()
+    $info.FileName = (Get-Command $exe).Source
+    $info.Arguments = ($arguments | ForEach-Object { '"' + $_ + '"' }) -join ' '
+    $info.WorkingDirectory = $cwd
+    $info.UseShellExecute = $false
+    $info.CreateNoWindow = $true
+    $info.RedirectStandardOutput = $true
+    $info.RedirectStandardError = $true
+    $started = [DateTime]::UtcNow.ToString('o')
+    $process = [Diagnostics.Process]::Start($info)
+    $stdout = $process.StandardOutput.ReadToEndAsync()
+    $stderr = $process.StandardError.ReadToEndAsync()
+    $process.WaitForExit()
+    [IO.File]::WriteAllText((Join-Path $out ($name + '.log')), $stdout.Result + $stderr.Result, $utf8)
+    $records.Add([pscustomobject]@{name=$name; executable=$info.FileName; arguments=$arguments; cwd=$cwd; startedUtc=$started; finishedUtc=[DateTime]::UtcNow.ToString('o'); exitCode=$process.ExitCode})
+    [IO.File]::WriteAllText((Join-Path $out 'commands.json'), ($records | ConvertTo-Json -Depth 8), $utf8)
+    Write-Output ($name + ': exit ' + $process.ExitCode + ' ' + $stdout.Result.Trim())
+    if ($process.ExitCode -ne 0) { throw ($name + ' failed; see log') }
+}
+foreach ($dir in @('classes','config','resource','data','historical-resources','audit-src')) { New-Item -ItemType Directory -Force (Join-Path $out $dir) | Out-Null }
+# Read only resources from the fixed T-021 JAR; do not load any game class.
+$archive = [IO.Compression.ZipFile]::OpenRead((Join-Path $root 'docs/evidence/T-021/artifacts/simplerail-1.0.0.jar'))
+try {
+    foreach ($entry in $archive.Entries) {
+        if ($entry.FullName.EndsWith('/')) { continue }
+        if ($entry.FullName.StartsWith('assets/') -or $entry.FullName -in @('pack.mcmeta','logo.png')) {
+            $destination = Join-Path (Join-Path $out 'historical-resources') $entry.FullName
+            New-Item -ItemType Directory -Force ([IO.Path]::GetDirectoryName($destination)) | Out-Null
+            [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $destination, $true)
+        }
+    }
+} finally { $archive.Dispose() }
+$gson = Join-Path $root 'docs/evidence/T-021/audit/gson-2.10.1.jar'
+$vanilla = 'C:\Users\Kinoko\.gradle\caches\neoformruntime\artifacts\minecraft_1.21.1_client.jar'
+$classes = Join-Path $out 'classes'
+# Adapter only broadens source-registry recognition for R-03 registerBlock/registerItem.
+# All DataAudit assertions and product inputs remain unchanged.
+$dataSource = [IO.File]::ReadAllText((Join-Path $root 'docs/evidence/T-022/audit/DataAudit.java'))
+$dataSource = $dataSource.Replace('registerSimpleBlock', 'register(?:Simple)?Block').Replace('registerSimple(?:Item|BlockItem)', 'register(?:Simple)?(?:Item|BlockItem)')
+[IO.File]::WriteAllText((Join-Path $out 'audit-src/DataAudit.java'), $dataSource, $utf8)
+if (!$SkipResource) {
+    Run 'audit-compile' 'javac' @('--release','21','-proc:none','-encoding','UTF-8','-Xlint:all','-Werror','-cp',$gson,'-d',$classes,(Join-Path $root 'docs/evidence/T-021/audit/ResourceAudit.java'),(Join-Path $out 'audit-src/DataAudit.java')) $root
+    Run 'resource-run' 'java' @('-Djava.awt.headless=true','-cp',($classes+';'+$gson),'ResourceAudit','D:/workspace/java/simple-rail/src/main/resources',(Join-Path $out 'historical-resources'),(Join-Path $out 'resource'),$vanilla) $root
+}
+# T-022 fixed artifact contains 29 data files; R-03 adds a separate pickaxe tag.
+$archive = [IO.Compression.ZipFile]::OpenRead((Join-Path $root 'docs/evidence/T-022/artifacts/simplerail-1.0.0.jar'))
+try {
+    foreach ($entry in $archive.Entries) {
+        if (!$entry.FullName.StartsWith('data/') -or $entry.FullName.EndsWith('/')) { continue }
+        $destination = Join-Path (Join-Path $out 'historical-data') $entry.FullName
+        New-Item -ItemType Directory -Force ([IO.Path]::GetDirectoryName($destination)) | Out-Null
+        [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $destination, $true)
+    }
+} finally { $archive.Dispose() }
+Run 'data-run' 'java' @('-cp',($classes+';'+$gson),'DataAudit','D:/workspace/java/simple-rail/src/main/resources',(Join-Path $out 'historical-data'),(Join-Path $out 'data'),$vanilla) $root
+$dependencies = @(Get-Content -Encoding UTF8 (Join-Path $root 'docs/evidence/T-008/compile-classpath.txt') | Where-Object { $_.Trim() })
+$classpath = (@((Join-Path $root 'docs/evidence/T-022/artifacts/simplerail-1.0.0.jar')) + $dependencies) -join ';'
+Run 'config-compile' 'javac' @('--release','21','-proc:none','-encoding','UTF-8','-Xlint:deprecation','-Werror','-cp',$classpath,'-d',$classes,(Join-Path $root 'src/main/java/com/ericchiu/simplerail/config/CommonConfig.java'),(Join-Path $root 'docs/evidence/T-020/test/ConfigContractTest.java')) $root
+Run 'config-run' 'java' @('-ea','-cp',($classes+';'+$classpath),'com.ericchiu.simplerail.config.ConfigContractTest',(Join-Path $out 'config')) (Join-Path $out 'config')
+[IO.File]::WriteAllText((Join-Path $out 'classpath-hashes.json'), (@($dependencies + $gson + $vanilla | ForEach-Object { [pscustomobject]@{path=$_; sha256=(Get-FileHash -LiteralPath $_).Hash} }) | ConvertTo-Json -Depth 5), $utf8)
