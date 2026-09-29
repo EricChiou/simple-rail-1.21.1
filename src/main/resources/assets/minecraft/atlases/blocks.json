@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "type": "neoforge:namespaced_directory",
+      "namespace": "simplerail",
+      "source": "blocks",
+      "prefix": "blocks/"
+    },
+    {
+      "type": "neoforge:namespaced_directory",
+      "namespace": "simplerail",
+      "source": "items",
+      "prefix": "items/"
+    }
+  ]
+}

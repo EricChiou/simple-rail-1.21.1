@@ -1,0 +1,17 @@
+{
+  "_comment": "====================Machine====================",
+  "itemGroup.simplerail.tab": "Simple Rail",
+  "item.simplerail.wrench": "板手",
+  "item.simplerail.locomotive_cart": "火車頭",
+  "block.simplerail.high_speed_rail": "高速鐵軌",
+  "block.simplerail.holding_rail": "鎖定鐵軌",
+  "block.simplerail.oneway_rail": "單向鐵軌",
+  "block.simplerail.eject_rail": "彈出鐵軌",
+  "block.simplerail.destory_rail": "銷毀鐵軌",
+  "block.simplerail.timer_holding_rail": "定時鐵軌",
+  "block.simplerail.cross_rail": "交叉鐵軌",
+  "block.simplerail.y_cross_rail": "Y型交叉鐵軌(左)",
+  "block.simplerail.y_cross_right_rail": "Y型交叉鐵軌(右)",
+  "block.simplerail.train_dispenser": "火車放置器",
+  "block.simplerail.signal_timer": "信號計時器"
+}

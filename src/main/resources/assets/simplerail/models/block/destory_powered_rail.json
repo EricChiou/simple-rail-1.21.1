@@ -1,0 +1,7 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "block/rail_flat",
+  "textures": {
+    "rail": "simplerail:blocks/destory_powered_rail"
+  }
+}
