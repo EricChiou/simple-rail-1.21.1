@@ -1,0 +1,118 @@
+[
+    {
+        "name":  "compile",
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+        "arguments":  [
+                          "--release",
+                          "21",
+                          "-proc:none",
+                          "-encoding",
+                          "UTF-8",
+                          "-d",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03\\classes",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\entity\\TrainFormation.java",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\entity\\TrainBlockRoute.java",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\entity\\Facing8.java",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-048-055\\TrainFormationTest.java",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-058\\fix-R7\\BlockRouteSpacingTest.java",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03\\PerformanceProbe.java"
+                      ],
+        "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03",
+        "startedUtc":  "2026-10-02T17:22:37.1467063Z",
+        "finishedUtc":  "2026-10-02T17:22:38.0455463Z",
+        "exitCode":  0
+    },
+    {
+        "name":  "formation-regression",
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\java.exe",
+        "arguments":  [
+                          "-ea",
+                          "-cp",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03\\classes",
+                          "TrainFormationTest"
+                      ],
+        "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03",
+        "startedUtc":  "2026-10-02T17:22:38.0850126Z",
+        "finishedUtc":  "2026-10-02T17:22:38.2009054Z",
+        "exitCode":  0
+    },
+    {
+        "name":  "route-regression",
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\java.exe",
+        "arguments":  [
+                          "-ea",
+                          "-cp",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03\\classes",
+                          "BlockRouteSpacingTest"
+                      ],
+        "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03",
+        "startedUtc":  "2026-10-02T17:22:38.2029506Z",
+        "finishedUtc":  "2026-10-02T17:22:38.3684122Z",
+        "exitCode":  0
+    },
+    {
+        "name":  "deterministic",
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\java.exe",
+        "arguments":  [
+                          "-ea",
+                          "-cp",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03\\classes",
+                          "PerformanceProbe"
+                      ],
+        "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03",
+        "startedUtc":  "2026-10-02T17:22:38.3705118Z",
+        "finishedUtc":  "2026-10-02T17:22:38.5850922Z",
+        "exitCode":  0
+    },
+    {
+        "name":  "timing-fork-1",
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\java.exe",
+        "arguments":  [
+                          "-Xms256m",
+                          "-Xmx256m",
+                          "-ea",
+                          "-cp",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03\\classes",
+                          "PerformanceProbe",
+                          "timing"
+                      ],
+        "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03",
+        "startedUtc":  "2026-10-02T17:22:38.5883528Z",
+        "finishedUtc":  "2026-10-02T17:22:41.4247019Z",
+        "exitCode":  0
+    },
+    {
+        "name":  "timing-fork-2",
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\java.exe",
+        "arguments":  [
+                          "-Xms256m",
+                          "-Xmx256m",
+                          "-ea",
+                          "-cp",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03\\classes",
+                          "PerformanceProbe",
+                          "timing"
+                      ],
+        "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03",
+        "startedUtc":  "2026-10-02T17:22:41.4267075Z",
+        "finishedUtc":  "2026-10-02T17:22:44.2311509Z",
+        "exitCode":  0
+    },
+    {
+        "name":  "timing-fork-3",
+        "executable":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\java.exe",
+        "arguments":  [
+                          "-Xms256m",
+                          "-Xmx256m",
+                          "-ea",
+                          "-cp",
+                          "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03\\classes",
+                          "PerformanceProbe",
+                          "timing"
+                      ],
+        "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-057\\performance-review-2026-10-03",
+        "startedUtc":  "2026-10-02T17:22:44.2331513Z",
+        "finishedUtc":  "2026-10-02T17:22:47.0568289Z",
+        "exitCode":  0
+    }
+]

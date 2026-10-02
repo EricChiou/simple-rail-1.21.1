@@ -1,0 +1,4 @@
+﻿javac_exit_code=0
+java_exit_code=0
+command=C:\Program Files\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin\javac.exe -d docs/evidence/T-066-070/classes src/main/java/com/ericchiu/simplerail/block/JunctionRoute.java docs/evidence/T-066-070/JunctionRouteTest.java
+run=C:\Program Files\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin\java.exe -cp docs/evidence/T-066-070/classes JunctionRouteTest

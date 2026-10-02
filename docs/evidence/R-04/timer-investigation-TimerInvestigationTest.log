@@ -1,0 +1,18 @@
+ARITHMETIC seconds=0 old_int=0 candidate_long=0
+ARITHMETIC seconds=1 old_int=1000 candidate_long=1000
+ARITHMETIC seconds=5 old_int=5000 candidate_long=5000
+ARITHMETIC seconds=10 old_int=10000 candidate_long=10000
+ARITHMETIC seconds=15 old_int=15000 candidate_long=15000
+ARITHMETIC seconds=20 old_int=20000 candidate_long=20000
+ARITHMETIC seconds=25 old_int=25000 candidate_long=25000
+ARITHMETIC seconds=30 old_int=30000 candidate_long=30000
+ARITHMETIC seconds=40 old_int=40000 candidate_long=40000
+ARITHMETIC seconds=50 old_int=50000 candidate_long=50000
+ARITHMETIC seconds=60 old_int=60000 candidate_long=60000
+ARITHMETIC seconds=2147483 old_int=2147483000 candidate_long=2147483000
+ARITHMETIC seconds=2147484 old_int=-2147483296 candidate_long=2147484000
+ARITHMETIC seconds=2147483647 old_int=-1000 candidate_long=2147483647000
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+NEW_UNGUARDED_UUID=java.lang.NullPointerException
+SAVE_GAP old_formula_remaining=6000 unload_remaining=3000 unsaved_gap=3000
+PASS checks=1049; actualNewNbt=true; oldRuntimeExecuted=false; minecraftBootstrap=false; gameExecuted=false

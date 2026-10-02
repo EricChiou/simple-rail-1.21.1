@@ -1,0 +1,1 @@
+package net.minecraft.world.level.block.state;import net.minecraft.world.level.block.state.properties.RailShape;public record BlockState(Object block,RailShape shape,boolean tagged){public Object getBlock(){return block;}}

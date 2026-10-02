@@ -1,0 +1,11 @@
+﻿{
+    "compileCommand":  "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/javac.exe @D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\hooks-compile-02.args",
+    "compileExitCode":  0,
+    "runCommand":  "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/java.exe -cp \u003cisolated classes first; fixed NEW dependencies\u003e com.ericchiu.simplerail.blockentity.TimerRailHooksTest",
+    "runExitCode":  1,
+    "stubCount":  23,
+    "actualProductionSourceCount":  4,
+    "actualNewNbt":  true,
+    "gameRuntime":  false,
+    "scope":  "Isolated call-flow tests with labelled external doubles, not real world/movement/registry/IO"
+}

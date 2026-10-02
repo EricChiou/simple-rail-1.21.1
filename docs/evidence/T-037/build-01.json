@@ -1,0 +1,8 @@
+﻿{
+    "command":  ".\\gradlew.bat build t037Jar testT037 --offline --console=plain --no-configuration-cache -I docs/evidence/T-037/probe.init.gradle",
+    "cwd":  "D:\\workspace\\java\\simple-rail-1.21.1",
+    "startedUtc":  "2026-09-29T16:16:33.6569767Z",
+    "finishedUtc":  "2026-09-29T16:16:33.8816624Z",
+    "exitCode":  1,
+    "scope":  "NEW build + separate evidence-only fixture JAR + plain JVM NBT/time tests; no OLD build or Minecraft bootstrap/server/client/GameTest"
+}

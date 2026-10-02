@@ -1,0 +1,654 @@
+{
+    "utc":  "2026-09-30T17:34:28.6159694Z",
+    "agentRanStageResetCommit":  false,
+    "cause":  "Not determined; no index mutations requested by reviewer",
+    "removedOrReplacedBaselineEntries":  [
+
+                                         ],
+    "addedEntries":  [
+                         {
+                             "InputObject":  "100644 2528c3b3e19756b884dce66c9f2011c074d9c895 0\tdocs/evidence/R-04/before/MIGRATION.md",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 d553a63f79ac1fd1c88fec524119ae9ec72f8198 0\tdocs/evidence/R-04/before/REVIEW.md",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 d412200df179bc3548ec3c72c033e9ad56554b22 0\tdocs/evidence/R-04/before/TASK.md",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 d5a6ac32a67847f91d5f4f7f698ef0d973f81658 0\tdocs/evidence/R-04/before/head.txt",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 d4e1921ab8a31f377c563f2b3064566b8c3cc8b9 0\tdocs/evidence/R-04/before/index.txt",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 ef3c4c728a59d607e01d9ba9f1f179d8a8144f00 0\tdocs/evidence/R-04/commands.json",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 22cc51c01409b5c470ebe25359605e70342939d1 0\tdocs/evidence/R-04/dispenser-investigation-DispenserSourceModelTest.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0\tdocs/evidence/R-04/dispenser-investigation-compile.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 b3f760dbc7f45210559669dc3bc20ac73e3948e4 0\tdocs/evidence/R-04/dispenser-investigation/classes/evidence/t043/DispenserSourceModel$Action.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 9ce416462e6af10f5d887efb9c4142820194c4cf 0\tdocs/evidence/R-04/dispenser-investigation/classes/evidence/t043/DispenserSourceModel$Facing.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 7d0d7c22eff098df56238bc0eecce68445026e3c 0\tdocs/evidence/R-04/dispenser-investigation/classes/evidence/t043/DispenserSourceModel$Kind.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e756eb0ead56698a464be8814af17c553df1e5a1 0\tdocs/evidence/R-04/dispenser-investigation/classes/evidence/t043/DispenserSourceModel$Position.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 19a07bef936d17cec1000c9e5cbc23afc7617d6a 0\tdocs/evidence/R-04/dispenser-investigation/classes/evidence/t043/DispenserSourceModel$Result.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 57f0778041693a41fb666656e567e0e5a23d0518 0\tdocs/evidence/R-04/dispenser-investigation/classes/evidence/t043/DispenserSourceModel$Spawner.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 bc5591c4f72dfe9e1d8385defa67d8d46bac6343 0\tdocs/evidence/R-04/dispenser-investigation/classes/evidence/t043/DispenserSourceModel$Step.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 4390a0b84f65ee1beca90afa13f91f0409ddbab6 0\tdocs/evidence/R-04/dispenser-investigation/classes/evidence/t043/DispenserSourceModel.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 befe1e2984c3ba5194820b385eaaa84e27732d51 0\tdocs/evidence/R-04/dispenser-investigation/classes/evidence/t043/DispenserSourceModelTest.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 7bb1d3a0030b1c4fe350c9cceb90ba96ff7e553c 0\tdocs/evidence/R-04/dispenser-scan-TrainDispenserScanTest.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0\tdocs/evidence/R-04/dispenser-scan-compile.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 83b2f188d46b20519d861cc60eefe00201e33bae 0\tdocs/evidence/R-04/dispenser-scan/classes/com/ericchiu/simplerail/block/TrainDispenserScan$Facing.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 6be6394c58e924ba288601ef2345dc99184ad893 0\tdocs/evidence/R-04/dispenser-scan/classes/com/ericchiu/simplerail/block/TrainDispenserScan$Position.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 fd68fc1f0dd3bd7271439b1e7d42d8789b4ea151 0\tdocs/evidence/R-04/dispenser-scan/classes/com/ericchiu/simplerail/block/TrainDispenserScan.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 1cb404c14cbbe07537ec1046d2d14c5a944f1430 0\tdocs/evidence/R-04/dispenser-scan/classes/evidence/t045/TrainDispenserScanTest.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 0c2b90c42e676178e300a444ca3314bd8276e981 0\tdocs/evidence/R-04/holding-hooks-TimerRailHooksTest.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 03514fb8319adfbd7f3d9122e9391a5ffac8e25f 0\tdocs/evidence/R-04/holding-hooks-compile.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 1971cf1e3546fc61b8df6655787ab8b079ddf733 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/block/TimerHoldingRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 0ac6b6fb4603db443465e635b41d29ab17f219dc 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/block/base/BasePoweredRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 7d85f9ad102457c345117d85c362c7a94ca23061 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/blockentity/HoldingTimer.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 61a53f4557db308f3b82cb0ac0a76be58285fafd 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/blockentity/HoldingTimerData$Snapshot.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 f88019576012be36d336a6b716c491ca7c0b9d2a 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/blockentity/HoldingTimerData.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 8d8c38ed5fbe1482611d7c98c29e370d6a7c2903 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/blockentity/TimerHoldingRailBlockEntity.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 150b77ee795161abc24ecd418fe30a6158e5c4a3 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/blockentity/TimerRailHooksTest.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 d8d8f12718cc77d16dbb4dc0e438d72222fa320d 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/config/CommonConfig$Snapshot.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 cec64728a218a102bdae772f99499ab7ea38565e 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/config/CommonConfig.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 eb9da2eb4aaa57bdcadce488464808ea6d096987 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/registry/ModBlockEntities$Holder.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 d8d401d03e50ce5b768865fec0e5906839ee3cc0 0\tdocs/evidence/R-04/holding-hooks/classes/com/ericchiu/simplerail/registry/ModBlockEntities.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 518d11345e1f93d53a4d477fa4eb3d4ffc671f87 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/core/BlockPos.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 44c70389ba0160b582e1836dd9ebd65924bcad66 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/core/Direction$Axis.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 973e8b5f4b91ef4c53902256d6441fce61934e11 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/core/Direction.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 3890454985ab816b273e9344a474a1ee00376279 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/core/HolderLookup$Provider.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 23759b35eb1b92aa325aaa6381f1e1c2a372d454 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/core/HolderLookup.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 b8ca9cf2fcf64e11e58f4b45dada6a4077f60ca8 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/nbt/CompoundTag.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 c5716516880a3770f02f5fc77ea1c3438e81099d 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/nbt/Tag.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 6decbdfa5007ca47309f7871f5295f4c5fcd92d3 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/tags/TagKey.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 bb7aaca7dd64fa8f95c0313d4629db735d139177 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/entity/vehicle/AbstractMinecart.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 5bfdf36b7448d4ddedeb39a3f231411816cd4b93 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/Level.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 826b650fe50dd25931542e94a6fa4d8e71127a8d 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/Block.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e6ae09fb4eb42914e81f6f1039dff58fa156bcb5 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/EntityBlock.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 4b3e768978439dd6a05c5772e25a10ce31862e49 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/PoweredRailBlock.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 4ad2c120241b4c9862c746983bba970960286af3 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/entity/BlockEntity.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 b23a08d66da87d70ee9f7821a5ee203e0d485e0d 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/entity/BlockEntityTicker.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 aa36d56e7263ead1d7ccedd88bc4ae75450e2051 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/entity/BlockEntityType.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 7f365a65a886bab48cb88b7da73c8a387237d7b9 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/state/BlockBehaviour$Properties.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 201a20d6aa2220ab032de64349151bb436fa0458 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/state/BlockBehaviour.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 ea2716669c989a9da383a96c8863304436c5005e 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/state/BlockState.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 9552809363a6d945aebaecd80ac08b73e5a4ad4a 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/state/StateDefinition$Builder.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 16abcae1c270e9854202c4da83826e50ff4d8cee 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/state/StateDefinition.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 dc40fa443f3518858ca476b8cf70b95d68ec1feb 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/state/properties/EnumProperty.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 222c3087ef417554f826b20957f51bd21d1531f7 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/state/properties/IntegerProperty.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 ca18604da006b16af829155dd481e51fe2ba11bd 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/state/properties/Property.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 efd431b0c09c69f7fed1bee1867676a12ff19b1d 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/level/block/state/properties/RailShape.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 d63074911e8c6ca44fea5d234b2773ac849deab6 0\tdocs/evidence/R-04/holding-hooks/classes/net/minecraft/world/phys/Vec3.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 05cca9b935ddc570c9220ceeffea5d8f339c76d1 0\tdocs/evidence/R-04/holding-nbt-HoldingTimerTest.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 03514fb8319adfbd7f3d9122e9391a5ffac8e25f 0\tdocs/evidence/R-04/holding-nbt-compile.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 7d85f9ad102457c345117d85c362c7a94ca23061 0\tdocs/evidence/R-04/holding-nbt/classes/com/ericchiu/simplerail/blockentity/HoldingTimer.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 61a53f4557db308f3b82cb0ac0a76be58285fafd 0\tdocs/evidence/R-04/holding-nbt/classes/com/ericchiu/simplerail/blockentity/HoldingTimerData$Snapshot.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 f88019576012be36d336a6b716c491ca7c0b9d2a 0\tdocs/evidence/R-04/holding-nbt/classes/com/ericchiu/simplerail/blockentity/HoldingTimerData.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 5986790e65aff2d91a873f14115e092a3fb19b3d 0\tdocs/evidence/R-04/holding-nbt/classes/com/ericchiu/simplerail/blockentity/HoldingTimerTest.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0\tdocs/evidence/R-04/logs/debug.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0\tdocs/evidence/R-04/logs/latest.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 03514fb8319adfbd7f3d9122e9391a5ffac8e25f 0\tdocs/evidence/R-04/real-api-compile.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 4de8fe3b8474f1fae9a14c5f423f3058bae3ea95 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/SimpleRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 240deded3384315150785f9b761461ebc5db543b 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/SimpleRailClient.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 2914f01205a3f91c57b12827afdcd39f5d1fa74e 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/DestoryRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 610e1afaf0fd425086d2f5e235716f4790a75a8b 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/EjectRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 f23810a31056cf1feb5fd14acf86dcf309cd498a 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/HighSpeedRail$1.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 ea2570dd7cf32d336354d48c384893232647bb77 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/HighSpeedRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 935edf56ce76a961038e7f334cd3b6cb8efb1c80 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/HoldingRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 4be0565ab64e7020d159164efb54acb79bf233fb 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/OnewayRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 40d4c4d8a02fc26c3f3493c77adc68417d503633 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/RailAscentMovementLimit.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 11dcfea7443afd01bf4e85097e7b9e6442ac4753 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/SignalTimerBlock.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 808e55a0521e5b011443a77755fbf048755c071f 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/TimerHoldingRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 9d68c2176ef190a509fefb8c6c5f2ecb8676e440 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/TrainDispenserBlock$1.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 7c4ee8ef1ce80866c489f0dbc01d1e9797ca485f 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/TrainDispenserBlock.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 83b2f188d46b20519d861cc60eefe00201e33bae 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/TrainDispenserScan$Facing.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 6be6394c58e924ba288601ef2345dc99184ad893 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/TrainDispenserScan$Position.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 fd68fc1f0dd3bd7271439b1e7d42d8789b4ea151 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/TrainDispenserScan.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 2af82a20f69cde064c2788e5013294788313cee4 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/base/BasePoweredRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 46b509f9f128a921ed3336997f204f2b0775829f 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/block/base/BaseRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 7d85f9ad102457c345117d85c362c7a94ca23061 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/blockentity/HoldingTimer.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 61a53f4557db308f3b82cb0ac0a76be58285fafd 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/blockentity/HoldingTimerData$Snapshot.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 f88019576012be36d336a6b716c491ca7c0b9d2a 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/blockentity/HoldingTimerData.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 56e797acb5782cc2034cf9f7b7b9d1a0e35dc9f0 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/blockentity/SignalTimerBlockEntity.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 b0b6d2ed0b1a6cffbe59ec3b2e550c2073348ee4 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/blockentity/SignalTimerTiming.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 d0334578dcb1961807e5103ef8946a1878b94a46 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/blockentity/TimerHoldingRailBlockEntity.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 442250daea8e2522fbce9c2ccc800c2da63a766d 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/blockentity/TrainDispenserBlockEntity.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e3f4ef5fd4a17364cd97b3007cbb2a1720525b6b 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/config/CommonConfig$Snapshot.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 25744f596585a4d8e48db25b6bef39aa7f86a4c8 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/config/CommonConfig.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 403d497337fb8d7914bdd8f92d980b381cb95485 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/item/Wrench.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 7d9e27355eaa6452bc041d337f4ec68dcbe3036e 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/mixin/AbstractMinecartMixin.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 56ce1928c30bf0e0b1b02838a609f72a5cf26a41 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/registry/ModBlockEntities.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 85cbbe519da817a0956df27b695471c75c3bde39 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/registry/ModBlocks.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 a3b307a6d428c739e182ddb9ebebb4543163a896 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/registry/ModCreativeTabs.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 1781bd8ec4d6cde048fc0d5466c08755c07f2b5f 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/registry/ModItems.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 874151e9b47bc96d029a54dfa6b1b579375d5734 0\tdocs/evidence/R-04/real-api/classes/com/ericchiu/simplerail/registry/ModTags.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 b312fab562f94d84d55ca03a58e6308989011aaa 0\tdocs/evidence/R-04/reviewed-inputs.json",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 4e479f0a4be947a8a019ffba8f8d86fffa1bf715 0\tdocs/evidence/R-04/run-tests.ps1",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 437e4d1fb0cde26e4e4baa61fa2ed0a3294793ea 0\tdocs/evidence/R-04/signal-timing-SignalTimerTimingTest.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0\tdocs/evidence/R-04/signal-timing-compile.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 b0b6d2ed0b1a6cffbe59ec3b2e550c2073348ee4 0\tdocs/evidence/R-04/signal-timing/classes/com/ericchiu/simplerail/blockentity/SignalTimerTiming.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 bd328b7c5aa8e1cad47af375680f1abb4756b58f 0\tdocs/evidence/R-04/signal-timing/classes/com/ericchiu/simplerail/blockentity/SignalTimerTimingTest.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 a5234ceb85ab50b680cdb4f0e2ef070e30e9fb92 0\tdocs/evidence/R-04/signal-timing/classes/com/ericchiu/simplerail/config/CommonConfig.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 8512846b039fa0d1afb1762b536ed5b39034f143 0\tdocs/evidence/R-04/test-inputs.json",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 397a9c6ed2d2807ba778d0f4713306581743f2e1 0\tdocs/evidence/R-04/timer-investigation-TimerInvestigationTest.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 03514fb8319adfbd7f3d9122e9391a5ffac8e25f 0\tdocs/evidence/R-04/timer-investigation-compile.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 3c4d2173f74479a3eca73b23a4d8e0e5180aac28 0\tdocs/evidence/R-04/timer-investigation/classes/evidence/t037/TimerInvestigationTest.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 60c11ebcc3220a74d914ee31957a51dde0ea3d9a 0\tdocs/evidence/R-04/timer-investigation/classes/evidence/t037/TimerRecordCodec$Record.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 f22cb37e77fa6c12e4636c1f456b17f7ad962d1b 0\tdocs/evidence/R-04/timer-investigation/classes/evidence/t037/TimerRecordCodec.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e57be06ae6a384d83f2bac79458d3d415e964bc5 0\tdocs/evidence/R-04/timer-investigation/classes/evidence/t037/TimerState.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 f1452cb3ce5f6546e7826b6f57b01c838a44c5f2 0\tdocs/evidence/R-04/wrench-TimerWrenchRegressionTest.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 8d6912a687fc315d738c4c8e4ccb0a7efd6acf20 0\tdocs/evidence/R-04/wrench-WrenchHooksTest.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0\tdocs/evidence/R-04/wrench-compile.log",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 27a0266aef0f65f6d7af20cee1ed66fe3210d84b 0\tdocs/evidence/R-04/wrench/classes/com/ericchiu/simplerail/block/TimerHoldingRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e67e2a05e8fae8293dcd3a0f053a78eba1936166 0\tdocs/evidence/R-04/wrench/classes/com/ericchiu/simplerail/block/base/BasePoweredRail.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 eb0e9345349ff299ad442d1b0b247b77159c3289 0\tdocs/evidence/R-04/wrench/classes/com/ericchiu/simplerail/config/CommonConfig$Snapshot.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 78a7c986cee5638b7f53a45afea5585a5af5087a 0\tdocs/evidence/R-04/wrench/classes/com/ericchiu/simplerail/config/CommonConfig.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 75c4c549f32092f32bc103e148260979b7e1badf 0\tdocs/evidence/R-04/wrench/classes/com/ericchiu/simplerail/item/TimerWrenchRegressionTest.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 91f999ad89800a33c17f62a3d8242b21b13a6eb3 0\tdocs/evidence/R-04/wrench/classes/com/ericchiu/simplerail/item/Wrench.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 c523294a44cec5a0749e3bd731bd03f20e629c7f 0\tdocs/evidence/R-04/wrench/classes/com/ericchiu/simplerail/item/WrenchHooksTest.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 0d700074d0c5cd4548649bcada4df91494fc8b35 0\tdocs/evidence/R-04/wrench/classes/com/ericchiu/simplerail/registry/ModTags.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 8580aa0f828382ba66a71026908786816186edcb 0\tdocs/evidence/R-04/wrench/classes/com/mojang/serialization/MapCodec.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 518d11345e1f93d53a4d477fa4eb3d4ffc671f87 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/core/BlockPos.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 44c70389ba0160b582e1836dd9ebd65924bcad66 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/core/Direction$Axis.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 973e8b5f4b91ef4c53902256d6441fce61934e11 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/core/Direction.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 3af54c16d02f3904557c16d76fa83063398d8068 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/server/level/ServerLevel.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 38a5d8c1e7a76975db543c9a5479f3feee7a531f 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/server/level/ServerPlayer.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 6decbdfa5007ca47309f7871f5295f4c5fcd92d3 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/tags/TagKey.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 9487be4fe8ece53fccc9f5e215b30202d246d05b 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/InteractionResult.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 d937895374f86407edb4f88395928e0efaa8bd44 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/entity/Entity.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 fcec9e2200927d2de1cc53a2d9fad533530d024c 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/entity/vehicle/AbstractMinecart.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 6508220886cf74d7d96b4e3c8eda195b3dd6f167 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/item/Item$Properties.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 c58c4160ad17f606a31919fed27b7ec853fe8a6b 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/item/Item.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 f4369f5c520d3057c732e729d209d434803b67c7 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/item/ItemStack.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 713180aad58d423afef203336aac99a6f973da7d 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/item/context/UseOnContext.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 ff358b13fddc4fce4c422ed4137b40e0a4d6dc69 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/Level.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 6eaa88a7ea57fda1f7f8f3b832deefba8a9a8dce 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/Block.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 e28d2fd5aa7841ffbd78bb012adb024aaf92069d 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/PoweredRailBlock.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 7f365a65a886bab48cb88b7da73c8a387237d7b9 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/BlockBehaviour$Properties.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 201a20d6aa2220ab032de64349151bb436fa0458 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/BlockBehaviour.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 ea2716669c989a9da383a96c8863304436c5005e 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/BlockState.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 9552809363a6d945aebaecd80ac08b73e5a4ad4a 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/StateDefinition$Builder.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 16abcae1c270e9854202c4da83826e50ff4d8cee 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/StateDefinition.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 5c4e0ef6dcbac0afaa4b741445c64596a1f9f11b 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/properties/BooleanProperty.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 dc40fa443f3518858ca476b8cf70b95d68ec1feb 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/properties/EnumProperty.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 222c3087ef417554f826b20957f51bd21d1531f7 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/properties/IntegerProperty.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 ca18604da006b16af829155dd481e51fe2ba11bd 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/properties/Property.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 efd431b0c09c69f7fed1bee1867676a12ff19b1d 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/level/block/state/properties/RailShape.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 f8193cc480d782d8c56021c61ae23ce249def9a9 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/phys/AABB.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 960909ccf3814322abab5d89b700576c44837bab 0\tdocs/evidence/R-04/wrench/classes/net/minecraft/world/phys/Vec3.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 c2bfeb35456870755e262f26cc5f7dd30698ad82 0\tdocs/evidence/R-04/wrench/classes/net/neoforged/neoforge/common/ItemAbilities.class",
+                             "SideIndicator":  "=\u003e"
+                         },
+                         {
+                             "InputObject":  "100644 aa91d8a47170f203951426c4006506f3daf4c9d4 0\tdocs/evidence/R-04/wrench/classes/net/neoforged/neoforge/common/ItemAbility.class",
+                             "SideIndicator":  "=\u003e"
+                         }
+                     ]
+}

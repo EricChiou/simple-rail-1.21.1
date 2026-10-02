@@ -1,0 +1,5 @@
+﻿command: PowerShell ConvertFrom-Json blockstate variants
+left_missing=0
+right_missing=0
+cross_default_variant=
+exit_code=1

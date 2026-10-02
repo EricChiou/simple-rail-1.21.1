@@ -1,0 +1,38 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-044/audit.ps1",
+    "checks":  {
+                   "build_exit_zero":  true,
+                   "build_successful":  true,
+                   "prior_inputs_only_expected_changed":  true,
+                   "two_new_source_files":  true,
+                   "eight_horizontal_state_variants":  true,
+                   "jar_entries":  true,
+                   "fixed_artifact_matches":  true
+               },
+    "failed":  [
+
+               ],
+    "changed_prior_files":  [
+                                "src/main/java/com/ericchiu/simplerail/registry/ModBlockEntities.java",
+                                "src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java",
+                                "src/main/resources/assets/simplerail/blockstates/train_dispenser.json"
+                            ],
+    "added_files":  [
+                        {
+                            "path":  "src/main/java/com/ericchiu/simplerail/block/TrainDispenserBlock.java",
+                            "sha256":  "7A31741123ED2491ED47F0D23D28457E5E604829B14EEBC24E3EBD35B359C0D5"
+                        },
+                        {
+                            "path":  "src/main/java/com/ericchiu/simplerail/blockentity/TrainDispenserBlockEntity.java",
+                            "sha256":  "98A399E1770DDA2342E94DF61B821408EDBAA624FB220EB9BBDCFB11CF8E2A42"
+                        }
+                    ],
+    "jar":  {
+                "path":  "build/libs/simplerail-1.0.0.jar",
+                "sha256":  "9B0107CA2DA90AA98946E12DB51A6508E7A927479A6F50D6305B1BA2E288C35A"
+            },
+    "missing_jar_entries":  [
+
+                            ],
+    "result":  "PASS"
+}

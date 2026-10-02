@@ -1,0 +1,42 @@
+[
+    {
+        "id":  "destory_rail",
+        "total":  48,
+        "missing":  32,
+        "flatMissing":  0,
+        "overlap":  0,
+        "scope":  "source-domain enumeration, not game bake"
+    },
+    {
+        "id":  "eject_rail",
+        "total":  96,
+        "missing":  64,
+        "flatMissing":  0,
+        "overlap":  0,
+        "scope":  "source-domain enumeration, not game bake"
+    },
+    {
+        "id":  "high_speed_rail",
+        "total":  24,
+        "missing":  0,
+        "flatMissing":  0,
+        "overlap":  0,
+        "scope":  "source-domain enumeration, not game bake"
+    },
+    {
+        "id":  "holding_rail",
+        "total":  144,
+        "missing":  96,
+        "flatMissing":  0,
+        "overlap":  0,
+        "scope":  "source-domain enumeration, not game bake"
+    },
+    {
+        "id":  "oneway_rail",
+        "total":  192,
+        "missing":  128,
+        "flatMissing":  0,
+        "overlap":  0,
+        "scope":  "source-domain enumeration, not game bake"
+    }
+]

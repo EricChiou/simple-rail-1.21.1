@@ -1,0 +1,60 @@
+// Evidence-only tasks. Production sourceSets, sources and normal JAR contents are not changed.
+gradle.projectsEvaluated {
+    def p = rootProject
+    def ev = p.file('docs/evidence/T-037')
+    def probe = p.tasks.register('compileT037Fixture', JavaCompile) {
+        dependsOn p.tasks.named('classes')
+        source = p.fileTree(new File(ev, 'fixture')) { include '**/*.java' }
+        classpath = p.sourceSets.main.compileClasspath + p.sourceSets.main.output
+        javaCompiler.set(p.tasks.named('compileJava', JavaCompile).get().javaCompiler)
+        destinationDirectory.set(p.layout.buildDirectory.dir('t037/fixture-classes'))
+        options.release.set(21)
+        options.encoding = 'UTF-8'
+        options.compilerArgs.addAll(['-proc:none', '-Xlint:deprecation', '-Werror'])
+        doFirst {
+            new File(ev,'compile-classpath.txt').text = classpath.files.collect { it.absolutePath }.join('\n')+'\n'
+            new File(ev,'compiler.txt').text = javaCompiler.get().metadata.toString()+'\n'
+        }
+    }
+    def tests = p.tasks.register('compileT037Tests', JavaCompile) {
+        dependsOn probe
+        source = p.fileTree(new File(ev,'tests')) { include '**/*.java' }
+        classpath = p.sourceSets.main.compileClasspath + p.files(probe.flatMap { it.destinationDirectory })
+        javaCompiler.set(p.tasks.named('compileJava',JavaCompile).get().javaCompiler)
+        destinationDirectory.set(p.layout.buildDirectory.dir('t037/test-classes'))
+        options.release.set(21)
+        options.encoding = 'UTF-8'
+        options.compilerArgs.addAll(['-proc:none', '-Xlint:deprecation', '-Werror'])
+    }
+    p.tasks.register('testT037', JavaExec) {
+        dependsOn tests
+        workingDir(ev) // Keep library logging side effects inside this evidence directory.
+        classpath = p.files(tests.flatMap { it.destinationDirectory },probe.flatMap { it.destinationDirectory }) + p.sourceSets.main.runtimeClasspath
+        mainClass.set('evidence.t037.TimerInvestigationTest')
+        javaLauncher.set(p.javaToolchains.launcherFor { languageVersion.set(JavaLanguageVersion.of(21)) })
+        doFirst { new File(ev,'test-classpath.txt').text = classpath.files.collect { it.absolutePath }.join('\n')+'\n' }
+    }
+    def metadata = p.tasks.register('prepareT037Metadata') {
+        dependsOn p.tasks.named('generateModMetadata')
+        doLast {
+            def source = p.file('build/generated/sources/modMetadata/META-INF/neoforge.mods.toml')
+            def out = p.file('build/t037/metadata/META-INF/neoforge.mods.toml')
+            out.parentFile.mkdirs()
+            out.text = source.getText('UTF-8').replace('displayName="Simple Rail"','displayName="Simple Rail [T037 diagnostic]"')
+        }
+    }
+    p.tasks.register('t037Jar', Jar) {
+        dependsOn probe, metadata
+        archiveFileName.set('simplerail-1.0.0-T037-probe.jar')
+        destinationDirectory.set(p.layout.buildDirectory.dir('t037/artifacts'))
+        preserveFileTimestamps = false
+        reproducibleFileOrder = true
+        from(p.sourceSets.main.output) {
+            exclude 'com/ericchiu/simplerail/SimpleRail.class'
+            exclude 'com/ericchiu/simplerail/registry/ModBlocks.class'
+            exclude 'META-INF/neoforge.mods.toml'
+        }
+        from(probe.flatMap { it.destinationDirectory })
+        from(p.file('build/t037/metadata'))
+    }
+}

@@ -26,8 +26,7 @@ public final class ModCreativeTabs {
                 output.accept(ModItems.DESTORY_RAIL.get());
                 output.accept(ModItems.TIMER_HOLDING_RAIL.get());
                 output.accept(ModItems.CROSS_RAIL.get());
-                output.accept(ModItems.Y_CROSS_RAIL.get());
-                output.accept(ModItems.Y_CROSS_RIGHT_RAIL.get());
+                output.accept(ModItems.T_CROSS_RAIL.get());
                 output.accept(ModItems.TRAIN_DISPENSER.get());
                 output.accept(ModItems.SIGNAL_TIMER.get());
             })

@@ -1,0 +1,11 @@
+﻿{
+    "command":  "Compare current src/Gradle SHA-256 with docs/evidence/T-040/fix-R1/product-inputs.json",
+    "checked":  179,
+    "changed":  [
+
+                ],
+    "product_changed":  false,
+    "head":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "production_jar_sha256":  "E1C79C838055CEF0955E8B0CF46991DA51F24BBDDCA4FE2A1DA6C6891588EF39",
+    "diagnostic_jar_sha256":  "4026BB07B15FA97179ABADDB211CAADD20FC69B752ADCA9665D07CA91B07E41A"
+}

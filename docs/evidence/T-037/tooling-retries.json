@@ -1,0 +1,21 @@
+{
+  "scope": "Observed packaging/audit tool failures during T-037; not Minecraft or product failures.",
+  "auditCommand": "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-037/audit.ps1",
+  "auditAttempts": [
+    {"exitCode": 1, "evidence": "audit-failed.json", "reason": "Empty git diff pipeline did not create index-after.diff.", "resolution": "Write empty UTF-8 file explicitly before hash comparison."},
+    {"exitCode": 1, "evidence": "audit-failed-01.json", "reason": "Initial ZIP used Windows backslash entry paths; forward-slash manifest lookup failed.", "resolution": "Preserve initial draft ZIP; produce final archive with explicit forward-slash entry paths."},
+    {"exitCode": 1, "evidence": "audit-failed-02.json", "reason": "Audit was invoked after failed packaging retry while final ZIP was absent.", "resolution": "Complete packaging successfully before next audit."},
+    {"exitCode": 1, "evidence": "audit-failed-03.json", "reason": "Exact state comparison omitted existing development-complete statuses with annotations.", "resolution": "Count development-complete prefix while retaining exact before/after task-state comparison for every other task."},
+    {"exitCode": 0, "evidence": "audit.json", "reason": "All checks passed after tooling fixes."}
+  ],
+  "packageCommand": "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-037/package.ps1",
+  "packageAttempts": [
+    {"exitCode": 0, "evidence": "package-draft-windows-separators.json", "artifact": "artifacts/T-037-v1-draft-windows-separators.zip", "result": "Initial internal draft; not the delivered ZIP."},
+    {"exitCode": 1, "result": "Copy-Item directory already exists; command output captured in tool transcript.", "resolution": "Copy individual files to explicit destination paths."},
+    {"exitCode": 1, "result": "IO.Compression.ZipArchiveMode type unavailable; command output captured in tool transcript.", "resolution": "Load System.IO.Compression assembly explicitly."},
+    {"exitCode": 0, "evidence": "package.json", "result": "Final ZIP generated; JAR hash unchanged."}
+  ],
+  "newBuildFailures": "build-01.json: wrapper cache permission; build-02.json and build-03.json exit 0.",
+  "productChanged": false,
+  "gameExecuted": false
+}

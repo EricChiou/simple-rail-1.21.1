@@ -1,0 +1,7 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-041/run-timing-test.ps1",
+    "javac":  "javac --release 21 -d docs/evidence/T-041/tests/classes [production SignalTimerTiming.java and two test sources]",
+    "compile_exit":  0,
+    "java":  "java -cp docs/evidence/T-041/tests/classes com.ericchiu.simplerail.blockentity.SignalTimerTimingTest",
+    "test_exit":  0
+}

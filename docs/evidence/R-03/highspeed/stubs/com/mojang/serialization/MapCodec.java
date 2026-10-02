@@ -1,0 +1,1 @@
+package com.mojang.serialization; public class MapCodec<T>{}

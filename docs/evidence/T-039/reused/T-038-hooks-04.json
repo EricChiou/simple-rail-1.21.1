@@ -1,0 +1,11 @@
+﻿{
+    "compileCommand":  "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/javac.exe @D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\hooks-compile-04.args",
+    "compileExitCode":  0,
+    "runCommand":  "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/java.exe -cp \u003cisolated classes first; fixed NEW dependencies\u003e com.ericchiu.simplerail.blockentity.TimerRailHooksTest",
+    "runExitCode":  0,
+    "stubCount":  25,
+    "actualProductionSourceCount":  4,
+    "actualNewNbt":  false,
+    "gameRuntime":  false,
+    "scope":  "Isolated rail/BE call-flow with labelled Minecraft/NBT doubles; actual NEW NBT is independently covered by Gradle testT038"
+}

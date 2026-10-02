@@ -2,6 +2,7 @@ package com.ericchiu.simplerail.block;
 
 import com.ericchiu.simplerail.block.base.BasePoweredRail;
 import com.ericchiu.simplerail.config.CommonConfig;
+import com.ericchiu.simplerail.entity.LocomotiveCartEntity;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
@@ -17,7 +18,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 
-/** Historical spelling and ordinary minecart removal; consist deletion belongs to T-061. */
+/** Historical spelling retained for the registered rail and its whole-train behavior. */
 public final class DestoryRail extends BasePoweredRail {
     public static final MapCodec<PoweredRailBlock> CODEC = simpleCodec(DestoryRail::new);
     public static final BooleanProperty NEED_POWER = BooleanProperty.create("need_power");
@@ -50,7 +51,8 @@ public final class DestoryRail extends BasePoweredRail {
         }
 
         // discard preserves vanilla removal hooks (including container contents), not damage/drop logic.
-        cart.discard();
+        if (cart instanceof LocomotiveCartEntity head) head.discardTrain(serverLevel);
+        else cart.discard();
         double x = pos.getX() + 0.5D;
         double y = pos.getY() + 0.75D;
         double z = pos.getZ() + 0.5D;

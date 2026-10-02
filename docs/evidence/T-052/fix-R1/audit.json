@@ -1,0 +1,26 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-052/fix-R1/audit.ps1",
+    "head":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "source":  [
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/entity/LocomotiveCartEntity.java",
+                       "beforeSha256":  "1DC58D81E451C1843F52291ADB8156FBBB5A923391054F8DE81D0A32CB35FA21",
+                       "afterSha256":  "025244C7B2B3BBD9EFA3915B1D2929FD81839633FAFCD8EFE2DFBA3E13ABFC05"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/client/LocomotiveCartRenderer.java",
+                       "beforeSha256":  "142BC47DF3B05626517D3130AEA2834565FD5DFE04A28BCBE2DBB6FF3B907CB8",
+                       "afterSha256":  "A5216DCF58B0AA8ACE30B424FADEA7957C0FBA4710853CCD2FC71C30BC87A46D"
+                   }
+               ],
+    "jar":  {
+                "path":  "docs/test-packages/T-052-R1/mods/simplerail-1.0.0.jar",
+                "sha256":  "5E4858167925DE9B22161781AE89649BDA87948E285F3AA5CCFAF008777898BD"
+            },
+    "bytecode":  {
+                     "railCap":  "1.2f (ordinary cart extension default)",
+                     "coastDrag":  "0.997 occupied / 0.96 empty; parent fuel branch retained",
+                     "rendererDisplayBlockCalls":  0
+                 },
+    "result":  "PASS"
+}

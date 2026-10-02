@@ -1,0 +1,190 @@
+﻿[
+    {
+        "path":  "CASES.md",
+        "sha256":  "7774472F786ED973B5A1EFE55CED429EF7EB39E0CDA98567FBC45DE2B0DC8EB4"
+    },
+    {
+        "path":  "INSTALL.md",
+        "sha256":  "80B79CD27C16484EEBBA42C698513179A468ECFD61CE12E3F057D3EA790E01F8"
+    },
+    {
+        "path":  "manifest.json",
+        "sha256":  "5C5721D2C15C5A8D449BB8A87412BC267138992C810DBC3DC94E4DA8DD03BE79"
+    },
+    {
+        "path":  "README.md",
+        "sha256":  "DFC2E2097CDB4827DBEF9EDF88F0375954029C87C7287CCFEE488C616CAB0DA8"
+    },
+    {
+        "path":  "results.json",
+        "sha256":  "F8C638BCF263499E229F39AEF68541C7BC6657422526D739551C273339086850"
+    },
+    {
+        "path":  "evidence/build-01.json",
+        "sha256":  "2EF6E219C804F89272E1040D2B26804533C40A33D8F052A2185118CC4B01FF40"
+    },
+    {
+        "path":  "evidence/build-01.log",
+        "sha256":  "A7CFC98625BBAB26E82C1280BD36C8DDFA6C7A81BF6567D8B826696C7C938B20"
+    },
+    {
+        "path":  "evidence/build-02.json",
+        "sha256":  "B0FE21B87F23C84C0C1B7EC74C93DAFF3AD02B33FF3CA7674EAF85A5FF97D2D3"
+    },
+    {
+        "path":  "evidence/build-02.log",
+        "sha256":  "18E99DC66B396ACEA5AFAC94F26875A07D90AF5AEC74FDD1EF14F06780B2886C"
+    },
+    {
+        "path":  "evidence/build-03.json",
+        "sha256":  "9EECD5F2B134D6560D17B584A8D958353FBD429FB29161FDB6988F96965A9E72"
+    },
+    {
+        "path":  "evidence/build-03.log",
+        "sha256":  "C1BD3473FEA334C39AF378BA99DE15579C948BF579D531003137608CE473A3A5"
+    },
+    {
+        "path":  "evidence/build.ps1",
+        "sha256":  "D3C86297626E2A45B04B53D1BB6B6E785ACD3E68981DF41FB64D10E28B042B0A"
+    },
+    {
+        "path":  "evidence/collection.json",
+        "sha256":  "F01F38EBE161C8EF62627404078243381170572EF91036E6FF570B19462329C3"
+    },
+    {
+        "path":  "evidence/compiler.txt",
+        "sha256":  "81872502A2B64EDC05F7B9E7F9346F08890D882738146E28DA5311BDDC7C8639"
+    },
+    {
+        "path":  "evidence/input-fingerprints.json",
+        "sha256":  "E932A0D4DD5BC7661C31B60016F1C21A875D25D6FC6B59072596897B6AF68A43"
+    },
+    {
+        "path":  "evidence/INVESTIGATION.md",
+        "sha256":  "8B3C1AE6FFA8FA178C383B37503D00237B00F0D65DA46C0C15FAF1DB226680D6"
+    },
+    {
+        "path":  "evidence/java-version.log",
+        "sha256":  "4D9EBF25B654F46CB8E597FF8A73BA9481101CCDFEF6EE701925B8503DD142AA"
+    },
+    {
+        "path":  "evidence/old-head.json",
+        "sha256":  "3FA57A058CB7EBB45E8A5B29880AE4F002D9805F83EA0725079D12547AF1AF32"
+    },
+    {
+        "path":  "evidence/overlay-entry.diff",
+        "sha256":  "7FAD2DBF64E1536D89966D3163128B26F3F73B07C385EB47967535FA612B354B"
+    },
+    {
+        "path":  "evidence/overlay-registry.diff",
+        "sha256":  "3DFDC559C758A5A1E0EC29C367829823A085825BE0EE9DFDA308A59D34657383"
+    },
+    {
+        "path":  "evidence/probe.init.gradle",
+        "sha256":  "62EE42E30BA35ACD081A374B54C9D22691EA994EDB98983EE1F1BD95572FCBF3"
+    },
+    {
+        "path":  "evidence/product-before.json",
+        "sha256":  "DC92E20E7EF387B0D01DBE4CD8ACE668EDB6823F16CAFFC71AADE05D87EA452D"
+    },
+    {
+        "path":  "evidence/fixture/com/ericchiu/simplerail/SimpleRail.java",
+        "sha256":  "B33D1C7FD818816AA870B44F6CD5AA2EB371FEF4057FD066B64F8FABB3AA3BB2"
+    },
+    {
+        "path":  "evidence/fixture/com/ericchiu/simplerail/registry/ModBlocks.java",
+        "sha256":  "75044F7C830FA29D6F6BE47807900E84D205A873A3579C0AFD41E58FF761C71D"
+    },
+    {
+        "path":  "evidence/fixture/evidence/t037/TimerProbe.java",
+        "sha256":  "0F3BC55EBB46E2780F792F2F2ACAD2311CDC7298C3D5CA13AD6347CADEDAC911"
+    },
+    {
+        "path":  "evidence/fixture/evidence/t037/TimerRecordCodec.java",
+        "sha256":  "72A13EFDB11DE5325C92EA023E7C2EBF8753FBAF8267E871EA76D5D50F46E757"
+    },
+    {
+        "path":  "evidence/fixture/evidence/t037/TimerState.java",
+        "sha256":  "C79A882E7CD46ED69552D15987891ED055B589D58CD9C39D0D205FEDC3B65220"
+    },
+    {
+        "path":  "evidence/sources/old/CommonConfig.java",
+        "sha256":  "12729B08246AC681D8FBE33DEB08749C752010BB648B7260E4ED5439D50BA8CC"
+    },
+    {
+        "path":  "evidence/sources/old/TileEntities.java",
+        "sha256":  "B305BEA696DE75C97AE963A8B31BD9B5619F7F86EC2186D455643A4F378A9EB4"
+    },
+    {
+        "path":  "evidence/sources/old/TimerHoldingRail.java",
+        "sha256":  "A681EB85810AD0FA25DBF48F51DA5CB596765534B02E738DA4B592E48EFCA911"
+    },
+    {
+        "path":  "evidence/sources/old/TimerHoldingRailTileEntity.java",
+        "sha256":  "38D98F1B4B09FD62937AEDC8433034D648F73B80CC30EB0B968D3DBAA5DB651F"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/commands/Commands.java",
+        "sha256":  "3AF51E8C5134C5B5B46525E9E72248BFF21E636CCAE3202FCBC79A189CE83EB0"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/commands/arguments/coordinates/BlockPosArgument.java",
+        "sha256":  "126360247A5BABC94C16AA9714552C095298C95323C106EB49F0A5F045292BB3"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/nbt/CompoundTag.java",
+        "sha256":  "7F4C04FCCC60BD17100373353A1BF91221775F1B3FF44940E882CF170B55CF52"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/nbt/NbtUtils.java",
+        "sha256":  "B49541AB1CCF2A7EB241F60AECB2A1C6283A0553E30CDBE7F933F3A964A9B31B"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/server/level/ChunkMap.java",
+        "sha256":  "2948EB35FB4C7566D63D132DC59E44C6E87091532BC820901D89148A231CBADC"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/server/level/ServerLevel.java",
+        "sha256":  "AD692045B8DBCAD4A6950A909E5BF97021A595E7C49F00A8B6063ADEEA9090C9"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/world/level/Level.java",
+        "sha256":  "4BF2B125FBC6E4B8C21DF6841CA9D0123F4BFC0E781656721973A26DD5278A6F"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/world/level/block/entity/BlockEntity.java",
+        "sha256":  "DB9A3B3C68F0A24C418199F81537047F47CF7DADD1D442F9E9001A08BBCE34EF"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/world/level/chunk/LevelChunk.java",
+        "sha256":  "EEE6F8EB811B012B4A2C78397B2981A29CEDA0DD7F1F50DEC50748D8A378A3CE"
+    },
+    {
+        "path":  "evidence/sources/target/net/minecraft/world/level/chunk/storage/ChunkSerializer.java",
+        "sha256":  "94238FBA7C7A348B48A31AB7AE11C89FA8E8ED560E8C0A33F2A2349CED95C050"
+    },
+    {
+        "path":  "evidence/sources/target/net/neoforged/neoforge/common/extensions/IBlockEntityExtension.java",
+        "sha256":  "611205FDC0AFEC68787B55C499800EABF87C44A260667989C3A61B02454B9C1A"
+    },
+    {
+        "path":  "evidence/sources/target/net/neoforged/neoforge/event/RegisterCommandsEvent.java",
+        "sha256":  "0C8591EEEAF53FED656AD27839CB0487BCC7AC429B965A4BF4D2973D9F65EEE2"
+    },
+    {
+        "path":  "evidence/sources/target/net/neoforged/neoforge/event/level/ChunkDataEvent.java",
+        "sha256":  "5A465B49E743BFC865905BDB9A819F273A282BAC6E6EBFE2AE3C838756A46D0E"
+    },
+    {
+        "path":  "evidence/sources/target/net/neoforged/neoforge/event/level/ChunkEvent.java",
+        "sha256":  "B589D1002C55872ED7B5048A58EF8403552C74B1DFFABE24D4FF246DB31EAAB6"
+    },
+    {
+        "path":  "evidence/tests/evidence/t037/TimerInvestigationTest.java",
+        "sha256":  "AA1ECAC5BC95E6C36229416854DFACDEB47FFAA629259BC02A1C28E857508ADC"
+    },
+    {
+        "path":  "mods/simplerail-1.0.0-T037-probe.jar",
+        "sha256":  "AAF9977E094981A481305DCDCF6C60694931FFD3483A29C9A6A5B31BB10415C7"
+    }
+]

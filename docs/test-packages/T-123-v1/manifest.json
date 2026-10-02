@@ -1,0 +1,45 @@
+﻿{
+    "head":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "changedProductFiles":  [
+                                {
+                                    "path":  "src/main/java/com/ericchiu/simplerail/block/JunctionRoute.java",
+                                    "sha256":  "A39BE09866E52C9A0F6357E43601E6DE5D267D2F1DAA66BABFC2F2F783AF9315"
+                                },
+                                {
+                                    "path":  "src/main/java/com/ericchiu/simplerail/block/JunctionRail.java",
+                                    "sha256":  "1CCF4EED6A25376D0A573918EBDFFDF7AD2AFED6CF0778697FC6B9D5D0844DDA"
+                                },
+                                {
+                                    "path":  "src/main/java/com/ericchiu/simplerail/block/CrossRail.java",
+                                    "sha256":  "83A93B97BAC537B3F034EDC8EA04E87826BCAF5FA25B31B6C8ED8CBCE503BA08"
+                                },
+                                {
+                                    "path":  "src/main/java/com/ericchiu/simplerail/block/AbstractYCrossRail.java",
+                                    "sha256":  "AAC2FD4CED4865C860785F632DA849D6175E9C2FF3D029A68EB0E0579953AECE"
+                                },
+                                {
+                                    "path":  "src/main/java/com/ericchiu/simplerail/block/YCrossRail.java",
+                                    "sha256":  "5011FD4E312851B9CD4A6C55D74F86B75E05B8944C60154524C8F3611834739B"
+                                },
+                                {
+                                    "path":  "src/main/java/com/ericchiu/simplerail/block/YCrossRightRail.java",
+                                    "sha256":  "F71C5DF26AB4740A5D4144C9ED2A264070DC0E0A996CD744CF5AA6411CFC9B68"
+                                },
+                                {
+                                    "path":  "src/main/java/com/ericchiu/simplerail/blockentity/JunctionRailBlockEntity.java",
+                                    "sha256":  "2A34C7EE890A06B5BF589B3FE642FB90F3213233F9E96AD2406EDF31EB1F4A6A"
+                                },
+                                {
+                                    "path":  "src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java",
+                                    "sha256":  "6A564A93CD06477FC96649DD3BD34A98E7EC07616F04ECA9CE132A3EBD2C0B83"
+                                },
+                                {
+                                    "path":  "src/main/java/com/ericchiu/simplerail/registry/ModBlockEntities.java",
+                                    "sha256":  "B6B6E58559EAB670E17FD8F64ABEAE1451A3C55AA124ECCA568CD23EFA08E518"
+                                }
+                            ],
+    "jarSha256":  "D49799ECCBFC19E722EC9E68ADC2B05C7BB5F7A0C9DA39A85E83468BC349CD45",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod":  "1.0.0"
+}

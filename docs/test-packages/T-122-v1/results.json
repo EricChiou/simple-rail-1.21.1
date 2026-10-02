@@ -1,0 +1,14 @@
+{
+  "task": "T-122",
+  "package": "T-122-v1",
+  "jarSha256": "8FE277F07B81B737189F8D12524745B7CA90962107F9F9E635884797F9EDE581",
+  "cases": {
+    "T122-01": { "actual": null, "status": "待使用者執行" },
+    "T122-02": { "actual": null, "status": "待使用者執行" },
+    "T122-03": { "actual": null, "status": "待使用者執行" },
+    "T122-04": { "actual": null, "status": "待使用者執行" },
+    "T122-05": { "actual": null, "status": "待使用者執行" },
+    "T122-06": { "actual": null, "status": "待使用者執行" },
+    "T122-07": { "actual": null, "status": "待使用者執行" }
+  }
+}

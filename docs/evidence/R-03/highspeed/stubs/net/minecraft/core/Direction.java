@@ -1,0 +1,1 @@
+package net.minecraft.core; public enum Direction {EAST(1,0),WEST(-1,0),SOUTH(0,1),NORTH(0,-1),UP(0,0),DOWN(0,0); public final int x,z; Direction(int x,int z){this.x=x;this.z=z;}}

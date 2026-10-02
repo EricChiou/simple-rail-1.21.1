@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "direction=north,powered=false": {
+      "model": "simplerail:block/t_cross_right_rail"
+    },
+    "direction=south,powered=false": {
+      "model": "simplerail:block/t_cross_right_rail",
+      "y": 180
+    },
+    "direction=east,powered=false": {
+      "model": "simplerail:block/t_cross_right_rail",
+      "y": 90
+    },
+    "direction=west,powered=false": {
+      "model": "simplerail:block/t_cross_right_rail",
+      "y": 270
+    },
+    "direction=north,powered=true": {
+      "model": "simplerail:block/t_cross_left_rail"
+    },
+    "direction=south,powered=true": {
+      "model": "simplerail:block/t_cross_left_rail",
+      "y": 180
+    },
+    "direction=east,powered=true": {
+      "model": "simplerail:block/t_cross_left_rail",
+      "y": 90
+    },
+    "direction=west,powered=true": {
+      "model": "simplerail:block/t_cross_left_rail",
+      "y": 270
+    }
+  }
+}

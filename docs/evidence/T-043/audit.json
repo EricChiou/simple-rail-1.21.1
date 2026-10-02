@@ -1,0 +1,21 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-043/audit.ps1",
+    "checks":  {
+                   "build_exit_zero":  true,
+                   "test_model_pass":  true,
+                   "jar_hash":  true,
+                   "product_inputs_unchanged":  true,
+                   "production_jar_unchanged":  true,
+                   "fixture_hashes":  true,
+                   "eight_empty_results":  true,
+                   "jar_entries":  true,
+                   "local_links":  true
+               },
+    "failed":  [
+
+               ],
+    "missing_links":  [
+
+                      ],
+    "result":  "PASS"
+}

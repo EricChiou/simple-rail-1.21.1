@@ -1,0 +1,16 @@
+﻿com/ericchiu/simplerail/block/AbstractYCrossRail.class
+com/ericchiu/simplerail/block/CrossRail.class
+com/ericchiu/simplerail/block/JunctionRail$1.class
+com/ericchiu/simplerail/block/JunctionRail.class
+com/ericchiu/simplerail/block/JunctionRoute$Cardinal.class
+com/ericchiu/simplerail/block/JunctionRoute$Kind.class
+com/ericchiu/simplerail/block/JunctionRoute.class
+com/ericchiu/simplerail/block/YCrossRail.class
+com/ericchiu/simplerail/block/YCrossRightRail.class
+com/ericchiu/simplerail/blockentity/JunctionRailBlockEntity$Passage.class
+com/ericchiu/simplerail/blockentity/JunctionRailBlockEntity.class
+com/ericchiu/simplerail/registry/ModBlockEntities.class
+com/ericchiu/simplerail/registry/ModBlocks.class
+assets/simplerail/blockstates/cross_rail.json
+assets/simplerail/blockstates/y_cross_rail.json
+assets/simplerail/blockstates/y_cross_right_rail.json

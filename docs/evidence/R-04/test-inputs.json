@@ -1,0 +1,754 @@
+[
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\ca.weblite\\java-objc-bridge\\1.1\\1227f9e0666314f9de41477e3ec277e542ed7f7b\\java-objc-bridge-1.1.jar",
+        "sha256":  "77E34A13BCCFFC6C8B1A0E3ED46DDB0EA7DD56F2104ECDFACAAEC9E4054AC332"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.electronwill.night-config\\core\\3.8.3\\b442a95f09e349927f5a945ecb594455870fcf4f\\core-3.8.3.jar",
+        "sha256":  "971DC88C1C22085611EE1C300F5BBF8595938178E819BEFBB5E98C3CBD272B79"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.electronwill.night-config\\toml\\3.8.3\\90b2fd6efcb4a7d5b9810cf78f9d824994d717f2\\toml-3.8.3.jar",
+        "sha256":  "CCB92882264BF071E3916AB122FE5EA3E211B8EBF199201698A1324F151F928F"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.github.oshi\\oshi-core\\6.4.10\\b1d8ab82d11d92fd639b56d639f8f46f739dd5fa\\oshi-core-6.4.10.jar",
+        "sha256":  "FEF001A7A13515C273F30915915580782AFBC45273CC07AA15994E51563EF310"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.findbugs\\jsr305\\3.0.2\\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\\jsr305-3.0.2.jar",
+        "sha256":  "766AD2A0783F2687962C8AD74CEECC38A28B9F72A2D085EE438B7813E928D0C7"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.10.1\\b3add478d4382b78ea20b1671390a858002feb6c\\gson-2.10.1.jar",
+        "sha256":  "4241C14A7727C34FEEA6507EC801318A3D4A90F070E4525681079FB94EE4C593"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.errorprone\\error_prone_annotations\\2.18.0\\89b684257096f548fa39a7df9fdaa409d4d4df91\\error_prone_annotations-2.18.0.jar",
+        "sha256":  "9E6814CB71816988A4FD1B07A993A8F21BB7058D522C162B1DE849E19BEA54AE"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\failureaccess\\1.0.1\\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\\failureaccess-1.0.1.jar",
+        "sha256":  "A171EE4C734DD2DA837E4B16BE9DF4661AFAB72A41ADAF31EB84DFDAF936CA26"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\32.1.2-jre\\5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318\\guava-32.1.2-jre.jar",
+        "sha256":  "BC65DEA7CFD9E4DACF8419D8AF0E741655857D27885BB35D943D7187FC3A8FCE"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\listenablefuture\\9999.0-empty-to-avoid-conflict-with-guava\\b421526c5f297295adef1c886e5246c39d4ac629\\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+        "sha256":  "B372A037D4230AA57FBEFFDEF30FD6123F9C0C2DB85D0ACED00C91B974F33F99"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.google.j2objc\\j2objc-annotations\\2.8\\c85270e307e7b822f1086b93689124b89768e273\\j2objc-annotations-2.8.jar",
+        "sha256":  "F02A95FA1A5E95EDB3ED859FD0FB7DF709D121A35290EFF8B74DCE2AB7F4D6ED"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.ibm.icu\\icu4j\\73.2\\61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9\\icu4j-73.2.jar",
+        "sha256":  "29280822F4B0796ACEF1F79B90B1D0C1EDD86C10E876A848E04B8A6298A16BF9"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.machinezoo.noexception\\noexception\\1.7.1\\b65330c98e38a1f915fa54a6e5eca496505e3f0a\\noexception-1.7.1.jar",
+        "sha256":  "3D70AAEA3904918587A21BDF99AB6ADE9AB1DD0EAF6119344BA513F60F575816"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.mojang\\authlib\\6.0.54\\de8bc95660e1b2fe8793fd427a7a10dcec5b3ea7\\authlib-6.0.54.jar",
+        "sha256":  "319EA7B53B5E52F62AD3E2B81E9DB7F0751240EDAC548BD74F5F19E35DC21A3B"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.mojang\\blocklist\\1.0.10\\5c685c5ffa94c4cd39496c7184c1d122e515ecef\\blocklist-1.0.10.jar",
+        "sha256":  "830BFD639C8DB49236BBD8E45D3A2B8C96C56FF654A10118654958A6235D4C44"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.mojang\\brigadier\\1.3.10\\d15b53a14cf20fdcaa98f731af5dda654452c010\\brigadier-1.3.10.jar",
+        "sha256":  "C8EE4136E474AC7723CA2B432EC8D1A2BC88EF7D1EC57C314BA9E33CDC83DD75"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.mojang\\datafixerupper\\8.0.16\\67d4de6d7f95d89bcf5862995fb854ebaec02a34\\datafixerupper-8.0.16.jar",
+        "sha256":  "FFC138BC2596C291781B0D5E211CCAC51F0F2345F27FC2742F335CEDF7E2870D"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.mojang\\logging\\1.2.7\\24cb95ffb0e3433fd6e844c04e68009e504ca1c0\\logging-1.2.7.jar",
+        "sha256":  "3DC3190204BAC5F4184D8405BFE1F724F73A6A15A0D3F36EC7F69E6872C1A76C"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.mojang\\patchy\\2.2.10\\da05971b07cbb379d002cf7eaec6a2048211fefc\\patchy-2.2.10.jar",
+        "sha256":  "16D70E7968B45CAFFC81576268EB000F473FB60BF257182D3447DEA8EC919D5A"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\com.mojang\\text2speech\\1.17.9\\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\\text2speech-1.17.9.jar",
+        "sha256":  "C2A95B499E76FADA7DD63E9B0EC797B678D411C2B0EE6F37F4DC674662BFB0AF"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\commons-codec\\commons-codec\\1.16.0\\4e3eb3d79888d76b54e28b350915b5dc3919c9de\\commons-codec-1.16.0.jar",
+        "sha256":  "56595FB20B0B85BC91D0D503DAD50BB7F1B9AFC0EED5DFFA6CBB25929000484D"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\commons-io\\commons-io\\2.15.1\\f11560da189ab563a5c8e351941415430e9304ea\\commons-io-2.15.1.jar",
+        "sha256":  "A58AF12EE1B68CFD2EBB0C27CAEF164F084381A00EC81A48CC275FD7EA54E154"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\commons-logging\\commons-logging\\1.2\\4bfc12adfe4842bf07b657f0369c4cb522955686\\commons-logging-1.2.jar",
+        "sha256":  "DADDEA1EA0BE0F56978AB3006B8AC92834AFEEFBD9B7E4E6316FCA57DF0FA636"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\bootstraplauncher\\2.0.2\\1a2d076cbc33b0520cbacd591224427b2a20047d\\bootstraplauncher-2.0.2.jar",
+        "sha256":  "D3F29309140540570FD6C709509706AA8FB133C1C8AEF24491688F1A3F4E1D49"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\modlauncher\\11.0.5\\b8f0d49294f733fdb6173931b263553e943dc950\\modlauncher-11.0.5.jar",
+        "sha256":  "FD9B9FC7CF043D2264EA0113EAC6B258F0A71FECE5B00E831BFBDF9726C78A24"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\cpw.mods\\securejarhandler\\3.0.8\\c0ef95cecd8699a0449053ac7d9c160748d902cd\\securejarhandler-3.0.8.jar",
+        "sha256":  "945C63D6DEAFC821616B0380C23867D9B8C2852438F8A6DF72732AB933FC587D"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\io.github.llamalad7\\mixinextras-neoforge\\0.5.3\\a0919957808de97707c5fb4ce073e66aeef3e187\\mixinextras-neoforge-0.5.3.jar",
+        "sha256":  "9822E773BD9F42D36ED53EA3D67486207291747A7BFACC29BEEB92040721BC9B"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-buffer\\4.1.97.Final\\f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f\\netty-buffer-4.1.97.Final.jar",
+        "sha256":  "A4393F5B395486CC74D0325C9B41311ABB9513BA0FD7EF8CF46E9345C3BFFBEA"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-codec\\4.1.97.Final\\384ba4d75670befbedb45c4d3b497a93639c206d\\netty-codec-4.1.97.Final.jar",
+        "sha256":  "BCC96737A0F912FCF031CF8C45EBDA352A90A40437DB0832CAAD3D5A63618B38"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-common\\4.1.97.Final\\7cceacaf11df8dc63f23d0fb58e9d4640fc88404\\netty-common-4.1.97.Final.jar",
+        "sha256":  "A8ACA0C8E9347ACC75C885ECC749195D9775369AA520B9276F2D1128210A6C17"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-handler\\4.1.97.Final\\abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36\\netty-handler-4.1.97.Final.jar",
+        "sha256":  "BD4771D19149CBC9C7464ED2D58035D79CDFED7ADB59D38718B0D8E7A3DCC2DE"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-resolver\\4.1.97.Final\\cec8348108dc76c47cf87c669d514be52c922144\\netty-resolver-4.1.97.Final.jar",
+        "sha256":  "38A018C6D9FB2CB11B72881354782B45080BBD20B9A0AD6CDE28B80D431ED0B1"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport\\4.1.97.Final\\f37380d23c9bb079bc702910833b2fd532c9abd0\\netty-transport-4.1.97.Final.jar",
+        "sha256":  "197FD2D6C6B4AFE677D9E95BF2E36B49A0BCABDFCE0583683FB73F29A3F5A407"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport-classes-epoll\\4.1.97.Final\\795da37ded759e862457a82d9d92c4d39ce8ecee\\netty-transport-classes-epoll-4.1.97.Final.jar",
+        "sha256":  "EE65FA17FE65F18FD22269F92BDDAD85BFB3A263CF65EBA01E116A2F30B86FF5"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\io.netty\\netty-transport-native-unix-common\\4.1.97.Final\\d469d84265ab70095b01b40886cabdd433b6e664\\netty-transport-native-unix-common-4.1.97.Final.jar",
+        "sha256":  "412FE140257C2DDA5A5E15BEE911298BD61928D03EE6BE4DB588E82C196C5DC6"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\it.unimi.dsi\\fastutil\\8.5.12\\c24946d46824bd528054bface3231d2ecb7e95e8\\fastutil-8.5.12.jar",
+        "sha256":  "B5543EE08D062D551CF0A5C9BC0FB70588B0382079029BA48941FA9C9BE8A5D4"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.fabricmc\\sponge-mixin\\0.15.2+mixin.0.8.7\\2af2f021d8e02a0220dc27a7a72b4666d66d44ca\\sponge-mixin-0.15.2+mixin.0.8.7.jar",
+        "sha256":  "1D45CFE3AE4A2EAB38DC74276803748CF799088986260D6D912E50DDB35D15C5"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.java.dev.jna\\jna\\5.14.0\\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\\jna-5.14.0.jar",
+        "sha256":  "34ED1E1F27FA896BCA50DBC4E99CF3732967CEC387A7A0D5E3486C09673FE8C6"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.java.dev.jna\\jna-platform\\5.14.0\\28934d48aed814f11e4c584da55c49fa7032b31b\\jna-platform-5.14.0.jar",
+        "sha256":  "AE4CACEB3840730C2537F9B7FB55A01BABA580286B4122951488BCEE558C2449"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.jodah\\typetools\\0.6.3\\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\\typetools-0.6.3.jar",
+        "sha256":  "408300867804BE05D1083CC0287DD3A21295A9E76090E288013BA5A4182DC96D"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.minecrell\\terminalconsoleappender\\1.3.0\\b562e9bb61235c9520e26282cdee71f8f802d1fc\\terminalconsoleappender-1.3.0.jar",
+        "sha256":  "1AFEA1BCA095068F7F4483F061FEED94753BE34233DDB0DF9EC380FC14D5A985"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged.fancymodloader\\earlydisplay\\4.0.44\\cb2afcf15672180eca1c49b1c9b1208951ef322e\\earlydisplay-4.0.44.jar",
+        "sha256":  "96922D7589000AF7550F42D437F05676EEA6B9708823E47C78E882560746042E"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged.fancymodloader\\loader\\4.0.44\\63433608b68302a442e3dba87880e54f42ea0583\\loader-4.0.44.jar",
+        "sha256":  "F2096CD86D605C0484971FC712208E0DC6CECFE53E056DB61D44A98CADC19499"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\accesstransformers\\10.0.1\\fd83b5725f76eae9115e9355fa1c456a6a441400\\accesstransformers-10.0.1.jar",
+        "sha256":  "89FB0DC3D68F8A5961F309EE110DAD7D2C1094BA204595602B71E02E104838A1"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\bus\\8.0.5\\5b2d33285ab5d1554e9798ad98c40d6ea3868bd5\\bus-8.0.5.jar",
+        "sha256":  "705E24F37752809499A5CD0C7DD31EAABF3D933C5D3B2060168E94E9EF62593A"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\coremods\\7.0.3\\9147e6f638b4272b3bd5fc8f92ad37802512c6c\\coremods-7.0.3.jar",
+        "sha256":  "D24C0D3E31AF23CAC36A0F9F98654B875F678B27DDCCD8B28D331C1878A6DE4A"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarFileSystems\\0.4.1\\78f59f89defcd032ed788b151ca6a0d40ace796a\\JarJarFileSystems-0.4.1.jar",
+        "sha256":  "D9F88AF1223FF23395C64FF0B0FE367563288A37BD38709BF667B6B39944BFAB"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarMetadata\\0.4.1\\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\\JarJarMetadata-0.4.1.jar",
+        "sha256":  "05D7B89F09C6DE1A9B61D0E786C8FD808AED044BABF321653E14ABD6740D5546"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\JarJarSelector\\0.4.1\\fb3cc7a58af22ad2880adb98af6d518128c47dae\\JarJarSelector-0.4.1.jar",
+        "sha256":  "F34BAB02A5E967650DC52B7CB37A200051A7078F7D1868597699D78697DA2400"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.neoforged\\mergetool\\2.0.3\\1275202cbbb248f49345cf6787ce299afd9a02fb\\mergetool-2.0.3-api.jar",
+        "sha256":  "E13E61C0437D6DB17E7B3581FF261292015DCD9E11683F5A365B4B9A5C192283"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\net.sf.jopt-simple\\jopt-simple\\5.0.4\\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\\jopt-simple-5.0.4.jar",
+        "sha256":  "DF26CC58F235F477DB07F753BA5A3AB243EBE5789D9F89ECF68DD62EA9A66C28"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4-runtime\\4.13.1\\17125bae1d965624e265ef49552f6465a2bfa307\\antlr4-runtime-4.13.1.jar",
+        "sha256":  "54665D2838CC66458343468EFC539E454FC95B46A8A04B13C6AC43FC9BE63505"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-compress\\1.26.0\\659feffdd12280201c8aacb8f7be94f9a883c824\\commons-compress-1.26.0.jar",
+        "sha256":  "051ACEB8BBCC62D0F5B2B8AC72C53767F9C59BFBD050151E65BEF6F51C8ED9C9"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-lang3\\3.14.0\\1ed471194b02f2c6cb734a0cd6f6f107c673afae\\commons-lang3-3.14.0.jar",
+        "sha256":  "7B96BF3EE68949ABB5BC465559AC270E0551596FA34523FDDF890EC418DDE13C"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.httpcomponents\\httpclient\\4.5.13\\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\\httpclient-4.5.13.jar",
+        "sha256":  "6FE9026A566C6A5001608CF3FC32196641F6C1E5E1986D1037CCDBD5F31EF743"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.httpcomponents\\httpcore\\4.4.16\\51cf043c87253c9f58b539c9f7e44c8894223850\\httpcore-4.4.16.jar",
+        "sha256":  "6C9B3DD142A09DC468E23AD39AAD6F75A0F2B85125104469F026E52A474E464F"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.22.1\\bea6fede6328fabafd7e68363161a7ea6605abd1\\log4j-api-2.22.1.jar",
+        "sha256":  "5D7BEAE7FF15D8516D6517121D7F12A79A6AC180DF64B5FCEC55D5BE21056E53"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-core\\2.22.1\\7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4\\log4j-core-2.22.1.jar",
+        "sha256":  "46DCCECAC556623D8E2CE8648496824A82951D139062A4E61148AFF1A25ED18D"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-slf4j2-impl\\2.22.1\\d7e6693c2606cb7e7335047d7bb96dec52db5665\\log4j-slf4j2-impl-2.22.1.jar",
+        "sha256":  "1920CD69D8682C7EF249BB407A3D0685723AA1785867CF4C53258DA6BF14DA97"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.maven\\maven-artifact\\3.8.5\\4433f50c07debefaed0553bd0068f4f48d449313\\maven-artifact-3.8.5.jar",
+        "sha256":  "91172BC294D6EAB02FC9F45F4EA01FD0E418962D128CF489ABEA7B6957D988EE"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.checkerframework\\checker-qual\\3.33.0\\de2b60b62da487644fc11f734e73c8b0b431238f\\checker-qual-3.33.0.jar",
+        "sha256":  "E316255BBFCD9FE50D165314B85ABB2B33CB2A66A93C491DB648E498A82C2DE1"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.codehaus.plexus\\plexus-utils\\3.3.0\\cf43b5391de623b36fe066a21127baef82c64022\\plexus-utils-3.3.0.jar",
+        "sha256":  "76D174792540E2775AF94D03D10FB2D3C776E2CD0AC0EBF427D3E570072BB9CE"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.jcraft\\jorbis\\0.0.17\\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6\\jorbis-0.0.17.jar",
+        "sha256":  "E067F29A3701426B67ED973036949C6E58CA5BB53EEF7240B2E71E286D252A9E"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains\\annotations\\24.1.0\\7af6a669488450c4a07c2c3254e2151df42d7d04\\annotations-24.1.0.jar",
+        "sha256":  "27A770DC7CE50500918BB8C3C0660C98290630EC796B5E3CF6B90F403B3033C6"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.jline\\jline-reader\\3.20.0\\8f15415b022a25b473e8e16c28ae913186ffb9c4\\jline-reader-3.20.0.jar",
+        "sha256":  "ACD1C94D1E228AA7B7962F69B21ED3A9FD828EB3A63E4BAF9086954E626AF1F0"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.jline\\jline-terminal\\3.20.0\\d0ddcc708ddf527a3454c941b7b9225cc83a15ff\\jline-terminal-3.20.0.jar",
+        "sha256":  "12125170E795519BA6DC8010C070B53C76AAE92B485C1E37530E54AB5DD08D43"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.joml\\joml\\1.10.5\\22566d58af70ad3d72308bab63b8339906deb649\\joml-1.10.5.jar",
+        "sha256":  "CAC9F22F83A7AA33EEBDA73C16FF5261E3CB4911B6BAFCF4C79EA486099D0C9A"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl\\lwjgl\\3.3.3\\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\\lwjgl-3.3.3.jar",
+        "sha256":  "DC9C7B2D48E8396D68895F8902FFA01E46253DE44DFE927533FF09457EBFEEC4"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl\\lwjgl-freetype\\3.3.3\\a0db6c84a8becc8ca05f9dbfa985edc348a824c7\\lwjgl-freetype-3.3.3.jar",
+        "sha256":  "E1A7AB07106349D9A8A68F6860B7B73B353C502B81E662ACA77F931C6FDD3DE8"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl\\lwjgl-glfw\\3.3.3\\efa1eb78c5ccd840e9f329717109b5e892d72f8e\\lwjgl-glfw-3.3.3.jar",
+        "sha256":  "BEDC757FD2B1B255146DB26B74B9CBD1FCF5644B89B47B104FA721C741604259"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl\\lwjgl-jemalloc\\3.3.3\\b543467b7ff3c6920539a88ee602d34098628be5\\lwjgl-jemalloc-3.3.3.jar",
+        "sha256":  "E99E31269E6678A4BFC62EF24C50A481C01CBDD004861ECE9A59BA12768C6516"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl\\lwjgl-openal\\3.3.3\\daada81ceb5fc0c291fbfdd4433cb8d9423577f2\\lwjgl-openal-3.3.3.jar",
+        "sha256":  "AE0E82767CACF08921F578FBA9D84753DDEB00CEADA0510A2B4A882BE28FBF95"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl\\lwjgl-opengl\\3.3.3\\2f6b0147078396a58979125a4c947664e98293a\\lwjgl-opengl-3.3.3.jar",
+        "sha256":  "5062DA750E5F7EC89E27E8B67B7D40FA8C4B16890159E35F828116CE6C8ECA1E"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl\\lwjgl-stb\\3.3.3\\25dd6161988d7e65f71d5065c99902402ee32746\\lwjgl-stb-3.3.3.jar",
+        "sha256":  "0CFF7AA46EA9D70FCC20857015293EA80FBF21ADCAC34600C84DA9B81A44CA93"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.lwjgl\\lwjgl-tinyfd\\3.3.3\\82d755ca94b102e9ca77283b9e2dc46d1b15fbe5\\lwjgl-tinyfd-3.3.3.jar",
+        "sha256":  "EE0515054EE19A3F4088426FEE9D879EB2EE657B07E5064E4E2C851F6ADCF14B"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.lz4\\lz4-java\\1.8.0\\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\\lz4-java-1.8.0.jar",
+        "sha256":  "D74A3334FB35195009B338A951F918203D6BBCA3D1D359033DC33EDD1CADC9EF"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.openjdk.nashorn\\nashorn-core\\15.4\\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\\nashorn-core-15.4.jar",
+        "sha256":  "6F816E84DFD63A81D4EAA7829C08337BBAFF3EC683FF3BF6BBD90D017A00DC6F"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.10.1\\ada2141c0cc52ee8f5c48cd5fa4ce0e794f22236\\asm-9.10.1.jar",
+        "sha256":  "ED825D10AB1399C8C0CB669E688CF0C8C82629B4C8399B58352B68E92CA10FCB"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-analysis\\9.10.1\\8d49f14d51f632cb1d87c88d1ceaf50db0d8af1b\\asm-analysis-9.10.1.jar",
+        "sha256":  "DEDE75A21306B65974ECD8F87114FF6970F09FB794157A4CA09AB25C888C2BFC"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-commons\\9.10.1\\4229e4c55fd8e01c23f9fe9884075cc628aacc50\\asm-commons-9.10.1.jar",
+        "sha256":  "6D0ABEFB7CBF972EA16EDB37EC14835372505063A45F976AB7EA889ED9497895"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-tree\\9.10.1\\e244332a17564c1d1572449399a842de35881be2\\asm-tree-9.10.1.jar",
+        "sha256":  "3DFB0D5B6A106CD40B5B250E39935FBF2F927F4477546A5369A3AC609CF0506B"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm-util\\9.10.1\\7bb9d450e8d4cbf9f9e04096c44bbfe7fba80b15\\asm-util-9.10.1.jar",
+        "sha256":  "1BB99D091FBA2597DC6D51193E9BBCF0D8447E7ED96BD8F0198B18152F09655C"
+    },
+    {
+        "path":  "C:\\Users\\Kinoko\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\2.0.9\\7cf2726fdcfbc8610f9a71fb3ed639871f315340\\slf4j-api-2.0.9.jar",
+        "sha256":  "0818930DC8D7DEBB403204611691DA58E49D42C50B6FFCFDCE02DADB7C3C2B6C"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251.jar",
+        "sha256":  "9B6087A3B6073A26456A41E4170971C82A12FADC49C9CB92DEADC602E3007AA1"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-035/WrenchHooksTest.java",
+        "sha256":  "0360EEE1A87808348311AF16C911BF3D0EA2B5870EE01F17EA7EC0A25FEC1CC1"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-037/fixture/evidence/t037/TimerRecordCodec.java",
+        "sha256":  "72A13EFDB11DE5325C92EA023E7C2EBF8753FBAF8267E871EA76D5D50F46E757"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-037/fixture/evidence/t037/TimerState.java",
+        "sha256":  "C79A882E7CD46ED69552D15987891ED055B589D58CD9C39D0D205FEDC3B65220"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-037/tests/evidence/t037/TimerInvestigationTest.java",
+        "sha256":  "AA1ECAC5BC95E6C36229416854DFACDEB47FFAA629259BC02A1C28E857508ADC"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-038/isolated-tests/TimerRailHooksTest.java",
+        "sha256":  "80DA07F041FE340923910529824E8F299D95C3B8CB7F8B40E03AD7361AF7333C"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-038/tests/com/ericchiu/simplerail/blockentity/HoldingTimerTest.java",
+        "sha256":  "227129DAEB5D9EC8AEFCC8309DA86C493EBCB18F99AB193522787BF01B880A8D"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-040/fix-R1/tests/stubs/com/ericchiu/simplerail/block/TimerHoldingRail.java",
+        "sha256":  "B730759C24C9976C7BF3E96FBCCF2FBA296695E67CB865FEAFBE0BE57BB522FB"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-040/fix-R1/tests/TimerWrenchRegressionTest.java",
+        "sha256":  "B9646FD0CA13F2A6A9C12514F73A8008EF66E350709A28C288ABE20B1A6A2C80"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-041/tests/com/ericchiu/simplerail/blockentity/SignalTimerTimingTest.java",
+        "sha256":  "FFBE84A5476FA85881BB73A42C9E475B581829A1E02953C58E288B56C5AC9106"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-041/tests/com/ericchiu/simplerail/config/CommonConfig.java",
+        "sha256":  "1619DA9AA36F38AA6B68985CFD6485B6B0C71C4201470E49BA68ED8EB54495B5"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-043/fixture/evidence/t043/DispenserSourceModel.java",
+        "sha256":  "98A32D01ACA845337698CF9B3F7BC4E7E3C34DFAF96BFC5E1DD6AD4BC421E2E9"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-043/tests/evidence/t043/DispenserSourceModelTest.java",
+        "sha256":  "A21AC9897E4A8F728675387EBA3EC9DAE495BC06C228BF1CEDF0B607EBB4B8A0"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence/T-045/tests/TrainDispenserScanTest.java",
+        "sha256":  "117EE4A4AB32EDA6DE9E6776C158656C6DDF01C49682F48214157B0ED6A6FE29"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-030\\fix-R1\\isolated-tests\\lib\\mixin.jar",
+        "sha256":  "1D45CFE3AE4A2EAB38DC74276803748CF799088986260D6D912E50DDB35D15C5"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\com\\ericchiu\\simplerail\\block\\base\\BasePoweredRail.java",
+        "sha256":  "DA207687B6DDB9630548294B503D3FBCCBD7884EB48C3567D93C5492532F0A61"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\com\\ericchiu\\simplerail\\config\\CommonConfig.java",
+        "sha256":  "95CFDD40DB683C6616694BCE778690D62D92CAB4B5728BEAAE0946374F2D84BF"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\com\\ericchiu\\simplerail\\registry\\ModTags.java",
+        "sha256":  "CC5C098A4CACFA44E551688627D6599E0E2ABBC481338BDB5AB94D2ECC51BE2A"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\com\\mojang\\serialization\\MapCodec.java",
+        "sha256":  "9C82503AE4C897494F6B7B258C8BA866541FF4D727638EA773395C578AB2FA8B"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\core\\BlockPos.java",
+        "sha256":  "DCB33F58778B9C4F0D9375B0330B41CF6EF97E8B393DF80F0853FD79E4AA299B"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\core\\Direction.java",
+        "sha256":  "79A8D2997218D7D7F8C2E92180FBE023FBAAEAB52207CFB18FA4FDEA7C6636A2"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\server\\level\\ServerLevel.java",
+        "sha256":  "6409ED5F9F416EE540B757841B8B6B845D0BF6F2548533A33D017E039B3381B8"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\server\\level\\ServerPlayer.java",
+        "sha256":  "F3CCFAA3480CA20A69D7AFF8E47600920982D48A8469B949FEBE84010CD22956"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\tags\\TagKey.java",
+        "sha256":  "F6D5DE2FCD4225CC45705AACB33D521316D185217E2DC297AC9E44F0221B9951"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\entity\\Entity.java",
+        "sha256":  "FF9E7CE29BEC8AE825F961498FF6D6BEDE2DF9D3EA2A31F628CEA4721A64A5CB"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\entity\\vehicle\\AbstractMinecart.java",
+        "sha256":  "94DA4715A18C1078B822ED4B162A31577CEFC6FBB20B2A41902405CE722E855C"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\InteractionResult.java",
+        "sha256":  "F1CBFB37E6E51F84806353A13B1F507515DA396E24B2868875E65AC56FA52DF2"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\item\\context\\UseOnContext.java",
+        "sha256":  "70E3787D48E8C46E34234E4E9B9465D61FB7FDA4B4E8AA4F98C99AAF4BB6C467"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\item\\Item.java",
+        "sha256":  "6647BADBE92C0D57E822184112EC60C055734C768C931C75A28158182A5B328E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\item\\ItemStack.java",
+        "sha256":  "F9A01C88956DB8AB1110C8FEC9432603F14B53099363D8E9B5B54BD897B78B9E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\Block.java",
+        "sha256":  "F999EC2054A4DB0C0CD99F3FA5A9A19E1E503D7D08A44C99F92FF59029CADE69"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\PoweredRailBlock.java",
+        "sha256":  "A1610B9F237802F19C897509FB8ED535699E221B6FE09F4372528316500C9A8E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\BlockBehaviour.java",
+        "sha256":  "3B0311ADAC2F32B087B22F71F4B5575837AFC6C6B9B0721AC716A96BB926B2D9"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\BlockState.java",
+        "sha256":  "7E70AA2D3F22501A3E0E5B7BFBE26B6082636642F7BDC274BC92984222A0C14E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\BooleanProperty.java",
+        "sha256":  "DA577E67F97B685C3D9A39ECBCF26A68FFD8009E7C641D1E2F5D13AD046BCDC9"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\EnumProperty.java",
+        "sha256":  "2418ED27994653F5CFD2E8EE71DACF944DC92D373A8D04EC15E5D57964FC26AD"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\IntegerProperty.java",
+        "sha256":  "327588B99C531116D17C173EAA7A7E3FB9437448EA67EC2837C37859481B214E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\Property.java",
+        "sha256":  "0CB40DEE7B70DE4C6CDA633835F3DD00EB16E432AF3C77999A05A85D0759BA82"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\RailShape.java",
+        "sha256":  "FD4D489EEC5C112932C21B8C908520D2CF8D719EE1C0E425DA7D4AE6BC7C3774"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\StateDefinition.java",
+        "sha256":  "43F9F650B6CD0CEC5B5CAAC90FE022794421BC59F40911BE5CA2E33DDBF4C054"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\Level.java",
+        "sha256":  "419E5842C247AAA02EF7621CB6BFE606F22C89ADAFF70DD4E2A5CAEEA9974A7B"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\phys\\AABB.java",
+        "sha256":  "0A8E26840159B4B9245AB32B88ECC08A41C7B8A8C2E83074C8AB931DC275557A"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\minecraft\\world\\phys\\Vec3.java",
+        "sha256":  "94757904BCB94C26A2618513FEBB3218CE5880696C45432CBD25B559226BC3A8"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\neoforged\\neoforge\\common\\ItemAbilities.java",
+        "sha256":  "69AE6D302AF5D75CAD7F37507D9FF885C1E202D1F10F37F6A7C5DB5E755AA908"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-035\\isolated-tests\\stubs\\net\\neoforged\\neoforge\\common\\ItemAbility.java",
+        "sha256":  "6A5A643D9D2419AD5B22BE9F164FE17D63E808D2801335BA3D002D2643D16F31"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\com\\ericchiu\\simplerail\\block\\base\\BasePoweredRail.java",
+        "sha256":  "C95C99745F14A43C3DFDB06770698D92A59EA3750765556F53470E5071E23D24"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\com\\ericchiu\\simplerail\\config\\CommonConfig.java",
+        "sha256":  "F87264BBCF3EED8B3BABF2857D9076B44E47E8F6EC5D2D76E80EC3D31BD66329"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\com\\ericchiu\\simplerail\\registry\\ModBlockEntities.java",
+        "sha256":  "1F989D97053D6C615BDF87C20D56A7B1E64E31D0C7716B24904CD12DD2583680"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\core\\BlockPos.java",
+        "sha256":  "DCB33F58778B9C4F0D9375B0330B41CF6EF97E8B393DF80F0853FD79E4AA299B"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\core\\Direction.java",
+        "sha256":  "79A8D2997218D7D7F8C2E92180FBE023FBAAEAB52207CFB18FA4FDEA7C6636A2"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\core\\HolderLookup.java",
+        "sha256":  "254541082E92F4C278AC8C2B0A86640BEB62B141399FB95B3829EB16614CB3D5"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\nbt\\CompoundTag.java",
+        "sha256":  "46A00B9CADEAA08C7A773A981388735369F89B2B600551DCF10CCB5758E15DAD"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\nbt\\Tag.java",
+        "sha256":  "F039A8D0B4C7B81FA32BDE39384D4FC3D89A70D9A6FBCCEC5321FF3817149B66"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\tags\\TagKey.java",
+        "sha256":  "F6D5DE2FCD4225CC45705AACB33D521316D185217E2DC297AC9E44F0221B9951"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\entity\\vehicle\\AbstractMinecart.java",
+        "sha256":  "8B6702725CDBA1742DBF02B0AFAF85B25B945CF3CF5DC6DF7336B86BC2CB8E2D"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\Block.java",
+        "sha256":  "E22585A4D22BC7DDF1E59E840C09B8AE3C7C158E3FE20F3E227C4BC70CDE0CF0"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\entity\\BlockEntity.java",
+        "sha256":  "C2440141D0B9335904935F99137E42D17218C49F38FBF2678FCC22195E14927D"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\entity\\BlockEntityTicker.java",
+        "sha256":  "4AD7F52A24BAE6BF995EA25F55E44009ED6D9D00A0D4527ECB948BA04818C948"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\entity\\BlockEntityType.java",
+        "sha256":  "E295C75CA4F86667025FB01BF4DD87B0BC1DBFFAB49724D0E6BC9335099DE21B"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\EntityBlock.java",
+        "sha256":  "1187C7F4D949306CC5FC57461CD992DD699C11F56D165F52CC30A4B3252391BC"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\PoweredRailBlock.java",
+        "sha256":  "26B7DAC7972E32020AF33D7A759B4FBB5796971D06BF09D89643ECBD72EA5A18"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\BlockBehaviour.java",
+        "sha256":  "3B0311ADAC2F32B087B22F71F4B5575837AFC6C6B9B0721AC716A96BB926B2D9"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\BlockState.java",
+        "sha256":  "7E70AA2D3F22501A3E0E5B7BFBE26B6082636642F7BDC274BC92984222A0C14E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\EnumProperty.java",
+        "sha256":  "2418ED27994653F5CFD2E8EE71DACF944DC92D373A8D04EC15E5D57964FC26AD"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\IntegerProperty.java",
+        "sha256":  "327588B99C531116D17C173EAA7A7E3FB9437448EA67EC2837C37859481B214E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\Property.java",
+        "sha256":  "0CB40DEE7B70DE4C6CDA633835F3DD00EB16E432AF3C77999A05A85D0759BA82"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\RailShape.java",
+        "sha256":  "FD4D489EEC5C112932C21B8C908520D2CF8D719EE1C0E425DA7D4AE6BC7C3774"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\block\\state\\StateDefinition.java",
+        "sha256":  "43F9F650B6CD0CEC5B5CAAC90FE022794421BC59F40911BE5CA2E33DDBF4C054"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\level\\Level.java",
+        "sha256":  "F16BFD00EDE706C19891F2C21D03D2F76D42CB659A6DA05B24DBDB4D0D45CFC6"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\T-038\\isolated-tests\\stubs\\net\\minecraft\\world\\phys\\Vec3.java",
+        "sha256":  "D8A34DBC0D69BCADBD3E89CB738250FB0ACCE06D7D8F573DBFF793ABEB5CC2C6"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail/block/TimerHoldingRail.java",
+        "sha256":  "FE913E227685CB1A2A65EE19C3DE1F1006FAD0FD906A518157212B50E6902593"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail/block/TrainDispenserScan.java",
+        "sha256":  "7F318E705499D2837841D9499FB1EFE291838EA898AA0321AF068B7634E739DD"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail/blockentity/HoldingTimer.java",
+        "sha256":  "737209BE5CFB170898A3B7DDF123256A95AEAA59331E250DAE21DD08EEF0EDFD"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail/blockentity/HoldingTimerData.java",
+        "sha256":  "C66BE843B73FE8F1B45B2E0284ED3412CA4385F3726B7689CF4250D32DEB0C8A"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail/blockentity/SignalTimerTiming.java",
+        "sha256":  "78F9A60701FF134A0FAD02BD91B15B6C625F5198CD5F936F709D1BBB02734665"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail/blockentity/TimerHoldingRailBlockEntity.java",
+        "sha256":  "B5EBFE91947A0E2860F6B9C8B32AD4474F9E083B3982066860AE14C8FF989CCB"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail/item/Wrench.java",
+        "sha256":  "4D37D0664CDE0EFCCEDF48E4F3614738228428183A9DFCAEB0B64DBADDE200F8"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\base\\BasePoweredRail.java",
+        "sha256":  "55EE33F9FE8ED7E4128843438A64E8662C39705056F02F9A09DA3AE3A6F80F28"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\base\\BaseRail.java",
+        "sha256":  "80FC92229F634EF25C9FCAD9E116CF729F6AD538BD5AEF137DC3B3F75339E6E9"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\DestoryRail.java",
+        "sha256":  "1F58E1FBA8C45887FDAAF10DC366B30EED5622130FA330AAC69FCD392DDE1BC3"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\EjectRail.java",
+        "sha256":  "01CCEFF8137B75798FA519E6ABC6E83B23A2F6C3D0548AABF1755663E5E415DA"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\HighSpeedRail.java",
+        "sha256":  "B99CC0779E62BAD8A8764ECED57884FC57171E84710CBF34DACA1E2A3E79E6BB"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\HoldingRail.java",
+        "sha256":  "9884747870F774D055DDE47F389C858DC828F2270F6E14B066E609C984897C80"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\OnewayRail.java",
+        "sha256":  "58BB09B76E07C118CE562F06BB002C926A4059EFE9CEDFB57659C330EDFAD940"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\RailAscentMovementLimit.java",
+        "sha256":  "6C0F2B3653C0764F2EE6ACDA203908F6F21F19BFC1A69556C762F81B79DE10BB"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\SignalTimerBlock.java",
+        "sha256":  "BE1DF8558FCB7148278A59B2821A1842971BC6B12C165B19EA8E2A998088E44E"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\TimerHoldingRail.java",
+        "sha256":  "FE913E227685CB1A2A65EE19C3DE1F1006FAD0FD906A518157212B50E6902593"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\TrainDispenserBlock.java",
+        "sha256":  "B5A17F5067DF4BB423A08EA72DC254AA2CBDED0C4BD29DDA887542D8CA112899"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\TrainDispenserScan.java",
+        "sha256":  "7F318E705499D2837841D9499FB1EFE291838EA898AA0321AF068B7634E739DD"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\blockentity\\HoldingTimer.java",
+        "sha256":  "737209BE5CFB170898A3B7DDF123256A95AEAA59331E250DAE21DD08EEF0EDFD"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\blockentity\\HoldingTimerData.java",
+        "sha256":  "C66BE843B73FE8F1B45B2E0284ED3412CA4385F3726B7689CF4250D32DEB0C8A"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\blockentity\\SignalTimerBlockEntity.java",
+        "sha256":  "618BBD00BF39099EE5BCC7C0E53EE7818E662252CB339D0A5746EB72762C9BB4"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\blockentity\\SignalTimerTiming.java",
+        "sha256":  "78F9A60701FF134A0FAD02BD91B15B6C625F5198CD5F936F709D1BBB02734665"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\blockentity\\TimerHoldingRailBlockEntity.java",
+        "sha256":  "B5EBFE91947A0E2860F6B9C8B32AD4474F9E083B3982066860AE14C8FF989CCB"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\blockentity\\TrainDispenserBlockEntity.java",
+        "sha256":  "98A399E1770DDA2342E94DF61B821408EDBAA624FB220EB9BBDCFB11CF8E2A42"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\config\\CommonConfig.java",
+        "sha256":  "8B30A9955396C79277C6AE1E9BA757F3CA24ED8D0EAD3229148D46E73888C6EE"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\item\\Wrench.java",
+        "sha256":  "4D37D0664CDE0EFCCEDF48E4F3614738228428183A9DFCAEB0B64DBADDE200F8"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\mixin\\AbstractMinecartMixin.java",
+        "sha256":  "C334C24437D0651EACD1CEE4FFED574E302CF2204CBF216E6E8C77C9F32D5EB9"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\registry\\ModBlockEntities.java",
+        "sha256":  "B9A6A87CCDEF757E583E20A3028F17182D410EDD26FFF7CECF9207086813B7C8"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\registry\\ModBlocks.java",
+        "sha256":  "C52C36100F079B5AAAD983755B34A1323C9C09805220B56B2C5761D3C0EBC517"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\registry\\ModCreativeTabs.java",
+        "sha256":  "741CE0690165EEBF0097AF07DD02ED92109D7DB65C75E9D456E7264156C8D44D"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\registry\\ModItems.java",
+        "sha256":  "9ECCA4DEE362ACE8B11AD1B40E2B73E385496033B0035E18EC41EAA16FD7F151"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\registry\\ModTags.java",
+        "sha256":  "9BC324A67E4C6B176EB52DDFDEE99DDFADFB576EFF198ECA4CB014E99EF8722F"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\SimpleRail.java",
+        "sha256":  "79C672567CAEF42AD9AD1CFBC8EBA0764B9DA954B5CC67E384F6DA4D8B87A110"
+    },
+    {
+        "path":  "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\SimpleRailClient.java",
+        "sha256":  "B7D8F8E1A74D389B48C6E49F96CAD1DE68D6416CE436885C6F0217C905DC2E71"
+    }
+]

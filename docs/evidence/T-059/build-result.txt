@@ -1,0 +1,3 @@
+﻿command: .\gradlew.bat build --console=plain
+exit_code: 0
+date: 2026-10-02T01:29:56.4178065+08:00

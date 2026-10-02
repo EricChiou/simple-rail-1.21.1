@@ -1,0 +1,29 @@
+﻿{
+    "head":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "modifiedProductFiles":  [
+                                 {
+                                     "path":  "src/main/java/com/ericchiu/simplerail/block/TrainDispenserBlock.java",
+                                     "sha256":  "0D6FB5D5DBA1C79B4296F8A0AA9243F5F2A3255FA40FB5AEA88B1E150E4E5F64"
+                                 },
+                                 {
+                                     "path":  "src/main/java/com/ericchiu/simplerail/block/DestoryRail.java",
+                                     "sha256":  "8F801C1C4A2FFFD6978D675F5E183B5FE06254945FC74D2D6B9A6991F5B03EB6"
+                                 },
+                                 {
+                                     "path":  "src/main/java/com/ericchiu/simplerail/entity/LocomotiveCartEntity.java",
+                                     "sha256":  "FEB561F4C07E6609748C3AB073985E64F8B981F214590E38A03B2DD1FD0C7FF5"
+                                 },
+                                 {
+                                     "path":  "src/main/java/com/ericchiu/simplerail/entity/TrainOwnershipData.java",
+                                     "sha256":  "597842319B9F36BBCBB450660A80C16B672E94ED17D69BB5A2D84CFA7A790D42"
+                                 },
+                                 {
+                                     "path":  "src/main/java/com/ericchiu/simplerail/entity/TrainCarRemovalHandler.java",
+                                     "sha256":  "C1C081120C2020262396512EEFCE1EF09CE9E1DA63ABF5FE88F33F575FD122A8"
+                                 }
+                             ],
+    "jarSha256":  "8FE277F07B81B737189F8D12524745B7CA90962107F9F9E635884797F9EDE581",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod":  "1.0.0"
+}

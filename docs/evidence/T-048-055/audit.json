@@ -1,0 +1,68 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-048-055/audit.ps1",
+    "head":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "source":  [
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/SimpleRail.java",
+                       "sha256":  "03D6E9C0D1A5BC1D37CF3CEAE99DE377B0D9C9F729E69513C345EC225259BDC1"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/SimpleRailClient.java",
+                       "sha256":  "FB826934EE9EDDC28BB9BE7A987CFCA04AC14198E05318DEC992080CB7A6EFAF"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/registry/ModEntities.java",
+                       "sha256":  "56BAD5998977CBE6507C8AD8B6F172590D271E28A1C0D12FAA058179561FD413"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/registry/ModItems.java",
+                       "sha256":  "A5CBD92D27D5C1B7D835E11922F586DFF3C34A30E775E9042130209F32552B55"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/entity/Facing8.java",
+                       "sha256":  "A215702B458958D4855149ADC46C7ADC8C9A68757F657938EFF2C75744227B0A"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/entity/LocomotiveCartEntity.java",
+                       "sha256":  "1DC58D81E451C1843F52291ADB8156FBBB5A923391054F8DE81D0A32CB35FA21"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/entity/TrainFormation.java",
+                       "sha256":  "E0DF3B7E0BF2BD17F657CCAB29C8E6993C0F83B014D776D3A2C2034839167F69"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/entity/TrainOwnershipData.java",
+                       "sha256":  "76FBE2F4423AE7E41594548A82310BCDA0398375DDFBB64E57E914944E28EE05"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/item/LocomotiveCartItem.java",
+                       "sha256":  "7F2C50660988BA9D63C3A3E9C492E329315A4C07E6A2554A4C9BA060CE34335A"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/client/LocomotiveCartModel.java",
+                       "sha256":  "55D4533BF9188C386425E15D8DCB882F969856967BC714B941723BBE9348A460"
+                   },
+                   {
+                       "path":  "src/main/java/com/ericchiu/simplerail/client/LocomotiveCartRenderer.java",
+                       "sha256":  "142BC47DF3B05626517D3130AEA2834565FD5DFE04A28BCBE2DBB6FF3B907CB8"
+                   }
+               ],
+    "productJar":  {
+                       "path":  "build/libs/simplerail-1.0.0.jar",
+                       "sha256":  "63A31C515F0E4682AD16B78731ACF9653421723BA0254A487BC4063FF04D2766"
+                   },
+    "diagnosticJar":  {
+                          "path":  "build/t054/artifacts/simplerail-1.0.0-T054-probe.jar",
+                          "sha256":  "D48B2F529207B77B35E5FC02DAA2F0D4726313EB842E3A706167C0975E3C4477"
+                      },
+    "cutoutRailModels":  33,
+    "requiredJarEntries":  [
+                               "com/ericchiu/simplerail/entity/LocomotiveCartEntity.class",
+                               "com/ericchiu/simplerail/entity/TrainOwnershipData.class",
+                               "com/ericchiu/simplerail/client/LocomotiveCartRenderer.class",
+                               "assets/simplerail/textures/entity/locomotive_cart.png"
+                           ],
+    "diagnosticOnlyClassIsolated":  true,
+    "diagnosticMetadataMarked":  true,
+    "result":  "PASS"
+}

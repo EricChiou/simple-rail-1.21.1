@@ -1,0 +1,41 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-045/audit.ps1",
+    "checks":  {
+                   "final_build_exit_zero":  true,
+                   "final_build_successful":  true,
+                   "failed_first_compile_preserved":  true,
+                   "production_scan_test_pass":  true,
+                   "prior_entity_unchanged":  true,
+                   "previous_block_changed":  true,
+                   "scan_source_exists":  true,
+                   "jar_delta_limited":  true,
+                   "fixed_jar_matches_build":  true
+               },
+    "failed":  [
+
+               ],
+    "changed_jar_entries":  [
+                                "com/ericchiu/simplerail/block/TrainDispenserBlock$1.class",
+                                "com/ericchiu/simplerail/block/TrainDispenserBlock.class",
+                                "com/ericchiu/simplerail/block/TrainDispenserScan$Facing.class",
+                                "com/ericchiu/simplerail/block/TrainDispenserScan$Position.class",
+                                "com/ericchiu/simplerail/block/TrainDispenserScan.class"
+                            ],
+    "sources":  [
+                    {
+                        "path":  "src/main/java/com/ericchiu/simplerail/block/TrainDispenserBlock.java",
+                        "sha256":  "B5A17F5067DF4BB423A08EA72DC254AA2CBDED0C4BD29DDA887542D8CA112899"
+                    },
+                    {
+                        "path":  "src/main/java/com/ericchiu/simplerail/block/TrainDispenserScan.java",
+                        "sha256":  "7F318E705499D2837841D9499FB1EFE291838EA898AA0321AF068B7634E739DD"
+                    },
+                    {
+                        "path":  "docs/evidence/T-045/tests/TrainDispenserScanTest.java",
+                        "sha256":  "117EE4A4AB32EDA6DE9E6776C158656C6DDF01C49682F48214157B0ED6A6FE29"
+                    }
+                ],
+    "previous_jar_sha256":  "9B0107CA2DA90AA98946E12DB51A6508E7A927479A6F50D6305B1BA2E288C35A",
+    "fixed_jar_sha256":  "61B933A80F9B984E9AF35D7E55713803DF36328371D6B08CC02A63ADCEDA6C1E",
+    "result":  "PASS"
+}

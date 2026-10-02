@@ -1,0 +1,50 @@
+﻿diff --git a/src/main/java/com/ericchiu/simplerail/SimpleRail.java b/src/main/java/com/ericchiu/simplerail/SimpleRail.java
+index b78e489..625ad3b 100644
+--- a/src/main/java/com/ericchiu/simplerail/SimpleRail.java
++++ b/src/main/java/com/ericchiu/simplerail/SimpleRail.java
+@@ -2,6 +2,7 @@ package com.ericchiu.simplerail;
+ 
+ import com.ericchiu.simplerail.config.CommonConfig;
+ import com.ericchiu.simplerail.registry.ModBlocks;
++import com.ericchiu.simplerail.registry.ModBlockEntities;
+ import com.ericchiu.simplerail.registry.ModCreativeTabs;
+ import com.ericchiu.simplerail.registry.ModItems;
+ import net.neoforged.bus.api.IEventBus;
+@@ -15,6 +16,7 @@ public final class SimpleRail {
+     public SimpleRail(IEventBus modEventBus, ModContainer modContainer) {
+         CommonConfig.register(modEventBus, modContainer);
+         ModBlocks.register(modEventBus);
++        ModBlockEntities.register(modEventBus);
+         ModItems.register(modEventBus);
+         ModCreativeTabs.register(modEventBus);
+     }
+diff --git a/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java b/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java
+index 5eed2b1..9d1e5d0 100644
+--- a/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java
++++ b/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java
+@@ -6,6 +6,7 @@ import com.ericchiu.simplerail.block.EjectRail;
+ import com.ericchiu.simplerail.block.HighSpeedRail;
+ import com.ericchiu.simplerail.block.HoldingRail;
+ import com.ericchiu.simplerail.block.OnewayRail;
++import com.ericchiu.simplerail.block.TimerHoldingRail;
+ import net.minecraft.world.level.block.Block;
+ import net.minecraft.world.level.block.SoundType;
+ import net.minecraft.world.level.block.state.BlockBehaviour;
+@@ -13,7 +14,7 @@ import net.neoforged.bus.api.IEventBus;
+ import net.neoforged.neoforge.registries.DeferredBlock;
+ import net.neoforged.neoforge.registries.DeferredRegister;
+ 
+-/** Stable IDs. Five ordinary rails are implemented; other blocks remain placeholders. */
++/** Stable IDs. Six rails are implemented; other blocks remain placeholders. */
+ public final class ModBlocks {
+     private static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(SimpleRail.MODID);
+ 
+@@ -23,7 +24,7 @@ public final class ModBlocks {
+     public static final DeferredBlock<EjectRail> EJECT_RAIL = BLOCKS.registerBlock("eject_rail", EjectRail::new, railProperties());
+     // The historical spelling is part of the public ID contract (D2).
+     public static final DeferredBlock<DestoryRail> DESTORY_RAIL = BLOCKS.registerBlock("destory_rail", DestoryRail::new, railProperties());
+-    public static final DeferredBlock<Block> TIMER_HOLDING_RAIL = BLOCKS.registerSimpleBlock("timer_holding_rail", railProperties());
++    public static final DeferredBlock<TimerHoldingRail> TIMER_HOLDING_RAIL = BLOCKS.registerBlock("timer_holding_rail", TimerHoldingRail::new, railProperties());
+     public static final DeferredBlock<Block> CROSS_RAIL = BLOCKS.registerSimpleBlock("cross_rail", railProperties());
+     public static final DeferredBlock<Block> Y_CROSS_RAIL = BLOCKS.registerSimpleBlock("y_cross_rail", railProperties());
+     public static final DeferredBlock<Block> Y_CROSS_RIGHT_RAIL = BLOCKS.registerSimpleBlock("y_cross_right_rail", railProperties());

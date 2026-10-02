@@ -1,0 +1,9 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-040/fix-R1/run-isolated-test.ps1",
+    "test_double_count":  31,
+    "actual_product_source":  "src/main/java/com/ericchiu/simplerail/item/Wrench.java",
+    "compile_exit":  0,
+    "historical_exit":  0,
+    "timer_regression_exit":  0,
+    "minecraft_executed":  false
+}

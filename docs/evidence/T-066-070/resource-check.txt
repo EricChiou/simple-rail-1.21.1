@@ -1,0 +1,5 @@
+﻿command: PowerShell ConvertFrom-Json Y blockstates; regex cross empty variant
+left_missing=0
+right_missing=0
+cross_default_variant=True
+exit_code=0

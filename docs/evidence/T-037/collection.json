@@ -1,0 +1,18 @@
+﻿{
+    "javaCommand":  "C:/Program Files/Eclipse Adoptium/jdk-21.0.12.101-hotspot/bin/java.exe -version",
+    "javaExitCode":  0,
+    "oldHeadCommand":  "git -C D:/workspace/java/simple-rail rev-parse HEAD",
+    "oldHead":  {
+
+                },
+    "oldHeadExitCode":  128,
+    "overlayDiffCommand":  "git diff --no-index -- \u003cproduction source\u003e \u003cevidence overlay\u003e",
+    "entryDiffExitCode":  1,
+    "registryDiffExitCode":  1,
+    "diffExitOneMeans":  "differences present, not failure",
+    "sourceArchive":  "D:\\workspace\\java\\simple-rail-1.21.1\\build\\moddev\\artifacts\\neoforge-21.1.251-sources.jar",
+    "archiveSha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+    "extractedCount":  14,
+    "gameExecuted":  false,
+    "oldBuildExecuted":  false
+}

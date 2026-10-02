@@ -1,0 +1,25 @@
+{
+  "task": "T-123",
+  "package": "T-123-v1",
+  "jarSha256": "D49799ECCBFC19E722EC9E68ADC2B05C7BB5F7A0C9DA39A85E83468BC349CD45",
+  "cases": {
+    "T123-01-C": { "actual": null, "status": "待使用者執行" },
+    "T123-01-L": { "actual": null, "status": "待使用者執行" },
+    "T123-01-R": { "actual": null, "status": "待使用者執行" },
+    "T123-02-C": { "actual": null, "status": "待使用者執行" },
+    "T123-02-L": { "actual": null, "status": "待使用者執行" },
+    "T123-02-R": { "actual": null, "status": "待使用者執行" },
+    "T123-03-C": { "actual": null, "status": "待使用者執行" },
+    "T123-03-L": { "actual": null, "status": "待使用者執行" },
+    "T123-03-R": { "actual": null, "status": "待使用者執行" },
+    "T123-04-C": { "actual": null, "status": "待使用者執行" },
+    "T123-04-L": { "actual": null, "status": "待使用者執行" },
+    "T123-04-R": { "actual": null, "status": "待使用者執行" },
+    "T123-05-C": { "actual": null, "status": "待使用者執行" },
+    "T123-05-L": { "actual": null, "status": "待使用者執行" },
+    "T123-05-R": { "actual": null, "status": "待使用者執行" },
+    "T123-06-C": { "actual": null, "status": "待使用者執行" },
+    "T123-06-L": { "actual": null, "status": "待使用者執行" },
+    "T123-06-R": { "actual": null, "status": "待使用者執行" }
+  }
+}

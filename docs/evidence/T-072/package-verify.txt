@@ -1,0 +1,9 @@
+﻿manifest_parse=ok
+results_parse=ok
+source_inputs_parse=ok
+source_input_count=199
+case_count=18
+actual_non_null=0
+jar_sha_matches_manifest=True
+zip_mods_path=True
+zip_sha256=28CC8B4A31A66E24025C9C98973F1B98085FB3F07C841CCE2C1ED7AB197A6093

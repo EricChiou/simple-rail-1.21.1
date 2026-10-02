@@ -1,0 +1,100 @@
+﻿{
+    "task":  "T-119",
+    "packageId":  "T-037-v1",
+    "userConfirmation":  null,
+    "recordedDate":  null,
+    "cases":  [
+                  {
+                      "id":  "T119-01-SP",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-01-DS",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-02-SP",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-02-DS",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-03-DS",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-04-SP",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-04-DS",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-05-SP",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-05-DS",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-06-SP",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-06-DS",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-07-SP",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  },
+                  {
+                      "id":  "T119-07-DS",
+                      "expected":  "See CASES.md",
+                      "actual":  null,
+                      "result":  null,
+                      "notes":  null
+                  }
+              ],
+    "attachmentsOptional":  true
+}

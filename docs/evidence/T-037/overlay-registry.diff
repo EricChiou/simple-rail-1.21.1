@@ -1,0 +1,13 @@
+﻿diff --git a/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java b/docs/evidence/T-037/fixture/com/ericchiu/simplerail/registry/ModBlocks.java
+index 5eed2b1..2de8552 100644
+--- a/src/main/java/com/ericchiu/simplerail/registry/ModBlocks.java
++++ b/docs/evidence/T-037/fixture/com/ericchiu/simplerail/registry/ModBlocks.java
+@@ -23,7 +23,7 @@ public final class ModBlocks {
+     public static final DeferredBlock<EjectRail> EJECT_RAIL = BLOCKS.registerBlock("eject_rail", EjectRail::new, railProperties());
+     // The historical spelling is part of the public ID contract (D2).
+     public static final DeferredBlock<DestoryRail> DESTORY_RAIL = BLOCKS.registerBlock("destory_rail", DestoryRail::new, railProperties());
+-    public static final DeferredBlock<Block> TIMER_HOLDING_RAIL = BLOCKS.registerSimpleBlock("timer_holding_rail", railProperties());
++    public static final DeferredBlock<evidence.t037.TimerProbe.ProbeRail> TIMER_HOLDING_RAIL = BLOCKS.registerBlock("timer_holding_rail", evidence.t037.TimerProbe.ProbeRail::new, railProperties());
+     public static final DeferredBlock<Block> CROSS_RAIL = BLOCKS.registerSimpleBlock("cross_rail", railProperties());
+     public static final DeferredBlock<Block> Y_CROSS_RAIL = BLOCKS.registerSimpleBlock("y_cross_rail", railProperties());
+     public static final DeferredBlock<Block> Y_CROSS_RIGHT_RAIL = BLOCKS.registerSimpleBlock("y_cross_right_rail", railProperties());

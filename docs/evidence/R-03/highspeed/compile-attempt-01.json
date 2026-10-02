@@ -1,0 +1,31 @@
+{
+    "exe":  "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe",
+    "arguments":  [
+                      "--release",
+                      "21",
+                      "-proc:none",
+                      "-encoding",
+                      "UTF-8",
+                      "-Xlint:all",
+                      "-Werror",
+                      "-d",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\classes",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\com\\ericchiu\\simplerail\\block\\base\\BasePoweredRail.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\com\\mojang\\serialization\\MapCodec.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\core\\BlockPos.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\core\\Direction.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\world\\entity\\vehicle\\AbstractMinecart.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\world\\level\\BlockGetter.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\world\\level\\Level.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\world\\level\\block\\BaseRailBlock.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\world\\level\\block\\PoweredRailBlock.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\world\\level\\block\\state\\BlockBehaviour.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\world\\level\\block\\state\\BlockState.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\highspeed\\stubs\\net\\minecraft\\world\\level\\block\\state\\properties\\RailShape.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\HighSpeedRail.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\src\\main\\java\\com\\ericchiu\\simplerail\\block\\RailAscentMovementLimit.java",
+                      "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\evidence\\R-03\\HighSpeedReviewTest.java"
+                  ],
+    "utc":  "2026-09-29T15:55:02.4085636Z",
+    "exitCode":  1
+}

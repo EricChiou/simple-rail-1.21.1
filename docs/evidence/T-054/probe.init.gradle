@@ -1,0 +1,38 @@
+// Evidence-only diagnostic overlay. No product Gradle or sourceSet changes.
+gradle.projectsEvaluated {
+    def p = rootProject
+    def ev = p.file('docs/evidence/T-054')
+    def fixture = p.tasks.register('compileT054Fixture', JavaCompile) {
+        dependsOn p.tasks.named('classes')
+        source = p.fileTree(new File(ev, 'fixture')) { include '**/*.java' }
+        classpath = p.sourceSets.main.compileClasspath + p.sourceSets.main.output
+        javaCompiler.set(p.tasks.named('compileJava', JavaCompile).get().javaCompiler)
+        destinationDirectory.set(p.layout.buildDirectory.dir('t054/fixture-classes'))
+        options.release.set(21)
+        options.encoding = 'UTF-8'
+        options.compilerArgs.addAll(['-proc:none'])
+    }
+    def metadata = p.tasks.register('prepareT054Metadata') {
+        dependsOn p.tasks.named('generateModMetadata')
+        doLast {
+            def source = p.file('build/generated/sources/modMetadata/META-INF/neoforge.mods.toml')
+            def out = p.file('build/t054/metadata/META-INF/neoforge.mods.toml')
+            out.parentFile.mkdirs()
+            out.text = source.getText('UTF-8').replace('displayName="Simple Rail"',
+                    'displayName="Simple Rail [T054 diagnostic]"')
+        }
+    }
+    p.tasks.register('t054Jar', Jar) {
+        dependsOn fixture, metadata
+        archiveFileName.set('simplerail-1.0.0-T054-probe.jar')
+        destinationDirectory.set(p.layout.buildDirectory.dir('t054/artifacts'))
+        preserveFileTimestamps = false
+        reproducibleFileOrder = true
+        from(p.sourceSets.main.output) {
+            exclude 'com/ericchiu/simplerail/SimpleRail.class'
+            exclude 'META-INF/neoforge.mods.toml'
+        }
+        from(fixture.flatMap { it.destinationDirectory })
+        from(p.file('build/t054/metadata'))
+    }
+}

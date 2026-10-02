@@ -1,0 +1,12 @@
+﻿diff --git a/src/main/java/com/ericchiu/simplerail/SimpleRail.java b/docs/evidence/T-037/fixture/com/ericchiu/simplerail/SimpleRail.java
+index b78e489..5f7e403 100644
+--- a/src/main/java/com/ericchiu/simplerail/SimpleRail.java
++++ b/docs/evidence/T-037/fixture/com/ericchiu/simplerail/SimpleRail.java
+@@ -15,6 +15,7 @@ public final class SimpleRail {
+     public SimpleRail(IEventBus modEventBus, ModContainer modContainer) {
+         CommonConfig.register(modEventBus, modContainer);
+         ModBlocks.register(modEventBus);
++        evidence.t037.TimerProbe.install(modEventBus);
+         ModItems.register(modEventBus);
+         ModCreativeTabs.register(modEventBus);
+     }

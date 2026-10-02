@@ -1,0 +1,9 @@
+﻿{
+    "compile_command":  "javac --release 21 -d docs/evidence/T-045/classes src/main/java/com/ericchiu/simplerail/block/TrainDispenserScan.java docs/evidence/T-045/tests/TrainDispenserScanTest.java",
+    "test_command":  "java -cp docs/evidence/T-045/classes evidence.t045.TrainDispenserScanTest",
+    "started_utc":  "2026-09-30T15:44:22.8197248Z",
+    "finished_utc":  "2026-09-30T15:44:23.6312928Z",
+    "compile_exit_code":  0,
+    "test_exit_code":  0,
+    "scope":  "Production scanner plain-JVM geometry/iteration only; no Minecraft runtime"
+}

@@ -1,0 +1,110 @@
+﻿[
+    {
+        "path":  "docs/evidence/T-037/sources/old/CommonConfig.java",
+        "sha256":  "12729B08246AC681D8FBE33DEB08749C752010BB648B7260E4ED5439D50BA8CC"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/old/TileEntities.java",
+        "sha256":  "B305BEA696DE75C97AE963A8B31BD9B5619F7F86EC2186D455643A4F378A9EB4"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/old/TimerHoldingRail.java",
+        "sha256":  "A681EB85810AD0FA25DBF48F51DA5CB596765534B02E738DA4B592E48EFCA911"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/old/TimerHoldingRailTileEntity.java",
+        "sha256":  "38D98F1B4B09FD62937AEDC8433034D648F73B80CC30EB0B968D3DBAA5DB651F"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/commands/Commands.java",
+        "sha256":  "3AF51E8C5134C5B5B46525E9E72248BFF21E636CCAE3202FCBC79A189CE83EB0"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/commands/arguments/coordinates/BlockPosArgument.java",
+        "sha256":  "126360247A5BABC94C16AA9714552C095298C95323C106EB49F0A5F045292BB3"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/nbt/CompoundTag.java",
+        "sha256":  "7F4C04FCCC60BD17100373353A1BF91221775F1B3FF44940E882CF170B55CF52"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/nbt/NbtUtils.java",
+        "sha256":  "B49541AB1CCF2A7EB241F60AECB2A1C6283A0553E30CDBE7F933F3A964A9B31B"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/server/level/ChunkMap.java",
+        "sha256":  "2948EB35FB4C7566D63D132DC59E44C6E87091532BC820901D89148A231CBADC"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/server/level/ServerLevel.java",
+        "sha256":  "AD692045B8DBCAD4A6950A909E5BF97021A595E7C49F00A8B6063ADEEA9090C9"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/world/level/Level.java",
+        "sha256":  "4BF2B125FBC6E4B8C21DF6841CA9D0123F4BFC0E781656721973A26DD5278A6F"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/world/level/block/entity/BlockEntity.java",
+        "sha256":  "DB9A3B3C68F0A24C418199F81537047F47CF7DADD1D442F9E9001A08BBCE34EF"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/world/level/chunk/LevelChunk.java",
+        "sha256":  "EEE6F8EB811B012B4A2C78397B2981A29CEDA0DD7F1F50DEC50748D8A378A3CE"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/minecraft/world/level/chunk/storage/ChunkSerializer.java",
+        "sha256":  "94238FBA7C7A348B48A31AB7AE11C89FA8E8ED560E8C0A33F2A2349CED95C050"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/neoforged/neoforge/common/extensions/IBlockEntityExtension.java",
+        "sha256":  "611205FDC0AFEC68787B55C499800EABF87C44A260667989C3A61B02454B9C1A"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/neoforged/neoforge/event/RegisterCommandsEvent.java",
+        "sha256":  "0C8591EEEAF53FED656AD27839CB0487BCC7AC429B965A4BF4D2973D9F65EEE2"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/neoforged/neoforge/event/level/ChunkDataEvent.java",
+        "sha256":  "5A465B49E743BFC865905BDB9A819F273A282BAC6E6EBFE2AE3C838756A46D0E"
+    },
+    {
+        "path":  "docs/evidence/T-037/sources/target/net/neoforged/neoforge/event/level/ChunkEvent.java",
+        "sha256":  "B589D1002C55872ED7B5048A58EF8403552C74B1DFFABE24D4FF246DB31EAAB6"
+    },
+    {
+        "path":  "docs/evidence/T-037/fixture/com/ericchiu/simplerail/SimpleRail.java",
+        "sha256":  "B33D1C7FD818816AA870B44F6CD5AA2EB371FEF4057FD066B64F8FABB3AA3BB2"
+    },
+    {
+        "path":  "docs/evidence/T-037/fixture/com/ericchiu/simplerail/registry/ModBlocks.java",
+        "sha256":  "75044F7C830FA29D6F6BE47807900E84D205A873A3579C0AFD41E58FF761C71D"
+    },
+    {
+        "path":  "docs/evidence/T-037/fixture/evidence/t037/TimerProbe.java",
+        "sha256":  "0F3BC55EBB46E2780F792F2F2ACAD2311CDC7298C3D5CA13AD6347CADEDAC911"
+    },
+    {
+        "path":  "docs/evidence/T-037/fixture/evidence/t037/TimerRecordCodec.java",
+        "sha256":  "72A13EFDB11DE5325C92EA023E7C2EBF8753FBAF8267E871EA76D5D50F46E757"
+    },
+    {
+        "path":  "docs/evidence/T-037/fixture/evidence/t037/TimerState.java",
+        "sha256":  "C79A882E7CD46ED69552D15987891ED055B589D58CD9C39D0D205FEDC3B65220"
+    },
+    {
+        "path":  "docs/evidence/T-037/tests/evidence/t037/TimerInvestigationTest.java",
+        "sha256":  "AA1ECAC5BC95E6C36229416854DFACDEB47FFAA629259BC02A1C28E857508ADC"
+    },
+    {
+        "path":  "docs/evidence/T-037/probe.init.gradle",
+        "sha256":  "62EE42E30BA35ACD081A374B54C9D22691EA994EDB98983EE1F1BD95572FCBF3"
+    },
+    {
+        "path":  "docs/evidence/T-037/build.ps1",
+        "sha256":  "D3C86297626E2A45B04B53D1BB6B6E785ACD3E68981DF41FB64D10E28B042B0A"
+    },
+    {
+        "path":  "build/moddev/artifacts/neoforge-21.1.251-sources.jar",
+        "sha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E"
+    }
+]

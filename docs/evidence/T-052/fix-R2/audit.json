@@ -1,0 +1,22 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-052/fix-R2/audit.ps1",
+    "head":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "source":  {
+                   "path":  "src/main/java/com/ericchiu/simplerail/entity/LocomotiveCartEntity.java",
+                   "r1Sha256":  "025244C7B2B3BBD9EFA3915B1D2929FD81839633FAFCD8EFE2DFBA3E13ABFC05",
+                   "r2Sha256":  "30D17B84A7978ED4DA146B7BA950DB6694DA7126F8A818BFE28C5245C4FB09CD"
+               },
+    "jar":  {
+                "path":  "docs/test-packages/T-052-R2/mods/simplerail-1.0.0.jar",
+                "sha256":  "7FBBD041165C15EF21397FEE7648EECCE7BC4713F440D197951311A7E7CB64DA"
+            },
+    "bytecode":  {
+                     "parent":  "Minecart",
+                     "ownMovementOrSpeedOverrides":  0,
+                     "interaction":  "PASS",
+                     "canAddPassenger":  "false",
+                     "rendererDisplayBlockCalls":  0,
+                     "customDropPickAndTrain":  true
+                 },
+    "result":  "PASS"
+}

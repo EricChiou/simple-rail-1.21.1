@@ -1,0 +1,34 @@
+﻿diff --git a/src/main/java/com/ericchiu/simplerail/item/Wrench.java b/src/main/java/com/ericchiu/simplerail/item/Wrench.java
+index 0c1470c..92ef922 100644
+--- a/src/main/java/com/ericchiu/simplerail/item/Wrench.java
++++ b/src/main/java/com/ericchiu/simplerail/item/Wrench.java
+@@ -1,5 +1,6 @@
+ package com.ericchiu.simplerail.item;
+ 
++import com.ericchiu.simplerail.block.TimerHoldingRail;
+ import com.ericchiu.simplerail.registry.ModTags;
+ import net.minecraft.core.BlockPos;
+ import net.minecraft.core.Direction;
+@@ -42,12 +43,18 @@ public final class Wrench extends Item {
+         }
+         BlockPos pos = context.getClickedPos();
+         BlockState state = server.getBlockState(pos);
+-        // Keep OLD writes based on the same initial state until the U-09 intent is decided.
+         if (state.is(ModTags.RAILS)
+                 && server.getEntitiesOfClass(AbstractMinecart.class, new AABB(pos)).isEmpty()) {
+-            writeChange(server, pos, state, toggleReverse(state));
+-            writeChange(server, pos, state, cycleLevel(state));
+-            writeChange(server, pos, state, rotate(state, "direction"));
++            if (state.getBlock() instanceof TimerHoldingRail) {
++                // Its direction becomes horizontal after a cart passes. Apply both
++                // edits to one state so rotation cannot restore the old level.
++                writeChange(server, pos, state, rotate(cycleLevel(state), "direction"));
++            } else {
++                // Preserve the existing U-09 behavior for other rail types.
++                writeChange(server, pos, state, toggleReverse(state));
++                writeChange(server, pos, state, cycleLevel(state));
++                writeChange(server, pos, state, rotate(state, "direction"));
++            }
+         }
+         if (state.is(ModTags.MACHINES)) {
+             writeChange(server, pos, state, rotate(state, "facing"));

@@ -1,0 +1,7 @@
+D:\workspace\java\simple-rail-1.21.1\src\main\java\com\ericchiu\simplerail\block\HighSpeedRail.java:43: error: x has private access in Vec3
+        double motion = alongX ? cart.getDeltaMovement().x : cart.getDeltaMovement().z;
+                                                        ^
+D:\workspace\java\simple-rail-1.21.1\src\main\java\com\ericchiu\simplerail\block\HighSpeedRail.java:43: error: z has private access in Vec3
+        double motion = alongX ? cart.getDeltaMovement().x : cart.getDeltaMovement().z;
+                                                                                    ^
+2 errors

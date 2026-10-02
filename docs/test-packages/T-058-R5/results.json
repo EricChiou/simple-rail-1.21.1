@@ -1,0 +1,19 @@
+﻿{
+  "task": "T-058",
+  "package": "T-058-R5",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.251",
+  "modVersion": "1.0.0",
+  "commit": "11916b69c3549504928f7cfa6790d59a2717b4b6+uncommitted-source-manifest.json",
+  "jarSha256": "C246813C3C9AA07DE2B1B1F2F71AD32D6CB70FAF6D6F6FF4B5F17327D9A52516",
+  "cases": [
+    {"id":"T058-R5-01","actual":null,"log":null},
+    {"id":"T058-R5-02","actual":null,"log":null},
+    {"id":"T058-R5-03","actual":null,"log":null},
+    {"id":"T058-R5-04","actual":null,"log":null},
+    {"id":"T058-R5-05","actual":null,"log":null},
+    {"id":"T058-FULL","actual":null,"log":null}
+  ]
+}
+
+

@@ -1,0 +1,42 @@
+﻿{
+    "task":  "T-043",
+    "manual_task":  "T-120",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "mod_version":  "1.0.0",
+    "java":  "21.0.12.1",
+    "gradle":  "9.2.1",
+    "commit":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "base_product_jar_sha256":  "E1C79C838055CEF0955E8B0CF46991DA51F24BBDDCA4FE2A1DA6C6891588EF39",
+    "diagnostic_jar":  "docs\\test-packages\\T-043-v1\\mods\\simplerail-1.0.0-T043-probe.jar",
+    "diagnostic_jar_sha256":  "4026BB07B15FA97179ABADDB211CAADD20FC69B752ADCA9665D07CA91B07E41A",
+    "source_archive_sha256":  "236151EDEC930A89E78054FCB5551323761F801778305F290D0B74238C33693E",
+    "fixture_inputs":  [
+                           {
+                               "path":  "docs/evidence/T-043/fixture/com/ericchiu/simplerail/registry/ModBlocks.java",
+                               "sha256":  "E2692106382BFCD031E7FEE1D21FD4D77C394AED59CBF8A701AD10AC1F1ACABF"
+                           },
+                           {
+                               "path":  "docs/evidence/T-043/fixture/com/ericchiu/simplerail/SimpleRail.java",
+                               "sha256":  "B700F4123371C578E6EF01A97560F4F6B90866FE3535067FC38BB782C872703E"
+                           },
+                           {
+                               "path":  "docs/evidence/T-043/fixture/evidence/t043/DispenserProbe.java",
+                               "sha256":  "D610A59F2651882AC465F4A41366F914AEDA710DA58862929BE6FD7249B71C96"
+                           },
+                           {
+                               "path":  "docs/evidence/T-043/fixture/evidence/t043/DispenserSourceModel.java",
+                               "sha256":  "98A32D01ACA845337698CF9B3F7BC4E7E3C34DFAF96BFC5E1DD6AD4BC421E2E9"
+                           },
+                           {
+                               "path":  "docs/evidence/T-043/probe.init.gradle",
+                               "sha256":  "49B374B1F3EB90C6D7A5BC901AB5B1E98A83122AD646E9C6C925C58B7A5EA21D"
+                           },
+                           {
+                               "path":  "docs/evidence/T-043/tests/evidence/t043/DispenserSourceModelTest.java",
+                               "sha256":  "A21AC9897E4A8F728675387EBA3EC9DAE495BC06C228BF1CEDF0B607EBB4B8A0"
+                           }
+                       ],
+    "user_game_results":  "not_run",
+    "review":  "R-04 pending"
+}

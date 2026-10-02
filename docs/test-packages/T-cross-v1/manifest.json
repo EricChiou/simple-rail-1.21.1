@@ -1,0 +1,31 @@
+﻿{
+    "head":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "workingTree":  "uncommitted source changes; product.diff includes all differences from HEAD, including earlier tasks",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "java":  21,
+    "mod":  "1.0.0",
+    "tasks":  [
+                  "T-068",
+                  "T-070",
+                  "T-110",
+                  "T-111"
+              ],
+    "manualTasks":  [
+                        "T-069",
+                        "T-071",
+                        "T-123",
+                        "T-074"
+                    ],
+    "jar":  "mods/simplerail-1.0.0.jar",
+    "jarSha256":  "546C30E3150A874CDA77897574C86ADAEF3233B23BCDC1280BFD6344EAD3DF19",
+    "buildCommand":  "GRADLE_USER_HOME=C:\\Users\\Kinoko\\.gradle; gradlew.bat --offline build",
+    "buildExitCode":  0,
+    "gradleTest":  "NO-SOURCE",
+    "routeAssertions":  64,
+    "resourceAssertions":  79,
+    "sourceFiles":  199,
+    "pendingManualCases":  83,
+    "independentReview":  "R-06 pending",
+    "gameTests":  "not executed by Agent"
+}

@@ -1,0 +1,9 @@
+﻿{
+    "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-037/package.ps1",
+    "exitCode":  0,
+    "package":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\test-packages\\T-037-v1",
+    "zip":  "D:\\workspace\\java\\simple-rail-1.21.1\\docs\\test-packages\\T-037-v1.zip",
+    "zipSha256":  "7221F652D49C26BF94891AB865E6482817F05C705E7597D3944120CF737B09C2",
+    "jarSha256":  "AAF9977E094981A481305DCDCF6C60694931FFD3483A29C9A6A5B31BB10415C7",
+    "caseVariantCount":  13
+}

@@ -1,0 +1,1 @@
+package net.minecraft.world.level; import java.util.*;import net.minecraft.core.BlockPos;import net.minecraft.world.level.block.state.BlockState;public class Level implements BlockGetter{public final Map<BlockPos,BlockState> blocks=new HashMap<>();public BlockState getBlockState(BlockPos pos){return blocks.getOrDefault(pos,new BlockState(null,null,false));}}

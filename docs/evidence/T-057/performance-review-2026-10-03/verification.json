@@ -1,0 +1,143 @@
+{
+    "utc":  "2026-10-02T17:29:16.9552015Z",
+    "head":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "gameExecuted":  false,
+    "productChanged":  false,
+    "inputCount":  200,
+    "passed":  18,
+    "failed":  0,
+    "apiEntries":  [
+                       {
+                           "entry":  "net/minecraft/world/level/storage/DimensionDataStorage.java",
+                           "sha256":  "7461875697F259C29DAFB17EB9693B0861AF022EE30EF2CA1A1B827C7451935E"
+                       },
+                       {
+                           "entry":  "net/minecraft/world/entity/Entity.java",
+                           "sha256":  "8E4D7B36EEEA5DE997D064AE7F9863D22B702EB650FD7EB22982EBDF76907839"
+                       },
+                       {
+                           "entry":  "net/minecraft/world/level/EntityGetter.java",
+                           "sha256":  "6D68587E90D2897E989D78A1735DD9A8C4463219FE0553D9838B13C2BD7EFC15"
+                       },
+                       {
+                           "entry":  "net/minecraft/world/level/entity/EntityLookup.java",
+                           "sha256":  "CD63AE42CCAD0EADE2759D0DBEABED47281102004EC5174CCD4E634BD0946E29"
+                       },
+                       {
+                           "entry":  "net/minecraft/world/level/entity/EntitySectionStorage.java",
+                           "sha256":  "AF2E810CB933D143D0FAC4FE402A5B3EFAE73C302F231E7FFD9B1F6B74511794"
+                       },
+                       {
+                           "entry":  "net/minecraft/world/level/entity/LevelEntityGetterAdapter.java",
+                           "sha256":  "BA6D41BF40C3E75B7BC6B817B102143E2B339EC4A98142CCA7583389CD565C75"
+                       },
+                       {
+                           "entry":  "net/minecraft/world/level/saveddata/SavedData.java",
+                           "sha256":  "378E1147106A1293AE72088B3A1DE360F75CC422E828D4B7B56B1B89E2638E78"
+                       },
+                       {
+                           "entry":  "net/minecraft/server/level/ServerEntity.java",
+                           "sha256":  "C6E19999F324F5CFA12FACDCE994C5DD1175DA68EC9ED31DF04629894856E0C9"
+                       },
+                       {
+                           "entry":  "net/minecraft/server/level/ServerLevel.java",
+                           "sha256":  "AD692045B8DBCAD4A6950A909E5BF97021A595E7C49F00A8B6063ADEEA9090C9"
+                       }
+                   ],
+    "checks":  [
+                   {
+                       "name":  "product, historical evidence, JAR and API inputs unchanged",
+                       "pass":  true,
+                       "detail":  [
+
+                                  ]
+                   },
+                   {
+                       "name":  "test inputs still match compiled sources",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "compile plus six isolated JVM runs exit zero",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "41 original formation assertions",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "22 original R7 route assertions",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "1081 deterministic cost assertions",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "three forks times eight sizes preserved",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "T057 Wrench unchanged since original delivery",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed API entry DimensionDataStorage.java",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed API entry Entity.java",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed API entry EntityGetter.java",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed API entry EntityLookup.java",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed API entry EntitySectionStorage.java",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed API entry LevelEntityGetterAdapter.java",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed API entry SavedData.java",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed API entry ServerEntity.java",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "fixed API entry ServerLevel.java",
+                       "pass":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "report local links resolve",
+                       "pass":  true,
+                       "detail":  [
+
+                                  ]
+                   }
+               ]
+}

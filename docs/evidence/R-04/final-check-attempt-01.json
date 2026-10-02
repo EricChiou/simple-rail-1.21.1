@@ -1,0 +1,121 @@
+{
+    "utc":  "2026-09-30T17:33:26.9372307Z",
+    "passed":  21,
+    "failed":  1,
+    "checks":  [
+                   {
+                       "name":  "431 reviewed product and historical inputs unchanged",
+                       "passed":  true,
+                       "detail":  [
+
+                                  ]
+                   },
+                   {
+                       "name":  "126 task IDs, titles and order unchanged",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "126 direct dependency lines unchanged",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "nine stages unchanged",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "D1-D8 retain scope (D2 progress only)",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current reviewed status T-037",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current reviewed status T-038",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current reviewed status T-039",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current reviewed status T-041",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current reviewed status T-043",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current reviewed status T-044",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current reviewed status T-045",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "current reviewed status T-046",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "REVIEW historical sections 1-60 unchanged",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "MIGRATION historical progress and requirements unchanged",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "git index unchanged from staged baseline",
+                       "passed":  false,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "HEAD unchanged",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "git diff whitespace",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "only three tracked progress documents edited",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "177 artifact/API checks passed",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "8 compiles and 8 non-game runs passed",
+                       "passed":  true,
+                       "detail":  null
+                   },
+                   {
+                       "name":  "report local links resolve",
+                       "passed":  true,
+                       "detail":  [
+
+                                  ]
+                   }
+               ]
+}

@@ -1,0 +1,7 @@
+﻿{
+    "command":  ".\\gradlew.bat build testT038 --offline --console=plain --no-configuration-cache -I docs/evidence/T-038/tests.init.gradle",
+    "startedUtc":  "2026-09-29T16:56:57.0159069Z",
+    "finishedUtc":  "2026-09-29T16:56:59.4163872Z",
+    "exitCode":  0,
+    "scope":  "NEW production build + plain JVM production timer/data tests; no Minecraft bootstrap/client/server/GameTest or OLD build"
+}

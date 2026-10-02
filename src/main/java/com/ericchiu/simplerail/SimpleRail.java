@@ -1,8 +1,11 @@
 package com.ericchiu.simplerail;
 
 import com.ericchiu.simplerail.config.CommonConfig;
+import com.ericchiu.simplerail.entity.TrainCarRemovalHandler;
 import com.ericchiu.simplerail.registry.ModBlocks;
+import com.ericchiu.simplerail.registry.ModBlockEntities;
 import com.ericchiu.simplerail.registry.ModCreativeTabs;
+import com.ericchiu.simplerail.registry.ModEntities;
 import com.ericchiu.simplerail.registry.ModItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -15,7 +18,10 @@ public final class SimpleRail {
     public SimpleRail(IEventBus modEventBus, ModContainer modContainer) {
         CommonConfig.register(modEventBus, modContainer);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModEntities.register(modEventBus);
         ModItems.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
+        TrainCarRemovalHandler.register();
     }
 }

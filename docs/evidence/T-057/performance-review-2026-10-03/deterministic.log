@@ -1,0 +1,13 @@
+ENV java=21.0.12.1 vm=OpenJDK 64-Bit Server VM os=Windows 11 arch=amd64 processors=12 gameExecuted=false
+COUNT,n,route_segments_per_pass,segments_at_20_passes,link_copy_elements,repeated_link_copy_elements
+COUNT,1,4,80,3,2
+COUNT,8,64,1280,17,9
+COUNT,16,214,4280,33,17
+COUNT,32,773,15460,65,33
+COUNT,64,2926,58520,129,65
+COUNT,128,11380,227600,257,129
+COUNT,256,44879,897580,513,257
+COUNT,512,178232,3564640,1025,513
+COUNT,1024,710358,14207160,2049,1025
+BULK,n=1024,copied_elements=1048576
+PASS deterministic_checks=1081; reflection counters only, not used for timing

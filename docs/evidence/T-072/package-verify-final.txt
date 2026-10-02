@@ -1,0 +1,9 @@
+﻿command: PowerShell ConvertFrom-Json/Get-FileHash; tar -tf
+exit_code: 0
+source_input_count=199
+case_count=18
+actual_non_null=0
+jar_sha_matches_manifest=True
+jar_sha_matches_results=True
+zip_mods_path=True
+zip_sha256=EA5923208B22FFC7BF9752ED282938624C1096848FC365967EB2825244DE20C0

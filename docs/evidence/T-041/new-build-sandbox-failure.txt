@@ -1,0 +1,7 @@
+T-041 first NEW build attempt, 2026-09-30
+Command: .\gradlew.bat build --offline --console=plain --no-daemon
+Exit code: 1
+Observed terminal error (excerpt, not a full captured build log):
+Exception in thread "main" java.lang.RuntimeException: Could not create parent directory for lock file C:\.gradle\wrapper\dists\gradle-9.2.1-bin\2t0n5ozlw9xmuyvbp7dnzaxug\gradle-9.2.1-bin.zip.lck
+at org.gradle.wrapper.GradleWrapperMain.main(SourceFile:65)
+The wrapper stopped before compiling project sources. The later successful build and forced recompile have separate full logs.

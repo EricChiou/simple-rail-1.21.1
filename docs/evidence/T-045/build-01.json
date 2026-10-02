@@ -1,0 +1,7 @@
+{
+  "command": "powershell -NoProfile -ExecutionPolicy Bypass -File docs/evidence/T-045/build.ps1",
+  "exit_code": 1,
+  "error_summary": "TrainDispenserBlock.java:127: x has private access in Position; the first implementation read a record field instead of calling x(), y(), z().",
+  "log_scope": "build-01.log contains Gradle output before PowerShell treated the native stderr message as a terminating error; the full compiler diagnostic appeared in the command result and is summarized here.",
+  "resolution": "Changed to record accessors; build-02 and final build-03 exited 0."
+}

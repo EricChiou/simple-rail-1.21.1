@@ -1,0 +1,422 @@
+﻿{
+    "package":  "T-cross-v2",
+    "jarSha256":  "C4E9F9B338A1EB4309236FC46A411ADB8EE0E3C40057942F5E9A40A8DD5E5C5B",
+    "execution":  "user only",
+    "cases":  [
+                  {
+                      "id":  "T069-01-north-north-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-north-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-north-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-north-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-east-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-east-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-east-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-east-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-south-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-south-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-south-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-south-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-west-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-west-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-west-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-north-west-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-north-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-north-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-north-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-north-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-east-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-east-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-east-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-east-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-south-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-south-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-south-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-south-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-west-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-west-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-west-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-east-west-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-north-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-north-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-north-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-north-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-east-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-east-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-east-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-east-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-south-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-south-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-south-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-south-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-west-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-west-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-west-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-south-west-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-north-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-north-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-north-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-north-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-east-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-east-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-east-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-east-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-south-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-south-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-south-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-south-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-west-off-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-west-off-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-west-on-single",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-01-west-west-on-train",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-02",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T069-03",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T071-01",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T071-02",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T071-03",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T071-04",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T071-05",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-01-C",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-01-T",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-02-C",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-02-T",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-03-C",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-03-T",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-04-C",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-04-T",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-05-C",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-05-T",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-06-C",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "T123-06-T",
+                      "actual":  null,
+                      "status":  "pending user"
+                  }
+              ]
+}

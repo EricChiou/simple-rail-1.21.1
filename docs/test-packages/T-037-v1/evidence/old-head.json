@@ -1,0 +1,6 @@
+﻿{
+    "command":  "git -c safe.directory=D:/workspace/java/simple-rail -C D:/workspace/java/simple-rail rev-parse HEAD",
+    "exitCode":  0,
+    "head":  "6698b1c5f494095a15b055c10045293e91540012",
+    "scope":  "Read only, per-process ownership exception; no Git config written"
+}

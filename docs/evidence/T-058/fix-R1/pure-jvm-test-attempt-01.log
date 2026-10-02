@@ -1,0 +1,12 @@
+﻿javac_exit_code=0
+java.exe : Exception in thread "main" java.lang.AssertionError: insufficient route does not pull carriages through each
+ other
+位於 線路:2 字元:654
++ ... t $compileExit }; & java -cp $out TrainBreakAndTrailTest 2>&1 | Out-F ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Exception in th...ough each other:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+	at TrainBreakAndTrailTest.check(TrainBreakAndTrailTest.java:70)
+	at TrainBreakAndTrailTest.main(TrainBreakAndTrailTest.java:31)
+java_exit_code=1

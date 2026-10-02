@@ -1,0 +1,26 @@
+﻿{
+    "command":  "javap -classpath docs/evidence/T-045/artifacts/simplerail-1.0.0.jar -c -p com.ericchiu.simplerail.block.TrainDispenserBlock",
+    "started_utc":  "2026-09-30T16:03:59.9681694Z",
+    "finished_utc":  "2026-09-30T16:04:00.3904931Z",
+    "javap_exit_code":  0,
+    "checks":  {
+                   "same_fixed_jar":  true,
+                   "same_product_sources":  true,
+                   "four_item_identities":  true,
+                   "no_string_classification":  true,
+                   "no_sample_consumption":  true,
+                   "immediate_powered_entry":  true,
+                   "no_vanilla_trigger_path":  true,
+                   "new_cart_without_template_components":  true,
+                   "user_results_still_blank":  true
+               },
+    "failed":  [
+
+               ],
+    "head":  "11916b69c3549504928f7cfa6790d59a2717b4b6",
+    "jar_sha256":  "61B933A80F9B984E9AF35D7E55713803DF36328371D6B08CC02A63ADCEDA6C1E",
+    "product_changed_since_t045":  false,
+    "minecraft_executed":  false,
+    "new_build_executed":  false,
+    "result":  "PASS"
+}

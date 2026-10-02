@@ -1,0 +1,2 @@
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+PASS production timer + real NEW NBT checks=1055; gameExecuted=false; oldBuildExecuted=false
