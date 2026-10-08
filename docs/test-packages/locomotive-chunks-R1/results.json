@@ -1,0 +1,47 @@
+﻿{
+    "package":  "locomotive-chunks-R1",
+    "jarSha256":  "7E87FB1AB7800BD6035BDDC097A2339915536C0ED75686FCBBDB61AFF843A22E",
+    "execution":  "user only",
+    "cases":  [
+                  {
+                      "id":  "LC-R1-01",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R1-02",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R1-03",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R1-04",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R1-05",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R1-06",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R1-07",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R1-08",
+                      "actual":  null,
+                      "status":  "pending user"
+                  }
+              ]
+}

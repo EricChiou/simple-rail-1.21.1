@@ -1,0 +1,426 @@
+﻿diff --git a/src/main/java/com/ericchiu/simplerail/SimpleRail.java b/src/main/java/com/ericchiu/simplerail/SimpleRail.java
+index a3e6af9..b0a77ee 100644
+--- a/src/main/java/com/ericchiu/simplerail/SimpleRail.java
++++ b/src/main/java/com/ericchiu/simplerail/SimpleRail.java
+@@ -2,6 +2,7 @@ package com.ericchiu.simplerail;
+ 
+ import com.ericchiu.simplerail.config.CommonConfig;
+ import com.ericchiu.simplerail.entity.TrainCarRemovalHandler;
++import com.ericchiu.simplerail.entity.LocomotiveChunkLoader;
+ import com.ericchiu.simplerail.registry.ModBlocks;
+ import com.ericchiu.simplerail.registry.ModBlockEntities;
+ import com.ericchiu.simplerail.registry.ModCreativeTabs;
+@@ -23,5 +24,6 @@ public final class SimpleRail {
+         ModItems.register(modEventBus);
+         ModCreativeTabs.register(modEventBus);
+         TrainCarRemovalHandler.register();
++        LocomotiveChunkLoader.register(modEventBus);
+     }
+ }
+diff --git a/src/main/java/com/ericchiu/simplerail/entity/LocomotiveCartEntity.java b/src/main/java/com/ericchiu/simplerail/entity/LocomotiveCartEntity.java
+index 5fa59f4..782d872 100644
+--- a/src/main/java/com/ericchiu/simplerail/entity/LocomotiveCartEntity.java
++++ b/src/main/java/com/ericchiu/simplerail/entity/LocomotiveCartEntity.java
+@@ -170,14 +170,18 @@ public final class LocomotiveCartEntity extends Minecart {
+ 
+     @Override
+     public void tick() {
+-        super.tick();
+-        if (!(level() instanceof ServerLevel server)) return;
+-        TrainOwnershipData owners = TrainOwnershipData.forLevel(server);
+-        for (UUID cut : owners.takePendingCuts(getUUID())) disconnectFrom(server, cut);
+-        if (!ownershipReconciled) {
+-            for (UUID id : formation.carts()) owners.claim(id, getUUID());
+-            ownershipReconciled = true;
++        if (level() instanceof ServerLevel server) {
++            TrainOwnershipData owners = TrainOwnershipData.forLevel(server);
++            for (UUID cut : owners.takePendingCuts(getUUID())) disconnectFrom(server, cut);
++            if (!ownershipReconciled) {
++                for (UUID id : formation.carts()) owners.claim(id, getUUID());
++                ownershipReconciled = true;
++            }
++            // Keep velocity while waiting: the next ready tick resumes normal minecart physics.
++            if (!LocomotiveChunkLoader.prepare(this)) return;
+         }
++        super.tick();
++        if (!(level() instanceof ServerLevel server) || isRemoved()) return;
+         Vec3 motion = getDeltaMovement();
+         setFacingFromServer(Facing8.fromMotion(motion.x, motion.z, facing()));
+         BlockPos current = blockPosition();
+@@ -189,6 +193,7 @@ public final class LocomotiveCartEntity extends Minecart {
+             previousBlock = current;
+         }
+         if (motion.equals(Vec3.ZERO) || isNearBlockCenter()) moveLoadedCarts(server);
++        LocomotiveChunkLoader.prepare(this); // Save observed positions after movement, before shrinking tickets.
+     }
+ 
+     private boolean isNearBlockCenter() {
+@@ -198,6 +203,7 @@ public final class LocomotiveCartEntity extends Minecart {
+     }
+ 
+     private void moveLoadedCarts(ServerLevel server) {
++        if (!LocomotiveChunkLoader.prepare(this)) return;
+         List<UUID> carts = formation.carts();
+         TrainBlockRoute.Point head = new TrainBlockRoute.Point(getX(), getY(), getZ());
+         boolean routeReady = blockRoute.readyFor(head, carts.size());
+@@ -221,8 +227,39 @@ public final class LocomotiveCartEntity extends Minecart {
+         }
+     }
+ 
++    /** Current route targets, not claimed to be the actual positions of missing carriages. */
++    public Map<UUID, BlockPos> chunkLoadingTargets() {
++        Map<UUID, BlockPos> targets = new HashMap<>();
++        Vec3 motion = getDeltaMovement();
++        targets.put(getUUID(), BlockPos.containing(getX() + motion.x, getY() + motion.y, getZ() + motion.z));
++        List<UUID> carts = formation.carts();
++        TrainBlockRoute.Point head = new TrainBlockRoute.Point(getX(), getY(), getZ());
++        boolean ready = blockRoute.readyFor(head, carts.size());
++        for (int i = 0; i < carts.size(); i++) {
++            UUID id = carts.get(i);
++            TrainBlockRoute.Point target = ready ? blockRoute.target(head, i + 1) : null;
++            TrainFormation.Cell stop = formation.stop(id);
++            if (target != null) targets.put(id, BlockPos.containing(target.x(), target.y(), target.z()));
++            else if (stop != null) targets.put(id, new BlockPos(stop.x(), stop.y(), stop.z()));
++        }
++        return targets;
++    }
++
++    public Map<UUID, BlockPos> chunkLoadingHints() {
++        Map<UUID, BlockPos> hints = new HashMap<>();
++        for (UUID id : formation.carts()) {
++            TrainFormation.Cell stop = formation.stop(id);
++            if (stop != null) hints.put(id, new BlockPos(stop.x(), stop.y(), stop.z()));
++        }
++        return hints;
++    }
++
+     @Override
+     public void remove(RemovalReason reason) {
++        if ((reason.shouldDestroy() || reason == RemovalReason.CHANGED_DIMENSION)
++                && !isRemoved() && level() instanceof ServerLevel server) {
++            LocomotiveChunkLoader.release(server, getUUID());
++        }
+         if (reason.shouldDestroy() && !isRemoved() && level() instanceof ServerLevel server) {
+             // This also releases claims for cars in unloaded chunks.
+             TrainOwnershipData.forLevel(server).releaseTrain(getUUID());
+diff --git a/src/main/java/com/ericchiu/simplerail/entity/LocomotiveChunkLoader.java b/src/main/java/com/ericchiu/simplerail/entity/LocomotiveChunkLoader.java
+new file mode 100644
+index 0000000..60e6cd3
+--- /dev/null
++++ b/src/main/java/com/ericchiu/simplerail/entity/LocomotiveChunkLoader.java
+@@ -0,0 +1,190 @@
++package com.ericchiu.simplerail.entity;
++
++import com.ericchiu.simplerail.SimpleRail;
++import com.ericchiu.simplerail.config.CommonConfig;
++import com.mojang.logging.LogUtils;
++import java.util.HashMap;
++import java.util.HashSet;
++import java.util.IdentityHashMap;
++import java.util.Map;
++import java.util.Set;
++import java.util.UUID;
++import net.minecraft.core.BlockPos;
++import net.minecraft.resources.ResourceLocation;
++import net.minecraft.server.level.ServerLevel;
++import net.minecraft.world.entity.Entity;
++import net.minecraft.world.entity.vehicle.AbstractMinecart;
++import net.minecraft.world.level.ChunkPos;
++import net.neoforged.bus.api.IEventBus;
++import net.neoforged.neoforge.common.NeoForge;
++import net.neoforged.neoforge.common.world.chunk.RegisterTicketControllersEvent;
++import net.neoforged.neoforge.common.world.chunk.TicketController;
++import net.neoforged.neoforge.common.world.chunk.TicketHelper;
++import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
++import net.neoforged.neoforge.event.entity.EntityLeaveLevelEvent;
++import net.neoforged.neoforge.event.level.LevelEvent;
++import net.neoforged.neoforge.event.tick.LevelTickEvent;
++import net.neoforged.neoforge.event.tick.EntityTickEvent;
++
++/** Approved D3 revision: whole-train rolling coverage and persistent current-set restoration. */
++public final class LocomotiveChunkLoader {
++    private static final TicketController CONTROLLER = new TicketController(
++            ResourceLocation.fromNamespaceAndPath(SimpleRail.MODID, "locomotive"), LocomotiveChunkLoader::validate);
++    private static final Map<ServerLevel, State> STATES = new IdentityHashMap<>();
++    private static final class State {
++        final Set<LocomotiveCartEntity> joined = new HashSet<>();
++        final Map<UUID, LocomotiveCartEntity> heads = new HashMap<>();
++        final Map<UUID, ChunkTicketSet> leases = new HashMap<>();
++        final Set<UUID> warned = new HashSet<>();
++        final Map<UUID, UUID> blockedCars = new HashMap<>();
++        boolean restored;
++    }
++    private LocomotiveChunkLoader() {}
++    private static State state(ServerLevel level) { return STATES.computeIfAbsent(level, ignored -> new State()); }
++
++    public static void register(IEventBus modBus) {
++        modBus.addListener(LocomotiveChunkLoader::registerController);
++        NeoForge.EVENT_BUS.addListener(LocomotiveChunkLoader::onJoin);
++        NeoForge.EVENT_BUS.addListener(LocomotiveChunkLoader::onLeave);
++        NeoForge.EVENT_BUS.addListener(LocomotiveChunkLoader::onLevelTick);
++        NeoForge.EVENT_BUS.addListener(LocomotiveChunkLoader::onUnload);
++        NeoForge.EVENT_BUS.addListener(LocomotiveChunkLoader::onCarTick);
++    }
++    private static void registerController(RegisterTicketControllersEvent event) { event.register(CONTROLLER); }
++
++    private static void validate(ServerLevel level, TicketHelper tickets) {
++        // BEFORE reinstatement: remove only this controller's raw tickets. Restore our authoritative
++        // R2 index on a safe level tick. R1 has no index, so this also cleans its historical tickets.
++        tickets.getBlockTickets().keySet().forEach(tickets::removeAllTickets);
++        tickets.getEntityTickets().keySet().forEach(tickets::removeAllTickets);
++    }
++    private static void onJoin(EntityJoinLevelEvent event) {
++        if (event.getLevel() instanceof ServerLevel level && event.getEntity() instanceof LocomotiveCartEntity head)
++            state(level).joined.add(head); // Never load chunks in Join (may precede FULL).
++    }
++    private static void onLeave(EntityLeaveLevelEvent event) {
++        if (!(event.getLevel() instanceof ServerLevel level) || !(event.getEntity() instanceof LocomotiveCartEntity head)) return;
++        Entity.RemovalReason reason = head.getRemovalReason();
++        if (reason != null && (reason.shouldDestroy() || reason == Entity.RemovalReason.CHANGED_DIMENSION))
++            release(level, head.getUUID());
++        else if (head.isRemoved())
++            state(level).heads.remove(head.getUUID()); // Unload is not permanent destruction.
++    }
++    private static void onLevelTick(LevelTickEvent.Pre event) {
++        if (!(event.getLevel() instanceof ServerLevel level)) return;
++        State state = state(level);
++        LocomotiveChunkData data = LocomotiveChunkData.forLevel(level);
++        for (LocomotiveCartEntity head : Set.copyOf(state.joined)) {
++            state.joined.remove(head);
++            if (!head.isRemoved() && head.level() == level
++                    && (head.isAddedToLevel() || level.getEntity(head.getUUID()) == head)) state.heads.put(head.getUUID(), head);
++        }
++        if (!CommonConfig.current().locomotiveChunkLoadingEnabled()) {
++            for (UUID owner : Set.copyOf(state.leases.keySet())) clearTickets(level, owner);
++            data.clear(); // Includes owners not instantiated yet; no resurrection on next boot.
++            state.blockedCars.clear();
++            state.restored = true;
++            return;
++        }
++        if (!state.restored) {
++            data.setDirty(); // Establish R2 schema even in an empty level.
++            for (var row : data.entries().entrySet()) {
++                UUID owner = row.getKey();
++                state.leases.computeIfAbsent(owner, ignored -> new ChunkTicketSet()).update(row.getValue().chunks(),
++                        true, chunk -> ticket(level, owner, chunk, true), chunk -> ready(level, chunk),
++                        chunk -> ticket(level, owner, chunk, false));
++            }
++            state.restored = true;
++        }
++        // Wait for entity IO, rather than inferring permanent deletion from getEntity(null).
++        for (var row : data.entries().entrySet()) {
++            if (state.heads.containsKey(row.getKey()) || row.getValue().chunks().isEmpty()) continue;
++            Entity found = level.getEntity(row.getKey());
++            if (found instanceof LocomotiveCartEntity head && !head.isRemoved()) {
++                state.heads.put(row.getKey(), head);
++            } else if (row.getValue().chunks().stream().allMatch(chunk -> ready(level, chunk))) {
++                clearTickets(level, row.getKey());
++                // Suspend unresolved index; don't delete entities or search the whole world.
++                data.put(row.getKey(), row.getValue().positions(), Set.of());
++                LogUtils.getLogger().warn("Suspended unresolved locomotive chunk owner {} in {}; load its actual location to recover",
++                        row.getKey(), level.dimension().location());
++            }
++        }
++        for (LocomotiveCartEntity head : Set.copyOf(state.heads.values())) {
++            if (head.isRemoved() || head.level() != level) { state.heads.remove(head.getUUID()); continue; }
++            prepare(head);
++        }
++    }
++
++    /** Gate motion until current/next chunks AND linked carriage entities are ready. */
++    public static boolean prepare(LocomotiveCartEntity head) {
++        if (!(head.level() instanceof ServerLevel level) || !CommonConfig.current().locomotiveChunkLoadingEnabled()) return true;
++        if (head.isRemoved()) return false;
++        State state = state(level);
++        state.heads.put(head.getUUID(), head);
++        LocomotiveChunkData data = LocomotiveChunkData.forLevel(level);
++        LocomotiveChunkData.Entry saved = data.get(head.getUUID());
++        Map<UUID, Long> positions = new HashMap<>(saved == null ? Map.of() : saved.positions());
++        Set<UUID> members = new HashSet<>(head.trainIds());
++        members.add(head.getUUID());
++        positions.keySet().retainAll(members);
++        positions.put(head.getUUID(), head.blockPosition().asLong());
++        boolean complete = true;
++        Set<Long> wanted = new HashSet<>();
++        Map<UUID, BlockPos> hints = head.chunkLoadingHints();
++        for (UUID id : head.trainIds()) {
++            Entity entity = level.getEntity(id);
++            if (entity instanceof AbstractMinecart cart && !cart.isRemoved()) positions.put(id, cart.blockPosition().asLong());
++            else {
++                complete = false;
++                // Stops are bounded search hints only, never saved as actual positions.
++                if (!positions.containsKey(id) && hints.containsKey(id)) include(wanted, hints.get(id));
++            }
++        }
++        positions.values().forEach(pos -> include(wanted, BlockPos.of(pos)));
++        head.chunkLoadingTargets().values().forEach(pos -> include(wanted, pos));
++        ChunkTicketSet lease = state.leases.computeIfAbsent(head.getUUID(), ignored -> new ChunkTicketSet());
++        boolean canMove = lease.update(wanted, complete, chunk -> ticket(level, head.getUUID(), chunk, true),
++                chunk -> ready(level, chunk), chunk -> ticket(level, head.getUUID(), chunk, false));
++        state.blockedCars.values().removeIf(owner -> owner.equals(head.getUUID()));
++        if (!canMove) for (UUID id : head.trainIds()) state.blockedCars.put(id, head.getUUID());
++        data.put(head.getUUID(), positions, lease.applied());
++        if (!complete && state.warned.add(head.getUUID()))
++            LogUtils.getLogger().warn("Locomotive {} waiting for linked carriages; load missing cars or explicitly unlink them. No IDs deleted.", head.getUUID());
++        else if (complete) state.warned.remove(head.getUUID());
++        return canMove;
++    }
++    private static void include(Set<Long> chunks, BlockPos pos) { ChunkTicketSet.includeBuffer(chunks, pos.getX(), pos.getZ()); }
++    private static boolean ready(ServerLevel level, long chunk) {
++        return level.areEntitiesLoaded(chunk) && level.isPositionEntityTicking(new ChunkPos(chunk).getWorldPosition());
++    }
++    private static void ticket(ServerLevel level, UUID owner, long chunk, boolean add) {
++        ChunkPos pos = new ChunkPos(chunk);
++        CONTROLLER.forceChunk(level, owner, pos.x, pos.z, add, true);
++    }
++    private static void clearTickets(ServerLevel level, UUID owner) {
++        state(level).blockedCars.values().removeIf(id -> id.equals(owner));
++        ChunkTicketSet lease = state(level).leases.remove(owner);
++        if (lease != null) lease.clear(chunk -> ticket(level, owner, chunk, false));
++    }
++    public static void release(ServerLevel level, UUID owner) {
++        clearTickets(level, owner);
++        LocomotiveChunkData.forLevel(level).remove(owner);
++        State state = state(level);
++        state.heads.remove(owner); state.warned.remove(owner);
++        state.joined.removeIf(head -> head.getUUID().equals(owner));
++    }
++    private static void onUnload(LevelEvent.Unload event) {
++        if (event.getLevel() instanceof ServerLevel level) STATES.remove(level); // Keep index for restart.
++    }
++
++    private static void onCarTick(EntityTickEvent.Pre event) {
++        Entity cart = event.getEntity();
++        if (cart instanceof AbstractMinecart && !(cart instanceof LocomotiveCartEntity)
++                && cart.level() instanceof ServerLevel level) {
++            State state = STATES.get(level);
++            if (state != null && state.blockedCars.containsKey(cart.getUUID())
++                    && CommonConfig.current().locomotiveChunkLoadingEnabled()) event.setCanceled(true);
++        }
++    }
++}
+diff --git a/src/main/java/com/ericchiu/simplerail/entity/ChunkTicketSet.java b/src/main/java/com/ericchiu/simplerail/entity/ChunkTicketSet.java
+new file mode 100644
+index 0000000..6eec9c6
+--- /dev/null
++++ b/src/main/java/com/ericchiu/simplerail/entity/ChunkTicketSet.java
+@@ -0,0 +1,36 @@
++package com.ericchiu.simplerail.entity;
++
++import java.util.HashSet;
++import java.util.Set;
++import java.util.function.LongConsumer;
++import java.util.function.LongPredicate;
++
++/** Per-owner diff: add first, await readiness, then release. No global ticket state. */
++public final class ChunkTicketSet {
++    private final Set<Long> applied = new HashSet<>();
++    public Set<Long> applied() { return Set.copyOf(applied); }
++
++    public boolean update(Set<Long> wanted, boolean complete, LongConsumer add,
++                          LongPredicate ready, LongConsumer remove) {
++        for (long chunk : wanted) {
++            if (!applied.contains(chunk)) { add.accept(chunk); applied.add(chunk); }
++        }
++        if (!complete || !wanted.stream().allMatch(ready::test)) return false;
++        for (long chunk : Set.copyOf(applied)) {
++            if (!wanted.contains(chunk)) { remove.accept(chunk); applied.remove(chunk); }
++        }
++        return true;
++    }
++
++    public void clear(LongConsumer remove) {
++        for (long chunk : Set.copyOf(applied)) { remove.accept(chunk); applied.remove(chunk); }
++    }
++
++    public static void includeBuffer(Set<Long> chunks, int blockX, int blockZ) {
++        int centerX = Math.floorDiv(blockX, 16), centerZ = Math.floorDiv(blockZ, 16);
++        for (int x = centerX - 1; x <= centerX + 1; x++) {
++            for (int z = centerZ - 1; z <= centerZ + 1; z++)
++                chunks.add((x & 0xffffffffL) | ((z & 0xffffffffL) << 32));
++        }
++    }
++}
+diff --git a/src/main/java/com/ericchiu/simplerail/entity/LocomotiveChunkData.java b/src/main/java/com/ericchiu/simplerail/entity/LocomotiveChunkData.java
+new file mode 100644
+index 0000000..c25dd4e
+--- /dev/null
++++ b/src/main/java/com/ericchiu/simplerail/entity/LocomotiveChunkData.java
+@@ -0,0 +1,77 @@
++package com.ericchiu.simplerail.entity;
++
++import java.util.HashMap;
++import java.util.HashSet;
++import java.util.Map;
++import java.util.Set;
++import java.util.UUID;
++import net.minecraft.core.HolderLookup;
++import net.minecraft.nbt.CompoundTag;
++import net.minecraft.nbt.ListTag;
++import net.minecraft.nbt.Tag;
++import net.minecraft.server.level.ServerLevel;
++import net.minecraft.world.level.saveddata.SavedData;
++
++/** NEW-only per-dimension index. Positions are observed entity positions, never TrainStops. */
++public final class LocomotiveChunkData extends SavedData {
++    private static final String FILE = "simplerail_locomotive_chunks";
++    private static final Factory<LocomotiveChunkData> FACTORY =
++            new Factory<>(LocomotiveChunkData::new, LocomotiveChunkData::load);
++    public record Entry(Map<UUID, Long> positions, Set<Long> chunks) {
++        public Entry { positions = Map.copyOf(positions); chunks = Set.copyOf(chunks); }
++    }
++    private final Map<UUID, Entry> owners = new HashMap<>();
++
++    public static LocomotiveChunkData forLevel(ServerLevel level) {
++        return level.getDataStorage().computeIfAbsent(FACTORY, FILE);
++    }
++    public Map<UUID, Entry> entries() { return Map.copyOf(owners); }
++    public Entry get(UUID owner) { return owners.get(owner); }
++    public void put(UUID owner, Map<UUID, Long> positions, Set<Long> chunks) {
++        Entry next = new Entry(positions, chunks);
++        if (!next.equals(owners.put(owner, next))) setDirty();
++    }
++    public void remove(UUID owner) { if (owners.remove(owner) != null) setDirty(); }
++    public void clear() { if (!owners.isEmpty()) { owners.clear(); setDirty(); } }
++
++    public static LocomotiveChunkData load(CompoundTag tag, HolderLookup.Provider ignored) {
++        if (tag.getInt("Schema") != 1) throw new IllegalArgumentException("Unsupported locomotive chunk index schema");
++        LocomotiveChunkData data = new LocomotiveChunkData();
++        ListTag rows = tag.getList("Owners", Tag.TAG_COMPOUND);
++        for (int i = 0; i < rows.size(); i++) {
++            CompoundTag row = rows.getCompound(i);
++            if (!row.hasUUID("Owner")) continue;
++            UUID owner = row.getUUID("Owner");
++            Map<UUID, Long> positions = new HashMap<>();
++            ListTag places = row.getList("Positions", Tag.TAG_COMPOUND);
++            for (int j = 0; j < places.size(); j++) {
++                CompoundTag place = places.getCompound(j);
++                if (place.hasUUID("Entity") && place.contains("Pos", Tag.TAG_LONG))
++                    positions.put(place.getUUID("Entity"), place.getLong("Pos"));
++            }
++            Set<Long> chunks = new HashSet<>();
++            for (long chunk : row.getLongArray("Chunks")) chunks.add(chunk);
++            if (positions.containsKey(owner)) data.owners.putIfAbsent(owner, new Entry(positions, chunks));
++        }
++        return data;
++    }
++
++    @Override
++    public CompoundTag save(CompoundTag tag, HolderLookup.Provider ignored) {
++        tag.putInt("Schema", 1);
++        ListTag rows = new ListTag();
++        owners.forEach((owner, entry) -> {
++            CompoundTag row = new CompoundTag();
++            row.putUUID("Owner", owner);
++            row.putLongArray("Chunks", entry.chunks().stream().mapToLong(Long::longValue).toArray());
++            ListTag places = new ListTag();
++            entry.positions().forEach((id, pos) -> {
++                CompoundTag place = new CompoundTag();
++                place.putUUID("Entity", id); place.putLong("Pos", pos); places.add(place);
++            });
++            row.put("Positions", places); rows.add(row);
++        });
++        tag.put("Owners", rows);
++        return tag;
++    }
++}

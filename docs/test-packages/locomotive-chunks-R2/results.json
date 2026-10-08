@@ -1,0 +1,67 @@
+﻿{
+    "package":  "locomotive-chunks-R2",
+    "jarSha256":  "15D0C2B52027ED025628AD74BC4D2E156202539A163C3B4B0BF1EA9F997BC093",
+    "execution":  "user only",
+    "cases":  [
+                  {
+                      "id":  "LC-R2-01",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-02",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-03",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-04",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-05",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-06",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-07",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-08",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-09",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-10",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-11",
+                      "actual":  null,
+                      "status":  "pending user"
+                  },
+                  {
+                      "id":  "LC-R2-12",
+                      "actual":  null,
+                      "status":  "pending user"
+                  }
+              ]
+}

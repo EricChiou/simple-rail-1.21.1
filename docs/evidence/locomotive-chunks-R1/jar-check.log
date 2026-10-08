@@ -1,0 +1,1 @@
+﻿PASS packaged loader and entrypoint match actual Gradle class files; no test harness class

@@ -170,14 +170,18 @@ public final class LocomotiveCartEntity extends Minecart {
 
     @Override
     public void tick() {
-        super.tick();
-        if (!(level() instanceof ServerLevel server)) return;
-        TrainOwnershipData owners = TrainOwnershipData.forLevel(server);
-        for (UUID cut : owners.takePendingCuts(getUUID())) disconnectFrom(server, cut);
-        if (!ownershipReconciled) {
-            for (UUID id : formation.carts()) owners.claim(id, getUUID());
-            ownershipReconciled = true;
+        if (level() instanceof ServerLevel server) {
+            TrainOwnershipData owners = TrainOwnershipData.forLevel(server);
+            for (UUID cut : owners.takePendingCuts(getUUID())) disconnectFrom(server, cut);
+            if (!ownershipReconciled) {
+                for (UUID id : formation.carts()) owners.claim(id, getUUID());
+                ownershipReconciled = true;
+            }
+            // Keep velocity while waiting: the next ready tick resumes normal minecart physics.
+            if (!LocomotiveChunkLoader.prepare(this)) return;
         }
+        super.tick();
+        if (!(level() instanceof ServerLevel server) || isRemoved()) return;
         Vec3 motion = getDeltaMovement();
         setFacingFromServer(Facing8.fromMotion(motion.x, motion.z, facing()));
         BlockPos current = blockPosition();
@@ -189,6 +193,7 @@ public final class LocomotiveCartEntity extends Minecart {
             previousBlock = current;
         }
         if (motion.equals(Vec3.ZERO) || isNearBlockCenter()) moveLoadedCarts(server);
+        LocomotiveChunkLoader.prepare(this); // Save observed positions after movement, before shrinking tickets.
     }
 
     private boolean isNearBlockCenter() {
@@ -198,6 +203,7 @@ public final class LocomotiveCartEntity extends Minecart {
     }
 
     private void moveLoadedCarts(ServerLevel server) {
+        if (!LocomotiveChunkLoader.prepare(this)) return;
         List<UUID> carts = formation.carts();
         TrainBlockRoute.Point head = new TrainBlockRoute.Point(getX(), getY(), getZ());
         boolean routeReady = blockRoute.readyFor(head, carts.size());
@@ -221,8 +227,39 @@ public final class LocomotiveCartEntity extends Minecart {
         }
     }
 
+    /** Current route targets, not claimed to be the actual positions of missing carriages. */
+    public Map<UUID, BlockPos> chunkLoadingTargets() {
+        Map<UUID, BlockPos> targets = new HashMap<>();
+        Vec3 motion = getDeltaMovement();
+        targets.put(getUUID(), BlockPos.containing(getX() + motion.x, getY() + motion.y, getZ() + motion.z));
+        List<UUID> carts = formation.carts();
+        TrainBlockRoute.Point head = new TrainBlockRoute.Point(getX(), getY(), getZ());
+        boolean ready = blockRoute.readyFor(head, carts.size());
+        for (int i = 0; i < carts.size(); i++) {
+            UUID id = carts.get(i);
+            TrainBlockRoute.Point target = ready ? blockRoute.target(head, i + 1) : null;
+            TrainFormation.Cell stop = formation.stop(id);
+            if (target != null) targets.put(id, BlockPos.containing(target.x(), target.y(), target.z()));
+            else if (stop != null) targets.put(id, new BlockPos(stop.x(), stop.y(), stop.z()));
+        }
+        return targets;
+    }
+
+    public Map<UUID, BlockPos> chunkLoadingHints() {
+        Map<UUID, BlockPos> hints = new HashMap<>();
+        for (UUID id : formation.carts()) {
+            TrainFormation.Cell stop = formation.stop(id);
+            if (stop != null) hints.put(id, new BlockPos(stop.x(), stop.y(), stop.z()));
+        }
+        return hints;
+    }
+
     @Override
     public void remove(RemovalReason reason) {
+        if ((reason.shouldDestroy() || reason == RemovalReason.CHANGED_DIMENSION)
+                && !isRemoved() && level() instanceof ServerLevel server) {
+            LocomotiveChunkLoader.release(server, getUUID());
+        }
         if (reason.shouldDestroy() && !isRemoved() && level() instanceof ServerLevel server) {
             // This also releases claims for cars in unloaded chunks.
             TrainOwnershipData.forLevel(server).releaseTrain(getUUID());

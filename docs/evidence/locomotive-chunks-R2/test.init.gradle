@@ -1,0 +1,25 @@
+// Non-game test task; sourceSets and release JAR are unchanged.
+gradle.projectsEvaluated {
+ def p=rootProject
+ def ev=p.file('docs/evidence/locomotive-chunks-R2')
+ def compile=p.tasks.register('compileChunkR2Tests',JavaCompile) {
+  dependsOn p.tasks.named('classes')
+  source=p.fileTree(new File(ev,'test')) { include '**/*.java' }
+  source p.files('src/main/java/com/ericchiu/simplerail/entity/ChunkTicketSet.java',
+    'src/main/java/com/ericchiu/simplerail/entity/LocomotiveChunkData.java',
+    'src/main/java/com/ericchiu/simplerail/entity/LocomotiveChunkLoader.java')
+  classpath=p.sourceSets.main.compileClasspath
+  javaCompiler.set(p.tasks.named('compileJava',JavaCompile).get().javaCompiler)
+  destinationDirectory.set(p.layout.buildDirectory.dir('chunk-r2-tests'))
+  options.release.set(21)
+  options.encoding='UTF-8'
+  options.compilerArgs.add('-proc:none')
+ }
+ p.tasks.register('testChunkR2',JavaExec) {
+  dependsOn compile
+  workingDir(ev)
+  classpath=p.files(compile.flatMap{it.destinationDirectory})+p.sourceSets.main.runtimeClasspath
+  mainClass.set('com.ericchiu.simplerail.entity.ChunkR2Test')
+  javaLauncher.set(p.javaToolchains.launcherFor{languageVersion.set(JavaLanguageVersion.of(21))})
+ }
+}

@@ -1,0 +1,27 @@
+﻿{
+    "head":  "cf118293218fda5b89347547af4cd19678ed54ee",
+    "workingTree":  "uncommitted source changes; product.diff includes all differences from HEAD, including earlier tasks",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "java":  21,
+    "mod":  "1.0.0",
+    "tasks":  [
+                  "T-076"
+              ],
+    "manualTasks":  [
+                        "T-077",
+                        "T-124"
+                    ],
+    "scope":  "user-reported missing locomotive chunk loading; partial regression package, not full task acceptance",
+    "jar":  "mods/simplerail-1.0.0.jar",
+    "jarSha256":  "7E87FB1AB7800BD6035BDDC097A2339915536C0ED75686FCBBDB61AFF843A22E",
+    "buildCommand":  "GRADLE_USER_HOME=C:\\Users\\Kinoko\\.gradle; gradlew.bat --offline build",
+    "buildExitCode":  0,
+    "gradleTest":  "NO-SOURCE",
+    "eventAssertions":  1125,
+    "tests":  "actual loader with isolated API doubles; no Minecraft",
+    "sourceFiles":  202,
+    "pendingManualCases":  8,
+    "independentReview":  "R-06 pending",
+    "gameTests":  "not executed by Agent"
+}

@@ -1,0 +1,2 @@
+[0810月2026 21:34:47.242] [main/WARN] [com.ericchiu.simplerail.entity.LocomotiveChunkLoader/]: Locomotive 474a7748-3e54-4a6a-b6a2-436454fcb6b2 waiting for linked carriages; load missing cars or explicitly unlink them. No IDs deleted.
+[0810月2026 21:34:47.278] [main/WARN] [com.ericchiu.simplerail.entity.LocomotiveChunkLoader/]: Suspended unresolved locomotive chunk owner 474a7748-3e54-4a6a-b6a2-436454fcb6b2 in test:dimension; load its actual location to recover

@@ -2,6 +2,7 @@ package com.ericchiu.simplerail;
 
 import com.ericchiu.simplerail.config.CommonConfig;
 import com.ericchiu.simplerail.entity.TrainCarRemovalHandler;
+import com.ericchiu.simplerail.entity.LocomotiveChunkLoader;
 import com.ericchiu.simplerail.registry.ModBlocks;
 import com.ericchiu.simplerail.registry.ModBlockEntities;
 import com.ericchiu.simplerail.registry.ModCreativeTabs;
@@ -23,5 +24,6 @@ public final class SimpleRail {
         ModItems.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
         TrainCarRemovalHandler.register();
+        LocomotiveChunkLoader.register(modEventBus);
     }
 }

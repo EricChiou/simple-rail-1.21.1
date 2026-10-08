@@ -1,0 +1,85 @@
+package com.ericchiu.simplerail.entity;
+
+import com.ericchiu.simplerail.SimpleRail;
+import com.ericchiu.simplerail.config.CommonConfig;
+import java.util.HashSet;
+import java.util.IdentityHashMap;
+import java.util.Map;
+import java.util.Set;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.common.world.chunk.RegisterTicketControllersEvent;
+import net.neoforged.neoforge.common.world.chunk.TicketController;
+import net.neoforged.neoforge.event.entity.EntityEvent;
+import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
+import net.neoforged.neoforge.event.level.LevelEvent;
+import net.neoforged.neoforge.event.tick.LevelTickEvent;
+
+/** Server-owned ticking tickets; preserves D3's center-only requests and no-release policy. */
+public final class LocomotiveChunkLoader {
+    private static final TicketController CONTROLLER = new TicketController(
+            ResourceLocation.fromNamespaceAndPath(SimpleRail.MODID, "locomotive"));
+    private static final int OLD_RADIUS = 2;
+    // Bootstrap even parked/newly loaded heads. Never load chunks inside EntityJoinLevelEvent.
+    // Both this queue and its consumers run on the logical server thread.
+    private static final Map<ServerLevel, Set<LocomotiveCartEntity>> JOINED = new IdentityHashMap<>();
+
+    private LocomotiveChunkLoader() {}
+
+    public static void register(IEventBus modBus) {
+        modBus.addListener(LocomotiveChunkLoader::registerController);
+        NeoForge.EVENT_BUS.addListener(LocomotiveChunkLoader::onJoin);
+        NeoForge.EVENT_BUS.addListener(LocomotiveChunkLoader::onEnteringSection);
+        NeoForge.EVENT_BUS.addListener(LocomotiveChunkLoader::onLevelTick);
+        NeoForge.EVENT_BUS.addListener(LocomotiveChunkLoader::onUnload);
+    }
+
+    private static void registerController(RegisterTicketControllersEvent event) {
+        event.register(CONTROLLER);
+    }
+
+    private static void onJoin(EntityJoinLevelEvent event) {
+        if (event.getLevel() instanceof ServerLevel server
+                && event.getEntity() instanceof LocomotiveCartEntity head) {
+            JOINED.computeIfAbsent(server, ignored -> new HashSet<>()).add(head);
+        }
+    }
+
+    private static void onLevelTick(LevelTickEvent.Post event) {
+        if (!(event.getLevel() instanceof ServerLevel server)) return;
+        // Remove first: loading a ticket's chunk can enqueue other heads for the next tick.
+        Set<LocomotiveCartEntity> joined = JOINED.remove(server);
+        if (joined != null) {
+            for (LocomotiveCartEntity head : joined) {
+                if (head.level() == server) forceCurrentChunk(head);
+            }
+        }
+    }
+
+    private static void onEnteringSection(EntityEvent.EnteringSection event) {
+        if (event.didChunkChange() && event.getEntity() instanceof LocomotiveCartEntity head) {
+            forceCurrentChunk(head);
+        }
+    }
+
+    private static void forceCurrentChunk(LocomotiveCartEntity head) {
+        if (!(head.level() instanceof ServerLevel server) || head.isRemoved() || !head.isAddedToLevel()
+                || !CommonConfig.current().locomotiveChunkLoadingEnabled()) return;
+        int chunkX = head.blockPosition().getX() >> 4;
+        int chunkZ = head.blockPosition().getZ() >> 4;
+        for (int x = chunkX - OLD_RADIUS; x <= chunkX + OLD_RADIUS; x++) {
+            for (int z = chunkZ - OLD_RADIUS; z <= chunkZ + OLD_RADIUS; z++) {
+                // Intentional OLD behavior: 25 requests for the same center, NOT a 5x5 area.
+                // false means an existing ticket; it must not be treated as a failure.
+                CONTROLLER.forceChunk(server, head, chunkX, chunkZ, true, true);
+            }
+        }
+    }
+
+    private static void onUnload(LevelEvent.Unload event) {
+        // Only discard transient queued work. Persistent tickets remain under D3.
+        if (event.getLevel() instanceof ServerLevel server) JOINED.remove(server);
+    }
+}

@@ -1,0 +1,31 @@
+﻿{
+    "head":  "cf118293218fda5b89347547af4cd19678ed54ee",
+    "workingTree":  "uncommitted source changes; product.diff includes all differences from HEAD, including earlier tasks",
+    "minecraft":  "1.21.1",
+    "neoforge":  "21.1.251",
+    "java":  21,
+    "mod":  "1.0.0",
+    "tasks":  [
+                  "T-078",
+                  "T-079",
+                  "T-113",
+                  "T-114"
+              ],
+    "manualTasks":  [
+                        "T-077",
+                        "T-080",
+                        "T-124"
+                    ],
+    "scope":  "approved D3 rolling train coverage, release, persistent index and R1 cleanup; manual acceptance pending",
+    "jar":  "mods/simplerail-1.0.0.jar",
+    "jarSha256":  "15D0C2B52027ED025628AD74BC4D2E156202539A163C3B4B0BF1EA9F997BC093",
+    "buildCommand":  "GRADLE_USER_HOME=C:\\Users\\Kinoko\\.gradle; gradlew.bat --offline --no-configuration-cache -I docs/evidence/locomotive-chunks-R2/test.init.gradle build testChunkR2",
+    "buildExitCode":  0,
+    "gradleTest":  "NO-SOURCE",
+    "eventAssertions":  6451,
+    "tests":  "actual coverage/loader/SavedData, real binary NBT, isolated world/ticket/event doubles; no Minecraft",
+    "sourceFiles":  204,
+    "pendingManualCases":  12,
+    "independentReview":  "R-06 pending",
+    "gameTests":  "not executed by Agent"
+}
